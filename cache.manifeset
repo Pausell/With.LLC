@@ -1,0 +1,25 @@
+CACHE MANIFEST
+Version 1.0.2
+CACHE:
+index.php
+style.css
+srcs/*
+bible/*
+exposition/*
+music/*
+altar/*
+touch-icon-ipad-retina.png
+touch-icon-ipad.png
+touch-icon-iphone-retina.png
+touch-icon-iphone.png
+exposition.php
+music.php
+altar.php
+book.php
+sw.js
+
+NETWORK:
+*
+
+FALLBACK:
+offline.html
