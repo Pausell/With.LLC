@@ -1,0 +1,23 @@
+#song{cursor:text;white-space:pre-line}
+.space::before{content:"\A";}
+.one::before{content:"\A[Verse 1]\A";}
+.two::before{content:"\A[Verse 2]\A";}
+.three::before{content:"\A[Verse 3]\A";}
+.four::before{content:"\A[Verse 4]\A";}
+.five::before{content:"\A[Verse 5]\A";}
+.six::before{content:"[Verse 6]\A";}
+.seven::before{content:"\A[Verse 7]\A";}
+.eight::before{content:"\A[Verse 8]\A";}
+.nine::before{content:"\A[Verse 9]\A";}
+.ten::before{content:"\A[Verse 10]\A";}
+.eleven::before{content:"[Verse 11]\A";}
+.twelve::before{content:"\A[Verse 12]\A";}
+.thirteen::before{content:"\A[Verse 13]\A";}
+.fourteen::before{content:"\A[Verse 14]\A";}
+.fifteen::before{content:"\A[Verse 15]\A";}
+.bridge::before{content:"\A[Bridge]\A";}
+.chorus::before{content:"\A[Chorus]\A";}
+.outro::before{content:"\A[Outro]\A";}
+.refrain::before{content:"\A[Refrain]\A";}
+/*0.0.1*/
+#container{padding:4%}

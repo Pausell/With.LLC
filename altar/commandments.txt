@@ -1,0 +1,22 @@
+<div class="padding10px">
+<h2>Thou shalt have no other gods before me.</h2>
+<h2>Thou shalt not make unto thee any graven image, or any likeness of <em>any thing</em> that <em>is</em> in heaven above, or that <em>is</em> in the earth beneath, or that <em>is</em> in the water under the earth: Thou shalt not bow down thyself to them, nor serve them: for I the LORD thy God <em>am</em> a jealous God, visiting the iniquity of the fathers upon the children unto the third and fourth <em>generation</em> of them that hate me; And showing mercy unto thousands of them that love me, and keep my commandments.</h2>
+<h2>Thou shalt not take the name of the Lord thy God in vain; for the Lord will not hold him guiltless that taketh his name in vain.</h2>
+<h2>Remember the sabbath day, to keep it holy. Six days shalt thou labor, and do all thy work: But the seventh day is the sabbath of the Lord thy God: in it thou salt not do any work, thou, nor thy son, nor thy daughter, thy manservant, nor thy maidservant, nor thy cattle, nor thy stranger that is within thy gates: For in six days the Lord made heaven and earth, the sea, and all that in them is, and rested the sevent day: wherefore the Lord blessed the sabbath day, and hallowed it.</h2>
+<h2>Honor thy father and thy mother: that thy days may be long upon the land which the Lord thy God giveth thee.</h2>
+<h2>Thou shalt not kill.</h2>
+<h2>Thou shalt not commit adultery.</h2>
+<h2>Thou shalt not steal.</h2>
+<h2>Thou shalt not bear false witness against thy neighbor.</h2>
+<h2>Thou shalt not covet thy neighbor's house, thou shalt not covet thy neighbor's wife, nor his manservant, nor his maidservant, nor his ox, nor his ass, nor anything that is thy neighbor's.</h2>
+</div>
+
+
+<a href="#"><strong>The 10 Commandments</strong></a>
+ <a href="#">Item</a>
+ <div class="dropdown"><a href="donate"><strong>Donate</strong></a>
+  <div class="dropdown-box">
+   <a target="_blank" href="https://cash.app/$unduplicatable">Cash.App</a>
+   <a target="_blank" href="https://venmo.com/unduplicatable">Venmo</a>
+  </div>
+ </div>
