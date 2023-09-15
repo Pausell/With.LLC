@@ -16,15 +16,7 @@ $crumbs = '<div class="crumbs">
 </div>';
 $addedcrumbs = $crumbs;
 
-$include2 = true;
-if (!isset($include3)) {
- include ('aa-beginning.php');
-}
-# 1t
+$bible = true;
 include 'ot.php';
-# 2t
 include 'nt.php';
-if (!isset($include3)) {
- include ('aa-end.php');
-}
 ?>
