@@ -1,11 +1,10 @@
 <?php
 $title = 'Mark';
 $description = 'The Gospel According to Saint Mark';
-if (!isset($include)) {
- include ('aa-beginning.php');
-}
+if (isset($collection)) {$chapterprefix = 'mark';}
+if (!isset($collection)) {include 'bookhead.php';}
 ?>
-<span id="1<?= $book ?>"></span><h2 id="mark">The Gospel According to Saint Mark</h2><!--2t2b-->
+<span id="<?php echo $chapterprefix; ?>1"></span><h3 id="mark">The Gospel According to Saint Mark</h3><!--2t2b-->
 1:1 The beginning of the gospel of Jesus Christ, the Son of God; 1:2 As it is written in the prophets, Behold, I send my messenger before thy face, which shall prepare thy way before thee.
 1:3 The voice of one crying in the wilderness, Prepare ye the way of the Lord, make his paths straight.
 1:4 John did baptize in the wilderness, and preach the baptism of repentance for the remission of sins.
@@ -45,7 +44,7 @@ if (!isset($include)) {
 1:42 And as soon as he had spoken, immediately the leprosy departed from him, and he was cleansed.
 1:43 And he straitly charged him, and forthwith sent him away; 1:44 And saith unto him, See thou say nothing to any man: but go thy way, shew thyself to the priest, and offer for thy cleansing those things which Moses commanded, for a testimony unto them.
 1:45 But he went out, and began to publish it much, and to blaze abroad the matter, insomuch that Jesus could no more openly enter into the city, but was without in desert places: and they came to him from every quarter.
-<span id="2<?= $book ?>"></span>2:1 And again he entered into Capernaum after some days; and it was noised that he was in the house.
+<span id="<?php echo $chapterprefix; ?>2"></span>2:1 And again he entered into Capernaum after some days; and it was noised that he was in the house.
 2:2 And straightway many were gathered together, insomuch that there was no room to receive them, no, not so much as about the door: and he preached the word unto them.
 2:3 And they come unto him, bringing one sick of the palsy, which was borne of four.
 2:4 And when they could not come nigh unto him for the press, they uncovered the roof where he was: and when they had broken it up, they let down the bed wherein the sick of the palsy lay.
@@ -62,7 +61,7 @@ if (!isset($include)) {
 2:22 And no man putteth new wine into old bottles: else the new wine doth burst the bottles, and the wine is spilled, and the bottles will be marred: but new wine must be put into new bottles.
 2:23 And it came to pass, that he went through the corn fields on the sabbath day; and his disciples began, as they went, to pluck the ears of corn.
 2:24 And the Pharisees said unto him, Behold, why do they on the sabbath day that which is not lawful? 2:25 And he said unto them, Have ye never read what David did, when he had need, and was an hungred, he, and they that were with him? 2:26 How he went into the house of God in the days of Abiathar the high priest, and did eat the shewbread, which is not lawful to eat but for the priests, and gave also to them which were with him? 2:27 And he said unto them, The sabbath was made for man, and not man for the sabbath: 2:28 Therefore the Son of man is Lord also of the sabbath.
-<span id="3<?= $book ?>"></span>3:1 And he entered again into the synagogue; and there was a man there which had a withered hand.
+<span id="<?php echo $chapterprefix; ?>3"></span>3:1 And he entered again into the synagogue; and there was a man there which had a withered hand.
 3:2 And they watched him, whether he would heal him on the sabbath day; that they might accuse him.
 3:3 And he saith unto the man which had the withered hand, Stand forth.
 3:4 And he saith unto them, Is it lawful to do good on the sabbath days, or to do evil? to save life, or to kill? But they held their peace.
@@ -87,7 +86,7 @@ if (!isset($include)) {
 3:31 There came then his brethren and his mother, and, standing without, sent unto him, calling him.
 3:32 And the multitude sat about him, and they said unto him, Behold, thy mother and thy brethren without seek for thee.
 3:33 And he answered them, saying, Who is my mother, or my brethren? 3:34 And he looked round about on them which sat about him, and said, Behold my mother and my brethren! 3:35 For whosoever shall do the will of God, the same is my brother, and my sister, and mother.
-<span id="4<?= $book ?>"></span>4:1 And he began again to teach by the sea side: and there was gathered unto him a great multitude, so that he entered into a ship, and sat in the sea; and the whole multitude was by the sea on the land.
+<span id="<?php echo $chapterprefix; ?>4"></span>4:1 And he began again to teach by the sea side: and there was gathered unto him a great multitude, so that he entered into a ship, and sat in the sea; and the whole multitude was by the sea on the land.
 4:2 And he taught them many things by parables, and said unto them in his doctrine, 4:3 Hearken; Behold, there went out a sower to sow: 4:4 And it came to pass, as he sowed, some fell by the way side, and the fowls of the air came and devoured it up.
 4:5 And some fell on stony ground, where it had not much earth; and immediately it sprang up, because it had no depth of earth: 4:6 But when the sun was up, it was scorched; and because it had no root, it withered away.
 4:7 And some fell among thorns, and the thorns grew up, and choked it, and it yielded no fruit.
@@ -114,7 +113,7 @@ if (!isset($include)) {
 4:36 And when they had sent away the multitude, they took him even as he was in the ship. And there were also with him other little ships.
 4:37 And there arose a great storm of wind, and the waves beat into the ship, so that it was now full.
 4:38 And he was in the hinder part of the ship, asleep on a pillow: and they awake him, and say unto him, Master, carest thou not that we perish? 4:39 And he arose, and rebuked the wind, and said unto the sea, Peace, be still. And the wind ceased, and there was a great calm.
-4:40 And he said unto them, Why are ye so fearful? how is it that ye have no faith? 4:41 And they feared exceedingly, and said one to another, What manner of man is this, that even the wind and the sea obey him? <span id="5<?= $book ?>"></span>5:1 And they came over unto the other side of the sea, into the country of the Gadarenes.
+4:40 And he said unto them, Why are ye so fearful? how is it that ye have no faith? 4:41 And they feared exceedingly, and said one to another, What manner of man is this, that even the wind and the sea obey him? <span id="<?php echo $chapterprefix; ?>5"></span>5:1 And they came over unto the other side of the sea, into the country of the Gadarenes.
 5:2 And when he was come out of the ship, immediately there met him out of the tombs a man with an unclean spirit, 5:3 Who had his dwelling among the tombs; and no man could bind him, no, not with chains: 5:4 Because that he had been often bound with fetters and chains, and the chains had been plucked asunder by him, and the fetters broken in pieces: neither could any man tame him.
 5:5 And always, night and day, he was in the mountains, and in the tombs, crying, and cutting himself with stones.
 5:6 But when he saw Jesus afar off, he ran and worshipped him, 5:7 And cried with a loud voice, and said, What have I to do with thee, Jesus, thou Son of the most high God? I adjure thee by God, that thou torment me not.
@@ -148,7 +147,7 @@ if (!isset($include)) {
 5:41 And he took the damsel by the hand, and said unto her, Talitha cumi; which is, being interpreted, Damsel, I say unto thee, arise.
 5:42 And straightway the damsel arose, and walked; for she was of the age of twelve years. And they were astonished with a great astonishment.
 5:43 And he charged them straitly that no man should know it; and commanded that something should be given her to eat.
-<span id="6<?= $book ?>"></span>6:1 And he went out from thence, and came into his own country; and his disciples follow him.
+<span id="<?php echo $chapterprefix; ?>6"></span>6:1 And he went out from thence, and came into his own country; and his disciples follow him.
 6:2 And when the sabbath day was come, he began to teach in the synagogue: and many hearing him were astonished, saying, From whence hath this man these things? and what wisdom is this which is given unto him, that even such mighty works are wrought by his hands? 6:3 Is not this the carpenter, the son of Mary, the brother of James, and Joses, and of Juda, and Simon? and are not his sisters here with us? And they were offended at him.
 6:4 But Jesus, said unto them, A prophet is not without honour, but in his own country, and among his own kin, and in his own house.
 6:5 And he could there do no mighty work, save that he laid his hands upon a few sick folk, and healed them.
@@ -195,7 +194,7 @@ Verily I say unto you, It shall be more tolerable for Sodom and Gomorrha in the 
 6:53 And when they had passed over, they came into the land of Gennesaret, and drew to the shore.
 6:54 And when they were come out of the ship, straightway they knew him, 6:55 And ran through that whole region round about, and began to carry about in beds those that were sick, where they heard he was.
 6:56 And whithersoever he entered, into villages, or cities, or country, they laid the sick in the streets, and besought him that they might touch if it were but the border of his garment: and as many as touched him were made whole.
-<span id="7<?= $book ?>"></span>7:1 Then came together unto him the Pharisees, and certain of the scribes, which came from Jerusalem.
+<span id="<?php echo $chapterprefix; ?>7"></span>7:1 Then came together unto him the Pharisees, and certain of the scribes, which came from Jerusalem.
 7:2 And when they saw some of his disciples eat bread with defiled, that is to say, with unwashen, hands, they found fault.
 7:3 For the Pharisees, and all the Jews, except they wash their hands oft, eat not, holding the tradition of the elders.
 7:4 And when they come from the market, except they wash, they eat not.
@@ -222,7 +221,7 @@ And many other things there be, which they have received to hold, as the washing
 7:33 And he took him aside from the multitude, and put his fingers into his ears, and he spit, and touched his tongue; 7:34 And looking up to heaven, he sighed, and saith unto him, Ephphatha, that is, Be opened.
 7:35 And straightway his ears were opened, and the string of his tongue was loosed, and he spake plain.
 7:36 And he charged them that they should tell no man: but the more he charged them, so much the more a great deal they published it; 7:37 And were beyond measure astonished, saying, He hath done all things well: he maketh both the deaf to hear, and the dumb to speak.
-<span id="8<?= $book ?>"></span>8:1 In those days the multitude being very great, and having nothing to eat, Jesus called his disciples unto him, and saith unto them, 8:2 I have compassion on the multitude, because they have now been with me three days, and have nothing to eat: 8:3 And if I send them away fasting to their own houses, they will faint by the way: for divers of them came from far.
+<span id="<?php echo $chapterprefix; ?>8"></span>8:1 In those days the multitude being very great, and having nothing to eat, Jesus called his disciples unto him, and saith unto them, 8:2 I have compassion on the multitude, because they have now been with me three days, and have nothing to eat: 8:3 And if I send them away fasting to their own houses, they will faint by the way: for divers of them came from far.
 8:4 And his disciples answered him, From whence can a man satisfy these men with bread here in the wilderness? 8:5 And he asked them, How many loaves have ye? And they said, Seven.
 8:6 And he commanded the people to sit down on the ground: and he took the seven loaves, and gave thanks, and brake, and gave to his disciples to set before them; and they did set them before the people.
 8:7 And they had a few small fishes: and he blessed, and commanded to set them also before them.
@@ -251,7 +250,7 @@ And many other things there be, which they have received to hold, as the washing
 8:34 And when he had called the people unto him with his disciples also, he said unto them, Whosoever will come after me, let him deny himself, and take up his cross, and follow me.
 8:35 For whosoever will save his life shall lose it; but whosoever shall lose his life for my sake and the gospel's, the same shall save it.
 8:36 For what shall it profit a man, if he shall gain the whole world, and lose his own soul? 8:37 Or what shall a man give in exchange for his soul? 8:38 Whosoever therefore shall be ashamed of me and of my words in this adulterous and sinful generation; of him also shall the Son of man be ashamed, when he cometh in the glory of his Father with the holy angels.
-<span id="9<?= $book ?>"></span>9:1 And he said unto them, Verily I say unto you, That there be some of them that stand here, which shall not taste of death, till they have seen the kingdom of God come with power.
+<span id="<?php echo $chapterprefix; ?>9"></span>9:1 And he said unto them, Verily I say unto you, That there be some of them that stand here, which shall not taste of death, till they have seen the kingdom of God come with power.
 9:2 And after six days Jesus taketh with him Peter, and James, and John, and leadeth them up into an high mountain apart by themselves: and he was transfigured before them.
 9:3 And his raiment became shining, exceeding white as snow; so as no fuller on earth can white them.
 9:4 And there appeared unto them Elias with Moses: and they were talking with Jesus.
@@ -292,7 +291,7 @@ And many other things there be, which they have received to hold, as the washing
 9:47 And if thine eye offend thee, pluck it out: it is better for thee to enter into the kingdom of God with one eye, than having two eyes to be cast into hell fire: 9:48 Where their worm dieth not, and the fire is not quenched.
 9:49 For every one shall be salted with fire, and every sacrifice shall be salted with salt.
 9:50 Salt is good: but if the salt have lost his saltness, wherewith will ye season it? Have salt in yourselves, and have peace one with another.
-<span id="10<?= $book ?>"></span>10:1 And he arose from thence, and cometh into the coasts of Judaea by the farther side of Jordan: and the people resort unto him again; and, as he was wont, he taught them again.
+<span id="<?php echo $chapterprefix; ?>10"></span>10:1 And he arose from thence, and cometh into the coasts of Judaea by the farther side of Jordan: and the people resort unto him again; and, as he was wont, he taught them again.
 10:2 And the Pharisees came to him, and asked him, Is it lawful for a man to put away his wife? tempting him.
 10:3 And he answered and said unto them, What did Moses command you? 10:4 And they said, Moses suffered to write a bill of divorcement, and to put her away.
 10:5 And Jesus answered and said unto them, For the hardness of your heart he wrote you this precept.
@@ -332,7 +331,7 @@ And he took again the twelve, and began to tell them what things should happen u
 10:51 And Jesus answered and said unto him, What wilt thou that I should do unto thee? The blind man said unto him, Lord, that I might receive my sight.
 10:52 And Jesus said unto him, Go thy way; thy faith hath made thee whole.
 And immediately he received his sight, and followed Jesus in the way.
-<span id="11<?= $book ?>"></span>11:1 And when they came nigh to Jerusalem, unto Bethphage and Bethany, at the mount of Olives, he sendeth forth two of his disciples, 11:2 And saith unto them, Go your way into the village over against you: and as soon as ye be entered into it, ye shall find a colt tied, whereon never man sat; loose him, and bring him.
+<span id="<?php echo $chapterprefix; ?>11"></span>11:1 And when they came nigh to Jerusalem, unto Bethphage and Bethany, at the mount of Olives, he sendeth forth two of his disciples, 11:2 And saith unto them, Go your way into the village over against you: and as soon as ye be entered into it, ye shall find a colt tied, whereon never man sat; loose him, and bring him.
 11:3 And if any man say unto you, Why do ye this? say ye that the Lord hath need of him; and straightway he will send him hither.
 11:4 And they went their way, and found the colt tied by the door without in a place where two ways met; and they loose him.
 11:5 And certain of them that stood there said unto them, What do ye, loosing the colt? 11:6 And they said unto them even as Jesus had commanded: and they let them go.
@@ -357,7 +356,7 @@ And immediately he received his sight, and followed Jesus in the way.
 11:30 The baptism of John, was it from heaven, or of men? answer me.
 11:31 And they reasoned with themselves, saying, If we shall say, From heaven; he will say, Why then did ye not believe him? 11:32 But if we shall say, Of men; they feared the people: for all men counted John, that he was a prophet indeed.
 11:33 And they answered and said unto Jesus, We cannot tell. And Jesus answering saith unto them, Neither do I tell you by what authority I do these things.
-<span id="12<?= $book ?>"></span>12:1 And he began to speak unto them by parables. A certain man planted a vineyard, and set an hedge about it, and digged a place for the winefat, and built a tower, and let it out to husbandmen, and went into a far country.
+<span id="<?php echo $chapterprefix; ?>12"></span>12:1 And he began to speak unto them by parables. A certain man planted a vineyard, and set an hedge about it, and digged a place for the winefat, and built a tower, and let it out to husbandmen, and went into a far country.
 12:2 And at the season he sent to the husbandmen a servant, that he might receive from the husbandmen of the fruit of the vineyard.
 12:3 And they caught him, and beat him, and sent him away empty.
 12:4 And again he sent unto them another servant; and at him they cast stones, and wounded him in the head, and sent him away shamefully handled.
@@ -388,7 +387,7 @@ And immediately he received his sight, and followed Jesus in the way.
 12:41 And Jesus sat over against the treasury, and beheld how the people cast money into the treasury: and many that were rich cast in much.
 12:42 And there came a certain poor widow, and she threw in two mites, which make a farthing.
 12:43 And he called unto him his disciples, and saith unto them, Verily I say unto you, That this poor widow hath cast more in, than all they which have cast into the treasury: 12:44 For all they did cast in of their abundance; but she of her want did cast in all that she had, even all her living.
-<span id="13<?= $book ?>"></span>13:1 And as he went out of the temple, one of his disciples saith unto him, Master, see what manner of stones and what buildings are here! 13:2 And Jesus answering said unto him, Seest thou these great buildings? there shall not be left one stone upon another, that shall not be thrown down.
+<span id="<?php echo $chapterprefix; ?>13"></span>13:1 And as he went out of the temple, one of his disciples saith unto him, Master, see what manner of stones and what buildings are here! 13:2 And Jesus answering said unto him, Seest thou these great buildings? there shall not be left one stone upon another, that shall not be thrown down.
 13:3 And as he sat upon the mount of Olives over against the temple, Peter and James and John and Andrew asked him privately, 13:4 Tell us, when shall these things be? and what shall be the sign when all these things shall be fulfilled? 13:5 And Jesus answering them began to say, Take heed lest any man deceive you: 13:6 For many shall come in my name, saying, I am Christ; and shall deceive many.
 13:7 And when ye shall hear of wars and rumours of wars, be ye not troubled: for such things must needs be; but the end shall not be yet.
 13:8 For nation shall rise against nation, and kingdom against kingdom: and there shall be earthquakes in divers places, and there shall be famines and troubles: these are the beginnings of sorrows.
@@ -414,7 +413,7 @@ And immediately he received his sight, and followed Jesus in the way.
 13:34 For the Son of Man is as a man taking a far journey, who left his house, and gave authority to his servants, and to every man his work, and commanded the porter to watch.
 13:35 Watch ye therefore: for ye know not when the master of the house cometh, at even, or at midnight, or at the cockcrowing, or in the morning: 13:36 Lest coming suddenly he find you sleeping.
 13:37 And what I say unto you I say unto all, Watch.
-<span id="14<?= $book ?>"></span>14:1 After two days was the feast of the passover, and of unleavened bread: and the chief priests and the scribes sought how they might take him by craft, and put him to death.
+<span id="<?php echo $chapterprefix; ?>14"></span>14:1 After two days was the feast of the passover, and of unleavened bread: and the chief priests and the scribes sought how they might take him by craft, and put him to death.
 14:2 But they said, Not on the feast day, lest there be an uproar of the people.
 14:3 And being in Bethany in the house of Simon the leper, as he sat at meat, there came a woman having an alabaster box of ointment of spikenard very precious; and she brake the box, and poured it on his head.
 14:4 And there were some that had indignation within themselves, and said, Why was this waste of the ointment made? 14:5 For it might have been sold for more than three hundred pence, and have been given to the poor. And they murmured against her.
@@ -473,7 +472,7 @@ And immediately he received his sight, and followed Jesus in the way.
 14:70 And he denied it again. And a little after, they that stood by said again to Peter, Surely thou art one of them: for thou art a Galilaean, and thy speech agreeth thereto.
 14:71 But he began to curse and to swear, saying, I know not this man of whom ye speak.
 14:72 And the second time the cock crew. And Peter called to mind the word that Jesus said unto him, Before the cock crow twice, thou shalt deny me thrice. And when he thought thereon, he wept.
-<span id="15<?= $book ?>"></span>15:1 And straightway in the morning the chief priests held a consultation with the elders and scribes and the whole council, and bound Jesus, and carried him away, and delivered him to Pilate.
+<span id="<?php echo $chapterprefix; ?>15"></span>15:1 And straightway in the morning the chief priests held a consultation with the elders and scribes and the whole council, and bound Jesus, and carried him away, and delivered him to Pilate.
 15:2 And Pilate asked him, Art thou the King of the Jews? And he answering said unto them, Thou sayest it.
 15:3 And the chief priests accused him of many things: but he answered nothing.
 15:4 And Pilate asked him again, saying, Answerest thou nothing? behold how many things they witness against thee.
@@ -512,7 +511,7 @@ And immediately he received his sight, and followed Jesus in the way.
 15:45 And when he knew it of the centurion, he gave the body to Joseph.
 15:46 And he bought fine linen, and took him down, and wrapped him in the linen, and laid him in a sepulchre which was hewn out of a rock, and rolled a stone unto the door of the sepulchre.
 15:47 And Mary Magdalene and Mary the mother of Joses beheld where he was laid.
-<span id="16<?= $book ?>"></span>16:1 And when the sabbath was past, Mary Magdalene, and Mary the mother of James, and Salome, had bought sweet spices, that they might come and anoint him.
+<span id="<?php echo $chapterprefix; ?>16"></span>16:1 And when the sabbath was past, Mary Magdalene, and Mary the mother of James, and Salome, had bought sweet spices, that they might come and anoint him.
 16:2 And very early in the morning the first day of the week, they came unto the sepulchre at the rising of the sun.
 16:3 And they said among themselves, Who shall roll us away the stone from the door of the sepulchre? 16:4 And when they looked, they saw that the stone was rolled away: for it was very great.
 16:5 And entering into the sepulchre, they saw a young man sitting on the right side, clothed in a long white garment; and they were affrighted.
@@ -530,8 +529,4 @@ And immediately he received his sight, and followed Jesus in the way.
 16:17 And these signs shall follow them that believe; In my name shall they cast out devils; they shall speak with new tongues; 16:18 They shall take up serpents; and if they drink any deadly thing, it shall not hurt them; they shall lay hands on the sick, and they shall recover.
 16:19 So then after the Lord had spoken unto them, he was received up into heaven, and sat on the right hand of God.
 16:20 And they went forth, and preached every where, the Lord working with them, and confirming the word with signs following. Amen.
-<?php
-if (!isset($include)) {
- include ('aa-end.php');
-}
-?>
+<?php if (!isset($collection)) {include 'bookfoot.php';} ?>

@@ -1,11 +1,10 @@
 <?php
 $title = '3 John';
 $description = 'The Third Epistle General of John';
-if (!isset($include)) {
- include ('aa-beginning.php');
-}
+if (isset($collection)) {$chapterprefix = 'thirdjohn';}
+if (!isset($collection)) {include 'bookhead.php';}
 ?>
-<span id="1<?= $book ?>"></span><h2 id="john3">The Third Epistle General of John</h2><!--2t25b-->
+<span id="<?php echo $chapterprefix; ?>1"></span><h3 id="john3">The Third Epistle General of John</h3><!--2t25b-->
 1:1 The elder unto the wellbeloved Gaius, whom I love in the truth.
 1:2 Beloved, I wish above all things that thou mayest prosper and be in health, even as thy soul prospereth.
 1:3 For I rejoiced greatly, when the brethren came and testified of the truth that is in thee, even as thou walkest in the truth.
@@ -17,8 +16,4 @@ if (!isset($include)) {
 1:11 Beloved, follow not that which is evil, but that which is good. He that doeth good is of God: but he that doeth evil hath not seen God.
 1:12 Demetrius hath good report of all men, and of the truth itself: yea, and we also bear record; and ye know that our record is true.
 1:13 I had many things to write, but I will not with ink and pen write unto thee: 1:14 But I trust I shall shortly see thee, and we shall speak face to face. Peace be to thee. Our friends salute thee. Greet the friends by name.
-<?php
-if (!isset($include)) {
- include ('aa-end.php');
-}
-?>
+<?php if (!isset($collection)) {include 'bookfoot.php';} ?>

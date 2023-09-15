@@ -1,11 +1,10 @@
 <?php
 $title = 'Judges';
 $description = 'The Book of Judges';
-if (!isset($include)) {
- include ('aa-beginning.php');
-}
+if (isset($collection)) {$chapterprefix = 'judges';}
+if (!isset($collection)) {include 'bookhead.php';}
 ?>
-<span id="1<?= $book ?>"></span><h2 id="judges">The Book of Judges</h2><!--1t7b-->
+<span id="<?php echo $chapterprefix; ?>1"></span><h3 id="judges">The Book of Judges</h3><!--1t7b-->
 1:1 Now after the death of Joshua it came to pass, that the children of Israel asked the LORD, saying, Who shall go up for us against the Canaanites first, to fight against them? 1:2 And the LORD said, Judah shall go up: behold, I have delivered the land into his hand.
 1:3 And Judah said unto Simeon his brother, Come up with me into my lot, that we may fight against the Canaanites; and I likewise will go with thee into thy lot. So Simeon went with him.
 1:4 And Judah went up; and the LORD delivered the Canaanites and the Perizzites into their hand: and they slew of them in Bezek ten thousand men.
@@ -36,7 +35,7 @@ if (!isset($include)) {
 1:33 Neither did Naphtali drive out the inhabitants of Bethshemesh, nor the inhabitants of Bethanath; but he dwelt among the Canaanites, the inhabitants of the land: nevertheless the inhabitants of Bethshemesh and of Bethanath became tributaries unto them.
 1:34 And the Amorites forced the children of Dan into the mountain: for they would not suffer them to come down to the valley: 1:35 But the Amorites would dwell in mount Heres in Aijalon, and in Shaalbim: yet the hand of the house of Joseph prevailed, so that they became tributaries.
 1:36 And the coast of the Amorites was from the going up to Akrabbim, from the rock, and upward.
-<span id="2<?= $book ?>"></span>2:1 And an angel of the LORD came up from Gilgal to Bochim, and said, I made you to go up out of Egypt, and have brought you unto the land which I sware unto your fathers; and I said, I will never break my covenant with you.
+<span id="<?php echo $chapterprefix; ?>2"></span>2:1 And an angel of the LORD came up from Gilgal to Bochim, and said, I made you to go up out of Egypt, and have brought you unto the land which I sware unto your fathers; and I said, I will never break my covenant with you.
 2:2 And ye shall make no league with the inhabitants of this land; ye shall throw down their altars: but ye have not obeyed my voice: why have ye done this? 2:3 Wherefore I also said, I will not drive them out from before you; but they shall be as thorns in your sides, and their gods shall be a snare unto you.
 2:4 And it came to pass, when the angel of the LORD spake these words unto all the children of Israel, that the people lifted up their voice, and wept.
 2:5 And they called the name of that place Bochim: and they sacrificed there unto the LORD.
@@ -55,7 +54,7 @@ if (!isset($include)) {
 2:19 And it came to pass, when the judge was dead, that they returned, and corrupted themselves more than their fathers, in following other gods to serve them, and to bow down unto them; they ceased not from their own doings, nor from their stubborn way.
 2:20 And the anger of the LORD was hot against Israel; and he said, Because that this people hath transgressed my covenant which I commanded their fathers, and have not hearkened unto my voice; 2:21 I also will not henceforth drive out any from before them of the nations which Joshua left when he died: 2:22 That through them I may prove Israel, whether they will keep the way of the LORD to walk therein, as their fathers did keep it, or not.
 2:23 Therefore the LORD left those nations, without driving them out hastily; neither delivered he them into the hand of Joshua.
-<span id="3<?= $book ?>"></span>3:1 Now these are the nations which the LORD left, to prove Israel by them, even as many of Israel as had not known all the wars of Canaan; 3:2 Only that the generations of the children of Israel might know, to teach them war, at the least such as before knew nothing thereof; 3:3 Namely, five lords of the Philistines, and all the Canaanites, and the Sidonians, and the Hivites that dwelt in mount Lebanon, from mount Baalhermon unto the entering in of Hamath.
+<span id="<?php echo $chapterprefix; ?>3"></span>3:1 Now these are the nations which the LORD left, to prove Israel by them, even as many of Israel as had not known all the wars of Canaan; 3:2 Only that the generations of the children of Israel might know, to teach them war, at the least such as before knew nothing thereof; 3:3 Namely, five lords of the Philistines, and all the Canaanites, and the Sidonians, and the Hivites that dwelt in mount Lebanon, from mount Baalhermon unto the entering in of Hamath.
 3:4 And they were to prove Israel by them, to know whether they would hearken unto the commandments of the LORD, which he commanded their fathers by the hand of Moses.
 3:5 And the children of Israel dwelt among the Canaanites, Hittites, and Amorites, and Perizzites, and Hivites, and Jebusites: 3:6 And they took their daughters to be their wives, and gave their daughters to their sons, and served their gods.
 3:7 And the children of Israel did evil in the sight of the LORD, and forgat the LORD their God, and served Baalim and the groves.
@@ -83,7 +82,7 @@ And he arose out of his seat.
 3:29 And they slew of Moab at that time about ten thousand men, all lusty, and all men of valour; and there escaped not a man.
 3:30 So Moab was subdued that day under the hand of Israel. And the land had rest fourscore years.
 3:31 And after him was Shamgar the son of Anath, which slew of the Philistines six hundred men with an ox goad: and he also delivered Israel.
-<span id="4<?= $book ?>"></span>4:1 And the children of Israel again did evil in the sight of the LORD, when Ehud was dead.
+<span id="<?php echo $chapterprefix; ?>4"></span>4:1 And the children of Israel again did evil in the sight of the LORD, when Ehud was dead.
 4:2 And the LORD sold them into the hand of Jabin king of Canaan, that reigned in Hazor; the captain of whose host was Sisera, which dwelt in Harosheth of the Gentiles.
 4:3 And the children of Israel cried unto the LORD: for he had nine hundred chariots of iron; and twenty years he mightily oppressed the children of Israel.
 4:4 And Deborah, a prophetess, the wife of Lapidoth, she judged Israel at that time.
@@ -106,7 +105,7 @@ And he arose out of his seat.
 4:22 And, behold, as Barak pursued Sisera, Jael came out to meet him, and said unto him, Come, and I will shew thee the man whom thou seekest. And when he came into her tent, behold, Sisera lay dead, and the nail was in his temples.
 4:23 So God subdued on that day Jabin the king of Canaan before the children of Israel.
 4:24 And the hand of the children of Israel prospered, and prevailed against Jabin the king of Canaan, until they had destroyed Jabin king of Canaan.
-<span id="5<?= $book ?>"></span>5:1 Then sang Deborah and Barak the son of Abinoam on that day, saying, 5:2 Praise ye the LORD for the avenging of Israel, when the people willingly offered themselves.
+<span id="<?php echo $chapterprefix; ?>5"></span>5:1 Then sang Deborah and Barak the son of Abinoam on that day, saying, 5:2 Praise ye the LORD for the avenging of Israel, when the people willingly offered themselves.
 5:3 Hear, O ye kings; give ear, O ye princes; I, even I, will sing unto the LORD; I will sing praise to the LORD God of Israel.
 5:4 LORD, when thou wentest out of Seir, when thou marchedst out of the field of Edom, the earth trembled, and the heavens dropped, the clouds also dropped water.
 5:5 The mountains melted from before the LORD, even that Sinai from before the LORD God of Israel.
@@ -132,7 +131,7 @@ And he arose out of his seat.
 5:26 She put her hand to the nail, and her right hand to the workmen's hammer; and with the hammer she smote Sisera, she smote off his head, when she had pierced and stricken through his temples.
 5:27 At her feet he bowed, he fell, he lay down: at her feet he bowed, he fell: where he bowed, there he fell down dead.
 5:28 The mother of Sisera looked out at a window, and cried through the lattice, Why is his chariot so long in coming? why tarry the wheels of his chariots? 5:29 Her wise ladies answered her, yea, she returned answer to herself, 5:30 Have they not sped? have they not divided the prey; to every man a damsel or two; to Sisera a prey of divers colours, a prey of divers colours of needlework, of divers colours of needlework on both sides, meet for the necks of them that take the spoil? 5:31 So let all thine enemies perish, O LORD: but let them that love him be as the sun when he goeth forth in his might. And the land had rest forty years.
-<span id="6<?= $book ?>"></span>6:1 And the children of Israel did evil in the sight of the LORD: and the LORD delivered them into the hand of Midian seven years.
+<span id="<?php echo $chapterprefix; ?>6"></span>6:1 And the children of Israel did evil in the sight of the LORD: and the LORD delivered them into the hand of Midian seven years.
 6:2 And the hand of Midian prevailed against Israel: and because of the Midianites the children of Israel made them the dens which are in the mountains, and caves, and strong holds.
 6:3 And so it was, when Israel had sown, that the Midianites came up, and the Amalekites, and the children of the east, even they came up against them; 6:4 And they encamped against them, and destroyed the increase of the earth, till thou come unto Gaza, and left no sustenance for Israel, neither sheep, nor ox, nor ass.
 6:5 For they came up with their cattle and their tents, and they came as grasshoppers for multitude; for both they and their camels were without number: and they entered into the land to destroy it.
@@ -165,7 +164,7 @@ And he arose out of his seat.
 6:38 And it was so: for he rose up early on the morrow, and thrust the fleece together, and wringed the dew out of the fleece, a bowl full of water.
 6:39 And Gideon said unto God, Let not thine anger be hot against me, and I will speak but this once: let me prove, I pray thee, but this once with the fleece; let it now be dry only upon the fleece, and upon all the ground let there be dew.
 6:40 And God did so that night: for it was dry upon the fleece only, and there was dew on all the ground.
-<span id="7<?= $book ?>"></span>7:1 Then Jerubbaal, who is Gideon, and all the people that were with him, rose up early, and pitched beside the well of Harod: so that the host of the Midianites were on the north side of them, by the hill of Moreh, in the valley.
+<span id="<?php echo $chapterprefix; ?>7"></span>7:1 Then Jerubbaal, who is Gideon, and all the people that were with him, rose up early, and pitched beside the well of Harod: so that the host of the Midianites were on the north side of them, by the hill of Moreh, in the valley.
 7:2 And the LORD said unto Gideon, The people that are with thee are too many for me to give the Midianites into their hands, lest Israel vaunt themselves against me, saying, Mine own hand hath saved me.
 7:3 Now therefore go to, proclaim in the ears of the people, saying, Whosoever is fearful and afraid, let him return and depart early from mount Gilead. And there returned of the people twenty and two thousand; and there remained ten thousand.
 7:4 And the LORD said unto Gideon, The people are yet too many; bring them down unto the water, and I will try them for thee there: and it shall be, that of whom I say unto thee, This shall go with thee, the same shall go with thee; and of whomsoever I say unto thee, This shall not go with thee, the same shall not go.
@@ -189,7 +188,7 @@ And he arose out of his seat.
 7:23 And the men of Israel gathered themselves together out of Naphtali, and out of Asher, and out of all Manasseh, and pursued after the Midianites.
 7:24 And Gideon sent messengers throughout all mount Ephraim, saying, come down against the Midianites, and take before them the waters unto Bethbarah and Jordan. Then all the men of Ephraim gathered themselves together, and took the waters unto Bethbarah and Jordan.
 7:25 And they took two princes of the Midianites, Oreb and Zeeb; and they slew Oreb upon the rock Oreb, and Zeeb they slew at the winepress of Zeeb, and pursued Midian, and brought the heads of Oreb and Zeeb to Gideon on the other side Jordan.
-<span id="8<?= $book ?>"></span>8:1 And the men of Ephraim said unto him, Why hast thou served us thus, that thou calledst us not, when thou wentest to fight with the Midianites? And they did chide with him sharply.
+<span id="<?php echo $chapterprefix; ?>8"></span>8:1 And the men of Ephraim said unto him, Why hast thou served us thus, that thou calledst us not, when thou wentest to fight with the Midianites? And they did chide with him sharply.
 8:2 And he said unto them, What have I done now in comparison of you? Is not the gleaning of the grapes of Ephraim better than the vintage of Abiezer? 8:3 God hath delivered into your hands the princes of Midian, Oreb and Zeeb: and what was I able to do in comparison of you? Then their anger was abated toward him, when he had said that.
 8:4 And Gideon came to Jordan, and passed over, he, and the three hundred men that were with him, faint, yet pursuing them.
 8:5 And he said unto the men of Succoth, Give, I pray you, loaves of bread unto the people that follow me; for they be faint, and I am pursuing after Zebah and Zalmunna, kings of Midian.
@@ -218,7 +217,7 @@ And he arose out of his seat.
 8:32 And Gideon the son of Joash died in a good old age, and was buried in the sepulchre of Joash his father, in Ophrah of the Abiezrites.
 8:33 And it came to pass, as soon as Gideon was dead, that the children of Israel turned again, and went a whoring after Baalim, and made Baalberith their god.
 8:34 And the children of Israel remembered not the LORD their God, who had delivered them out of the hands of all their enemies on every side: 8:35 Neither shewed they kindness to the house of Jerubbaal, namely, Gideon, according to all the goodness which he had shewed unto Israel.
-<span id="9<?= $book ?>"></span>9:1 And Abimelech the son of Jerubbaal went to Shechem unto his mother's brethren, and communed with them, and with all the family of the house of his mother's father, saying, 9:2 Speak, I pray you, in the ears of all the men of Shechem, Whether is better for you, either that all the sons of Jerubbaal, which are threescore and ten persons, reign over you, or that one reign over you? remember also that I am your bone and your flesh.
+<span id="<?php echo $chapterprefix; ?>9"></span>9:1 And Abimelech the son of Jerubbaal went to Shechem unto his mother's brethren, and communed with them, and with all the family of the house of his mother's father, saying, 9:2 Speak, I pray you, in the ears of all the men of Shechem, Whether is better for you, either that all the sons of Jerubbaal, which are threescore and ten persons, reign over you, or that one reign over you? remember also that I am your bone and your flesh.
 9:3 And his mother's brethren spake of him in the ears of all the men of Shechem all these words: and their hearts inclined to follow Abimelech; for they said, He is our brother.
 9:4 And they gave him threescore and ten pieces of silver out of the house of Baalberith, wherewith Abimelech hired vain and light persons, which followed him.
 9:5 And he went unto his father's house at Ophrah, and slew his brethren the sons of Jerubbaal, being threescore and ten persons, upon one stone: notwithstanding yet Jotham the youngest son of Jerubbaal was left; for he hid himself.
@@ -262,7 +261,7 @@ And he arose out of his seat.
 9:54 Then he called hastily unto the young man his armourbearer, and said unto him, Draw thy sword, and slay me, that men say not of me, A women slew him. And his young man thrust him through, and he died.
 9:55 And when the men of Israel saw that Abimelech was dead, they departed every man unto his place.
 9:56 Thus God rendered the wickedness of Abimelech, which he did unto his father, in slaying his seventy brethren: 9:57 And all the evil of the men of Shechem did God render upon their heads: and upon them came the curse of Jotham the son of Jerubbaal.
-<span id="10<?= $book ?>"></span>10:1 And after Abimelech there arose to defend Israel Tola the son of Puah, the son of Dodo, a man of Issachar; and he dwelt in Shamir in mount Ephraim.
+<span id="<?php echo $chapterprefix; ?>10"></span>10:1 And after Abimelech there arose to defend Israel Tola the son of Puah, the son of Dodo, a man of Issachar; and he dwelt in Shamir in mount Ephraim.
 10:2 And he judged Israel twenty and three years, and died, and was buried in Shamir.
 10:3 And after him arose Jair, a Gileadite, and judged Israel twenty and two years.
 10:4 And he had thirty sons that rode on thirty ass colts, and they had thirty cities, which are called Havothjair unto this day, which are in the land of Gilead.
@@ -279,7 +278,7 @@ And he arose out of his seat.
 10:16 And they put away the strange gods from among them, and served the LORD: and his soul was grieved for the misery of Israel.
 10:17 Then the children of Ammon were gathered together, and encamped in Gilead. And the children of Israel assembled themselves together, and encamped in Mizpeh.
 10:18 And the people and princes of Gilead said one to another, What man is he that will begin to fight against the children of Ammon? he shall be head over all the inhabitants of Gilead.
-<span id="11<?= $book ?>"></span>11:1 Now Jephthah the Gileadite was a mighty man of valour, and he was the son of an harlot: and Gilead begat Jephthah.
+<span id="<?php echo $chapterprefix; ?>11"></span>11:1 Now Jephthah the Gileadite was a mighty man of valour, and he was the son of an harlot: and Gilead begat Jephthah.
 11:2 And Gilead's wife bare him sons; and his wife's sons grew up, and they thrust out Jephthah, and said unto him, Thou shalt not inherit in our father's house; for thou art the son of a strange woman.
 11:3 Then Jephthah fled from his brethren, and dwelt in the land of Tob: and there were gathered vain men to Jephthah, and went out with him.
 11:4 And it came to pass in process of time, that the children of Ammon made war against Israel.
@@ -307,7 +306,7 @@ And he arose out of his seat.
 11:37 And she said unto her father, Let this thing be done for me: let me alone two months, that I may go up and down upon the mountains, and bewail my virginity, I and my fellows.
 11:38 And he said, Go. And he sent her away for two months: and she went with her companions, and bewailed her virginity upon the mountains.
 11:39 And it came to pass at the end of two months, that she returned unto her father, who did with her according to his vow which he had vowed: and she knew no man. And it was a custom in Israel, 11:40 That the daughters of Israel went yearly to lament the daughter of Jephthah the Gileadite four days in a year.
-<span id="12<?= $book ?>"></span>12:1 And the men of Ephraim gathered themselves together, and went northward, and said unto Jephthah, Wherefore passedst thou over to fight against the children of Ammon, and didst not call us to go with thee? we will burn thine house upon thee with fire.
+<span id="<?php echo $chapterprefix; ?>12"></span>12:1 And the men of Ephraim gathered themselves together, and went northward, and said unto Jephthah, Wherefore passedst thou over to fight against the children of Ammon, and didst not call us to go with thee? we will burn thine house upon thee with fire.
 12:2 And Jephthah said unto them, I and my people were at great strife with the children of Ammon; and when I called you, ye delivered me not out of their hands.
 12:3 And when I saw that ye delivered me not, I put my life in my hands, and passed over against the children of Ammon, and the LORD delivered them into my hand: wherefore then are ye come up unto me this day, to fight against me? 12:4 Then Jephthah gathered together all the men of Gilead, and fought with Ephraim: and the men of Gilead smote Ephraim, because they said, Ye Gileadites are fugitives of Ephraim among the Ephraimites, and among the Manassites.
 12:5 And the Gileadites took the passages of Jordan before the Ephraimites: and it was so, that when those Ephraimites which were escaped said, Let me go over; that the men of Gilead said unto him, Art thou an Ephraimite? If he said, Nay; 12:6 Then said they unto him, Say now Shibboleth: and he said Sibboleth: for he could not frame to pronounce it right. Then they took him, and slew him at the passages of Jordan: and there fell at that time of the Ephraimites forty and two thousand.
@@ -320,7 +319,7 @@ And he arose out of his seat.
 12:13 And after him Abdon the son of Hillel, a Pirathonite, judged Israel.
 12:14 And he had forty sons and thirty nephews, that rode on threescore and ten ass colts: and he judged Israel eight years.
 12:15 And Abdon the son of Hillel the Pirathonite died, and was buried in Pirathon in the land of Ephraim, in the mount of the Amalekites.
-<span id="13<?= $book ?>"></span>13:1 And the children of Israel did evil again in the sight of the LORD; and the LORD delivered them into the hand of the Philistines forty years.
+<span id="<?php echo $chapterprefix; ?>13"></span>13:1 And the children of Israel did evil again in the sight of the LORD; and the LORD delivered them into the hand of the Philistines forty years.
 13:2 And there was a certain man of Zorah, of the family of the Danites, whose name was Manoah; and his wife was barren, and bare not.
 13:3 And the angel of the LORD appeared unto the woman, and said unto her, Behold now, thou art barren, and bearest not: but thou shalt conceive, and bear a son.
 13:4 Now therefore beware, I pray thee, and drink not wine nor strong drink, and eat not any unclean thing: 13:5 For, lo, thou shalt conceive, and bear a son; and no razor shall come on his head: for the child shall be a Nazarite unto God from the womb: and he shall begin to deliver Israel out of the hand of the Philistines.
@@ -340,7 +339,7 @@ And he arose out of his seat.
 13:23 But his wife said unto him, If the LORD were pleased to kill us, he would not have received a burnt offering and a meat offering at our hands, neither would he have shewed us all these things, nor would as at this time have told us such things as these.
 13:24 And the woman bare a son, and called his name Samson: and the child grew, and the LORD blessed him.
 13:25 And the Spirit of the LORD began to move him at times in the camp of Dan between Zorah and Eshtaol.
-<span id="14<?= $book ?>"></span>14:1 And Samson went down to Timnath, and saw a woman in Timnath of the daughters of the Philistines.
+<span id="<?php echo $chapterprefix; ?>14"></span>14:1 And Samson went down to Timnath, and saw a woman in Timnath of the daughters of the Philistines.
 14:2 And he came up, and told his father and his mother, and said, I have seen a woman in Timnath of the daughters of the Philistines: now therefore get her for me to wife.
 14:3 Then his father and his mother said unto him, Is there never a woman among the daughters of thy brethren, or among all my people, that thou goest to take a wife of the uncircumcised Philistines? And Samson said unto his father, Get her for me; for she pleaseth me well.
 14:4 But his father and his mother knew not that it was of the LORD, that he sought an occasion against the Philistines: for at that time the Philistines had dominion over Israel.
@@ -357,7 +356,7 @@ And he arose out of his seat.
 14:18 And the men of the city said unto him on the seventh day before the sun went down, What is sweeter than honey? And what is stronger than a lion? and he said unto them, If ye had not plowed with my heifer, ye had not found out my riddle.
 14:19 And the Spirit of the LORD came upon him, and he went down to Ashkelon, and slew thirty men of them, and took their spoil, and gave change of garments unto them which expounded the riddle. And his anger was kindled, and he went up to his father's house.
 14:20 But Samson's wife was given to his companion, whom he had used as his friend.
-<span id="15<?= $book ?>"></span>15:1 But it came to pass within a while after, in the time of wheat harvest, that Samson visited his wife with a kid; and he said, I will go in to my wife into the chamber. But her father would not suffer him to go in.
+<span id="<?php echo $chapterprefix; ?>15"></span>15:1 But it came to pass within a while after, in the time of wheat harvest, that Samson visited his wife with a kid; and he said, I will go in to my wife into the chamber. But her father would not suffer him to go in.
 15:2 And her father said, I verily thought that thou hadst utterly hated her; therefore I gave her to thy companion: is not her younger sister fairer than she? take her, I pray thee, instead of her.
 15:3 And Samson said concerning them, Now shall I be more blameless than the Philistines, though I do them a displeasure.
 15:4 And Samson went and caught three hundred foxes, and took firebrands, and turned tail to tail, and put a firebrand in the midst between two tails.
@@ -376,7 +375,7 @@ And he arose out of his seat.
 15:17 And it came to pass, when he had made an end of speaking, that he cast away the jawbone out of his hand, and called that place Ramathlehi.
 15:18 And he was sore athirst, and called on the LORD, and said, Thou hast given this great deliverance into the hand of thy servant: and now shall I die for thirst, and fall into the hand of the uncircumcised? 15:19 But God clave an hollow place that was in the jaw, and there came water thereout; and when he had drunk, his spirit came again, and he revived: wherefore he called the name thereof Enhakkore, which is in Lehi unto this day.
 15:20 And he judged Israel in the days of the Philistines twenty years.
-<span id="16<?= $book ?>"></span>16:1 Then went Samson to Gaza, and saw there an harlot, and went in unto her.
+<span id="<?php echo $chapterprefix; ?>16"></span>16:1 Then went Samson to Gaza, and saw there an harlot, and went in unto her.
 16:2 And it was told the Gazites, saying, Samson is come hither. And they compassed him in, and laid wait for him all night in the gate of the city, and were quiet all the night, saying, In the morning, when it is day, we shall kill him.
 16:3 And Samson lay till midnight, and arose at midnight, and took the doors of the gate of the city, and the two posts, and went away with them, bar and all, and put them upon his shoulders, and carried them up to the top of an hill that is before Hebron.
 16:4 And it came to pass afterward, that he loved a woman in the valley of Sorek, whose name was Delilah.
@@ -407,7 +406,7 @@ And she said unto him, The Philistines be upon thee, Samson. And he brake the wi
 16:29 And Samson took hold of the two middle pillars upon which the house stood, and on which it was borne up, of the one with his right hand, and of the other with his left.
 16:30 And Samson said, Let me die with the Philistines. And he bowed himself with all his might; and the house fell upon the lords, and upon all the people that were therein. So the dead which he slew at his death were more than they which he slew in his life.
 16:31 Then his brethren and all the house of his father came down, and took him, and brought him up, and buried him between Zorah and Eshtaol in the buryingplace of Manoah his father. And he judged Israel twenty years.
-<span id="17<?= $book ?>"></span>17:1 And there was a man of mount Ephraim, whose name was Micah.
+<span id="<?php echo $chapterprefix; ?>17"></span>17:1 And there was a man of mount Ephraim, whose name was Micah.
 17:2 And he said unto his mother, The eleven hundred shekels of silver that were taken from thee, about which thou cursedst, and spakest of also in mine ears, behold, the silver is with me; I took it. And his mother said, Blessed be thou of the LORD, my son.
 17:3 And when he had restored the eleven hundred shekels of silver to his mother, his mother said, I had wholly dedicated the silver unto the LORD from my hand for my son, to make a graven image and a molten image: now therefore I will restore it unto thee.
 17:4 Yet he restored the money unto his mother; and his mother took two hundred shekels of silver, and gave them to the founder, who made thereof a graven image and a molten image: and they were in the house of Micah.
@@ -420,7 +419,7 @@ And she said unto him, The Philistines be upon thee, Samson. And he brake the wi
 17:11 And the Levite was content to dwell with the man; and the young man was unto him as one of his sons.
 17:12 And Micah consecrated the Levite; and the young man became his priest, and was in the house of Micah.
 17:13 Then said Micah, Now know I that the LORD will do me good, seeing I have a Levite to my priest.
-<span id="18<?= $book ?>"></span>18:1 In those days there was no king in Israel: and in those days the tribe of the Danites sought them an inheritance to dwell in; for unto that day all their inheritance had not fallen unto them among the tribes of Israel.
+<span id="<?php echo $chapterprefix; ?>18"></span>18:1 In those days there was no king in Israel: and in those days the tribe of the Danites sought them an inheritance to dwell in; for unto that day all their inheritance had not fallen unto them among the tribes of Israel.
 18:2 And the children of Dan sent of their family five men from their coasts, men of valour, from Zorah, and from Eshtaol, to spy out the land, and to search it; and they said unto them, Go, search the land: who when they came to mount Ephraim, to the house of Micah, they lodged there.
 18:3 When they were by the house of Micah, they knew the voice of the young man the Levite: and they turned in thither, and said unto him, Who brought thee hither? and what makest thou in this place? and what hast thou here? 18:4 And he said unto them, Thus and thus dealeth Micah with me, and hath hired me, and I am his priest.
 18:5 And they said unto him, Ask counsel, we pray thee, of God, that we may know whether our way which we go shall be prosperous.
@@ -445,7 +444,7 @@ And she said unto him, The Philistines be upon thee, Samson. And he brake the wi
 18:29 And they called the name of the city Dan, after the name of Dan their father, who was born unto Israel: howbeit the name of the city was Laish at the first.
 18:30 And the children of Dan set up the graven image: and Jonathan, the son of Gershom, the son of Manasseh, he and his sons were priests to the tribe of Dan until the day of the captivity of the land.
 18:31 And they set them up Micah's graven image, which he made, all the time that the house of God was in Shiloh.
-<span id="19<?= $book ?>"></span>19:1 And it came to pass in those days, when there was no king in Israel, that there was a certain Levite sojourning on the side of mount Ephraim, who took to him a concubine out of Bethlehemjudah.
+<span id="<?php echo $chapterprefix; ?>19"></span>19:1 And it came to pass in those days, when there was no king in Israel, that there was a certain Levite sojourning on the side of mount Ephraim, who took to him a concubine out of Bethlehemjudah.
 19:2 And his concubine played the whore against him, and went away from him unto her father's house to Bethlehemjudah, and was there four whole months.
 19:3 And her husband arose, and went after her, to speak friendly unto her, and to bring her again, having his servant with him, and a couple of asses: and she brought him into her father's house: and when the father of the damsel saw him, he rejoiced to meet him.
 19:4 And his father in law, the damsel's father, retained him; and he abode with him three days: so they did eat and drink, and lodged there.
@@ -475,7 +474,7 @@ And she said unto him, The Philistines be upon thee, Samson. And he brake the wi
 Then the man took her up upon an ass, and the man rose up, and gat him unto his place.
 19:29 And when he was come into his house, he took a knife, and laid hold on his concubine, and divided her, together with her bones, into twelve pieces, and sent her into all the coasts of Israel.
 19:30 And it was so, that all that saw it said, There was no such deed done nor seen from the day that the children of Israel came up out of the land of Egypt unto this day: consider of it, take advice, and speak your minds.
-<span id="20<?= $book ?>"></span>20:1 Then all the children of Israel went out, and the congregation was gathered together as one man, from Dan even to Beersheba, with the land of Gilead, unto the LORD in Mizpeh.
+<span id="<?php echo $chapterprefix; ?>20"></span>20:1 Then all the children of Israel went out, and the congregation was gathered together as one man, from Dan even to Beersheba, with the land of Gilead, unto the LORD in Mizpeh.
 20:2 And the chief of all the people, even of all the tribes of Israel, presented themselves in the assembly of the people of God, four hundred thousand footmen that drew sword.
 20:3 (Now the children of Benjamin heard that the children of Israel were gone up to Mizpeh.) Then said the children of Israel, Tell us, how was this wickedness? 20:4 And the Levite, the husband of the woman that was slain, answered and said, I came into Gibeah that belongeth to Benjamin, I and my concubine, to lodge.
 20:5 And the men of Gibeah rose against me, and beset the house round about upon me by night, and thought to have slain me: and my concubine have they forced, that she is dead.
@@ -518,7 +517,7 @@ Then the man took her up upon an ass, and the man rose up, and gat him unto his 
 20:46 So that all which fell that day of Benjamin were twenty and five thousand men that drew the sword; all these were men of valour.
 20:47 But six hundred men turned and fled to the wilderness unto the rock Rimmon, and abode in the rock Rimmon four months.
 20:48 And the men of Israel turned again upon the children of Benjamin, and smote them with the edge of the sword, as well the men of every city, as the beast, and all that came to hand: also they set on fire all the cities that they came to.
-<span id="21<?= $book ?>"></span>21:1 Now the men of Israel had sworn in Mizpeh, saying, There shall not any of us give his daughter unto Benjamin to wife.
+<span id="<?php echo $chapterprefix; ?>21"></span>21:1 Now the men of Israel had sworn in Mizpeh, saying, There shall not any of us give his daughter unto Benjamin to wife.
 21:2 And the people came to the house of God, and abode there till even before God, and lifted up their voices, and wept sore; 21:3 And said, O LORD God of Israel, why is this come to pass in Israel, that there should be to day one tribe lacking in Israel? 21:4 And it came to pass on the morrow, that the people rose early, and built there an altar, and offered burnt offerings and peace offerings.
 21:5 And the children of Israel said, Who is there among all the tribes of Israel that came not up with the congregation unto the LORD? For they had made a great oath concerning him that came not up to the LORD to Mizpeh, saying, He shall surely be put to death.
 21:6 And the children of Israel repented them for Benjamin their brother, and said, There is one tribe cut off from Israel this day.
@@ -538,8 +537,4 @@ Then the man took her up upon an ass, and the man rose up, and gat him unto his 
 21:23 And the children of Benjamin did so, and took them wives, according to their number, of them that danced, whom they caught: and they went and returned unto their inheritance, and repaired the cities, and dwelt in them.
 21:24 And the children of Israel departed thence at that time, every man to his tribe and to his family, and they went out from thence every man to his inheritance.
 21:25 In those days there was no king in Israel: every man did that which was right in his own eyes.
-<?php
-if (!isset($include)) {
- include ('aa-end.php');
-}
-?>
+<?php if (!isset($collection)) {include 'bookfoot.php';} ?>

@@ -1,11 +1,10 @@
 <?php
 $title = 'Daniel';
 $description = 'The Book of Daniel';
-if (!isset($include)) {
- include ('aa-beginning.php');
-}
+if (isset($collection)) {$chapterprefix = 'daniel';}
+if (!isset($collection)) {include 'bookhead.php';}
 ?>
-<span id="1<?= $book ?>"></span><h2 id="daniel">The Book of Daniel</h2><!--1t27b-->
+<span id="<?php echo $chapterprefix; ?>1"></span><h3 id="daniel">The Book of Daniel</h3><!--1t27b-->
 1:1 In the third year of the reign of Jehoiakim king of Judah came Nebuchadnezzar king of Babylon unto Jerusalem, and besieged it.
 1:2 And the Lord gave Jehoiakim king of Judah into his hand, with part of the vessels of the house of God: which he carried into the land of Shinar to the house of his god; and he brought the vessels into the treasure house of his god.
 1:3 And the king spake unto Ashpenaz the master of his eunuchs, that he should bring certain of the children of Israel, and of the king's seed, and of the princes; 1:4 Children in whom was no blemish, but well favoured, and skilful in all wisdom, and cunning in knowledge, and understanding science, and such as had ability in them to stand in the king's palace, and whom they might teach the learning and the tongue of the Chaldeans.
@@ -24,7 +23,7 @@ if (!isset($include)) {
 1:19 And the king communed with them; and among them all was found none like Daniel, Hananiah, Mishael, and Azariah: therefore stood they before the king.
 1:20 And in all matters of wisdom and understanding, that the king enquired of them, he found them ten times better than all the magicians and astrologers that were in all his realm.
 1:21 And Daniel continued even unto the first year of king Cyrus.
-<span id="2<?= $book ?>"></span>2:1 And in the second year of the reign of Nebuchadnezzar Nebuchadnezzar dreamed dreams, wherewith his spirit was troubled, and his sleep brake from him.
+<span id="<?php echo $chapterprefix; ?>2"></span>2:1 And in the second year of the reign of Nebuchadnezzar Nebuchadnezzar dreamed dreams, wherewith his spirit was troubled, and his sleep brake from him.
 2:2 Then the king commanded to call the magicians, and the astrologers, and the sorcerers, and the Chaldeans, for to shew the king his dreams. So they came and stood before the king.
 2:3 And the king said unto them, I have dreamed a dream, and my spirit was troubled to know the dream.
 2:4 Then spake the Chaldeans to the king in Syriack, O king, live for ever: tell thy servants the dream, and we will shew the interpretation.
@@ -65,7 +64,7 @@ if (!isset($include)) {
 2:47 The king answered unto Daniel, and said, Of a truth it is, that your God is a God of gods, and a Lord of kings, and a revealer of secrets, seeing thou couldest reveal this secret.
 2:48 Then the king made Daniel a great man, and gave him many great gifts, and made him ruler over the whole province of Babylon, and chief of the governors over all the wise men of Babylon.
 2:49 Then Daniel requested of the king, and he set Shadrach, Meshach, and Abednego, over the affairs of the province of Babylon: but Daniel sat in the gate of the king.
-<span id="3<?= $book ?>"></span>3:1 Nebuchadnezzar the king made an image of gold, whose height was threescore cubits, and the breadth thereof six cubits: he set it up in the plain of Dura, in the province of Babylon.
+<span id="<?php echo $chapterprefix; ?>3"></span>3:1 Nebuchadnezzar the king made an image of gold, whose height was threescore cubits, and the breadth thereof six cubits: he set it up in the plain of Dura, in the province of Babylon.
 3:2 Then Nebuchadnezzar the king sent to gather together the princes, the governors, and the captains, the judges, the treasurers, the counsellors, the sheriffs, and all the rulers of the provinces, to come to the dedication of the image which Nebuchadnezzar the king had set up.
 3:3 Then the princes, the governors, and captains, the judges, the treasurers, the counsellors, the sheriffs, and all the rulers of the provinces, were gathered together unto the dedication of the image that Nebuchadnezzar the king had set up; and they stood before the image that Nebuchadnezzar had set up.
 3:4 Then an herald cried aloud, To you it is commanded, O people, nations, and languages, 3:5 That at what time ye hear the sound of the cornet, flute, harp, sackbut, psaltery, dulcimer, and all kinds of musick, ye fall down and worship the golden image that Nebuchadnezzar the king hath set up: 3:6 And whoso falleth not down and worshippeth shall the same hour be cast into the midst of a burning fiery furnace.
@@ -90,7 +89,7 @@ if (!isset($include)) {
 3:28 Then Nebuchadnezzar spake, and said, Blessed be the God of Shadrach, Meshach, and Abednego, who hath sent his angel, and delivered his servants that trusted in him, and have changed the king's word, and yielded their bodies, that they might not serve nor worship any god, except their own God.
 3:29 Therefore I make a decree, That every people, nation, and language, which speak any thing amiss against the God of Shadrach, Meshach, and Abednego, shall be cut in pieces, and their houses shall be made a dunghill: because there is no other God that can deliver after this sort.
 3:30 Then the king promoted Shadrach, Meshach, and Abednego, in the province of Babylon.
-<span id="4<?= $book ?>"></span>4:1 Nebuchadnezzar the king, unto all people, nations, and languages, that dwell in all the earth; Peace be multiplied unto you.
+<span id="<?php echo $chapterprefix; ?>4"></span>4:1 Nebuchadnezzar the king, unto all people, nations, and languages, that dwell in all the earth; Peace be multiplied unto you.
 4:2 I thought it good to shew the signs and wonders that the high God hath wrought toward me.
 4:3 How great are his signs! and how mighty are his wonders! his kingdom is an everlasting kingdom, and his dominion is from generation to generation.
 4:4 I Nebuchadnezzar was at rest in mine house, and flourishing in my palace: 4:5 I saw a dream which made me afraid, and the thoughts upon my bed and the visions of my head troubled me.
@@ -114,7 +113,7 @@ if (!isset($include)) {
 4:33 The same hour was the thing fulfilled upon Nebuchadnezzar: and he was driven from men, and did eat grass as oxen, and his body was wet with the dew of heaven, till his hairs were grown like eagles' feathers, and his nails like birds' claws.
 4:34 And at the end of the days I Nebuchadnezzar lifted up mine eyes unto heaven, and mine understanding returned unto me, and I blessed the most High, and I praised and honoured him that liveth for ever, whose dominion is an everlasting dominion, and his kingdom is from generation to generation: 4:35 And all the inhabitants of the earth are reputed as nothing: and he doeth according to his will in the army of heaven, and among the inhabitants of the earth: and none can stay his hand, or say unto him, What doest thou? 4:36 At the same time my reason returned unto me; and for the glory of my kingdom, mine honour and brightness returned unto me; and my counsellors and my lords sought unto me; and I was established in my kingdom, and excellent majesty was added unto me.
 4:37 Now I Nebuchadnezzar praise and extol and honour the King of heaven, all whose works are truth, and his ways judgment: and those that walk in pride he is able to abase.
-<span id="5<?= $book ?>"></span>5:1 Belshazzar the king made a great feast to a thousand of his lords, and drank wine before the thousand.
+<span id="<?php echo $chapterprefix; ?>5"></span>5:1 Belshazzar the king made a great feast to a thousand of his lords, and drank wine before the thousand.
 5:2 Belshazzar, whiles he tasted the wine, commanded to bring the golden and silver vessels which his father Nebuchadnezzar had taken out of the temple which was in Jerusalem; that the king, and his princes, his wives, and his concubines, might drink therein.
 5:3 Then they brought the golden vessels that were taken out of the temple of the house of God which was at Jerusalem; and the king, and his princes, his wives, and his concubines, drank in them.
 5:4 They drank wine, and praised the gods of gold, and of silver, of brass, of iron, of wood, and of stone.
@@ -137,7 +136,7 @@ if (!isset($include)) {
 5:29 Then commanded Belshazzar, and they clothed Daniel with scarlet, and put a chain of gold about his neck, and made a proclamation concerning him, that he should be the third ruler in the kingdom.
 5:30 In that night was Belshazzar the king of the Chaldeans slain.
 5:31 And Darius the Median took the kingdom, being about threescore and two years old.
-<span id="6<?= $book ?>"></span>6:1 It pleased Darius to set over the kingdom an hundred and twenty princes, which should be over the whole kingdom; 6:2 And over these three presidents; of whom Daniel was first: that the princes might give accounts unto them, and the king should have no damage.
+<span id="<?php echo $chapterprefix; ?>6"></span>6:1 It pleased Darius to set over the kingdom an hundred and twenty princes, which should be over the whole kingdom; 6:2 And over these three presidents; of whom Daniel was first: that the princes might give accounts unto them, and the king should have no damage.
 6:3 Then this Daniel was preferred above the presidents and princes, because an excellent spirit was in him; and the king thought to set him over the whole realm.
 6:4 Then the presidents and princes sought to find occasion against Daniel concerning the kingdom; but they could find none occasion nor fault; forasmuch as he was faithful, neither was there any error or fault found in him.
 6:5 Then said these men, We shall not find any occasion against this Daniel, except we find it against him concerning the law of his God.
@@ -163,7 +162,7 @@ if (!isset($include)) {
 6:26 I make a decree, That in every dominion of my kingdom men tremble and fear before the God of Daniel: for he is the living God, and stedfast for ever, and his kingdom that which shall not be destroyed, and his dominion shall be even unto the end.
 6:27 He delivereth and rescueth, and he worketh signs and wonders in heaven and in earth, who hath delivered Daniel from the power of the lions.
 6:28 So this Daniel prospered in the reign of Darius, and in the reign of Cyrus the Persian.
-<span id="7<?= $book ?>"></span>7:1 In the first year of Belshazzar king of Babylon Daniel had a dream and visions of his head upon his bed: then he wrote the dream, and told the sum of the matters.
+<span id="<?php echo $chapterprefix; ?>7"></span>7:1 In the first year of Belshazzar king of Babylon Daniel had a dream and visions of his head upon his bed: then he wrote the dream, and told the sum of the matters.
 7:2 Daniel spake and said, I saw in my vision by night, and, behold, the four winds of the heaven strove upon the great sea.
 7:3 And four great beasts came up from the sea, diverse one from another.
 7:4 The first was like a lion, and had eagle's wings: I beheld till the wings thereof were plucked, and it was lifted up from the earth, and made stand upon the feet as a man, and a man's heart was given to it.
@@ -189,7 +188,7 @@ if (!isset($include)) {
 7:26 But the judgment shall sit, and they shall take away his dominion, to consume and to destroy it unto the end.
 7:27 And the kingdom and dominion, and the greatness of the kingdom under the whole heaven, shall be given to the people of the saints of the most High, whose kingdom is an everlasting kingdom, and all dominions shall serve and obey him.
 7:28 Hitherto is the end of the matter. As for me Daniel, my cogitations much troubled me, and my countenance changed in me: but I kept the matter in my heart.
-<span id="8<?= $book ?>"></span>8:1 In the third year of the reign of king Belshazzar a vision appeared unto me, even unto me Daniel, after that which appeared unto me at the first.
+<span id="<?php echo $chapterprefix; ?>8"></span>8:1 In the third year of the reign of king Belshazzar a vision appeared unto me, even unto me Daniel, after that which appeared unto me at the first.
 8:2 And I saw in a vision; and it came to pass, when I saw, that I was at Shushan in the palace, which is in the province of Elam; and I saw in a vision, and I was by the river of Ulai.
 8:3 Then I lifted up mine eyes, and saw, and, behold, there stood before the river a ram which had two horns: and the two horns were high; but one was higher than the other, and the higher came up last.
 8:4 I saw the ram pushing westward, and northward, and southward; so that no beasts might stand before him, neither was there any that could deliver out of his hand; but he did according to his will, and became great.
@@ -215,7 +214,7 @@ if (!isset($include)) {
 8:25 And through his policy also he shall cause craft to prosper in his hand; and he shall magnify himself in his heart, and by peace shall destroy many: he shall also stand up against the Prince of princes; but he shall be broken without hand.
 8:26 And the vision of the evening and the morning which was told is true: wherefore shut thou up the vision; for it shall be for many days.
 8:27 And I Daniel fainted, and was sick certain days; afterward I rose up, and did the king's business; and I was astonished at the vision, but none understood it.
-<span id="9<?= $book ?>"></span>9:1 In the first year of Darius the son of Ahasuerus, of the seed of the Medes, which was made king over the realm of the Chaldeans; 9:2 In the first year of his reign I Daniel understood by books the number of the years, whereof the word of the LORD came to Jeremiah the prophet, that he would accomplish seventy years in the desolations of Jerusalem.
+<span id="<?php echo $chapterprefix; ?>9"></span>9:1 In the first year of Darius the son of Ahasuerus, of the seed of the Medes, which was made king over the realm of the Chaldeans; 9:2 In the first year of his reign I Daniel understood by books the number of the years, whereof the word of the LORD came to Jeremiah the prophet, that he would accomplish seventy years in the desolations of Jerusalem.
 9:3 And I set my face unto the Lord God, to seek by prayer and supplications, with fasting, and sackcloth, and ashes: 9:4 And I prayed unto the LORD my God, and made my confession, and said, O Lord, the great and dreadful God, keeping the covenant and mercy to them that love him, and to them that keep his commandments; 9:5 We have sinned, and have committed iniquity, and have done wickedly, and have rebelled, even by departing from thy precepts and from thy judgments: 9:6 Neither have we hearkened unto thy servants the prophets, which spake in thy name to our kings, our princes, and our fathers, and to all the people of the land.
 9:7 O LORD, righteousness belongeth unto thee, but unto us confusion of faces, as at this day; to the men of Judah, and to the inhabitants of Jerusalem, and unto all Israel, that are near, and that are far off, through all the countries whither thou hast driven them, because of their trespass that they have trespassed against thee.
 9:8 O Lord, to us belongeth confusion of face, to our kings, to our princes, and to our fathers, because we have sinned against thee.
@@ -236,7 +235,7 @@ if (!isset($include)) {
 9:25 Know therefore and understand, that from the going forth of the commandment to restore and to build Jerusalem unto the Messiah the Prince shall be seven weeks, and threescore and two weeks: the street shall be built again, and the wall, even in troublous times.
 9:26 And after threescore and two weeks shall Messiah be cut off, but not for himself: and the people of the prince that shall come shall destroy the city and the sanctuary; and the end thereof shall be with a flood, and unto the end of the war desolations are determined.
 9:27 And he shall confirm the covenant with many for one week: and in the midst of the week he shall cause the sacrifice and the oblation to cease, and for the overspreading of abominations he shall make it desolate, even until the consummation, and that determined shall be poured upon the desolate.
-<span id="10<?= $book ?>"></span>10:1 In the third year of Cyrus king of Persia a thing was revealed unto Daniel, whose name was called Belteshazzar; and the thing was true, but the time appointed was long: and he understood the thing, and had understanding of the vision.
+<span id="<?php echo $chapterprefix; ?>10"></span>10:1 In the third year of Cyrus king of Persia a thing was revealed unto Daniel, whose name was called Belteshazzar; and the thing was true, but the time appointed was long: and he understood the thing, and had understanding of the vision.
 10:2 In those days I Daniel was mourning three full weeks.
 10:3 I ate no pleasant bread, neither came flesh nor wine in my mouth, neither did I anoint myself at all, till three whole weeks were fulfilled.
 10:4 And in the four and twentieth day of the first month, as I was by the side of the great river, which is Hiddekel; 10:5 Then I lifted up mine eyes, and looked, and behold a certain man clothed in linen, whose loins were girded with fine gold of Uphaz: 10:6 His body also was like the beryl, and his face as the appearance of lightning, and his eyes as lamps of fire, and his arms and his feet like in colour to polished brass, and the voice of his words like the voice of a multitude.
@@ -255,7 +254,7 @@ And when he had spoken this word unto me, I stood trembling.
 10:18 Then there came again and touched me one like the appearance of a man, and he strengthened me, 10:19 And said, O man greatly beloved, fear not: peace be unto thee, be strong, yea, be strong. And when he had spoken unto me, I was strengthened, and said, Let my lord speak; for thou hast strengthened me.
 10:20 Then said he, Knowest thou wherefore I come unto thee? and now will I return to fight with the prince of Persia: and when I am gone forth, lo, the prince of Grecia shall come.
 10:21 But I will shew thee that which is noted in the scripture of truth: and there is none that holdeth with me in these things, but Michael your prince.
-<span id="11<?= $book ?>"></span>11:1 Also I in the first year of Darius the Mede, even I, stood to confirm and to strengthen him.
+<span id="<?php echo $chapterprefix; ?>11"></span>11:1 Also I in the first year of Darius the Mede, even I, stood to confirm and to strengthen him.
 11:2 And now will I shew thee the truth. Behold, there shall stand up yet three kings in Persia; and the fourth shall be far richer than they all: and by his strength through his riches he shall stir up all against the realm of Grecia.
 11:3 And a mighty king shall stand up, that shall rule with great dominion, and do according to his will.
 11:4 And when he shall stand up, his kingdom shall be broken, and shall be divided toward the four winds of heaven; and not to his posterity, nor according to his dominion which he ruled: for his kingdom shall be plucked up, even for others beside those.
@@ -299,7 +298,7 @@ And when he had spoken this word unto me, I stood trembling.
 11:43 But he shall have power over the treasures of gold and of silver, and over all the precious things of Egypt: and the Libyans and the Ethiopians shall be at his steps.
 11:44 But tidings out of the east and out of the north shall trouble him: therefore he shall go forth with great fury to destroy, and utterly to make away many.
 11:45 And he shall plant the tabernacles of his palace between the seas in the glorious holy mountain; yet he shall come to his end, and none shall help him.
-<span id="12<?= $book ?>"></span>12:1 And at that time shall Michael stand up, the great prince which standeth for the children of thy people: and there shall be a time of trouble, such as never was since there was a nation even to that same time: and at that time thy people shall be delivered, every one that shall be found written in the book.
+<span id="<?php echo $chapterprefix; ?>12"></span>12:1 And at that time shall Michael stand up, the great prince which standeth for the children of thy people: and there shall be a time of trouble, such as never was since there was a nation even to that same time: and at that time thy people shall be delivered, every one that shall be found written in the book.
 12:2 And many of them that sleep in the dust of the earth shall awake, some to everlasting life, and some to shame and everlasting contempt.
 12:3 And they that be wise shall shine as the brightness of the firmament; and they that turn many to righteousness as the stars for ever and ever.
 12:4 But thou, O Daniel, shut up the words, and seal the book, even to the time of the end: many shall run to and fro, and knowledge shall be increased.
@@ -310,8 +309,4 @@ And when he had spoken this word unto me, I stood trembling.
 12:11 And from the time that the daily sacrifice shall be taken away, and the abomination that maketh desolate set up, there shall be a thousand two hundred and ninety days.
 12:12 Blessed is he that waiteth, and cometh to the thousand three hundred and five and thirty days.
 12:13 But go thou thy way till the end be: for thou shalt rest, and stand in thy lot at the end of the days.
-<?php
-if (!isset($include)) {
- include ('aa-end.php');
-}
-?>
+<?php if (!isset($collection)) {include 'bookfoot.php';} ?>

@@ -1,11 +1,10 @@
 <?php
 $title = '2 Corinthians';
 $description = 'The First Epistle of Paul the Apostle to the Corinthians';
-if (!isset($include)) {
- include ('aa-beginning.php');
-}
+if (isset($collection)) {$chapterprefix = 'secondcorinthians';}
+if (!isset($collection)) {include 'bookhead.php';}
 ?>
-<span id="1<?= $book ?>"></span><h2 id="corinthians2">The Second Epistle of Paul the Apostle to the Corinthians</h2><!--2t8b-->
+<span id="<?php echo $chapterprefix; ?>1"></span><h3 id="corinthians2">The Second Epistle of Paul the Apostle to the Corinthians</h3><!--2t8b-->
 1:1 Paul, an apostle of Jesus Christ by the will of God, and Timothy our brother, unto the church of God which is at Corinth, with all the saints which are in all Achaia: 1:2 Grace be to you and peace from God our Father, and from the Lord Jesus Christ.
 1:3 Blessed be God, even the Father of our Lord Jesus Christ, the Father of mercies, and the God of all comfort; 1:4 Who comforteth us in all our tribulation, that we may be able to comfort them which are in any trouble, by the comfort wherewith we ourselves are comforted of God.
 1:5 For as the sufferings of Christ abound in us, so our consolation also aboundeth by Christ.
@@ -21,7 +20,7 @@ if (!isset($include)) {
 1:21 Now he which stablisheth us with you in Christ, and hath anointed us, is God; 1:22 Who hath also sealed us, and given the earnest of the Spirit in our hearts.
 1:23 Moreover I call God for a record upon my soul, that to spare you I came not as yet unto Corinth.
 1:24 Not for that we have dominion over your faith, but are helpers of your joy: for by faith ye stand.
-<span id="2<?= $book ?>"></span>2:1 But I determined this with myself, that I would not come again to you in heaviness.
+<span id="<?php echo $chapterprefix; ?>2"></span>2:1 But I determined this with myself, that I would not come again to you in heaviness.
 2:2 For if I make you sorry, who is he then that maketh me glad, but the same which is made sorry by me? 2:3 And I wrote this same unto you, lest, when I came, I should have sorrow from them of whom I ought to rejoice; having confidence in you all, that my joy is the joy of you all.
 2:4 For out of much affliction and anguish of heart I wrote unto you with many tears; not that ye should be grieved, but that ye might know the love which I have more abundantly unto you.
 2:5 But if any have caused grief, he hath not grieved me, but in part: that I may not overcharge you all.
@@ -33,7 +32,7 @@ if (!isset($include)) {
 2:12 Furthermore, when I came to Troas to preach Christ's gospel, and a door was opened unto me of the Lord, 2:13 I had no rest in my spirit, because I found not Titus my brother: but taking my leave of them, I went from thence into Macedonia.
 2:14 Now thanks be unto God, which always causeth us to triumph in Christ, and maketh manifest the savour of his knowledge by us in every place.
 2:15 For we are unto God a sweet savour of Christ, in them that are saved, and in them that perish: 2:16 To the one we are the savour of death unto death; and to the other the savour of life unto life. And who is sufficient for these things? 2:17 For we are not as many, which corrupt the word of God: but as of sincerity, but as of God, in the sight of God speak we in Christ.
-<span id="3<?= $book ?>"></span>3:1 Do we begin again to commend ourselves? or need we, as some others, epistles of commendation to you, or letters of commendation from you? 3:2 Ye are our epistle written in our hearts, known and read of all men: 3:3 Forasmuch as ye are manifestly declared to be the epistle of Christ ministered by us, written not with ink, but with the Spirit of the living God; not in tables of stone, but in fleshy tables of the heart.
+<span id="<?php echo $chapterprefix; ?>3"></span>3:1 Do we begin again to commend ourselves? or need we, as some others, epistles of commendation to you, or letters of commendation from you? 3:2 Ye are our epistle written in our hearts, known and read of all men: 3:3 Forasmuch as ye are manifestly declared to be the epistle of Christ ministered by us, written not with ink, but with the Spirit of the living God; not in tables of stone, but in fleshy tables of the heart.
 3:4 And such trust have we through Christ to God-ward: 3:5 Not that we are sufficient of ourselves to think any thing as of ourselves; but our sufficiency is of God; 3:6 Who also hath made us able ministers of the new testament; not of the letter, but of the spirit: for the letter killeth, but the spirit giveth life.
 3:7 But if the ministration of death, written and engraven in stones, was glorious, so that the children of Israel could not stedfastly behold the face of Moses for the glory of his countenance; which glory was to be done away: 3:8 How shall not the ministration of the spirit be rather glorious? 3:9 For if the ministration of condemnation be glory, much more doth the ministration of righteousness exceed in glory.
 3:10 For even that which was made glorious had no glory in this respect, by reason of the glory that excelleth.
@@ -43,7 +42,7 @@ if (!isset($include)) {
 3:16 Nevertheless when it shall turn to the Lord, the vail shall be taken away.
 3:17 Now the Lord is that Spirit: and where the Spirit of the Lord is, there is liberty.
 3:18 But we all, with open face beholding as in a glass the glory of the Lord, are changed into the same image from glory to glory, even as by the Spirit of the LORD.
-<span id="4<?= $book ?>"></span>4:1 Therefore seeing we have this ministry, as we have received mercy, we faint not; 4:2 But have renounced the hidden things of dishonesty, not walking in craftiness, nor handling the word of God deceitfully; but by manifestation of the truth commending ourselves to every man's conscience in the sight of God.
+<span id="<?php echo $chapterprefix; ?>4"></span>4:1 Therefore seeing we have this ministry, as we have received mercy, we faint not; 4:2 But have renounced the hidden things of dishonesty, not walking in craftiness, nor handling the word of God deceitfully; but by manifestation of the truth commending ourselves to every man's conscience in the sight of God.
 4:3 But if our gospel be hid, it is hid to them that are lost: 4:4 In whom the god of this world hath blinded the minds of them which believe not, lest the light of the glorious gospel of Christ, who is the image of God, should shine unto them.
 4:5 For we preach not ourselves, but Christ Jesus the Lord; and ourselves your servants for Jesus' sake.
 4:6 For God, who commanded the light to shine out of darkness, hath shined in our hearts, to give the light of the knowledge of the glory of God in the face of Jesus Christ.
@@ -55,7 +54,7 @@ if (!isset($include)) {
 4:15 For all things are for your sakes, that the abundant grace might through the thanksgiving of many redound to the glory of God.
 4:16 For which cause we faint not; but though our outward man perish, yet the inward man is renewed day by day.
 4:17 For our light affliction, which is but for a moment, worketh for us a far more exceeding and eternal weight of glory; 4:18 While we look not at the things which are seen, but at the things which are not seen: for the things which are seen are temporal; but the things which are not seen are eternal.
-<span id="5<?= $book ?>"></span>5:1 For we know that if our earthly house of this tabernacle were dissolved, we have a building of God, an house not made with hands, eternal in the heavens.
+<span id="<?php echo $chapterprefix; ?>5"></span>5:1 For we know that if our earthly house of this tabernacle were dissolved, we have a building of God, an house not made with hands, eternal in the heavens.
 5:2 For in this we groan, earnestly desiring to be clothed upon with our house which is from heaven: 5:3 If so be that being clothed we shall not be found naked.
 5:4 For we that are in this tabernacle do groan, being burdened: not for that we would be unclothed, but clothed upon, that mortality might be swallowed up of life.
 5:5 Now he that hath wrought us for the selfsame thing is God, who also hath given unto us the earnest of the Spirit.
@@ -71,7 +70,7 @@ if (!isset($include)) {
 5:18 And all things are of God, who hath reconciled us to himself by Jesus Christ, and hath given to us the ministry of reconciliation; 5:19 To wit, that God was in Christ, reconciling the world unto himself, not imputing their trespasses unto them; and hath committed unto us the word of reconciliation.
 5:20 Now then we are ambassadors for Christ, as though God did beseech you by us: we pray you in Christ's stead, be ye reconciled to God.
 5:21 For he hath made him to be sin for us, who knew no sin; that we might be made the righteousness of God in him.
-<span id="6<?= $book ?>"></span>6:1 We then, as workers together with him, beseech you also that ye receive not the grace of God in vain.
+<span id="<?php echo $chapterprefix; ?>6"></span>6:1 We then, as workers together with him, beseech you also that ye receive not the grace of God in vain.
 6:2 (For he saith, I have heard thee in a time accepted, and in the day of salvation have I succoured thee: behold, now is the accepted time; behold, now is the day of salvation.) 6:3 Giving no offence in any thing, that the ministry be not blamed: 6:4 But in all things approving ourselves as the ministers of God, in much patience, in afflictions, in necessities, in distresses, 6:5 In stripes, in imprisonments, in tumults, in labours, in watchings, in fastings; 6:6 By pureness, by knowledge, by longsuffering, by kindness, by the Holy Ghost, by love unfeigned, 6:7 By the word of truth, by the power of God, by the armour of righteousness on the right hand and on the left, 6:8 By honour and dishonour, by evil report and good report: as deceivers, and yet true; 6:9 As unknown, and yet well known; as dying, and, behold, we live; as chastened, and not killed; 6:10 As sorrowful, yet alway rejoicing; as poor, yet making many rich; as having nothing, and yet possessing all things.
 6:11 O ye Corinthians, our mouth is open unto you, our heart is enlarged.
 6:12 Ye are not straitened in us, but ye are straitened in your own bowels.
@@ -79,7 +78,7 @@ if (!isset($include)) {
 6:14 Be ye not unequally yoked together with unbelievers: for what fellowship hath righteousness with unrighteousness? and what communion hath light with darkness? 6:15 And what concord hath Christ with Belial? or what part hath he that believeth with an infidel? 6:16 And what agreement hath the temple of God with idols? for ye are the temple of the living God; as God hath said, I will dwell in them, and walk in them; and I will be their God, and they shall be my people.
 6:17 Wherefore come out from among them, and be ye separate, saith the Lord, and touch not the unclean thing; and I will receive you.
 6:18 And will be a Father unto you, and ye shall be my sons and daughters, saith the Lord Almighty.
-<span id="7<?= $book ?>"></span>7:1 Having therefore these promises, dearly beloved, let us cleanse ourselves from all filthiness of the flesh and spirit, perfecting holiness in the fear of God.
+<span id="<?php echo $chapterprefix; ?>7"></span>7:1 Having therefore these promises, dearly beloved, let us cleanse ourselves from all filthiness of the flesh and spirit, perfecting holiness in the fear of God.
 7:2 Receive us; we have wronged no man, we have corrupted no man, we have defrauded no man.
 7:3 I speak not this to condemn you: for I have said before, that ye are in our hearts to die and live with you.
 7:4 Great is my boldness of speech toward you, great is my glorying of you: I am filled with comfort, I am exceeding joyful in all our tribulation.
@@ -94,7 +93,7 @@ if (!isset($include)) {
 7:14 For if I have boasted any thing to him of you, I am not ashamed; but as we spake all things to you in truth, even so our boasting, which I made before Titus, is found a truth.
 7:15 And his inward affection is more abundant toward you, whilst he remembereth the obedience of you all, how with fear and trembling ye received him.
 7:16 I rejoice therefore that I have confidence in you in all things.
-<span id="8<?= $book ?>"></span>8:1 Moreover, brethren, we do you to wit of the grace of God bestowed on the churches of Macedonia; 8:2 How that in a great trial of affliction the abundance of their joy and their deep poverty abounded unto the riches of their liberality.
+<span id="<?php echo $chapterprefix; ?>8"></span>8:1 Moreover, brethren, we do you to wit of the grace of God bestowed on the churches of Macedonia; 8:2 How that in a great trial of affliction the abundance of their joy and their deep poverty abounded unto the riches of their liberality.
 8:3 For to their power, I bear record, yea, and beyond their power they were willing of themselves; 8:4 Praying us with much intreaty that we would receive the gift, and take upon us the fellowship of the ministering to the saints.
 8:5 And this they did, not as we hoped, but first gave their own selves to the Lord, and unto us by the will of God.
 8:6 Insomuch that we desired Titus, that as he had begun, so he would also finish in you the same grace also.
@@ -111,7 +110,7 @@ if (!isset($include)) {
 8:22 And we have sent with them our brother, whom we have oftentimes proved diligent in many things, but now much more diligent, upon the great confidence which I have in you.
 8:23 Whether any do enquire of Titus, he is my partner and fellowhelper concerning you: or our brethren be enquired of, they are the messengers of the churches, and the glory of Christ.
 8:24 Wherefore shew ye to them, and before the churches, the proof of your love, and of our boasting on your behalf.
-<span id="9<?= $book ?>"></span>9:1 For as touching the ministering to the saints, it is superfluous for me to write to you: 9:2 For I know the forwardness of your mind, for which I boast of you to them of Macedonia, that Achaia was ready a year ago; and your zeal hath provoked very many.
+<span id="<?php echo $chapterprefix; ?>9"></span>9:1 For as touching the ministering to the saints, it is superfluous for me to write to you: 9:2 For I know the forwardness of your mind, for which I boast of you to them of Macedonia, that Achaia was ready a year ago; and your zeal hath provoked very many.
 9:3 Yet have I sent the brethren, lest our boasting of you should be in vain in this behalf; that, as I said, ye may be ready: 9:4 Lest haply if they of Macedonia come with me, and find you unprepared, we (that we say not, ye) should be ashamed in this same confident boasting.
 9:5 Therefore I thought it necessary to exhort the brethren, that they would go before unto you, and make up beforehand your bounty, whereof ye had notice before, that the same might be ready, as a matter of bounty, and not as of covetousness.
 9:6 But this I say, He which soweth sparingly shall reap also sparingly; and he which soweth bountifully shall reap also bountifully.
@@ -120,7 +119,7 @@ if (!isset($include)) {
 9:10 Now he that ministereth seed to the sower both minister bread for your food, and multiply your seed sown, and increase the fruits of your righteousness;) 9:11 Being enriched in every thing to all bountifulness, which causeth through us thanksgiving to God.
 9:12 For the administration of this service not only supplieth the want of the saints, but is abundant also by many thanksgivings unto God; 9:13 Whiles by the experiment of this ministration they glorify God for your professed subjection unto the gospel of Christ, and for your liberal distribution unto them, and unto all men; 9:14 And by their prayer for you, which long after you for the exceeding grace of God in you.
 9:15 Thanks be unto God for his unspeakable gift.
-<span id="10<?= $book ?>"></span>10:1 Now I Paul myself beseech you by the meekness and gentleness of Christ, who in presence am base among you, but being absent am bold toward you: 10:2 But I beseech you, that I may not be bold when I am present with that confidence, wherewith I think to be bold against some, which think of us as if we walked according to the flesh.
+<span id="<?php echo $chapterprefix; ?>10"></span>10:1 Now I Paul myself beseech you by the meekness and gentleness of Christ, who in presence am base among you, but being absent am bold toward you: 10:2 But I beseech you, that I may not be bold when I am present with that confidence, wherewith I think to be bold against some, which think of us as if we walked according to the flesh.
 10:3 For though we walk in the flesh, we do not war after the flesh: 10:4 (For the weapons of our warfare are not carnal, but mighty through God to the pulling down of strong holds;) 10:5 Casting down imaginations, and every high thing that exalteth itself against the knowledge of God, and bringing into captivity every thought to the obedience of Christ; 10:6 And having in a readiness to revenge all disobedience, when your obedience is fulfilled.
 10:7 Do ye look on things after the outward appearance? If any man trust to himself that he is Christ's, let him of himself think this again, that, as he is Christ's, even so are we Christ's.
 10:8 For though I should boast somewhat more of our authority, which the Lord hath given us for edification, and not for your destruction, I should not be ashamed: 10:9 That I may not seem as if I would terrify you by letters.
@@ -131,7 +130,7 @@ if (!isset($include)) {
 10:14 For we stretch not ourselves beyond our measure, as though we reached not unto you: for we are come as far as to you also in preaching the gospel of Christ: 10:15 Not boasting of things without our measure, that is, of other men's labours; but having hope, when your faith is increased, that we shall be enlarged by you according to our rule abundantly, 10:16 To preach the gospel in the regions beyond you, and not to boast in another man's line of things made ready to our hand.
 10:17 But he that glorieth, let him glory in the Lord.
 10:18 For not he that commendeth himself is approved, but whom the Lord commendeth.
-<span id="11<?= $book ?>"></span>11:1 Would to God ye could bear with me a little in my folly: and indeed bear with me.
+<span id="<?php echo $chapterprefix; ?>11"></span>11:1 Would to God ye could bear with me a little in my folly: and indeed bear with me.
 11:2 For I am jealous over you with godly jealousy: for I have espoused you to one husband, that I may present you as a chaste virgin to Christ.
 11:3 But I fear, lest by any means, as the serpent beguiled Eve through his subtilty, so your minds should be corrupted from the simplicity that is in Christ.
 11:4 For if he that cometh preacheth another Jesus, whom we have not preached, or if ye receive another spirit, which ye have not received, or another gospel, which ye have not accepted, ye might well bear with him.
@@ -159,7 +158,7 @@ if (!isset($include)) {
 11:29 Who is weak, and I am not weak? who is offended, and I burn not? 11:30 If I must needs glory, I will glory of the things which concern mine infirmities.
 11:31 The God and Father of our Lord Jesus Christ, which is blessed for evermore, knoweth that I lie not.
 11:32 In Damascus the governor under Aretas the king kept the city of the Damascenes with a garrison, desirous to apprehend me: 11:33 And through a window in a basket was I let down by the wall, and escaped his hands.
-<span id="12<?= $book ?>"></span>12:1 It is not expedient for me doubtless to glory. I will come to visions and revelations of the Lord.
+<span id="<?php echo $chapterprefix; ?>12"></span>12:1 It is not expedient for me doubtless to glory. I will come to visions and revelations of the Lord.
 12:2 I knew a man in Christ above fourteen years ago, (whether in the body, I cannot tell; or whether out of the body, I cannot tell: God knoweth;) such an one caught up to the third heaven.
 12:3 And I knew such a man, (whether in the body, or out of the body, I cannot tell: God knoweth;) 12:4 How that he was caught up into paradise, and heard unspeakable words, which it is not lawful for a man to utter.
 12:5 Of such an one will I glory: yet of myself I will not glory, but in mine infirmities.
@@ -176,7 +175,7 @@ if (!isset($include)) {
 12:16 But be it so, I did not burden you: nevertheless, being crafty, I caught you with guile.
 12:17 Did I make a gain of you by any of them whom I sent unto you? 12:18 I desired Titus, and with him I sent a brother. Did Titus make a gain of you? walked we not in the same spirit? walked we not in the same steps? 12:19 Again, think ye that we excuse ourselves unto you? we speak before God in Christ: but we do all things, dearly beloved, for your edifying.
 12:20 For I fear, lest, when I come, I shall not find you such as I would, and that I shall be found unto you such as ye would not: lest there be debates, envyings, wraths, strifes, backbitings, whisperings, swellings, tumults: 12:21 And lest, when I come again, my God will humble me among you, and that I shall bewail many which have sinned already, and have not repented of the uncleanness and fornication and lasciviousness which they have committed.
-<span id="13<?= $book ?>"></span>13:1 This is the third time I am coming to you. In the mouth of two or three witnesses shall every word be established.
+<span id="<?php echo $chapterprefix; ?>13"></span>13:1 This is the third time I am coming to you. In the mouth of two or three witnesses shall every word be established.
 13:2 I told you before, and foretell you, as if I were present, the second time; and being absent now I write to them which heretofore have sinned, and to all other, that, if I come again, I will not spare: 13:3 Since ye seek a proof of Christ speaking in me, which to you-ward is not weak, but is mighty in you.
 13:4 For though he was crucified through weakness, yet he liveth by the power of God. For we also are weak in him, but we shall live with him by the power of God toward you.
 13:5 Examine yourselves, whether ye be in the faith; prove your own selves. Know ye not your own selves, how that Jesus Christ is in you, except ye be reprobates? 13:6 But I trust that ye shall know that we are not reprobates.
@@ -188,8 +187,4 @@ if (!isset($include)) {
 13:12 Greet one another with an holy kiss.
 13:13 All the saints salute you.
 13:14 The grace of the Lord Jesus Christ, and the love of God, and the communion of the Holy Ghost, be with you all. Amen.
-<?php
-if (!isset($include)) {
- include ('aa-end.php');
-}
-?>
+<?php if (!isset($collection)) {include 'bookfoot.php';} ?>

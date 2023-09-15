@@ -1,11 +1,10 @@
 <?php
 $title = 'James';
 $description = 'The General Epistle of James';
-if (!isset($include)) {
- include ('aa-beginning.php');
-}
+if (isset($collection)) {$chapterprefix = 'james';}
+if (!isset($collection)) {include 'bookhead.php';}
 ?>
-<span id="1<?= $book ?>"></span><h2 id="james">The General Epistle of James</h2><!--2t20b-->
+<span id="<?php echo $chapterprefix; ?>1"></span><h3 id="james">The General Epistle of James</h3><!--2t20b-->
 1:1 James, a servant of God and of the Lord Jesus Christ, to the twelve tribes which are scattered abroad, greeting.
 1:2 My brethren, count it all joy when ye fall into divers temptations; 1:3 Knowing this, that the trying of your faith worketh patience.
 1:4 But let patience have her perfect work, that ye may be perfect and entire, wanting nothing.
@@ -28,7 +27,7 @@ if (!isset($include)) {
 1:25 But whoso looketh into the perfect law of liberty, and continueth therein, he being not a forgetful hearer, but a doer of the work, this man shall be blessed in his deed.
 1:26 If any man among you seem to be religious, and bridleth not his tongue, but deceiveth his own heart, this man's religion is vain.
 1:27 Pure religion and undefiled before God and the Father is this, To visit the fatherless and widows in their affliction, and to keep himself unspotted from the world.
-<span id="2<?= $book ?>"></span>2:1 My brethren, have not the faith of our Lord Jesus Christ, the Lord of glory, with respect of persons.
+<span id="<?php echo $chapterprefix; ?>2"></span>2:1 My brethren, have not the faith of our Lord Jesus Christ, the Lord of glory, with respect of persons.
 2:2 For if there come unto your assembly a man with a gold ring, in goodly apparel, and there come in also a poor man in vile raiment; 2:3 And ye have respect to him that weareth the gay clothing, and say unto him, Sit thou here in a good place; and say to the poor, Stand thou there, or sit here under my footstool: 2:4 Are ye not then partial in yourselves, and are become judges of evil thoughts? 2:5 Hearken, my beloved brethren, Hath not God chosen the poor of this world rich in faith, and heirs of the kingdom which he hath promised to them that love him? 2:6 But ye have despised the poor. Do not rich men oppress you, and draw you before the judgment seats? 2:7 Do not they blaspheme that worthy name by the which ye are called? 2:8 If ye fulfil the royal law according to the scripture, Thou shalt love thy neighbour as thyself, ye do well: 2:9 But if ye have respect to persons, ye commit sin, and are convinced of the law as transgressors.
 2:10 For whosoever shall keep the whole law, and yet offend in one point, he is guilty of all.
 2:11 For he that said, Do not commit adultery, said also, Do not kill. Now if thou commit no adultery, yet if thou kill, thou art become a transgressor of the law.
@@ -40,7 +39,7 @@ if (!isset($include)) {
 2:20 But wilt thou know, O vain man, that faith without works is dead? 2:21 Was not Abraham our father justified by works, when he had offered Isaac his son upon the altar? 2:22 Seest thou how faith wrought with his works, and by works was faith made perfect? 2:23 And the scripture was fulfilled which saith, Abraham believed God, and it was imputed unto him for righteousness: and he was called the Friend of God.
 2:24 Ye see then how that by works a man is justified, and not by faith only.
 2:25 Likewise also was not Rahab the harlot justified by works, when she had received the messengers, and had sent them out another way? 2:26 For as the body without the spirit is dead, so faith without works is dead also.
-<span id="3<?= $book ?>"></span>3:1 My brethren, be not many masters, knowing that we shall receive the greater condemnation.
+<span id="<?php echo $chapterprefix; ?>3"></span>3:1 My brethren, be not many masters, knowing that we shall receive the greater condemnation.
 3:2 For in many things we offend all. If any man offend not in word, the same is a perfect man, and able also to bridle the whole body.
 3:3 Behold, we put bits in the horses' mouths, that they may obey us; and we turn about their whole body.
 3:4 Behold also the ships, which though they be so great, and are driven of fierce winds, yet are they turned about with a very small helm, whithersoever the governor listeth.
@@ -56,7 +55,7 @@ Behold, how great a matter a little fire kindleth! 3:6 And the tongue is a fire,
 3:16 For where envying and strife is, there is confusion and every evil work.
 3:17 But the wisdom that is from above is first pure, then peaceable, gentle, and easy to be intreated, full of mercy and good fruits, without partiality, and without hypocrisy.
 3:18 And the fruit of righteousness is sown in peace of them that make peace.
-<span id="4<?= $book ?>"></span>4:1 From whence come wars and fightings among you? come they not hence, even of your lusts that war in your members? 4:2 Ye lust, and have not: ye kill, and desire to have, and cannot obtain: ye fight and war, yet ye have not, because ye ask not.
+<span id="<?php echo $chapterprefix; ?>4"></span>4:1 From whence come wars and fightings among you? come they not hence, even of your lusts that war in your members? 4:2 Ye lust, and have not: ye kill, and desire to have, and cannot obtain: ye fight and war, yet ye have not, because ye ask not.
 4:3 Ye ask, and receive not, because ye ask amiss, that ye may consume it upon your lusts.
 4:4 Ye adulterers and adulteresses, know ye not that the friendship of the world is enmity with God? whosoever therefore will be a friend of the world is the enemy of God.
 4:5 Do ye think that the scripture saith in vain, The spirit that dwelleth in us lusteth to envy? 4:6 But he giveth more grace. Wherefore he saith, God resisteth the proud, but giveth grace unto the humble.
@@ -69,7 +68,7 @@ Behold, how great a matter a little fire kindleth! 3:6 And the tongue is a fire,
 4:15 For that ye ought to say, If the Lord will, we shall live, and do this, or that.
 4:16 But now ye rejoice in your boastings: all such rejoicing is evil.
 4:17 Therefore to him that knoweth to do good, and doeth it not, to him it is sin.
-<span id="5<?= $book ?>"></span>5:1 Go to now, ye rich men, weep and howl for your miseries that shall come upon you.
+<span id="<?php echo $chapterprefix; ?>5"></span>5:1 Go to now, ye rich men, weep and howl for your miseries that shall come upon you.
 5:2 Your riches are corrupted, and your garments are motheaten.
 5:3 Your gold and silver is cankered; and the rust of them shall be a witness against you, and shall eat your flesh as it were fire. Ye have heaped treasure together for the last days.
 5:4 Behold, the hire of the labourers who have reaped down your fields, which is of you kept back by fraud, crieth: and the cries of them which have reaped are entered into the ears of the Lord of sabaoth.
@@ -88,8 +87,4 @@ Behold, the husbandman waiteth for the precious fruit of the earth, and hath lon
 5:17 Elias was a man subject to like passions as we are, and he prayed earnestly that it might not rain: and it rained not on the earth by the space of three years and six months.
 5:18 And he prayed again, and the heaven gave rain, and the earth brought forth her fruit.
 5:19 Brethren, if any of you do err from the truth, and one convert him; 5:20 Let him know, that he which converteth the sinner from the error of his way shall save a soul from death, and shall hide a multitude of sins.
-<?php
-if (!isset($include)) {
- include ('aa-end.php');
-}
-?>
+<?php if (!isset($collection)) {include 'bookfoot.php';} ?>

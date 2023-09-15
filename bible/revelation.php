@@ -1,11 +1,10 @@
 <?php
 $title = 'Revelation';
 $description = 'The Revelation of Saint John the Divine';
-if (!isset($include)) {
- include ('aa-beginning.php');
-}
+if (isset($collection)) {$chapterprefix = 'revelation';}
+if (!isset($collection)) {include 'bookhead.php';}
 ?>
-<span id="1<?= $book ?>"></span><h2 id="revelation">The Revelation of Saint John the Divine</h2><!--2t27b-->
+<span id="<?php echo $chapterprefix; ?>1"></span><h3 id="revelation">The Revelation of Saint John the Divine</h3><!--2t27b-->
 1:1 The Revelation of Jesus Christ, which God gave unto him, to shew unto his servants things which must shortly come to pass; and he sent and signified it by his angel unto his servant John: 1:2 Who bare record of the word of God, and of the testimony of Jesus Christ, and of all things that he saw.
 1:3 Blessed is he that readeth, and they that hear the words of this prophecy, and keep those things which are written therein: for the time is at hand.
 1:4 John to the seven churches which are in Asia: Grace be unto you, and peace, from him which is, and which was, and which is to come; and from the seven Spirits which are before his throne; 1:5 And from Jesus Christ, who is the faithful witness, and the first begotten of the dead, and the prince of the kings of the earth. Unto him that loved us, and washed us from our sins in his own blood, 1:6 And hath made us kings and priests unto God and his Father; to him be glory and dominion for ever and ever. Amen.
@@ -18,7 +17,7 @@ if (!isset($include)) {
 1:16 And he had in his right hand seven stars: and out of his mouth went a sharp twoedged sword: and his countenance was as the sun shineth in his strength.
 1:17 And when I saw him, I fell at his feet as dead. And he laid his right hand upon me, saying unto me, Fear not; I am the first and the last: 1:18 I am he that liveth, and was dead; and, behold, I am alive for evermore, Amen; and have the keys of hell and of death.
 1:19 Write the things which thou hast seen, and the things which are, and the things which shall be hereafter; 1:20 The mystery of the seven stars which thou sawest in my right hand, and the seven golden candlesticks. The seven stars are the angels of the seven churches: and the seven candlesticks which thou sawest are the seven churches.
-<span id="2<?= $book ?>"></span>2:1 Unto the angel of the church of Ephesus write; These things saith he that holdeth the seven stars in his right hand, who walketh in the midst of the seven golden candlesticks; 2:2 I know thy works, and thy labour, and thy patience, and how thou canst not bear them which are evil: and thou hast tried them which say they are apostles, and are not, and hast found them liars: 2:3 And hast borne, and hast patience, and for my name's sake hast laboured, and hast not fainted.
+<span id="<?php echo $chapterprefix; ?>2"></span>2:1 Unto the angel of the church of Ephesus write; These things saith he that holdeth the seven stars in his right hand, who walketh in the midst of the seven golden candlesticks; 2:2 I know thy works, and thy labour, and thy patience, and how thou canst not bear them which are evil: and thou hast tried them which say they are apostles, and are not, and hast found them liars: 2:3 And hast borne, and hast patience, and for my name's sake hast laboured, and hast not fainted.
 2:4 Nevertheless I have somewhat against thee, because thou hast left thy first love.
 2:5 Remember therefore from whence thou art fallen, and repent, and do the first works; or else I will come unto thee quickly, and will remove thy candlestick out of his place, except thou repent.
 2:6 But this thou hast, that thou hatest the deeds of the Nicolaitanes, which I also hate.
@@ -41,7 +40,7 @@ if (!isset($include)) {
 2:26 And he that overcometh, and keepeth my works unto the end, to him will I give power over the nations: 2:27 And he shall rule them with a rod of iron; as the vessels of a potter shall they be broken to shivers: even as I received of my Father.
 2:28 And I will give him the morning star.
 2:29 He that hath an ear, let him hear what the Spirit saith unto the churches.
-<span id="3<?= $book ?>"></span>3:1 And unto the angel of the church in Sardis write; These things saith he that hath the seven Spirits of God, and the seven stars; I know thy works, that thou hast a name that thou livest, and art dead.
+<span id="<?php echo $chapterprefix; ?>3"></span>3:1 And unto the angel of the church in Sardis write; These things saith he that hath the seven Spirits of God, and the seven stars; I know thy works, that thou hast a name that thou livest, and art dead.
 3:2 Be watchful, and strengthen the things which remain, that are ready to die: for I have not found thy works perfect before God.
 3:3 Remember therefore how thou hast received and heard, and hold fast, and repent. If therefore thou shalt not watch, I will come on thee as a thief, and thou shalt not know what hour I will come upon thee.
 3:4 Thou hast a few names even in Sardis which have not defiled their garments; and they shall walk with me in white: for they are worthy.
@@ -60,7 +59,7 @@ if (!isset($include)) {
 3:20 Behold, I stand at the door, and knock: if any man hear my voice, and open the door, I will come in to him, and will sup with him, and he with me.
 3:21 To him that overcometh will I grant to sit with me in my throne, even as I also overcame, and am set down with my Father in his throne.
 3:22 He that hath an ear, let him hear what the Spirit saith unto the churches.
-<span id="4<?= $book ?>"></span>4:1 After this I looked, and, behold, a door was opened in heaven: and the first voice which I heard was as it were of a trumpet talking with me; which said, Come up hither, and I will shew thee things which must be hereafter.
+<span id="<?php echo $chapterprefix; ?>4"></span>4:1 After this I looked, and, behold, a door was opened in heaven: and the first voice which I heard was as it were of a trumpet talking with me; which said, Come up hither, and I will shew thee things which must be hereafter.
 4:2 And immediately I was in the spirit: and, behold, a throne was set in heaven, and one sat on the throne.
 4:3 And he that sat was to look upon like a jasper and a sardine stone: and there was a rainbow round about the throne, in sight like unto an emerald.
 4:4 And round about the throne were four and twenty seats: and upon the seats I saw four and twenty elders sitting, clothed in white raiment; and they had on their heads crowns of gold.
@@ -69,7 +68,7 @@ if (!isset($include)) {
 4:7 And the first beast was like a lion, and the second beast like a calf, and the third beast had a face as a man, and the fourth beast was like a flying eagle.
 4:8 And the four beasts had each of them six wings about him; and they were full of eyes within: and they rest not day and night, saying, Holy, holy, holy, LORD God Almighty, which was, and is, and is to come.
 4:9 And when those beasts give glory and honour and thanks to him that sat on the throne, who liveth for ever and ever, 4:10 The four and twenty elders fall down before him that sat on the throne, and worship him that liveth for ever and ever, and cast their crowns before the throne, saying, 4:11 Thou art worthy, O Lord, to receive glory and honour and power: for thou hast created all things, and for thy pleasure they are and were created.
-<span id="5<?= $book ?>"></span>5:1 And I saw in the right hand of him that sat on the throne a book written within and on the backside, sealed with seven seals.
+<span id="<?php echo $chapterprefix; ?>5"></span>5:1 And I saw in the right hand of him that sat on the throne a book written within and on the backside, sealed with seven seals.
 5:2 And I saw a strong angel proclaiming with a loud voice, Who is worthy to open the book, and to loose the seals thereof? 5:3 And no man in heaven, nor in earth, neither under the earth, was able to open the book, neither to look thereon.
 5:4 And I wept much, because no man was found worthy to open and to read the book, neither to look thereon.
 5:5 And one of the elders saith unto me, Weep not: behold, the Lion of the tribe of Juda, the Root of David, hath prevailed to open the book, and to loose the seven seals thereof.
@@ -80,7 +79,7 @@ if (!isset($include)) {
 5:11 And I beheld, and I heard the voice of many angels round about the throne and the beasts and the elders: and the number of them was ten thousand times ten thousand, and thousands of thousands; 5:12 Saying with a loud voice, Worthy is the Lamb that was slain to receive power, and riches, and wisdom, and strength, and honour, and glory, and blessing.
 5:13 And every creature which is in heaven, and on the earth, and under the earth, and such as are in the sea, and all that are in them, heard I saying, Blessing, and honour, and glory, and power, be unto him that sitteth upon the throne, and unto the Lamb for ever and ever.
 5:14 And the four beasts said, Amen. And the four and twenty elders fell down and worshipped him that liveth for ever and ever.
-<span id="6<?= $book ?>"></span>6:1 And I saw when the Lamb opened one of the seals, and I heard, as it were the noise of thunder, one of the four beasts saying, Come and see.
+<span id="<?php echo $chapterprefix; ?>6"></span>6:1 And I saw when the Lamb opened one of the seals, and I heard, as it were the noise of thunder, one of the four beasts saying, Come and see.
 6:2 And I saw, and behold a white horse: and he that sat on him had a bow; and a crown was given unto him: and he went forth conquering, and to conquer.
 6:3 And when he had opened the second seal, I heard the second beast say, Come and see.
 6:4 And there went out another horse that was red: and power was given to him that sat thereon to take peace from the earth, and that they should kill one another: and there was given unto him a great sword.
@@ -91,7 +90,7 @@ if (!isset($include)) {
 6:9 And when he had opened the fifth seal, I saw under the altar the souls of them that were slain for the word of God, and for the testimony which they held: 6:10 And they cried with a loud voice, saying, How long, O Lord, holy and true, dost thou not judge and avenge our blood on them that dwell on the earth? 6:11 And white robes were given unto every one of them; and it was said unto them, that they should rest yet for a little season, until their fellowservants also and their brethren, that should be killed as they were, should be fulfilled.
 6:12 And I beheld when he had opened the sixth seal, and, lo, there was a great earthquake; and the sun became black as sackcloth of hair, and the moon became as blood; 6:13 And the stars of heaven fell unto the earth, even as a fig tree casteth her untimely figs, when she is shaken of a mighty wind.
 6:14 And the heaven departed as a scroll when it is rolled together; and every mountain and island were moved out of their places.
-6:15 And the kings of the earth, and the great men, and the rich men, and the chief captains, and the mighty men, and every bondman, and every free man, hid themselves in the dens and in the rocks of the mountains; 6:16 And said to the mountains and rocks, Fall on us, and hide us from the face of him that sitteth on the throne, and from the wrath of the Lamb: 6:17 For the great day of his wrath is come; and who shall be able to stand? <span id="7<?= $book ?>"></span>7:1 And after these things I saw four angels standing on the four corners of the earth, holding the four winds of the earth, that the wind should not blow on the earth, nor on the sea, nor on any tree.
+6:15 And the kings of the earth, and the great men, and the rich men, and the chief captains, and the mighty men, and every bondman, and every free man, hid themselves in the dens and in the rocks of the mountains; 6:16 And said to the mountains and rocks, Fall on us, and hide us from the face of him that sitteth on the throne, and from the wrath of the Lamb: 6:17 For the great day of his wrath is come; and who shall be able to stand? <span id="<?php echo $chapterprefix; ?>7"></span>7:1 And after these things I saw four angels standing on the four corners of the earth, holding the four winds of the earth, that the wind should not blow on the earth, nor on the sea, nor on any tree.
 7:2 And I saw another angel ascending from the east, having the seal of the living God: and he cried with a loud voice to the four angels, to whom it was given to hurt the earth and the sea, 7:3 Saying, Hurt not the earth, neither the sea, nor the trees, till we have sealed the servants of our God in their foreheads.
 7:4 And I heard the number of them which were sealed: and there were sealed an hundred and forty and four thousand of all the tribes of the children of Israel.
 7:5 Of the tribe of Juda were sealed twelve thousand. Of the tribe of Reuben were sealed twelve thousand. Of the tribe of Gad were sealed twelve thousand.
@@ -104,7 +103,7 @@ if (!isset($include)) {
 7:15 Therefore are they before the throne of God, and serve him day and night in his temple: and he that sitteth on the throne shall dwell among them.
 7:16 They shall hunger no more, neither thirst any more; neither shall the sun light on them, nor any heat.
 7:17 For the Lamb which is in the midst of the throne shall feed them, and shall lead them unto living fountains of waters: and God shall wipe away all tears from their eyes.
-<span id="8<?= $book ?>"></span>8:1 And when he had opened the seventh seal, there was silence in heaven about the space of half an hour.
+<span id="<?php echo $chapterprefix; ?>8"></span>8:1 And when he had opened the seventh seal, there was silence in heaven about the space of half an hour.
 8:2 And I saw the seven angels which stood before God; and to them were given seven trumpets.
 8:3 And another angel came and stood at the altar, having a golden censer; and there was given unto him much incense, that he should offer it with the prayers of all saints upon the golden altar which was before the throne.
 8:4 And the smoke of the incense, which came with the prayers of the saints, ascended up before God out of the angel's hand.
@@ -114,7 +113,7 @@ if (!isset($include)) {
 8:8 And the second angel sounded, and as it were a great mountain burning with fire was cast into the sea: and the third part of the sea became blood; 8:9 And the third part of the creatures which were in the sea, and had life, died; and the third part of the ships were destroyed.
 8:10 And the third angel sounded, and there fell a great star from heaven, burning as it were a lamp, and it fell upon the third part of the rivers, and upon the fountains of waters; 8:11 And the name of the star is called Wormwood: and the third part of the waters became wormwood; and many men died of the waters, because they were made bitter.
 8:12 And the fourth angel sounded, and the third part of the sun was smitten, and the third part of the moon, and the third part of the stars; so as the third part of them was darkened, and the day shone not for a third part of it, and the night likewise.
-8:13 And I beheld, and heard an angel flying through the midst of heaven, saying with a loud voice, Woe, woe, woe, to the inhabiters of the earth by reason of the other voices of the trumpet of the three angels, which are yet to sound! <span id="9<?= $book ?>"></span>9:1 And the fifth angel sounded, and I saw a star fall from heaven unto the earth: and to him was given the key of the bottomless pit.
+8:13 And I beheld, and heard an angel flying through the midst of heaven, saying with a loud voice, Woe, woe, woe, to the inhabiters of the earth by reason of the other voices of the trumpet of the three angels, which are yet to sound! <span id="<?php echo $chapterprefix; ?>9"></span>9:1 And the fifth angel sounded, and I saw a star fall from heaven unto the earth: and to him was given the key of the bottomless pit.
 9:2 And he opened the bottomless pit; and there arose a smoke out of the pit, as the smoke of a great furnace; and the sun and the air were darkened by reason of the smoke of the pit.
 9:3 And there came out of the smoke locusts upon the earth: and unto them was given power, as the scorpions of the earth have power.
 9:4 And it was commanded them that they should not hurt the grass of the earth, neither any green thing, neither any tree; but only those men which have not the seal of God in their foreheads.
@@ -133,14 +132,14 @@ if (!isset($include)) {
 9:18 By these three was the third part of men killed, by the fire, and by the smoke, and by the brimstone, which issued out of their mouths.
 9:19 For their power is in their mouth, and in their tails: for their tails were like unto serpents, and had heads, and with them they do hurt.
 9:20 And the rest of the men which were not killed by these plagues yet repented not of the works of their hands, that they should not worship devils, and idols of gold, and silver, and brass, and stone, and of wood: which neither can see, nor hear, nor walk: 9:21 Neither repented they of their murders, nor of their sorceries, nor of their fornication, nor of their thefts.
-<span id="10<?= $book ?>"></span>10:1 And I saw another mighty angel come down from heaven, clothed with a cloud: and a rainbow was upon his head, and his face was as it were the sun, and his feet as pillars of fire: 10:2 And he had in his hand a little book open: and he set his right foot upon the sea, and his left foot on the earth, 10:3 And cried with a loud voice, as when a lion roareth: and when he had cried, seven thunders uttered their voices.
+<span id="<?php echo $chapterprefix; ?>10"></span>10:1 And I saw another mighty angel come down from heaven, clothed with a cloud: and a rainbow was upon his head, and his face was as it were the sun, and his feet as pillars of fire: 10:2 And he had in his hand a little book open: and he set his right foot upon the sea, and his left foot on the earth, 10:3 And cried with a loud voice, as when a lion roareth: and when he had cried, seven thunders uttered their voices.
 10:4 And when the seven thunders had uttered their voices, I was about to write: and I heard a voice from heaven saying unto me, Seal up those things which the seven thunders uttered, and write them not.
 10:5 And the angel which I saw stand upon the sea and upon the earth lifted up his hand to heaven, 10:6 And sware by him that liveth for ever and ever, who created heaven, and the things that therein are, and the earth, and the things that therein are, and the sea, and the things which are therein, that there should be time no longer: 10:7 But in the days of the voice of the seventh angel, when he shall begin to sound, the mystery of God should be finished, as he hath declared to his servants the prophets.
 10:8 And the voice which I heard from heaven spake unto me again, and said, Go and take the little book which is open in the hand of the angel which standeth upon the sea and upon the earth.
 10:9 And I went unto the angel, and said unto him, Give me the little book. And he said unto me, Take it, and eat it up; and it shall make thy belly bitter, but it shall be in thy mouth sweet as honey.
 10:10 And I took the little book out of the angel's hand, and ate it up; and it was in my mouth sweet as honey: and as soon as I had eaten it, my belly was bitter.
 10:11 And he said unto me, Thou must prophesy again before many peoples, and nations, and tongues, and kings.
-<span id="11<?= $book ?>"></span>11:1 And there was given me a reed like unto a rod: and the angel stood, saying, Rise, and measure the temple of God, and the altar, and them that worship therein.
+<span id="<?php echo $chapterprefix; ?>11"></span>11:1 And there was given me a reed like unto a rod: and the angel stood, saying, Rise, and measure the temple of God, and the altar, and them that worship therein.
 11:2 But the court which is without the temple leave out, and measure it not; for it is given unto the Gentiles: and the holy city shall they tread under foot forty and two months.
 11:3 And I will give power unto my two witnesses, and they shall prophesy a thousand two hundred and threescore days, clothed in sackcloth.
 11:4 These are the two olive trees, and the two candlesticks standing before the God of the earth.
@@ -158,7 +157,7 @@ if (!isset($include)) {
 11:16 And the four and twenty elders, which sat before God on their seats, fell upon their faces, and worshipped God, 11:17 Saying, We give thee thanks, O LORD God Almighty, which art, and wast, and art to come; because thou hast taken to thee thy great power, and hast reigned.
 11:18 And the nations were angry, and thy wrath is come, and the time of the dead, that they should be judged, and that thou shouldest give reward unto thy servants the prophets, and to the saints, and them that fear thy name, small and great; and shouldest destroy them which destroy the earth.
 11:19 And the temple of God was opened in heaven, and there was seen in his temple the ark of his testament: and there were lightnings, and voices, and thunderings, and an earthquake, and great hail.
-<span id="12<?= $book ?>"></span>12:1 And there appeared a great wonder in heaven; a woman clothed with the sun, and the moon under her feet, and upon her head a crown of twelve stars: 12:2 And she being with child cried, travailing in birth, and pained to be delivered.
+<span id="<?php echo $chapterprefix; ?>12"></span>12:1 And there appeared a great wonder in heaven; a woman clothed with the sun, and the moon under her feet, and upon her head a crown of twelve stars: 12:2 And she being with child cried, travailing in birth, and pained to be delivered.
 12:3 And there appeared another wonder in heaven; and behold a great red dragon, having seven heads and ten horns, and seven crowns upon his heads.
 12:4 And his tail drew the third part of the stars of heaven, and did cast them to the earth: and the dragon stood before the woman which was ready to be delivered, for to devour her child as soon as it was born.
 12:5 And she brought forth a man child, who was to rule all nations with a rod of iron: and her child was caught up unto God, and to his throne.
@@ -173,7 +172,7 @@ if (!isset($include)) {
 12:15 And the serpent cast out of his mouth water as a flood after the woman, that he might cause her to be carried away of the flood.
 12:16 And the earth helped the woman, and the earth opened her mouth, and swallowed up the flood which the dragon cast out of his mouth.
 12:17 And the dragon was wroth with the woman, and went to make war with the remnant of her seed, which keep the commandments of God, and have the testimony of Jesus Christ.
-<span id="13<?= $book ?>"></span>13:1 And I stood upon the sand of the sea, and saw a beast rise up out of the sea, having seven heads and ten horns, and upon his horns ten crowns, and upon his heads the name of blasphemy.
+<span id="<?php echo $chapterprefix; ?>13"></span>13:1 And I stood upon the sand of the sea, and saw a beast rise up out of the sea, having seven heads and ten horns, and upon his horns ten crowns, and upon his heads the name of blasphemy.
 13:2 And the beast which I saw was like unto a leopard, and his feet were as the feet of a bear, and his mouth as the mouth of a lion: and the dragon gave him his power, and his seat, and great authority.
 13:3 And I saw one of his heads as it were wounded to death; and his deadly wound was healed: and all the world wondered after the beast.
 13:4 And they worshipped the dragon which gave power unto the beast: and they worshipped the beast, saying, Who is like unto the beast? who is able to make war with him? 13:5 And there was given unto him a mouth speaking great things and blasphemies; and power was given unto him to continue forty and two months.
@@ -188,7 +187,7 @@ if (!isset($include)) {
 13:15 And he had power to give life unto the image of the beast, that the image of the beast should both speak, and cause that as many as would not worship the image of the beast should be killed.
 13:16 And he causeth all, both small and great, rich and poor, free and bond, to receive a mark in their right hand, or in their foreheads: 13:17 And that no man might buy or sell, save he that had the mark, or the name of the beast, or the number of his name.
 13:18 Here is wisdom. Let him that hath understanding count the number of the beast: for it is the number of a man; and his number is Six hundred threescore and six.
-<span id="14<?= $book ?>"></span>14:1 And I looked, and, lo, a Lamb stood on the mount Sion, and with him an hundred forty and four thousand, having his Father's name written in their foreheads.
+<span id="<?php echo $chapterprefix; ?>14"></span>14:1 And I looked, and, lo, a Lamb stood on the mount Sion, and with him an hundred forty and four thousand, having his Father's name written in their foreheads.
 14:2 And I heard a voice from heaven, as the voice of many waters, and as the voice of a great thunder: and I heard the voice of harpers harping with their harps: 14:3 And they sung as it were a new song before the throne, and before the four beasts, and the elders: and no man could learn that song but the hundred and forty and four thousand, which were redeemed from the earth.
 14:4 These are they which were not defiled with women; for they are virgins. These are they which follow the Lamb whithersoever he goeth. These were redeemed from among men, being the firstfruits unto God and to the Lamb.
 14:5 And in their mouth was found no guile: for they are without fault before the throne of God.
@@ -204,14 +203,14 @@ if (!isset($include)) {
 14:18 And another angel came out from the altar, which had power over fire; and cried with a loud cry to him that had the sharp sickle, saying, Thrust in thy sharp sickle, and gather the clusters of the vine of the earth; for her grapes are fully ripe.
 14:19 And the angel thrust in his sickle into the earth, and gathered the vine of the earth, and cast it into the great winepress of the wrath of God.
 14:20 And the winepress was trodden without the city, and blood came out of the winepress, even unto the horse bridles, by the space of a thousand and six hundred furlongs.
-<span id="15<?= $book ?>"></span>15:1 And I saw another sign in heaven, great and marvellous, seven angels having the seven last plagues; for in them is filled up the wrath of God.
+<span id="<?php echo $chapterprefix; ?>15"></span>15:1 And I saw another sign in heaven, great and marvellous, seven angels having the seven last plagues; for in them is filled up the wrath of God.
 15:2 And I saw as it were a sea of glass mingled with fire: and them that had gotten the victory over the beast, and over his image, and over his mark, and over the number of his name, stand on the sea of glass, having the harps of God.
 15:3 And they sing the song of Moses the servant of God, and the song of the Lamb, saying, Great and marvellous are thy works, Lord God Almighty; just and true are thy ways, thou King of saints.
 15:4 Who shall not fear thee, O Lord, and glorify thy name? for thou only art holy: for all nations shall come and worship before thee; for thy judgments are made manifest.
 15:5 And after that I looked, and, behold, the temple of the tabernacle of the testimony in heaven was opened: 15:6 And the seven angels came out of the temple, having the seven plagues, clothed in pure and white linen, and having their breasts girded with golden girdles.
 15:7 And one of the four beasts gave unto the seven angels seven golden vials full of the wrath of God, who liveth for ever and ever.
 15:8 And the temple was filled with smoke from the glory of God, and from his power; and no man was able to enter into the temple, till the seven plagues of the seven angels were fulfilled.
-<span id="16<?= $book ?>"></span>16:1 And I heard a great voice out of the temple saying to the seven angels, Go your ways, and pour out the vials of the wrath of God upon the earth.
+<span id="<?php echo $chapterprefix; ?>16"></span>16:1 And I heard a great voice out of the temple saying to the seven angels, Go your ways, and pour out the vials of the wrath of God upon the earth.
 16:2 And the first went, and poured out his vial upon the earth; and there fell a noisome and grievous sore upon the men which had the mark of the beast, and upon them which worshipped his image.
 16:3 And the second angel poured out his vial upon the sea; and it became as the blood of a dead man: and every living soul died in the sea.
 16:4 And the third angel poured out his vial upon the rivers and fountains of waters; and they became blood.
@@ -231,7 +230,7 @@ if (!isset($include)) {
 16:19 And the great city was divided into three parts, and the cities of the nations fell: and great Babylon came in remembrance before God, to give unto her the cup of the wine of the fierceness of his wrath.
 16:20 And every island fled away, and the mountains were not found.
 16:21 And there fell upon men a great hail out of heaven, every stone about the weight of a talent: and men blasphemed God because of the plague of the hail; for the plague thereof was exceeding great.
-<span id="17<?= $book ?>"></span>17:1 And there came one of the seven angels which had the seven vials, and talked with me, saying unto me, Come hither; I will shew unto thee the judgment of the great whore that sitteth upon many waters: 17:2 With whom the kings of the earth have committed fornication, and the inhabitants of the earth have been made drunk with the wine of her fornication.
+<span id="<?php echo $chapterprefix; ?>17"></span>17:1 And there came one of the seven angels which had the seven vials, and talked with me, saying unto me, Come hither; I will shew unto thee the judgment of the great whore that sitteth upon many waters: 17:2 With whom the kings of the earth have committed fornication, and the inhabitants of the earth have been made drunk with the wine of her fornication.
 17:3 So he carried me away in the spirit into the wilderness: and I saw a woman sit upon a scarlet coloured beast, full of names of blasphemy, having seven heads and ten horns.
 17:4 And the woman was arrayed in purple and scarlet colour, and decked with gold and precious stones and pearls, having a golden cup in her hand full of abominations and filthiness of her fornication: 17:5 And upon her forehead was a name written, MYSTERY, BABYLON THE GREAT, THE MOTHER OF HARLOTS AND ABOMINATIONS OF THE EARTH.
 17:6 And I saw the woman drunken with the blood of the saints, and with the blood of the martyrs of Jesus: and when I saw her, I wondered with great admiration.
@@ -247,7 +246,7 @@ if (!isset($include)) {
 17:16 And the ten horns which thou sawest upon the beast, these shall hate the whore, and shall make her desolate and naked, and shall eat her flesh, and burn her with fire.
 17:17 For God hath put in their hearts to fulfil his will, and to agree, and give their kingdom unto the beast, until the words of God shall be fulfilled.
 17:18 And the woman which thou sawest is that great city, which reigneth over the kings of the earth.
-<span id="18<?= $book ?>"></span>18:1 And after these things I saw another angel come down from heaven, having great power; and the earth was lightened with his glory.
+<span id="<?php echo $chapterprefix; ?>18"></span>18:1 And after these things I saw another angel come down from heaven, having great power; and the earth was lightened with his glory.
 18:2 And he cried mightily with a strong voice, saying, Babylon the great is fallen, is fallen, and is become the habitation of devils, and the hold of every foul spirit, and a cage of every unclean and hateful bird.
 18:3 For all nations have drunk of the wine of the wrath of her fornication, and the kings of the earth have committed fornication with her, and the merchants of the earth are waxed rich through the abundance of her delicacies.
 18:4 And I heard another voice from heaven, saying, Come out of her, my people, that ye be not partakers of her sins, and that ye receive not of her plagues.
@@ -263,7 +262,7 @@ if (!isset($include)) {
 18:21 And a mighty angel took up a stone like a great millstone, and cast it into the sea, saying, Thus with violence shall that great city Babylon be thrown down, and shall be found no more at all.
 18:22 And the voice of harpers, and musicians, and of pipers, and trumpeters, shall be heard no more at all in thee; and no craftsman, of whatsoever craft he be, shall be found any more in thee; and the sound of a millstone shall be heard no more at all in thee; 18:23 And the light of a candle shall shine no more at all in thee; and the voice of the bridegroom and of the bride shall be heard no more at all in thee: for thy merchants were the great men of the earth; for by thy sorceries were all nations deceived.
 18:24 And in her was found the blood of prophets, and of saints, and of all that were slain upon the earth.
-<span id="19<?= $book ?>"></span>19:1 And after these things I heard a great voice of much people in heaven, saying, Alleluia; Salvation, and glory, and honour, and power, unto the Lord our God: 19:2 For true and righteous are his judgments: for he hath judged the great whore, which did corrupt the earth with her fornication, and hath avenged the blood of his servants at her hand.
+<span id="<?php echo $chapterprefix; ?>19"></span>19:1 And after these things I heard a great voice of much people in heaven, saying, Alleluia; Salvation, and glory, and honour, and power, unto the Lord our God: 19:2 For true and righteous are his judgments: for he hath judged the great whore, which did corrupt the earth with her fornication, and hath avenged the blood of his servants at her hand.
 19:3 And again they said, Alleluia And her smoke rose up for ever and ever.
 19:4 And the four and twenty elders and the four beasts fell down and worshipped God that sat on the throne, saying, Amen; Alleluia.
 19:5 And a voice came out of the throne, saying, Praise our God, all ye his servants, and ye that fear him, both small and great.
@@ -282,7 +281,7 @@ if (!isset($include)) {
 19:19 And I saw the beast, and the kings of the earth, and their armies, gathered together to make war against him that sat on the horse, and against his army.
 19:20 And the beast was taken, and with him the false prophet that wrought miracles before him, with which he deceived them that had received the mark of the beast, and them that worshipped his image. These both were cast alive into a lake of fire burning with brimstone.
 19:21 And the remnant were slain with the sword of him that sat upon the horse, which sword proceeded out of his mouth: and all the fowls were filled with their flesh.
-<span id="20<?= $book ?>"></span>20:1 And I saw an angel come down from heaven, having the key of the bottomless pit and a great chain in his hand.
+<span id="<?php echo $chapterprefix; ?>20"></span>20:1 And I saw an angel come down from heaven, having the key of the bottomless pit and a great chain in his hand.
 20:2 And he laid hold on the dragon, that old serpent, which is the Devil, and Satan, and bound him a thousand years, 20:3 And cast him into the bottomless pit, and shut him up, and set a seal upon him, that he should deceive the nations no more, till the thousand years should be fulfilled: and after that he must be loosed a little season.
 20:4 And I saw thrones, and they sat upon them, and judgment was given unto them: and I saw the souls of them that were beheaded for the witness of Jesus, and for the word of God, and which had not worshipped the beast, neither his image, neither had received his mark upon their foreheads, or in their hands; and they lived and reigned with Christ a thousand years.
 20:5 But the rest of the dead lived not again until the thousand years were finished. This is the first resurrection.
@@ -295,7 +294,7 @@ if (!isset($include)) {
 20:13 And the sea gave up the dead which were in it; and death and hell delivered up the dead which were in them: and they were judged every man according to their works.
 20:14 And death and hell were cast into the lake of fire. This is the second death.
 20:15 And whosoever was not found written in the book of life was cast into the lake of fire.
-<span id="21<?= $book ?>"></span>21:1 And I saw a new heaven and a new earth: for the first heaven and the first earth were passed away; and there was no more sea.
+<span id="<?php echo $chapterprefix; ?>21"></span>21:1 And I saw a new heaven and a new earth: for the first heaven and the first earth were passed away; and there was no more sea.
 21:2 And I John saw the holy city, new Jerusalem, coming down from God out of heaven, prepared as a bride adorned for her husband.
 21:3 And I heard a great voice out of heaven saying, Behold, the tabernacle of God is with men, and he will dwell with them, and they shall be his people, and God himself shall be with them, and be their God.
 21:4 And God shall wipe away all tears from their eyes; and there shall be no more death, neither sorrow, nor crying, neither shall there be any more pain: for the former things are passed away.
@@ -320,7 +319,7 @@ The length and the breadth and the height of it are equal.
 21:25 And the gates of it shall not be shut at all by day: for there shall be no night there.
 21:26 And they shall bring the glory and honour of the nations into it.
 21:27 And there shall in no wise enter into it any thing that defileth, neither whatsoever worketh abomination, or maketh a lie: but they which are written in the Lamb's book of life.
-<span id="22<?= $book ?>"></span>22:1 And he shewed me a pure river of water of life, clear as crystal, proceeding out of the throne of God and of the Lamb.
+<span id="<?php echo $chapterprefix; ?>22"></span>22:1 And he shewed me a pure river of water of life, clear as crystal, proceeding out of the throne of God and of the Lamb.
 22:2 In the midst of the street of it, and on either side of the river, was there the tree of life, which bare twelve manner of fruits, and yielded her fruit every month: and the leaves of the tree were for the healing of the nations.
 22:3 And there shall be no more curse: but the throne of God and of the Lamb shall be in it; and his servants shall serve him: 22:4 And they shall see his face; and his name shall be in their foreheads.
 22:5 And there shall be no night there; and they need no candle, neither light of the sun; for the Lord God giveth them light: and they shall reign for ever and ever.
@@ -340,8 +339,4 @@ The length and the breadth and the height of it are equal.
 22:20 He which testifieth these things saith, Surely I come quickly. Amen.
 Even so, come, Lord Jesus.
 22:21 The grace of our Lord Jesus Christ be with you all. Amen.
-<?php
-if (!isset($include)) {
- include ('aa-end.php');
-}
-?>
+<?php if (!isset($collection)) {include 'bookfoot.php';} ?>

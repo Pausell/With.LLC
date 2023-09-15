@@ -1,11 +1,10 @@
 <?php
 $title = 'Luke';
 $description = 'The Gospel According to Saint Luke';
-if (!isset($include)) {
- include ('aa-beginning.php');
-}
+if (isset($collection)) {$chapterprefix = 'luke';}
+if (!isset($collection)) {include 'bookhead.php';}
 ?>
-<span id="1<?= $book ?>"></span><h2 id="luke">The Gospel According to Saint Luke</h2><!--2t3b-->
+<span id="<?php echo $chapterprefix; ?>1"></span><h3 id="luke">The Gospel According to Saint Luke</h3><!--2t3b-->
 1:1 Forasmuch as many have taken in hand to set forth in order a declaration of those things which are most surely believed among us, 1:2 Even as they delivered them unto us, which from the beginning were eyewitnesses, and ministers of the word; 1:3 It seemed good to me also, having had perfect understanding of all things from the very first, to write unto thee in order, most excellent Theophilus, 1:4 That thou mightest know the certainty of those things, wherein thou hast been instructed.
 1:5 There was in the days of Herod, the king of Judaea, a certain priest named Zacharias, of the course of Abia: and his wife was of the daughters of Aaron, and her name was Elisabeth.
 1:6 And they were both righteous before God, walking in all the commandments and ordinances of the Lord blameless.
@@ -62,7 +61,7 @@ if (!isset($include)) {
 1:67 And his father Zacharias was filled with the Holy Ghost, and prophesied, saying, 1:68 Blessed be the Lord God of Israel; for he hath visited and redeemed his people, 1:69 And hath raised up an horn of salvation for us in the house of his servant David; 1:70 As he spake by the mouth of his holy prophets, which have been since the world began: 1:71 That we should be saved from our enemies, and from the hand of all that hate us; 1:72 To perform the mercy promised to our fathers, and to remember his holy covenant; 1:73 The oath which he sware to our father Abraham, 1:74 That he would grant unto us, that we being delivered out of the hand of our enemies might serve him without fear, 1:75 In holiness and righteousness before him, all the days of our life.
 1:76 And thou, child, shalt be called the prophet of the Highest: for thou shalt go before the face of the Lord to prepare his ways; 1:77 To give knowledge of salvation unto his people by the remission of their sins, 1:78 Through the tender mercy of our God; whereby the dayspring from on high hath visited us, 1:79 To give light to them that sit in darkness and in the shadow of death, to guide our feet into the way of peace.
 1:80 And the child grew, and waxed strong in spirit, and was in the deserts till the day of his shewing unto Israel.
-<span id="2<?= $book ?>"></span>2:1 And it came to pass in those days, that there went out a decree from Caesar Augustus that all the world should be taxed.
+<span id="<?php echo $chapterprefix; ?>2"></span>2:1 And it came to pass in those days, that there went out a decree from Caesar Augustus that all the world should be taxed.
 2:2 (And this taxing was first made when Cyrenius was governor of Syria.) 2:3 And all went to be taxed, every one into his own city.
 2:4 And Joseph also went up from Galilee, out of the city of Nazareth, into Judaea, unto the city of David, which is called Bethlehem; (because he was of the house and lineage of David:) 2:5 To be taxed with Mary his espoused wife, being great with child.
 2:6 And so it was, that, while they were there, the days were accomplished that she should be delivered.
@@ -101,7 +100,7 @@ if (!isset($include)) {
 2:49 And he said unto them, How is it that ye sought me? wist ye not that I must be about my Father's business? 2:50 And they understood not the saying which he spake unto them.
 2:51 And he went down with them, and came to Nazareth, and was subject unto them: but his mother kept all these sayings in her heart.
 2:52 And Jesus increased in wisdom and stature, and in favour with God and man.
-<span id="3<?= $book ?>"></span>3:1 Now in the fifteenth year of the reign of Tiberius Caesar, Pontius Pilate being governor of Judaea, and Herod being tetrarch of Galilee, and his brother Philip tetrarch of Ituraea and of the region of Trachonitis, and Lysanias the tetrarch of Abilene, 3:2 Annas and Caiaphas being the high priests, the word of God came unto John the son of Zacharias in the wilderness.
+<span id="<?php echo $chapterprefix; ?>3"></span>3:1 Now in the fifteenth year of the reign of Tiberius Caesar, Pontius Pilate being governor of Judaea, and Herod being tetrarch of Galilee, and his brother Philip tetrarch of Ituraea and of the region of Trachonitis, and Lysanias the tetrarch of Abilene, 3:2 Annas and Caiaphas being the high priests, the word of God came unto John the son of Zacharias in the wilderness.
 3:3 And he came into all the country about Jordan, preaching the baptism of repentance for the remission of sins; 3:4 As it is written in the book of the words of Esaias the prophet, saying, The voice of one crying in the wilderness, Prepare ye the way of the Lord, make his paths straight.
 3:5 Every valley shall be filled, and every mountain and hill shall be brought low; and the crooked shall be made straight, and the rough ways shall be made smooth; 3:6 And all flesh shall see the salvation of God.
 3:7 Then said he to the multitude that came forth to be baptized of him, O generation of vipers, who hath warned you to flee from the wrath to come? 3:8 Bring forth therefore fruits worthy of repentance, and begin not to say within yourselves, We have Abraham to our father: for I say unto you, That God is able of these stones to raise up children unto Abraham.
@@ -114,7 +113,7 @@ if (!isset($include)) {
 3:19 But Herod the tetrarch, being reproved by him for Herodias his brother Philip's wife, and for all the evils which Herod had done, 3:20 Added yet this above all, that he shut up John in prison.
 3:21 Now when all the people were baptized, it came to pass, that Jesus also being baptized, and praying, the heaven was opened, 3:22 And the Holy Ghost descended in a bodily shape like a dove upon him, and a voice came from heaven, which said, Thou art my beloved Son; in thee I am well pleased.
 3:23 And Jesus himself began to be about thirty years of age, being (as was supposed) the son of Joseph, which was the son of Heli, 3:24 Which was the son of Matthat, which was the son of Levi, which was the son of Melchi, which was the son of Janna, which was the son of Joseph, 3:25 Which was the son of Mattathias, which was the son of Amos, which was the son of Naum, which was the son of Esli, which was the son of Nagge, 3:26 Which was the son of Maath, which was the son of Mattathias, which was the son of Semei, which was the son of Joseph, which was the son of Juda, 3:27 Which was the son of Joanna, which was the son of Rhesa, which was the son of Zorobabel, which was the son of Salathiel, which was the son of Neri, 3:28 Which was the son of Melchi, which was the son of Addi, which was the son of Cosam, which was the son of Elmodam, which was the son of Er, 3:29 Which was the son of Jose, which was the son of Eliezer, which was the son of Jorim, which was the son of Matthat, which was the son of Levi, 3:30 Which was the son of Simeon, which was the son of Juda, which was the son of Joseph, which was the son of Jonan, which was the son of Eliakim, 3:31 Which was the son of Melea, which was the son of Menan, which was the son of Mattatha, which was the son of Nathan, which was the son of David, 3:32 Which was the son of Jesse, which was the son of Obed, which was the son of Booz, which was the son of Salmon, which was the son of Naasson, 3:33 Which was the son of Aminadab, which was the son of Aram, which was the son of Esrom, which was the son of Phares, which was the son of Juda, 3:34 Which was the son of Jacob, which was the son of Isaac, which was the son of Abraham, which was the son of Thara, which was the son of Nachor, 3:35 Which was the son of Saruch, which was the son of Ragau, which was the son of Phalec, which was the son of Heber, which was the son of Sala, 3:36 Which was the son of Cainan, which was the son of Arphaxad, which was the son of Sem, which was the son of Noe, which was the son of Lamech, 3:37 Which was the son of Mathusala, which was the son of Enoch, which was the son of Jared, which was the son of Maleleel, which was the son of Cainan, 3:38 Which was the son of Enos, which was the son of Seth, which was the son of Adam, which was the son of God.
-<span id="4<?= $book ?>"></span>4:1 And Jesus being full of the Holy Ghost returned from Jordan, and was led by the Spirit into the wilderness, 4:2 Being forty days tempted of the devil. And in those days he did eat nothing: and when they were ended, he afterward hungered.
+<span id="<?php echo $chapterprefix; ?>4"></span>4:1 And Jesus being full of the Holy Ghost returned from Jordan, and was led by the Spirit into the wilderness, 4:2 Being forty days tempted of the devil. And in those days he did eat nothing: and when they were ended, he afterward hungered.
 4:3 And the devil said unto him, If thou be the Son of God, command this stone that it be made bread.
 4:4 And Jesus answered him, saying, It is written, That man shall not live by bread alone, but by every word of God.
 4:5 And the devil, taking him up into an high mountain, shewed unto him all the kingdoms of the world in a moment of time.
@@ -150,7 +149,7 @@ And Simon's wife's mother was taken with a great fever; and they besought him fo
 4:42 And when it was day, he departed and went into a desert place: and the people sought him, and came unto him, and stayed him, that he should not depart from them.
 4:43 And he said unto them, I must preach the kingdom of God to other cities also: for therefore am I sent.
 4:44 And he preached in the synagogues of Galilee.
-<span id="5<?= $book ?>"></span>5:1 And it came to pass, that, as the people pressed upon him to hear the word of God, he stood by the lake of Gennesaret, 5:2 And saw two ships standing by the lake: but the fishermen were gone out of them, and were washing their nets.
+<span id="<?php echo $chapterprefix; ?>5"></span>5:1 And it came to pass, that, as the people pressed upon him to hear the word of God, he stood by the lake of Gennesaret, 5:2 And saw two ships standing by the lake: but the fishermen were gone out of them, and were washing their nets.
 5:3 And he entered into one of the ships, which was Simon's, and prayed him that he would thrust out a little from the land. And he sat down, and taught the people out of the ship.
 5:4 Now when he had left speaking, he said unto Simon, Launch out into the deep, and let down your nets for a draught.
 5:5 And Simon answering said unto him, Master, we have toiled all the night, and have taken nothing: nevertheless at thy word I will let down the net.
@@ -181,7 +180,7 @@ And Simon's wife's mother was taken with a great fever; and they besought him fo
 5:37 And no man putteth new wine into old bottles; else the new wine will burst the bottles, and be spilled, and the bottles shall perish.
 5:38 But new wine must be put into new bottles; and both are preserved.
 5:39 No man also having drunk old wine straightway desireth new: for he saith, The old is better.
-<span id="6<?= $book ?>"></span>6:1 And it came to pass on the second sabbath after the first, that he went through the corn fields; and his disciples plucked the ears of corn, and did eat, rubbing them in their hands.
+<span id="<?php echo $chapterprefix; ?>6"></span>6:1 And it came to pass on the second sabbath after the first, that he went through the corn fields; and his disciples plucked the ears of corn, and did eat, rubbing them in their hands.
 6:2 And certain of the Pharisees said unto them, Why do ye that which is not lawful to do on the sabbath days? 6:3 And Jesus answering them said, Have ye not read so much as this, what David did, when himself was an hungred, and they which were with him; 6:4 How he went into the house of God, and did take and eat the shewbread, and gave also to them that were with him; which it is not lawful to eat but for the priests alone? 6:5 And he said unto them, That the Son of man is Lord also of the sabbath.
 6:6 And it came to pass also on another sabbath, that he entered into the synagogue and taught: and there was a man whose right hand was withered.
 6:7 And the scribes and Pharisees watched him, whether he would heal on the sabbath day; that they might find an accusation against him.
@@ -216,7 +215,7 @@ And Simon's wife's mother was taken with a great fever; and they besought him fo
 6:45 A good man out of the good treasure of his heart bringeth forth that which is good; and an evil man out of the evil treasure of his heart bringeth forth that which is evil: for of the abundance of the heart his mouth speaketh.
 6:46 And why call ye me, Lord, Lord, and do not the things which I say? 6:47 Whosoever cometh to me, and heareth my sayings, and doeth them, I will shew you to whom he is like: 6:48 He is like a man which built an house, and digged deep, and laid the foundation on a rock: and when the flood arose, the stream beat vehemently upon that house, and could not shake it: for it was founded upon a rock.
 6:49 But he that heareth, and doeth not, is like a man that without a foundation built an house upon the earth; against which the stream did beat vehemently, and immediately it fell; and the ruin of that house was great.
-<span id="7<?= $book ?>"></span>7:1 Now when he had ended all his sayings in the audience of the people, he entered into Capernaum.
+<span id="<?php echo $chapterprefix; ?>7"></span>7:1 Now when he had ended all his sayings in the audience of the people, he entered into Capernaum.
 7:2 And a certain centurion's servant, who was dear unto him, was sick, and ready to die.
 7:3 And when he heard of Jesus, he sent unto him the elders of the Jews, beseeching him that he would come and heal his servant.
 7:4 And when they came to Jesus, they besought him instantly, saying, That he was worthy for whom he should do this: 7:5 For he loveth our nation, and he hath built us a synagogue.
@@ -258,7 +257,7 @@ And he said unto him, Thou hast rightly judged.
 7:47 Wherefore I say unto thee, Her sins, which are many, are forgiven; for she loved much: but to whom little is forgiven, the same loveth little.
 7:48 And he said unto her, Thy sins are forgiven.
 7:49 And they that sat at meat with him began to say within themselves, Who is this that forgiveth sins also? 7:50 And he said to the woman, Thy faith hath saved thee; go in peace.
-<span id="8<?= $book ?>"></span>8:1 And it came to pass afterward, that he went throughout every city and village, preaching and shewing the glad tidings of the kingdom of God: and the twelve were with him, 8:2 And certain women, which had been healed of evil spirits and infirmities, Mary called Magdalene, out of whom went seven devils, 8:3 And Joanna the wife of Chuza Herod's steward, and Susanna, and many others, which ministered unto him of their substance.
+<span id="<?php echo $chapterprefix; ?>8"></span>8:1 And it came to pass afterward, that he went throughout every city and village, preaching and shewing the glad tidings of the kingdom of God: and the twelve were with him, 8:2 And certain women, which had been healed of evil spirits and infirmities, Mary called Magdalene, out of whom went seven devils, 8:3 And Joanna the wife of Chuza Herod's steward, and Susanna, and many others, which ministered unto him of their substance.
 8:4 And when much people were gathered together, and were come to him out of every city, he spake by a parable: 8:5 A sower went out to sow his seed: and as he sowed, some fell by the way side; and it was trodden down, and the fowls of the air devoured it.
 8:6 And some fell upon a rock; and as soon as it was sprung up, it withered away, because it lacked moisture.
 8:7 And some fell among thorns; and the thorns sprang up with it, and choked it.
@@ -305,7 +304,7 @@ And he said unto him, Thou hast rightly judged.
 8:54 And he put them all out, and took her by the hand, and called, saying, Maid, arise.
 8:55 And her spirit came again, and she arose straightway: and he commanded to give her meat.
 8:56 And her parents were astonished: but he charged them that they should tell no man what was done.
-<span id="9<?= $book ?>"></span>9:1 Then he called his twelve disciples together, and gave them power and authority over all devils, and to cure diseases.
+<span id="<?php echo $chapterprefix; ?>9"></span>9:1 Then he called his twelve disciples together, and gave them power and authority over all devils, and to cure diseases.
 9:2 And he sent them to preach the kingdom of God, and to heal the sick.
 9:3 And he said unto them, Take nothing for your journey, neither staves, nor scrip, neither bread, neither money; neither have two coats apiece.
 9:4 And whatsoever house ye enter into, there abide, and thence depart.
@@ -359,7 +358,7 @@ And Jesus rebuked the unclean spirit, and healed the child, and delivered him ag
 9:60 Jesus said unto him, Let the dead bury their dead: but go thou and preach the kingdom of God.
 9:61 And another also said, Lord, I will follow thee; but let me first go bid them farewell, which are at home at my house.
 9:62 And Jesus said unto him, No man, having put his hand to the plough, and looking back, is fit for the kingdom of God.
-<span id="10<?= $book ?>"></span>10:1 After these things the LORD appointed other seventy also, and sent them two and two before his face into every city and place, whither he himself would come.
+<span id="<?php echo $chapterprefix; ?>10"></span>10:1 After these things the LORD appointed other seventy also, and sent them two and two before his face into every city and place, whither he himself would come.
 10:2 Therefore said he unto them, The harvest truly is great, but the labourers are few: pray ye therefore the Lord of the harvest, that he would send forth labourers into his harvest.
 10:3 Go your ways: behold, I send you forth as lambs among wolves.
 10:4 Carry neither purse, nor scrip, nor shoes: and salute no man by the way.
@@ -392,7 +391,7 @@ And Jesus rebuked the unclean spirit, and healed the child, and delivered him ag
 10:39 And she had a sister called Mary, which also sat at Jesus' feet, and heard his word.
 10:40 But Martha was cumbered about much serving, and came to him, and said, Lord, dost thou not care that my sister hath left me to serve alone? bid her therefore that she help me.
 10:41 And Jesus answered and said unto her, Martha, Martha, thou art careful and troubled about many things: 10:42 But one thing is needful: and Mary hath chosen that good part, which shall not be taken away from her.
-<span id="11<?= $book ?>"></span>11:1 And it came to pass, that, as he was praying in a certain place, when he ceased, one of his disciples said unto him, Lord, teach us to pray, as John also taught his disciples.
+<span id="<?php echo $chapterprefix; ?>11"></span>11:1 And it came to pass, that, as he was praying in a certain place, when he ceased, one of his disciples said unto him, Lord, teach us to pray, as John also taught his disciples.
 11:2 And he said unto them, When ye pray, say, Our Father which art in heaven, Hallowed be thy name. Thy kingdom come. Thy will be done, as in heaven, so in earth.
 11:3 Give us day by day our daily bread.
 11:4 And forgive us our sins; for we also forgive every one that is indebted to us. And lead us not into temptation; but deliver us from evil.
@@ -436,7 +435,7 @@ And Jesus rebuked the unclean spirit, and healed the child, and delivered him ag
 11:49 Therefore also said the wisdom of God, I will send them prophets and apostles, and some of them they shall slay and persecute: 11:50 That the blood of all the prophets, which was shed from the foundation of the world, may be required of this generation; 11:51 From the blood of Abel unto the blood of Zacharias which perished between the altar and the temple: verily I say unto you, It shall be required of this generation.
 11:52 Woe unto you, lawyers! for ye have taken away the key of knowledge: ye entered not in yourselves, and them that were entering in ye hindered.
 11:53 And as he said these things unto them, the scribes and the Pharisees began to urge him vehemently, and to provoke him to speak of many things: 11:54 Laying wait for him, and seeking to catch something out of his mouth, that they might accuse him.
-<span id="12<?= $book ?>"></span>12:1 In the mean time, when there were gathered together an innumerable multitude of people, insomuch that they trode one upon another, he began to say unto his disciples first of all, Beware ye of the leaven of the Pharisees, which is hypocrisy.
+<span id="<?php echo $chapterprefix; ?>12"></span>12:1 In the mean time, when there were gathered together an innumerable multitude of people, insomuch that they trode one upon another, he began to say unto his disciples first of all, Beware ye of the leaven of the Pharisees, which is hypocrisy.
 12:2 For there is nothing covered, that shall not be revealed; neither hid, that shall not be known.
 12:3 Therefore whatsoever ye have spoken in darkness shall be heard in the light; and that which ye have spoken in the ear in closets shall be proclaimed upon the housetops.
 12:4 And I say unto you my friends, Be not afraid of them that kill the body, and after that have no more that they can do.
@@ -475,7 +474,7 @@ And Jesus rebuked the unclean spirit, and healed the child, and delivered him ag
 12:55 And when ye see the south wind blow, ye say, There will be heat; and it cometh to pass.
 12:56 Ye hypocrites, ye can discern the face of the sky and of the earth; but how is it that ye do not discern this time? 12:57 Yea, and why even of yourselves judge ye not what is right? 12:58 When thou goest with thine adversary to the magistrate, as thou art in the way, give diligence that thou mayest be delivered from him; lest he hale thee to the judge, and the judge deliver thee to the officer, and the officer cast thee into prison.
 12:59 I tell thee, thou shalt not depart thence, till thou hast paid the very last mite.
-<span id="13<?= $book ?>"></span>13:1 There were present at that season some that told him of the Galilaeans, whose blood Pilate had mingled with their sacrifices.
+<span id="<?php echo $chapterprefix; ?>13"></span>13:1 There were present at that season some that told him of the Galilaeans, whose blood Pilate had mingled with their sacrifices.
 13:2 And Jesus answering said unto them, Suppose ye that these Galilaeans were sinners above all the Galilaeans, because they suffered such things? 13:3 I tell you, Nay: but, except ye repent, ye shall all likewise perish.
 13:4 Or those eighteen, upon whom the tower in Siloam fell, and slew them, think ye that they were sinners above all men that dwelt in Jerusalem? 13:5 I tell you, Nay: but, except ye repent, ye shall all likewise perish.
 13:6 He spake also this parable; A certain man had a fig tree planted in his vineyard; and he came and sought fruit thereon, and found none.
@@ -499,7 +498,7 @@ And Jesus rebuked the unclean spirit, and healed the child, and delivered him ag
 13:32 And he said unto them, Go ye, and tell that fox, Behold, I cast out devils, and I do cures to day and to morrow, and the third day I shall be perfected.
 13:33 Nevertheless I must walk to day, and to morrow, and the day following: for it cannot be that a prophet perish out of Jerusalem.
 13:34 O Jerusalem, Jerusalem, which killest the prophets, and stonest them that are sent unto thee; how often would I have gathered thy children together, as a hen doth gather her brood under her wings, and ye would not! 13:35 Behold, your house is left unto you desolate: and verily I say unto you, Ye shall not see me, until the time come when ye shall say, Blessed is he that cometh in the name of the Lord.
-<span id="14<?= $book ?>"></span>14:1 And it came to pass, as he went into the house of one of the chief Pharisees to eat bread on the sabbath day, that they watched him.
+<span id="<?php echo $chapterprefix; ?>14"></span>14:1 And it came to pass, as he went into the house of one of the chief Pharisees to eat bread on the sabbath day, that they watched him.
 14:2 And, behold, there was a certain man before him which had the dropsy.
 14:3 And Jesus answering spake unto the lawyers and Pharisees, saying, Is it lawful to heal on the sabbath day? 14:4 And they held their peace. And he took him, and healed him, and let him go; 14:5 And answered them, saying, Which of you shall have an ass or an ox fallen into a pit, and will not straightway pull him out on the sabbath day? 14:6 And they could not answer him again to these things.
 14:7 And he put forth a parable to those which were bidden, when he marked how they chose out the chief rooms; saying unto them.
@@ -523,7 +522,7 @@ And Jesus rebuked the unclean spirit, and healed the child, and delivered him ag
 14:31 Or what king, going to make war against another king, sitteth not down first, and consulteth whether he be able with ten thousand to meet him that cometh against him with twenty thousand? 14:32 Or else, while the other is yet a great way off, he sendeth an ambassage, and desireth conditions of peace.
 14:33 So likewise, whosoever he be of you that forsaketh not all that he hath, he cannot be my disciple.
 14:34 Salt is good: but if the salt have lost his savour, wherewith shall it be seasoned? 14:35 It is neither fit for the land, nor yet for the dunghill; but men cast it out. He that hath ears to hear, let him hear.
-<span id="15<?= $book ?>"></span>15:1 Then drew near unto him all the publicans and sinners for to hear him.
+<span id="<?php echo $chapterprefix; ?>15"></span>15:1 Then drew near unto him all the publicans and sinners for to hear him.
 15:2 And the Pharisees and scribes murmured, saying, This man receiveth sinners, and eateth with them.
 15:3 And he spake this parable unto them, saying, 15:4 What man of you, having an hundred sheep, if he lose one of them, doth not leave the ninety and nine in the wilderness, and go after that which is lost, until he find it? 15:5 And when he hath found it, he layeth it on his shoulders, rejoicing.
 15:6 And when he cometh home, he calleth together his friends and neighbours, saying unto them, Rejoice with me; for I have found my sheep which was lost.
@@ -546,7 +545,7 @@ And Jesus rebuked the unclean spirit, and healed the child, and delivered him ag
 15:29 And he answering said to his father, Lo, these many years do I serve thee, neither transgressed I at any time thy commandment: and yet thou never gavest me a kid, that I might make merry with my friends: 15:30 But as soon as this thy son was come, which hath devoured thy living with harlots, thou hast killed for him the fatted calf.
 15:31 And he said unto him, Son, thou art ever with me, and all that I have is thine.
 15:32 It was meet that we should make merry, and be glad: for this thy brother was dead, and is alive again; and was lost, and is found.
-<span id="16<?= $book ?>"></span>16:1 And he said also unto his disciples, There was a certain rich man, which had a steward; and the same was accused unto him that he had wasted his goods.
+<span id="<?php echo $chapterprefix; ?>16"></span>16:1 And he said also unto his disciples, There was a certain rich man, which had a steward; and the same was accused unto him that he had wasted his goods.
 16:2 And he called him, and said unto him, How is it that I hear this of thee? give an account of thy stewardship; for thou mayest be no longer steward.
 16:3 Then the steward said within himself, What shall I do? for my lord taketh away from me the stewardship: I cannot dig; to beg I am ashamed.
 16:4 I am resolved what to do, that, when I am put out of the stewardship, they may receive me into their houses.
@@ -570,7 +569,7 @@ And Jesus rebuked the unclean spirit, and healed the child, and delivered him ag
 16:29 Abraham saith unto him, They have Moses and the prophets; let them hear them.
 16:30 And he said, Nay, father Abraham: but if one went unto them from the dead, they will repent.
 16:31 And he said unto him, If they hear not Moses and the prophets, neither will they be persuaded, though one rose from the dead.
-<span id="17<?= $book ?>"></span>17:1 Then said he unto the disciples, It is impossible but that offences will come: but woe unto him, through whom they come! 17:2 It were better for him that a millstone were hanged about his neck, and he cast into the sea, than that he should offend one of these little ones.
+<span id="<?php echo $chapterprefix; ?>17"></span>17:1 Then said he unto the disciples, It is impossible but that offences will come: but woe unto him, through whom they come! 17:2 It were better for him that a millstone were hanged about his neck, and he cast into the sea, than that he should offend one of these little ones.
 17:3 Take heed to yourselves: If thy brother trespass against thee, rebuke him; and if he repent, forgive him.
 17:4 And if he trespass against thee seven times in a day, and seven times in a day turn again to thee, saying, I repent; thou shalt forgive him.
 17:5 And the apostles said unto the Lord, Increase our faith.
@@ -599,7 +598,7 @@ And Jesus rebuked the unclean spirit, and healed the child, and delivered him ag
 17:35 Two women shall be grinding together; the one shall be taken, and the other left.
 17:36 Two men shall be in the field; the one shall be taken, and the other left.
 17:37 And they answered and said unto him, Where, Lord? And he said unto them, Wheresoever the body is, thither will the eagles be gathered together.
-<span id="18<?= $book ?>"></span>18:1 And he spake a parable unto them to this end, that men ought always to pray, and not to faint; 18:2 Saying, There was in a city a judge, which feared not God, neither regarded man: 18:3 And there was a widow in that city; and she came unto him, saying, Avenge me of mine adversary.
+<span id="<?php echo $chapterprefix; ?>18"></span>18:1 And he spake a parable unto them to this end, that men ought always to pray, and not to faint; 18:2 Saying, There was in a city a judge, which feared not God, neither regarded man: 18:3 And there was a widow in that city; and she came unto him, saying, Avenge me of mine adversary.
 18:4 And he would not for a while: but afterward he said within himself, Though I fear not God, nor regard man; 18:5 Yet because this widow troubleth me, I will avenge her, lest by her continual coming she weary me.
 18:6 And the Lord said, Hear what the unjust judge saith.
 18:7 And shall not God avenge his own elect, which cry day and night unto him, though he bear long with them? 18:8 I tell you that he will avenge them speedily. Nevertheless when the Son of man cometh, shall he find faith on the earth? 18:9 And he spake this parable unto certain which trusted in themselves that they were righteous, and despised others: 18:10 Two men went up into the temple to pray; the one a Pharisee, and the other a publican.
@@ -629,7 +628,7 @@ And Jesus rebuked the unclean spirit, and healed the child, and delivered him ag
 18:40 And Jesus stood, and commanded him to be brought unto him: and when he was come near, he asked him, 18:41 Saying, What wilt thou that I shall do unto thee? And he said, Lord, that I may receive my sight.
 18:42 And Jesus said unto him, Receive thy sight: thy faith hath saved thee.
 18:43 And immediately he received his sight, and followed him, glorifying God: and all the people, when they saw it, gave praise unto God.
-<span id="19<?= $book ?>"></span>19:1 And Jesus entered and passed through Jericho.
+<span id="<?php echo $chapterprefix; ?>19"></span>19:1 And Jesus entered and passed through Jericho.
 19:2 And, behold, there was a man named Zacchaeus, which was the chief among the publicans, and he was rich.
 19:3 And he sought to see Jesus who he was; and could not for the press, because he was little of stature.
 19:4 And he ran before, and climbed up into a sycomore tree to see him: for he was to pass that way.
@@ -666,7 +665,7 @@ And Jesus rebuked the unclean spirit, and healed the child, and delivered him ag
 19:43 For the days shall come upon thee, that thine enemies shall cast a trench about thee, and compass thee round, and keep thee in on every side, 19:44 And shall lay thee even with the ground, and thy children within thee; and they shall not leave in thee one stone upon another; because thou knewest not the time of thy visitation.
 19:45 And he went into the temple, and began to cast out them that sold therein, and them that bought; 19:46 Saying unto them, It is written, My house is the house of prayer: but ye have made it a den of thieves.
 19:47 And he taught daily in the temple. But the chief priests and the scribes and the chief of the people sought to destroy him, 19:48 And could not find what they might do: for all the people were very attentive to hear him.
-<span id="20<?= $book ?>"></span>20:1 And it came to pass, that on one of those days, as he taught the people in the temple, and preached the gospel, the chief priests and the scribes came upon him with the elders, 20:2 And spake unto him, saying, Tell us, by what authority doest thou these things? or who is he that gave thee this authority? 20:3 And he answered and said unto them, I will also ask you one thing; and answer me: 20:4 The baptism of John, was it from heaven, or of men? 20:5 And they reasoned with themselves, saying, If we shall say, From heaven; he will say, Why then believed ye him not? 20:6 But and if we say, Of men; all the people will stone us: for they be persuaded that John was a prophet.
+<span id="<?php echo $chapterprefix; ?>20"></span>20:1 And it came to pass, that on one of those days, as he taught the people in the temple, and preached the gospel, the chief priests and the scribes came upon him with the elders, 20:2 And spake unto him, saying, Tell us, by what authority doest thou these things? or who is he that gave thee this authority? 20:3 And he answered and said unto them, I will also ask you one thing; and answer me: 20:4 The baptism of John, was it from heaven, or of men? 20:5 And they reasoned with themselves, saying, If we shall say, From heaven; he will say, Why then believed ye him not? 20:6 But and if we say, Of men; all the people will stone us: for they be persuaded that John was a prophet.
 20:7 And they answered, that they could not tell whence it was.
 20:8 And Jesus said unto them, Neither tell I you by what authority I do these things.
 20:9 Then began he to speak to the people this parable; A certain man planted a vineyard, and let it forth to husbandmen, and went into a far country for a long time.
@@ -695,7 +694,7 @@ And Jesus rebuked the unclean spirit, and healed the child, and delivered him ag
 20:40 And after that they durst not ask him any question at all.
 20:41 And he said unto them, How say they that Christ is David's son? 20:42 And David himself saith in the book of Psalms, The LORD said unto my Lord, Sit thou on my right hand, 20:43 Till I make thine enemies thy footstool.
 20:44 David therefore calleth him Lord, how is he then his son? 20:45 Then in the audience of all the people he said unto his disciples, 20:46 Beware of the scribes, which desire to walk in long robes, and love greetings in the markets, and the highest seats in the synagogues, and the chief rooms at feasts; 20:47 Which devour widows' houses, and for a shew make long prayers: the same shall receive greater damnation.
-<span id="21<?= $book ?>"></span>21:1 And he looked up, and saw the rich men casting their gifts into the treasury.
+<span id="<?php echo $chapterprefix; ?>21"></span>21:1 And he looked up, and saw the rich men casting their gifts into the treasury.
 21:2 And he saw also a certain poor widow casting in thither two mites.
 21:3 And he said, Of a truth I say unto you, that this poor widow hath cast in more than they all: 21:4 For all these have of their abundance cast in unto the offerings of God: but she of her penury hath cast in all the living that she had.
 21:5 And as some spake of the temple, how it was adorned with goodly stones and gifts, he said, 21:6 As for these things which ye behold, the days will come, in the which there shall not be left one stone upon another, that shall not be thrown down.
@@ -726,7 +725,7 @@ And Jesus rebuked the unclean spirit, and healed the child, and delivered him ag
 21:36 Watch ye therefore, and pray always, that ye may be accounted worthy to escape all these things that shall come to pass, and to stand before the Son of man.
 21:37 And in the day time he was teaching in the temple; and at night he went out, and abode in the mount that is called the mount of Olives.
 21:38 And all the people came early in the morning to him in the temple, for to hear him.
-<span id="22<?= $book ?>"></span>22:1 Now the feast of unleavened bread drew nigh, which is called the Passover.
+<span id="<?php echo $chapterprefix; ?>22"></span>22:1 Now the feast of unleavened bread drew nigh, which is called the Passover.
 22:2 And the chief priests and scribes sought how they might kill him; for they feared the people.
 22:3 Then entered Satan into Judas surnamed Iscariot, being of the number of the twelve.
 22:4 And he went his way, and communed with the chief priests and captains, how he might betray him unto them.
@@ -782,7 +781,7 @@ And Jesus rebuked the unclean spirit, and healed the child, and delivered him ag
 22:69 Hereafter shall the Son of man sit on the right hand of the power of God.
 22:70 Then said they all, Art thou then the Son of God? And he said unto them, Ye say that I am.
 22:71 And they said, What need we any further witness? for we ourselves have heard of his own mouth.
-<span id="23<?= $book ?>"></span>23:1 And the whole multitude of them arose, and led him unto Pilate.
+<span id="<?php echo $chapterprefix; ?>23"></span>23:1 And the whole multitude of them arose, and led him unto Pilate.
 23:2 And they began to accuse him, saying, We found this fellow perverting the nation, and forbidding to give tribute to Caesar, saying that he himself is Christ a King.
 23:3 And Pilate asked him, saying, Art thou the King of the Jews? And he answered him and said, Thou sayest it.
 23:4 Then said Pilate to the chief priests and to the people, I find no fault in this man.
@@ -829,7 +828,7 @@ And Jesus rebuked the unclean spirit, and healed the child, and delivered him ag
 23:54 And that day was the preparation, and the sabbath drew on.
 23:55 And the women also, which came with him from Galilee, followed after, and beheld the sepulchre, and how his body was laid.
 23:56 And they returned, and prepared spices and ointments; and rested the sabbath day according to the commandment.
-<span id="24<?= $book ?>"></span>24:1 Now upon the first day of the week, very early in the morning, they came unto the sepulchre, bringing the spices which they had prepared, and certain others with them.
+<span id="<?php echo $chapterprefix; ?>24"></span>24:1 Now upon the first day of the week, very early in the morning, they came unto the sepulchre, bringing the spices which they had prepared, and certain others with them.
 24:2 And they found the stone rolled away from the sepulchre.
 24:3 And they entered in, and found not the body of the Lord Jesus.
 24:4 And it came to pass, as they were much perplexed thereabout, behold, two men stood by them in shining garments: 24:5 And as they were afraid, and bowed down their faces to the earth, they said unto them, Why seek ye the living among the dead? 24:6 He is not here, but is risen: remember how he spake unto you when he was yet in Galilee, 24:7 Saying, The Son of man must be delivered into the hands of sinful men, and be crucified, and the third day rise again.
@@ -865,8 +864,4 @@ And Jesus rebuked the unclean spirit, and healed the child, and delivered him ag
 24:50 And he led them out as far as to Bethany, and he lifted up his hands, and blessed them.
 24:51 And it came to pass, while he blessed them, he was parted from them, and carried up into heaven.
 24:52 And they worshipped him, and returned to Jerusalem with great joy: 24:53 And were continually in the temple, praising and blessing God. Amen.
-<?php
-if (!isset($include)) {
- include ('aa-end.php');
-}
-?>
+<?php if (!isset($collection)) {include 'bookfoot.php';} ?>

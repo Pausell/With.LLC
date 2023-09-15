@@ -1,18 +1,17 @@
 <?php
 $title = 'Hebrews';
 $description = 'The Epistle of Paul the Apostle to the Hebrews';
-if (!isset($include)) {
- include ('aa-beginning.php');
-}
+if (isset($collection)) {$chapterprefix = 'hebrews';}
+if (!isset($collection)) {include 'bookhead.php';}
 ?>
-<span id="1<?= $book ?>"></span><h2 id="hebrews">The Epistle of Paul the Apostle to the Hebrews</h2><!--2-19b-->
+<span id="<?php echo $chapterprefix; ?>1"></span><h3 id="hebrews">The Epistle of Paul the Apostle to the Hebrews</h3><!--2-19b-->
 1:1 God, who at sundry times and in divers manners spake in time past unto the fathers by the prophets, 1:2 Hath in these last days spoken unto us by his Son, whom he hath appointed heir of all things, by whom also he made the worlds; 1:3 Who being the brightness of his glory, and the express image of his person, and upholding all things by the word of his power, when he had by himself purged our sins, sat down on the right hand of the Majesty on high: 1:4 Being made so much better than the angels, as he hath by inheritance obtained a more excellent name than they.
 1:5 For unto which of the angels said he at any time, Thou art my Son, this day have I begotten thee? And again, I will be to him a Father, and he shall be to me a Son? 1:6 And again, when he bringeth in the firstbegotten into the world, he saith, And let all the angels of God worship him.
 1:7 And of the angels he saith, Who maketh his angels spirits, and his ministers a flame of fire.
 1:8 But unto the Son he saith, Thy throne, O God, is for ever and ever: a sceptre of righteousness is the sceptre of thy kingdom.
 1:9 Thou hast loved righteousness, and hated iniquity; therefore God, even thy God, hath anointed thee with the oil of gladness above thy fellows.
 1:10 And, Thou, Lord, in the beginning hast laid the foundation of the earth; and the heavens are the works of thine hands: 1:11 They shall perish; but thou remainest; and they all shall wax old as doth a garment; 1:12 And as a vesture shalt thou fold them up, and they shall be changed: but thou art the same, and thy years shall not fail.
-1:13 But to which of the angels said he at any time, Sit on my right hand, until I make thine enemies thy footstool? 1:14 Are they not all ministering spirits, sent forth to minister for them who shall be heirs of salvation? <span id="2<?= $book ?>"></span>2:1 Therefore we ought to give the more earnest heed to the things which we have heard, lest at any time we should let them slip.
+1:13 But to which of the angels said he at any time, Sit on my right hand, until I make thine enemies thy footstool? 1:14 Are they not all ministering spirits, sent forth to minister for them who shall be heirs of salvation? <span id="<?php echo $chapterprefix; ?>2"></span>2:1 Therefore we ought to give the more earnest heed to the things which we have heard, lest at any time we should let them slip.
 2:2 For if the word spoken by angels was stedfast, and every transgression and disobedience received a just recompence of reward; 2:3 How shall we escape, if we neglect so great salvation; which at the first began to be spoken by the Lord, and was confirmed unto us by them that heard him; 2:4 God also bearing them witness, both with signs and wonders, and with divers miracles, and gifts of the Holy Ghost, according to his own will? 2:5 For unto the angels hath he not put in subjection the world to come, whereof we speak.
 2:6 But one in a certain place testified, saying, What is man, that thou art mindful of him? or the son of man that thou visitest him? 2:7 Thou madest him a little lower than the angels; thou crownedst him with glory and honour, and didst set him over the works of thy hands: 2:8 Thou hast put all things in subjection under his feet. For in that he put all in subjection under him, he left nothing that is not put under him.
 But now we see not yet all things put under him.
@@ -24,7 +23,7 @@ But now we see not yet all things put under him.
 2:16 For verily he took not on him the nature of angels; but he took on him the seed of Abraham.
 2:17 Wherefore in all things it behoved him to be made like unto his brethren, that he might be a merciful and faithful high priest in things pertaining to God, to make reconciliation for the sins of the people.
 2:18 For in that he himself hath suffered being tempted, he is able to succour them that are tempted.
-<span id="3<?= $book ?>"></span>3:1 Wherefore, holy brethren, partakers of the heavenly calling, consider the Apostle and High Priest of our profession, Christ Jesus; 3:2 Who was faithful to him that appointed him, as also Moses was faithful in all his house.
+<span id="<?php echo $chapterprefix; ?>3"></span>3:1 Wherefore, holy brethren, partakers of the heavenly calling, consider the Apostle and High Priest of our profession, Christ Jesus; 3:2 Who was faithful to him that appointed him, as also Moses was faithful in all his house.
 3:3 For this man was counted worthy of more glory than Moses, inasmuch as he who hath builded the house hath more honour than the house.
 3:4 For every house is builded by some man; but he that built all things is God.
 3:5 And Moses verily was faithful in all his house, as a servant, for a testimony of those things which were to be spoken after; 3:6 But Christ as a son over his own house; whose house are we, if we hold fast the confidence and the rejoicing of the hope firm unto the end.
@@ -35,7 +34,7 @@ But now we see not yet all things put under him.
 3:14 For we are made partakers of Christ, if we hold the beginning of our confidence stedfast unto the end; 3:15 While it is said, To day if ye will hear his voice, harden not your hearts, as in the provocation.
 3:16 For some, when they had heard, did provoke: howbeit not all that came out of Egypt by Moses.
 3:17 But with whom was he grieved forty years? was it not with them that had sinned, whose carcases fell in the wilderness? 3:18 And to whom sware he that they should not enter into his rest, but to them that believed not? 3:19 So we see that they could not enter in because of unbelief.
-<span id="4<?= $book ?>"></span>4:1 Let us therefore fear, lest, a promise being left us of entering into his rest, any of you should seem to come short of it.
+<span id="<?php echo $chapterprefix; ?>4"></span>4:1 Let us therefore fear, lest, a promise being left us of entering into his rest, any of you should seem to come short of it.
 4:2 For unto us was the gospel preached, as well as unto them: but the word preached did not profit them, not being mixed with faith in them that heard it.
 4:3 For we which have believed do enter into rest, as he said, As I have sworn in my wrath, if they shall enter into my rest: although the works were finished from the foundation of the world.
 4:4 For he spake in a certain place of the seventh day on this wise, And God did rest the seventh day from all his works.
@@ -50,7 +49,7 @@ But now we see not yet all things put under him.
 4:14 Seeing then that we have a great high priest, that is passed into the heavens, Jesus the Son of God, let us hold fast our profession.
 4:15 For we have not an high priest which cannot be touched with the feeling of our infirmities; but was in all points tempted like as we are, yet without sin.
 4:16 Let us therefore come boldly unto the throne of grace, that we may obtain mercy, and find grace to help in time of need.
-<span id="5<?= $book ?>"></span>5:1 For every high priest taken from among men is ordained for men in things pertaining to God, that he may offer both gifts and sacrifices for sins: 5:2 Who can have compassion on the ignorant, and on them that are out of the way; for that he himself also is compassed with infirmity.
+<span id="<?php echo $chapterprefix; ?>5"></span>5:1 For every high priest taken from among men is ordained for men in things pertaining to God, that he may offer both gifts and sacrifices for sins: 5:2 Who can have compassion on the ignorant, and on them that are out of the way; for that he himself also is compassed with infirmity.
 5:3 And by reason hereof he ought, as for the people, so also for himself, to offer for sins.
 5:4 And no man taketh this honour unto himself, but he that is called of God, as was Aaron.
 5:5 So also Christ glorified not himself to be made an high priest; but he that said unto him, Thou art my Son, to day have I begotten thee.
@@ -60,7 +59,7 @@ But now we see not yet all things put under him.
 5:12 For when for the time ye ought to be teachers, ye have need that one teach you again which be the first principles of the oracles of God; and are become such as have need of milk, and not of strong meat.
 5:13 For every one that useth milk is unskilful in the word of righteousness: for he is a babe.
 5:14 But strong meat belongeth to them that are of full age, even those who by reason of use have their senses exercised to discern both good and evil.
-<span id="6<?= $book ?>"></span>6:1 Therefore leaving the principles of the doctrine of Christ, let us go on unto perfection; not laying again the foundation of repentance from dead works, and of faith toward God, 6:2 Of the doctrine of baptisms, and of laying on of hands, and of resurrection of the dead, and of eternal judgment.
+<span id="<?php echo $chapterprefix; ?>6"></span>6:1 Therefore leaving the principles of the doctrine of Christ, let us go on unto perfection; not laying again the foundation of repentance from dead works, and of faith toward God, 6:2 Of the doctrine of baptisms, and of laying on of hands, and of resurrection of the dead, and of eternal judgment.
 6:3 And this will we do, if God permit.
 6:4 For it is impossible for those who were once enlightened, and have tasted of the heavenly gift, and were made partakers of the Holy Ghost, 6:5 And have tasted the good word of God, and the powers of the world to come, 6:6 If they shall fall away, to renew them again unto repentance; seeing they crucify to themselves the Son of God afresh, and put him to an open shame.
 6:7 For the earth which drinketh in the rain that cometh oft upon it, and bringeth forth herbs meet for them by whom it is dressed, receiveth blessing from God: 6:8 But that which beareth thorns and briers is rejected, and is nigh unto cursing; whose end is to be burned.
@@ -71,7 +70,7 @@ But now we see not yet all things put under him.
 6:15 And so, after he had patiently endured, he obtained the promise.
 6:16 For men verily swear by the greater: and an oath for confirmation is to them an end of all strife.
 6:17 Wherein God, willing more abundantly to shew unto the heirs of promise the immutability of his counsel, confirmed it by an oath: 6:18 That by two immutable things, in which it was impossible for God to lie, we might have a strong consolation, who have fled for refuge to lay hold upon the hope set before us: 6:19 Which hope we have as an anchor of the soul, both sure and stedfast, and which entereth into that within the veil; 6:20 Whither the forerunner is for us entered, even Jesus, made an high priest for ever after the order of Melchisedec.
-<span id="7<?= $book ?>"></span>7:1 For this Melchisedec, king of Salem, priest of the most high God, who met Abraham returning from the slaughter of the kings, and blessed him; 7:2 To whom also Abraham gave a tenth part of all; first being by interpretation King of righteousness, and after that also King of Salem, which is, King of peace; 7:3 Without father, without mother, without descent, having neither beginning of days, nor end of life; but made like unto the Son of God; abideth a priest continually.
+<span id="<?php echo $chapterprefix; ?>7"></span>7:1 For this Melchisedec, king of Salem, priest of the most high God, who met Abraham returning from the slaughter of the kings, and blessed him; 7:2 To whom also Abraham gave a tenth part of all; first being by interpretation King of righteousness, and after that also King of Salem, which is, King of peace; 7:3 Without father, without mother, without descent, having neither beginning of days, nor end of life; but made like unto the Son of God; abideth a priest continually.
 7:4 Now consider how great this man was, unto whom even the patriarch Abraham gave the tenth of the spoils.
 7:5 And verily they that are of the sons of Levi, who receive the office of the priesthood, have a commandment to take tithes of the people according to the law, that is, of their brethren, though they come out of the loins of Abraham: 7:6 But he whose descent is not counted from them received tithes of Abraham, and blessed him that had the promises.
 7:7 And without all contradiction the less is blessed of the better.
@@ -90,7 +89,7 @@ But now we see not yet all things put under him.
 7:25 Wherefore he is able also to save them to the uttermost that come unto God by him, seeing he ever liveth to make intercession for them.
 7:26 For such an high priest became us, who is holy, harmless, undefiled, separate from sinners, and made higher than the heavens; 7:27 Who needeth not daily, as those high priests, to offer up sacrifice, first for his own sins, and then for the people's: for this he did once, when he offered up himself.
 7:28 For the law maketh men high priests which have infirmity; but the word of the oath, which was since the law, maketh the Son, who is consecrated for evermore.
-<span id="8<?= $book ?>"></span>8:1 Now of the things which we have spoken this is the sum: We have such an high priest, who is set on the right hand of the throne of the Majesty in the heavens; 8:2 A minister of the sanctuary, and of the true tabernacle, which the Lord pitched, and not man.
+<span id="<?php echo $chapterprefix; ?>8"></span>8:1 Now of the things which we have spoken this is the sum: We have such an high priest, who is set on the right hand of the throne of the Majesty in the heavens; 8:2 A minister of the sanctuary, and of the true tabernacle, which the Lord pitched, and not man.
 8:3 For every high priest is ordained to offer gifts and sacrifices: wherefore it is of necessity that this man have somewhat also to offer.
 8:4 For if he were on earth, he should not be a priest, seeing that there are priests that offer gifts according to the law: 8:5 Who serve unto the example and shadow of heavenly things, as Moses was admonished of God when he was about to make the tabernacle: for, See, saith he, that thou make all things according to the pattern shewed to thee in the mount.
 8:6 But now hath he obtained a more excellent ministry, by how much also he is the mediator of a better covenant, which was established upon better promises.
@@ -99,7 +98,7 @@ But now we see not yet all things put under him.
 8:10 For this is the covenant that I will make with the house of Israel after those days, saith the Lord; I will put my laws into their mind, and write them in their hearts: and I will be to them a God, and they shall be to me a people: 8:11 And they shall not teach every man his neighbour, and every man his brother, saying, Know the Lord: for all shall know me, from the least to the greatest.
 8:12 For I will be merciful to their unrighteousness, and their sins and their iniquities will I remember no more.
 8:13 In that he saith, A new covenant, he hath made the first old. Now that which decayeth and waxeth old is ready to vanish away.
-<span id="9<?= $book ?>"></span>9:1 Then verily the first covenant had also ordinances of divine service, and a worldly sanctuary.
+<span id="<?php echo $chapterprefix; ?>9"></span>9:1 Then verily the first covenant had also ordinances of divine service, and a worldly sanctuary.
 9:2 For there was a tabernacle made; the first, wherein was the candlestick, and the table, and the shewbread; which is called the sanctuary.
 9:3 And after the second veil, the tabernacle which is called the Holiest of all; 9:4 Which had the golden censer, and the ark of the covenant overlaid round about with gold, wherein was the golden pot that had manna, and Aaron's rod that budded, and the tables of the covenant; 9:5 And over it the cherubims of glory shadowing the mercyseat; of which we cannot now speak particularly.
 9:6 Now when these things were thus ordained, the priests went always into the first tabernacle, accomplishing the service of God.
@@ -115,7 +114,7 @@ But now we see not yet all things put under him.
 9:23 It was therefore necessary that the patterns of things in the heavens should be purified with these; but the heavenly things themselves with better sacrifices than these.
 9:24 For Christ is not entered into the holy places made with hands, which are the figures of the true; but into heaven itself, now to appear in the presence of God for us: 9:25 Nor yet that he should offer himself often, as the high priest entereth into the holy place every year with blood of others; 9:26 For then must he often have suffered since the foundation of the world: but now once in the end of the world hath he appeared to put away sin by the sacrifice of himself.
 9:27 And as it is appointed unto men once to die, but after this the judgment: 9:28 So Christ was once offered to bear the sins of many; and unto them that look for him shall he appear the second time without sin unto salvation.
-<span id="10<?= $book ?>"></span>10:1 For the law having a shadow of good things to come, and not the very image of the things, can never with those sacrifices which they offered year by year continually make the comers thereunto perfect.
+<span id="<?php echo $chapterprefix; ?>10"></span>10:1 For the law having a shadow of good things to come, and not the very image of the things, can never with those sacrifices which they offered year by year continually make the comers thereunto perfect.
 10:2 For then would they not have ceased to be offered? because that the worshippers once purged should have had no more conscience of sins.
 10:3 But in those sacrifices there is a remembrance again made of sins every year.
 10:4 For it is not possible that the blood of bulls and of goats should take away sins.
@@ -139,7 +138,7 @@ But now we see not yet all things put under him.
 10:37 For yet a little while, and he that shall come will come, and will not tarry.
 10:38 Now the just shall live by faith: but if any man draw back, my soul shall have no pleasure in him.
 10:39 But we are not of them who draw back unto perdition; but of them that believe to the saving of the soul.
-<span id="11<?= $book ?>"></span>11:1 Now faith is the substance of things hoped for, the evidence of things not seen.
+<span id="<?php echo $chapterprefix; ?>11"></span>11:1 Now faith is the substance of things hoped for, the evidence of things not seen.
 11:2 For by it the elders obtained a good report.
 11:3 Through faith we understand that the worlds were framed by the word of God, so that things which are seen were not made of things which do appear.
 11:4 By faith Abel offered unto God a more excellent sacrifice than Cain, by which he obtained witness that he was righteous, God testifying of his gifts: and by it he being dead yet speaketh.
@@ -169,7 +168,7 @@ But now we see not yet all things put under him.
 11:34 Quenched the violence of fire, escaped the edge of the sword, out of weakness were made strong, waxed valiant in fight, turned to flight the armies of the aliens.
 11:35 Women received their dead raised to life again: and others were tortured, not accepting deliverance; that they might obtain a better resurrection: 11:36 And others had trial of cruel mockings and scourgings, yea, moreover of bonds and imprisonment: 11:37 They were stoned, they were sawn asunder, were tempted, were slain with the sword: they wandered about in sheepskins and goatskins; being destitute, afflicted, tormented; 11:38 (Of whom the world was not worthy:) they wandered in deserts, and in mountains, and in dens and caves of the earth.
 11:39 And these all, having obtained a good report through faith, received not the promise: 11:40 God having provided some better thing for us, that they without us should not be made perfect.
-<span id="12<?= $book ?>"></span>12:1 Wherefore seeing we also are compassed about with so great a cloud of witnesses, let us lay aside every weight, and the sin which doth so easily beset us, and let us run with patience the race that is set before us, 12:2 Looking unto Jesus the author and finisher of our faith; who for the joy that was set before him endured the cross, despising the shame, and is set down at the right hand of the throne of God.
+<span id="<?php echo $chapterprefix; ?>12"></span>12:1 Wherefore seeing we also are compassed about with so great a cloud of witnesses, let us lay aside every weight, and the sin which doth so easily beset us, and let us run with patience the race that is set before us, 12:2 Looking unto Jesus the author and finisher of our faith; who for the joy that was set before him endured the cross, despising the shame, and is set down at the right hand of the throne of God.
 12:3 For consider him that endured such contradiction of sinners against himself, lest ye be wearied and faint in your minds.
 12:4 Ye have not yet resisted unto blood, striving against sin.
 12:5 And ye have forgotten the exhortation which speaketh unto you as unto children, My son, despise not thou the chastening of the Lord, nor faint when thou art rebuked of him: 12:6 For whom the Lord loveth he chasteneth, and scourgeth every son whom he receiveth.
@@ -183,7 +182,7 @@ But now we see not yet all things put under him.
 12:25 See that ye refuse not him that speaketh. For if they escaped not who refused him that spake on earth, much more shall not we escape, if we turn away from him that speaketh from heaven: 12:26 Whose voice then shook the earth: but now he hath promised, saying, Yet once more I shake not the earth only, but also heaven.
 12:27 And this word, Yet once more, signifieth the removing of those things that are shaken, as of things that are made, that those things which cannot be shaken may remain.
 12:28 Wherefore we receiving a kingdom which cannot be moved, let us have grace, whereby we may serve God acceptably with reverence and godly fear: 12:29 For our God is a consuming fire.
-<span id="13<?= $book ?>"></span>13:1 Let brotherly love continue.
+<span id="<?php echo $chapterprefix; ?>13"></span>13:1 Let brotherly love continue.
 13:2 Be not forgetful to entertain strangers: for thereby some have entertained angels unawares.
 13:3 Remember them that are in bonds, as bound with them; and them which suffer adversity, as being yourselves also in the body.
 13:4 Marriage is honourable in all, and the bed undefiled: but whoremongers and adulterers God will judge.
@@ -208,8 +207,4 @@ But now we see not yet all things put under him.
 13:24 Salute all them that have the rule over you, and all the saints.
 They of Italy salute you.
 13:25 Grace be with you all. Amen.
-<?php
-if (!isset($include)) {
- include ('aa-end.php');
-}
-?>
+<?php if (!isset($collection)) {include 'bookfoot.php';} ?>

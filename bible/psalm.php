@@ -1,18 +1,17 @@
 <?php
 $title = 'Psalm';
 $description = 'The Book of Psalms';
-if (!isset($include)) {
- include ('aa-beginning.php');
-}
+if (isset($collection)) {$chapterprefix = 'psalm';}
+if (!isset($collection)) {include 'bookhead.php';}
 ?>
-<span id="1<?= $book ?>"></span><h2 id="psalms">The Book of Psalms</h2><!--1t19b-->
+<span id="<?php echo $chapterprefix; ?>1"></span><h3 id="psalms">The Book of Psalms</h3><!--1t19b-->
 1:1 Blessed is the man that walketh not in the counsel of the ungodly, nor standeth in the way of sinners, nor sitteth in the seat of the scornful.
 1:2 But his delight is in the law of the LORD; and in his law doth he meditate day and night.
 1:3 And he shall be like a tree planted by the rivers of water, that bringeth forth his fruit in his season; his leaf also shall not wither; and whatsoever he doeth shall prosper.
 1:4 The ungodly are not so: but are like the chaff which the wind driveth away.
 1:5 Therefore the ungodly shall not stand in the judgment, nor sinners in the congregation of the righteous.
 1:6 For the LORD knoweth the way of the righteous: but the way of the ungodly shall perish.
-<span id="2<?= $book ?>"></span>2:1 Why do the heathen rage, and the people imagine a vain thing?
+<span id="<?php echo $chapterprefix; ?>2"></span>2:1 Why do the heathen rage, and the people imagine a vain thing?
 2:2 The kings of the earth set themselves, and the rulers take counsel together, against the LORD, and against his anointed, saying,
 2:3 Let us break their bands asunder, and cast away their cords from us.
 2:4 He that sitteth in the heavens shall laugh: the LORD shall have them in derision.
@@ -24,7 +23,7 @@ if (!isset($include)) {
 2:10 Be wise now therefore, O ye kings: be instructed, ye judges of the earth.
 2:11 Serve the LORD with fear, and rejoice with trembling.
 2:12 Kiss the Son, lest he be angry, and ye perish from the way, when his wrath is kindled but a little. Blessed are all they that put their trust in him.
-<span id="3<?= $book ?>"></span>3:1 Lord, how are they increased that trouble me! many are they that rise up against me.
+<span id="<?php echo $chapterprefix; ?>3"></span>3:1 Lord, how are they increased that trouble me! many are they that rise up against me.
 3:2 Many there be which say of my soul, There is no help for him in God.
 Selah.
 3:3 But thou, O LORD, art a shield for me; my glory, and the lifter up of mine head.
@@ -34,7 +33,7 @@ Selah.
 3:7 Arise, O LORD; save me, O my God: for thou hast smitten all mine enemies upon the cheek bone; thou hast broken the teeth of the ungodly.
 3:8 Salvation belongeth unto the LORD: thy blessing is upon thy people.
 Selah.
-<span id="4<?= $book ?>"></span>4:1 Hear me when I call, O God of my righteousness: thou hast enlarged me when I was in distress; have mercy upon me, and hear my prayer.
+<span id="<?php echo $chapterprefix; ?>4"></span>4:1 Hear me when I call, O God of my righteousness: thou hast enlarged me when I was in distress; have mercy upon me, and hear my prayer.
 4:2 O ye sons of men, how long will ye turn my glory into shame? how long will ye love vanity, and seek after leasing? Selah.
 4:3 But know that the LORD hath set apart him that is godly for himself: the LORD will hear when I call unto him.
 4:4 Stand in awe, and sin not: commune with your own heart upon your bed, and be still. Selah.
@@ -42,7 +41,7 @@ Selah.
 4:6 There be many that say, Who will shew us any good? LORD, lift thou up the light of thy countenance upon us.
 4:7 Thou hast put gladness in my heart, more than in the time that their corn and their wine increased.
 4:8 I will both lay me down in peace, and sleep: for thou, LORD, only makest me dwell in safety.
-<span id="5<?= $book ?>"></span>5:1 Give ear to my words, O LORD, consider my meditation.
+<span id="<?php echo $chapterprefix; ?>5"></span>5:1 Give ear to my words, O LORD, consider my meditation.
 5:2 Hearken unto the voice of my cry, my King, and my God: for unto thee will I pray.
 5:3 My voice shalt thou hear in the morning, O LORD; in the morning will I direct my prayer unto thee, and will look up.
 5:4 For thou art not a God that hath pleasure in wickedness: neither shall evil dwell with thee.
@@ -54,7 +53,7 @@ Selah.
 5:10 Destroy thou them, O God; let them fall by their own counsels; cast them out in the multitude of their transgressions; for they have rebelled against thee.
 5:11 But let all those that put their trust in thee rejoice: let them ever shout for joy, because thou defendest them: let them also that love thy name be joyful in thee.
 5:12 For thou, LORD, wilt bless the righteous; with favour wilt thou compass him as with a shield.
-<span id="6<?= $book ?>"></span>6:1 O LORD, rebuke me not in thine anger, neither chasten me in thy hot displeasure.
+<span id="<?php echo $chapterprefix; ?>6"></span>6:1 O LORD, rebuke me not in thine anger, neither chasten me in thy hot displeasure.
 6:2 Have mercy upon me, O LORD; for I am weak: O LORD, heal me; for my bones are vexed.
 6:3 My soul is also sore vexed: but thou, O LORD, how long?
 6:4 Return, O LORD, deliver my soul: oh save me for thy mercies' sake.
@@ -64,7 +63,7 @@ Selah.
 6:8 Depart from me, all ye workers of iniquity; for the LORD hath heard the voice of my weeping.
 6:9 The LORD hath heard my supplication; the LORD will receive my prayer.
 6:10 Let all mine enemies be ashamed and sore vexed: let them return and be ashamed suddenly.
-<span id="7<?= $book ?>"></span>7:1 O LORD my God, in thee do I put my trust: save me from all them that persecute me, and deliver me:
+<span id="<?php echo $chapterprefix; ?>7"></span>7:1 O LORD my God, in thee do I put my trust: save me from all them that persecute me, and deliver me:
 7:2 Lest he tear my soul like a lion, rending it in pieces, while there is none to deliver.
 7:3 O LORD my God, If I have done this; if there be iniquity in my hands;
 7:4 If I have rewarded evil unto him that was at peace with me; (yea, I have delivered him that without cause is mine enemy:)
@@ -81,7 +80,7 @@ Selah.
 7:15 He made a pit, and digged it, and is fallen into the ditch which he made.
 7:16 His mischief shall return upon his own head, and his violent dealing shall come down upon his own pate.
 7:17 I will praise the LORD according to his righteousness: and will sing praise to the name of the LORD most high.
-<span id="8<?= $book ?>"></span>8:1 O LORD, our Lord, how excellent is thy name in all the earth! who hast set thy glory above the heavens.
+<span id="<?php echo $chapterprefix; ?>8"></span>8:1 O LORD, our Lord, how excellent is thy name in all the earth! who hast set thy glory above the heavens.
 8:2 Out of the mouth of babes and sucklings hast thou ordained strength because of thine enemies, that thou mightest still the enemy and the avenger.
 8:3 When I consider thy heavens, the work of thy fingers, the moon and the stars, which thou hast ordained;
 8:4 What is man, that thou art mindful of him? and the son of man, that thou visitest him?
@@ -90,7 +89,7 @@ Selah.
 8:7 All sheep and oxen, yea, and the beasts of the field;
 8:8 The fowl of the air, and the fish of the sea, and whatsoever passeth through the paths of the seas.
 8:9 O LORD our Lord, how excellent is thy name in all the earth!
-<span id="9<?= $book ?>"></span>9:1 I will praise thee, O LORD, with my whole heart; I will shew forth all thy marvellous works.
+<span id="<?php echo $chapterprefix; ?>9"></span>9:1 I will praise thee, O LORD, with my whole heart; I will shew forth all thy marvellous works.
 9:2 I will be glad and rejoice in thee: I will sing praise to thy name, O thou most High.
 9:3 When mine enemies are turned back, they shall fall and perish at thy presence.
 9:4 For thou hast maintained my right and my cause; thou satest in the throne judging right.
@@ -110,7 +109,7 @@ Selah.
 9:18 For the needy shall not alway be forgotten: the expectation of the poor shall not perish for ever.
 9:19 Arise, O LORD; let not man prevail: let the heathen be judged in thy sight.
 9:20 Put them in fear, O LORD: that the nations may know themselves to be but men. Selah.
-<span id="10<?= $book ?>"></span>10:1 Why standest thou afar off, O LORD? why hidest thou thyself in times of trouble?
+<span id="<?php echo $chapterprefix; ?>10"></span>10:1 Why standest thou afar off, O LORD? why hidest thou thyself in times of trouble?
 10:2 The wicked in his pride doth persecute the poor: let them be taken in the devices that they have imagined.
 10:3 For the wicked boasteth of his heart's desire, and blesseth the covetous, whom the LORD abhorreth.
 10:4 The wicked, through the pride of his countenance, will not seek after God: God is not in all his thoughts.
@@ -128,14 +127,14 @@ Selah.
 10:16 The LORD is King for ever and ever: the heathen are perished out of his land.
 10:17 LORD, thou hast heard the desire of the humble: thou wilt prepare their heart, thou wilt cause thine ear to hear:
 10:18 To judge the fatherless and the oppressed, that the man of the earth may no more oppress.
-<span id="11<?= $book ?>"></span>11:1 In the LORD put I my trust: how say ye to my soul, Flee as a bird to your mountain?
+<span id="<?php echo $chapterprefix; ?>11"></span>11:1 In the LORD put I my trust: how say ye to my soul, Flee as a bird to your mountain?
 11:2 For, lo, the wicked bend their bow, they make ready their arrow upon the string, that they may privily shoot at the upright in heart.
 11:3 If the foundations be destroyed, what can the righteous do?
 11:4 The LORD is in his holy temple, the LORD's throne is in heaven: his eyes behold, his eyelids try, the children of men.
 11:5 The LORD trieth the righteous: but the wicked and him that loveth violence his soul hateth.
 11:6 Upon the wicked he shall rain snares, fire and brimstone, and an horrible tempest: this shall be the portion of their cup.
 11:7 For the righteous LORD loveth righteousness; his countenance doth behold the upright.
-<span id="12<?= $book ?>"></span>12:1 Help, LORD; for the godly man ceaseth; for the faithful fail from among the children of men.
+<span id="<?php echo $chapterprefix; ?>12"></span>12:1 Help, LORD; for the godly man ceaseth; for the faithful fail from among the children of men.
 12:2 They speak vanity every one with his neighbour: with flattering lips and with a double heart do they speak.
 12:3 The LORD shall cut off all flattering lips, and the tongue that speaketh proud things:
 12:4 Who have said, With our tongue will we prevail; our lips are our own: who is lord over us?
@@ -143,25 +142,25 @@ Selah.
 12:6 The words of the LORD are pure words: as silver tried in a furnace of earth, purified seven times.
 12:7 Thou shalt keep them, O LORD, thou shalt preserve them from this generation for ever.
 12:8 The wicked walk on every side, when the vilest men are exalted.
-<span id="13<?= $book ?>"></span>13:1 How long wilt thou forget me, O LORD? for ever? how long wilt thou hide thy face from me?
+<span id="<?php echo $chapterprefix; ?>13"></span>13:1 How long wilt thou forget me, O LORD? for ever? how long wilt thou hide thy face from me?
 13:2 How long shall I take counsel in my soul, having sorrow in my heart daily? how long shall mine enemy be exalted over me?
 13:3 Consider and hear me, O LORD my God: lighten mine eyes, lest I sleep the sleep of death;
 13:4 Lest mine enemy say, I have prevailed against him; and those that trouble me rejoice when I am moved.
 13:5 But I have trusted in thy mercy; my heart shall rejoice in thy salvation.
 13:6 I will sing unto the LORD, because he hath dealt bountifully with me.
-<span id="14<?= $book ?>"></span>14:1 The fool hath said in his heart, There is no God. They are corrupt, they have done abominable works, there is none that doeth good.
+<span id="<?php echo $chapterprefix; ?>14"></span>14:1 The fool hath said in his heart, There is no God. They are corrupt, they have done abominable works, there is none that doeth good.
 14:2 The LORD looked down from heaven upon the children of men, to see if there were any that did understand, and seek God.
 14:3 They are all gone aside, they are all together become filthy: there is none that doeth good, no, not one.
 14:4 Have all the workers of iniquity no knowledge? who eat up my people as they eat bread, and call not upon the LORD.
 14:5 There were they in great fear: for God is in the generation of the righteous.
 14:6 Ye have shamed the counsel of the poor, because the LORD is his refuge.
 14:7 Oh that the salvation of Israel were come out of Zion! when the LORD bringeth back the captivity of his people, Jacob shall rejoice, and Israel shall be glad.
-<span id="15<?= $book ?>"></span>15:1 Lord, who shall abide in thy tabernacle? who shall dwell in thy holy hill?
+<span id="<?php echo $chapterprefix; ?>15"></span>15:1 Lord, who shall abide in thy tabernacle? who shall dwell in thy holy hill?
 15:2 He that walketh uprightly, and worketh righteousness, and speaketh the truth in his heart.
 15:3 He that backbiteth not with his tongue, nor doeth evil to his neighbour, nor taketh up a reproach against his neighbour.
 15:4 In whose eyes a vile person is contemned; but he honoureth them that fear the LORD. He that sweareth to his own hurt, and changeth not.
 15:5 He that putteth not out his money to usury, nor taketh reward against the innocent. He that doeth these things shall never be moved.
-<span id="16<?= $book ?>"></span>16:1 Preserve me, O God: for in thee do I put my trust.
+<span id="<?php echo $chapterprefix; ?>16"></span>16:1 Preserve me, O God: for in thee do I put my trust.
 16:2 O my soul, thou hast said unto the LORD, Thou art my Lord: my goodness extendeth not to thee;
 16:3 But to the saints that are in the earth, and to the excellent, in whom is all my delight.
 16:4 Their sorrows shall be multiplied that hasten after another god: their drink offerings of blood will I not offer, nor take up their names into my lips.
@@ -172,7 +171,7 @@ Selah.
 16:9 Therefore my heart is glad, and my glory rejoiceth: my flesh also shall rest in hope.
 16:10 For thou wilt not leave my soul in hell; neither wilt thou suffer thine Holy One to see corruption.
 16:11 Thou wilt shew me the path of life: in thy presence is fulness of joy; at thy right hand there are pleasures for evermore.
-<span id="17<?= $book ?>"></span>17:1 Hear the right, O LORD, attend unto my cry, give ear unto my prayer, that goeth not out of feigned lips.
+<span id="<?php echo $chapterprefix; ?>17"></span>17:1 Hear the right, O LORD, attend unto my cry, give ear unto my prayer, that goeth not out of feigned lips.
 17:2 Let my sentence come forth from thy presence; let thine eyes behold the things that are equal.
 17:3 Thou hast proved mine heart; thou hast visited me in the night; thou hast tried me, and shalt find nothing; I am purposed that my mouth shall not transgress.
 17:4 Concerning the works of men, by the word of thy lips I have kept me from the paths of the destroyer.
@@ -187,7 +186,7 @@ Selah.
 17:13 Arise, O LORD, disappoint him, cast him down: deliver my soul from the wicked, which is thy sword:
 17:14 From men which are thy hand, O LORD, from men of the world, which have their portion in this life, and whose belly thou fillest with thy hid treasure: they are full of children, and leave the rest of their substance to their babes.
 17:15 As for me, I will behold thy face in righteousness: I shall be satisfied, when I awake, with thy likeness.
-<span id="18<?= $book ?>"></span>18:1 I will love thee, O LORD, my strength.
+<span id="<?php echo $chapterprefix; ?>18"></span>18:1 I will love thee, O LORD, my strength.
 18:2 The LORD is my rock, and my fortress, and my deliverer; my God, my strength, in whom I will trust; my buckler, and the horn of my salvation, and my high tower.
 18:3 I will call upon the LORD, who is worthy to be praised: so shall I be saved from mine enemies.
 18:4 The sorrows of death compassed me, and the floods of ungodly men made me afraid.
@@ -237,7 +236,7 @@ Selah.
 18:48 He delivereth me from mine enemies: yea, thou liftest me up above those that rise up against me: thou hast delivered me from the violent man.
 18:49 Therefore will I give thanks unto thee, O LORD, among the heathen, and sing praises unto thy name.
 18:50 Great deliverance giveth he to his king; and sheweth mercy to his anointed, to David, and to his seed for evermore.
-<span id="19<?= $book ?>"></span>19:1 The heavens declare the glory of God; and the firmament sheweth his handywork.
+<span id="<?php echo $chapterprefix; ?>19"></span>19:1 The heavens declare the glory of God; and the firmament sheweth his handywork.
 19:2 Day unto day uttereth speech, and night unto night sheweth knowledge.
 19:3 There is no speech nor language, where their voice is not heard.
 19:4 Their line is gone out through all the earth, and their words to the end of the world. In them hath he set a tabernacle for the sun,
@@ -251,7 +250,7 @@ Selah.
 19:12 Who can understand his errors? cleanse thou me from secret faults.
 19:13 Keep back thy servant also from presumptuous sins; let them not have dominion over me: then shall I be upright, and I shall be innocent from the great transgression.
 19:14 Let the words of my mouth, and the meditation of my heart, be acceptable in thy sight, O LORD, my strength, and my redeemer.
-<span id="20<?= $book ?>"></span>20:1 The LORD hear thee in the day of trouble; the name of the God of Jacob defend thee;
+<span id="<?php echo $chapterprefix; ?>20"></span>20:1 The LORD hear thee in the day of trouble; the name of the God of Jacob defend thee;
 20:2 Send thee help from the sanctuary, and strengthen thee out of Zion;
 20:3 Remember all thy offerings, and accept thy burnt sacrifice; Selah.
 20:4 Grant thee according to thine own heart, and fulfil all thy counsel.
@@ -260,7 +259,7 @@ Selah.
 20:7 Some trust in chariots, and some in horses: but we will remember the name of the LORD our God.
 20:8 They are brought down and fallen: but we are risen, and stand upright.
 20:9 Save, LORD: let the king hear us when we call.
-<span id="21<?= $book ?>"></span>21:1 The king shall joy in thy strength, O LORD; and in thy salvation how greatly shall he rejoice!
+<span id="<?php echo $chapterprefix; ?>21"></span>21:1 The king shall joy in thy strength, O LORD; and in thy salvation how greatly shall he rejoice!
 21:2 Thou hast given him his heart's desire, and hast not withholden the request of his lips. Selah.
 21:3 For thou preventest him with the blessings of goodness: thou settest a crown of pure gold on his head.
 21:4 He asked life of thee, and thou gavest it him, even length of days for ever and ever.
@@ -273,7 +272,7 @@ Selah.
 21:11 For they intended evil against thee: they imagined a mischievous device, which they are not able to perform.
 21:12 Therefore shalt thou make them turn their back, when thou shalt make ready thine arrows upon thy strings against the face of them.
 21:13 Be thou exalted, LORD, in thine own strength: so will we sing and praise thy power.
-<span id="22<?= $book ?>"></span>22:1 My God, my God, why hast thou forsaken me? why art thou so far from helping me, and from the words of my roaring?
+<span id="<?php echo $chapterprefix; ?>22"></span>22:1 My God, my God, why hast thou forsaken me? why art thou so far from helping me, and from the words of my roaring?
 22:2 O my God, I cry in the day time, but thou hearest not; and in the night season, and am not silent.
 22:3 But thou art holy, O thou that inhabitest the praises of Israel.
 22:4 Our fathers trusted in thee: they trusted, and thou didst deliver them.
@@ -304,13 +303,13 @@ Selah.
 22:29 All they that be fat upon earth shall eat and worship: all they that go down to the dust shall bow before him: and none can keep alive his own soul.
 22:30 A seed shall serve him; it shall be accounted to the Lord for a generation.
 22:31 They shall come, and shall declare his righteousness unto a people that shall be born, that he hath done this.
-<span id="23<?= $book ?>"></span>23:1 The LORD is my shepherd; I shall not want.
+<span id="<?php echo $chapterprefix; ?>23"></span>23:1 The LORD is my shepherd; I shall not want.
 23:2 He maketh me to lie down in green pastures: he leadeth me beside the still waters.
 23:3 He restoreth my soul: he leadeth me in the paths of righteousness for his name's sake.
 23:4 Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me; thy rod and thy staff they comfort me.
 23:5 Thou preparest a table before me in the presence of mine enemies: thou anointest my head with oil; my cup runneth over.
 23:6 Surely goodness and mercy shall follow me all the days of my life: and I will dwell in the house of the LORD for ever.
-<span id="24<?= $book ?>"></span>24:1 The earth is the LORD's, and the fulness thereof; the world, and they that dwell therein.
+<span id="<?php echo $chapterprefix; ?>24"></span>24:1 The earth is the LORD's, and the fulness thereof; the world, and they that dwell therein.
 24:2 For he hath founded it upon the seas, and established it upon the floods.
 24:3 Who shall ascend into the hill of the LORD? or who shall stand in his holy place?
 24:4 He that hath clean hands, and a pure heart; who hath not lifted up his soul unto vanity, nor sworn deceitfully.
@@ -320,7 +319,7 @@ Selah.
 24:8 Who is this King of glory? The LORD strong and mighty, the LORD mighty in battle.
 24:9 Lift up your heads, O ye gates; even lift them up, ye everlasting doors; and the King of glory shall come in.
 24:10 Who is this King of glory? The LORD of hosts, he is the King of glory. Selah.
-<span id="25<?= $book ?>"></span>25:1 Unto thee, O LORD, do I lift up my soul.
+<span id="<?php echo $chapterprefix; ?>25"></span>25:1 Unto thee, O LORD, do I lift up my soul.
 25:2 O my God, I trust in thee: let me not be ashamed, let not mine enemies triumph over me.
 25:3 Yea, let none that wait on thee be ashamed: let them be ashamed which transgress without cause.
 25:4 Shew me thy ways, O LORD; teach me thy paths.
@@ -342,7 +341,7 @@ Selah.
 25:20 O keep my soul, and deliver me: let me not be ashamed; for I put my trust in thee.
 25:21 Let integrity and uprightness preserve me; for I wait on thee.
 25:22 Redeem Israel, O God, out of all his troubles.
-<span id="26<?= $book ?>"></span>26:1 Judge me, O LORD; for I have walked in mine integrity: I have trusted also in the LORD; therefore I shall not slide.
+<span id="<?php echo $chapterprefix; ?>26"></span>26:1 Judge me, O LORD; for I have walked in mine integrity: I have trusted also in the LORD; therefore I shall not slide.
 26:2 Examine me, O LORD, and prove me; try my reins and my heart.
 26:3 For thy lovingkindness is before mine eyes: and I have walked in thy truth.
 26:4 I have not sat with vain persons, neither will I go in with dissemblers.
@@ -354,7 +353,7 @@ Selah.
 26:10 In whose hands is mischief, and their right hand is full of bribes.
 26:11 But as for me, I will walk in mine integrity: redeem me, and be merciful unto me.
 26:12 My foot standeth in an even place: in the congregations will I bless the LORD.
-<span id="27<?= $book ?>"></span>27:1 The LORD is my light and my salvation; whom shall I fear? the LORD is the strength of my life; of whom shall I be afraid?
+<span id="<?php echo $chapterprefix; ?>27"></span>27:1 The LORD is my light and my salvation; whom shall I fear? the LORD is the strength of my life; of whom shall I be afraid?
 27:2 When the wicked, even mine enemies and my foes, came upon me to eat up my flesh, they stumbled and fell.
 27:3 Though an host should encamp against me, my heart shall not fear: though war should rise against me, in this will I be confident.
 27:4 One thing have I desired of the LORD, that will I seek after; that I may dwell in the house of the LORD all the days of my life, to behold the beauty of the LORD, and to enquire in his temple.
@@ -368,7 +367,7 @@ Selah.
 27:12 Deliver me not over unto the will of mine enemies: for false witnesses are risen up against me, and such as breathe out cruelty.
 27:13 I had fainted, unless I had believed to see the goodness of the LORD in the land of the living.
 27:14 Wait on the LORD: be of good courage, and he shall strengthen thine heart: wait, I say, on the LORD.
-<span id="28<?= $book ?>"></span>28:1 Unto thee will I cry, O LORD my rock; be not silent to me: lest, if thou be silent to me, I become like them that go down into the pit.
+<span id="<?php echo $chapterprefix; ?>28"></span>28:1 Unto thee will I cry, O LORD my rock; be not silent to me: lest, if thou be silent to me, I become like them that go down into the pit.
 28:2 Hear the voice of my supplications, when I cry unto thee, when I lift up my hands toward thy holy oracle.
 28:3 Draw me not away with the wicked, and with the workers of iniquity, which speak peace to their neighbours, but mischief is in their hearts.
 28:4 Give them according to their deeds, and according to the wickedness of their endeavours: give them after the work of their hands; render to them their desert.
@@ -377,7 +376,7 @@ Selah.
 28:7 The LORD is my strength and my shield; my heart trusted in him, and I am helped: therefore my heart greatly rejoiceth; and with my song will I praise him.
 28:8 The LORD is their strength, and he is the saving strength of his anointed.
 28:9 Save thy people, and bless thine inheritance: feed them also, and lift them up for ever.
-<span id="29<?= $book ?>"></span>29:1 Give unto the LORD, O ye mighty, give unto the LORD glory and strength.
+<span id="<?php echo $chapterprefix; ?>29"></span>29:1 Give unto the LORD, O ye mighty, give unto the LORD glory and strength.
 29:2 Give unto the LORD the glory due unto his name; worship the LORD in the beauty of holiness.
 29:3 The voice of the LORD is upon the waters: the God of glory thundereth: the LORD is upon many waters.
 29:4 The voice of the LORD is powerful; the voice of the LORD is full of majesty.
@@ -388,7 +387,7 @@ Selah.
 29:9 The voice of the LORD maketh the hinds to calve, and discovereth the forests: and in his temple doth every one speak of his glory.
 29:10 The LORD sitteth upon the flood; yea, the LORD sitteth King for ever.
 29:11 The LORD will give strength unto his people; the LORD will bless his people with peace.
-<span id="30<?= $book ?>"></span>30:1 I will extol thee, O LORD; for thou hast lifted me up, and hast not made my foes to rejoice over me.
+<span id="<?php echo $chapterprefix; ?>30"></span>30:1 I will extol thee, O LORD; for thou hast lifted me up, and hast not made my foes to rejoice over me.
 30:2 O LORD my God, I cried unto thee, and thou hast healed me.
 30:3 O LORD, thou hast brought up my soul from the grave: thou hast kept me alive, that I should not go down to the pit.
 30:4 Sing unto the LORD, O ye saints of his, and give thanks at the remembrance of his holiness.
@@ -401,7 +400,7 @@ Selah.
 30:11 Thou hast turned for me my mourning into dancing: thou hast put off my sackcloth, and girded me with gladness;
 30:12 To the end that my glory may sing praise to thee, and not be silent.
 O LORD my God, I will give thanks unto thee for ever.
-<span id="31<?= $book ?>"></span>31:1 In thee, O LORD, do I put my trust; let me never be ashamed: deliver me in thy righteousness.
+<span id="<?php echo $chapterprefix; ?>31"></span>31:1 In thee, O LORD, do I put my trust; let me never be ashamed: deliver me in thy righteousness.
 31:2 Bow down thine ear to me; deliver me speedily: be thou my strong rock, for an house of defence to save me.
 31:3 For thou art my rock and my fortress; therefore for thy name's sake lead me, and guide me.
 31:4 Pull me out of the net that they have laid privily for me: for thou art my strength.
@@ -425,7 +424,7 @@ O LORD my God, I will give thanks unto thee for ever.
 31:22 For I said in my haste, I am cut off from before thine eyes: nevertheless thou heardest the voice of my supplications when I cried unto thee.
 31:23 O love the LORD, all ye his saints: for the LORD preserveth the faithful, and plentifully rewardeth the proud doer.
 31:24 Be of good courage, and he shall strengthen your heart, all ye that hope in the LORD.
-<span id="32<?= $book ?>"></span>32:1 Blessed is he whose transgression is forgiven, whose sin is covered.
+<span id="<?php echo $chapterprefix; ?>32"></span>32:1 Blessed is he whose transgression is forgiven, whose sin is covered.
 32:2 Blessed is the man unto whom the LORD imputeth not iniquity, and in whose spirit there is no guile.
 32:3 When I kept silence, my bones waxed old through my roaring all the day long.
 32:4 For day and night thy hand was heavy upon me: my moisture is turned into the drought of summer. Selah.
@@ -436,7 +435,7 @@ O LORD my God, I will give thanks unto thee for ever.
 32:9 Be ye not as the horse, or as the mule, which have no understanding: whose mouth must be held in with bit and bridle, lest they come near unto thee.
 32:10 Many sorrows shall be to the wicked: but he that trusteth in the LORD, mercy shall compass him about.
 32:11 Be glad in the LORD, and rejoice, ye righteous: and shout for joy, all ye that are upright in heart.
-<span id="33<?= $book ?>"></span>33:1 Rejoice in the LORD, O ye righteous: for praise is comely for the upright.
+<span id="<?php echo $chapterprefix; ?>33"></span>33:1 Rejoice in the LORD, O ye righteous: for praise is comely for the upright.
 33:2 Praise the LORD with harp: sing unto him with the psaltery and an instrument of ten strings.
 33:3 Sing unto him a new song; play skilfully with a loud noise.
 33:4 For the word of the LORD is right; and all his works are done in truth.
@@ -458,7 +457,7 @@ O LORD my God, I will give thanks unto thee for ever.
 33:20 Our soul waiteth for the LORD: he is our help and our shield.
 33:21 For our heart shall rejoice in him, because we have trusted in his holy name.
 33:22 Let thy mercy, O LORD, be upon us, according as we hope in thee.
-<span id="34<?= $book ?>"></span>34:1 I will bless the LORD at all times: his praise shall continually be in my mouth.
+<span id="<?php echo $chapterprefix; ?>34"></span>34:1 I will bless the LORD at all times: his praise shall continually be in my mouth.
 34:2 My soul shall make her boast in the LORD: the humble shall hear thereof, and be glad.
 34:3 O magnify the LORD with me, and let us exalt his name together.
 34:4 I sought the LORD, and he heard me, and delivered me from all my fears.
@@ -480,7 +479,7 @@ O LORD my God, I will give thanks unto thee for ever.
 34:20 He keepeth all his bones: not one of them is broken.
 34:21 Evil shall slay the wicked: and they that hate the righteous shall be desolate.
 34:22 The LORD redeemeth the soul of his servants: and none of them that trust in him shall be desolate.
-<span id="35<?= $book ?>"></span>35:1 Plead my cause, O LORD, with them that strive with me: fight against them that fight against me.
+<span id="<?php echo $chapterprefix; ?>35"></span>35:1 Plead my cause, O LORD, with them that strive with me: fight against them that fight against me.
 35:2 Take hold of shield and buckler, and stand up for mine help.
 35:3 Draw out also the spear, and stop the way against them that persecute me: say unto my soul, I am thy salvation.
 35:4 Let them be confounded and put to shame that seek after my soul: let them be turned back and brought to confusion that devise my hurt.
@@ -508,7 +507,7 @@ O LORD my God, I will give thanks unto thee for ever.
 35:26 Let them be ashamed and brought to confusion together that rejoice at mine hurt: let them be clothed with shame and dishonour that magnify themselves against me.
 35:27 Let them shout for joy, and be glad, that favour my righteous cause: yea, let them say continually, Let the LORD be magnified, which hath pleasure in the prosperity of his servant.
 35:28 And my tongue shall speak of thy righteousness and of thy praise all the day long.
-<span id="36<?= $book ?>"></span>36:1 The transgression of the wicked saith within my heart, that there is no fear of God before his eyes.
+<span id="<?php echo $chapterprefix; ?>36"></span>36:1 The transgression of the wicked saith within my heart, that there is no fear of God before his eyes.
 36:2 For he flattereth himself in his own eyes, until his iniquity be found to be hateful.
 36:3 The words of his mouth are iniquity and deceit: he hath left off to be wise, and to do good.
 36:4 He deviseth mischief upon his bed; he setteth himself in a way that is not good; he abhorreth not evil.
@@ -520,7 +519,7 @@ O LORD my God, I will give thanks unto thee for ever.
 36:10 O continue thy lovingkindness unto them that know thee; and thy righteousness to the upright in heart.
 36:11 Let not the foot of pride come against me, and let not the hand of the wicked remove me.
 36:12 There are the workers of iniquity fallen: they are cast down, and shall not be able to rise.
-<span id="37<?= $book ?>"></span>37:1 Fret not thyself because of evildoers, neither be thou envious against the workers of iniquity.
+<span id="<?php echo $chapterprefix; ?>37"></span>37:1 Fret not thyself because of evildoers, neither be thou envious against the workers of iniquity.
 37:2 For they shall soon be cut down like the grass, and wither as the green herb.
 37:3 Trust in the LORD, and do good; so shalt thou dwell in the land, and verily thou shalt be fed.
 37:4 Delight thyself also in the LORD: and he shall give thee the desires of thine heart.
@@ -560,7 +559,7 @@ O LORD my God, I will give thanks unto thee for ever.
 37:38 But the transgressors shall be destroyed together: the end of the wicked shall be cut off.
 37:39 But the salvation of the righteous is of the LORD: he is their strength in the time of trouble.
 37:40 And the LORD shall help them, and deliver them: he shall deliver them from the wicked, and save them, because they trust in him.
-<span id="38<?= $book ?>"></span>38:1 O lord, rebuke me not in thy wrath: neither chasten me in thy hot displeasure.
+<span id="<?php echo $chapterprefix; ?>38"></span>38:1 O lord, rebuke me not in thy wrath: neither chasten me in thy hot displeasure.
 38:2 For thine arrows stick fast in me, and thy hand presseth me sore.
 38:3 There is no soundness in my flesh because of thine anger; neither is there any rest in my bones because of my sin.
 38:4 For mine iniquities are gone over mine head: as an heavy burden they are too heavy for me.
@@ -582,7 +581,7 @@ O LORD my God, I will give thanks unto thee for ever.
 38:20 They also that render evil for good are mine adversaries; because I follow the thing that good is.
 38:21 Forsake me not, O LORD: O my God, be not far from me.
 38:22 Make haste to help me, O Lord my salvation.
-<span id="39<?= $book ?>"></span>39:1 I said, I will take heed to my ways, that I sin not with my tongue: I will keep my mouth with a bridle, while the wicked is before me.
+<span id="<?php echo $chapterprefix; ?>39"></span>39:1 I said, I will take heed to my ways, that I sin not with my tongue: I will keep my mouth with a bridle, while the wicked is before me.
 39:2 I was dumb with silence, I held my peace, even from good; and my sorrow was stirred.
 39:3 My heart was hot within me, while I was musing the fire burned: then spake I with my tongue,
 39:4 LORD, make me to know mine end, and the measure of my days, what it is: that I may know how frail I am.
@@ -596,7 +595,7 @@ Selah.
 39:11 When thou with rebukes dost correct man for iniquity, thou makest his beauty to consume away like a moth: surely every man is vanity. Selah.
 39:12 Hear my prayer, O LORD, and give ear unto my cry; hold not thy peace at my tears: for I am a stranger with thee, and a sojourner, as all my fathers were.
 39:13 O spare me, that I may recover strength, before I go hence, and be no more.
-<span id="40<?= $book ?>"></span>40:1 I waited patiently for the LORD; and he inclined unto me, and heard my cry.
+<span id="<?php echo $chapterprefix; ?>40"></span>40:1 I waited patiently for the LORD; and he inclined unto me, and heard my cry.
 40:2 He brought me up also out of an horrible pit, out of the miry clay, and set my feet upon a rock, and established my goings.
 40:3 And he hath put a new song in my mouth, even praise unto our God: many shall see it, and fear, and shall trust in the LORD.
 40:4 Blessed is that man that maketh the LORD his trust, and respecteth not the proud, nor such as turn aside to lies.
@@ -613,7 +612,7 @@ Selah.
 40:15 Let them be desolate for a reward of their shame that say unto me, Aha, aha.
 40:16 Let all those that seek thee rejoice and be glad in thee: let such as love thy salvation say continually, The LORD be magnified.
 40:17 But I am poor and needy; yet the Lord thinketh upon me: thou art my help and my deliverer; make no tarrying, O my God.
-<span id="41<?= $book ?>"></span>41:1 Blessed is he that considereth the poor: the LORD will deliver him in time of trouble.
+<span id="<?php echo $chapterprefix; ?>41"></span>41:1 Blessed is he that considereth the poor: the LORD will deliver him in time of trouble.
 41:2 The LORD will preserve him, and keep him alive; and he shall be blessed upon the earth: and thou wilt not deliver him unto the will of his enemies.
 41:3 The LORD will strengthen him upon the bed of languishing: thou wilt make all his bed in his sickness.
 41:4 I said, LORD, be merciful unto me: heal my soul; for I have sinned against thee.
@@ -626,7 +625,7 @@ Selah.
 41:11 By this I know that thou favourest me, because mine enemy doth not triumph over me.
 41:12 And as for me, thou upholdest me in mine integrity, and settest me before thy face for ever.
 41:13 Blessed be the LORD God of Israel from everlasting, and to everlasting. Amen, and Amen.
-<span id="42<?= $book ?>"></span>42:1 As the hart panteth after the water brooks, so panteth my soul after thee, O God.
+<span id="<?php echo $chapterprefix; ?>42"></span>42:1 As the hart panteth after the water brooks, so panteth my soul after thee, O God.
 42:2 My soul thirsteth for God, for the living God: when shall I come and appear before God?
 42:3 My tears have been my meat day and night, while they continually say unto me, Where is thy God?
 42:4 When I remember these things, I pour out my soul in me: for I had gone with the multitude, I went with them to the house of God, with the voice of joy and praise, with a multitude that kept holyday.
@@ -637,12 +636,12 @@ Selah.
 42:9 I will say unto God my rock, Why hast thou forgotten me? why go I mourning because of the oppression of the enemy?
 42:10 As with a sword in my bones, mine enemies reproach me; while they say daily unto me, Where is thy God?
 42:11 Why art thou cast down, O my soul? and why art thou disquieted within me? hope thou in God: for I shall yet praise him, who is the health of my countenance, and my God.
-<span id="43<?= $book ?>"></span>43:1 Judge me, O God, and plead my cause against an ungodly nation: O deliver me from the deceitful and unjust man.
+<span id="<?php echo $chapterprefix; ?>43"></span>43:1 Judge me, O God, and plead my cause against an ungodly nation: O deliver me from the deceitful and unjust man.
 43:2 For thou art the God of my strength: why dost thou cast me off? why go I mourning because of the oppression of the enemy?
 43:3 O send out thy light and thy truth: let them lead me; let them bring me unto thy holy hill, and to thy tabernacles.
 43:4 Then will I go unto the altar of God, unto God my exceeding joy: yea, upon the harp will I praise thee, O God my God.
 43:5 Why art thou cast down, O my soul? and why art thou disquieted within me? hope in God: for I shall yet praise him, who is the health of my countenance, and my God.
-<span id="44<?= $book ?>"></span>44:1 We have heard with our ears, O God, our fathers have told us, what work thou didst in their days, in the times of old.
+<span id="<?php echo $chapterprefix; ?>44"></span>44:1 We have heard with our ears, O God, our fathers have told us, what work thou didst in their days, in the times of old.
 44:2 How thou didst drive out the heathen with thy hand, and plantedst them; how thou didst afflict the people, and cast them out.
 44:3 For they got not the land in possession by their own sword, neither did their own arm save them: but thy right hand, and thine arm, and the light of thy countenance, because thou hadst a favour unto them.
 44:4 Thou art my King, O God: command deliverances for Jacob.
@@ -669,7 +668,7 @@ Selah.
 44:24 Wherefore hidest thou thy face, and forgettest our affliction and our oppression?
 44:25 For our soul is bowed down to the dust: our belly cleaveth unto the earth.
 44:26 Arise for our help, and redeem us for thy mercies' sake.
-<span id="45<?= $book ?>"></span>45:1 My heart is inditing a good matter: I speak of the things which I have made touching the king: my tongue is the pen of a ready writer.
+<span id="<?php echo $chapterprefix; ?>45"></span>45:1 My heart is inditing a good matter: I speak of the things which I have made touching the king: my tongue is the pen of a ready writer.
 45:2 Thou art fairer than the children of men: grace is poured into thy lips: therefore God hath blessed thee for ever.
 45:3 Gird thy sword upon thy thigh, O most mighty, with thy glory and thy majesty.
 45:4 And in thy majesty ride prosperously because of truth and meekness and righteousness; and thy right hand shall teach thee terrible things.
@@ -686,7 +685,7 @@ Selah.
 45:15 With gladness and rejoicing shall they be brought: they shall enter into the king's palace.
 45:16 Instead of thy fathers shall be thy children, whom thou mayest make princes in all the earth.
 45:17 I will make thy name to be remembered in all generations: therefore shall the people praise thee for ever and ever.
-<span id="46<?= $book ?>"></span>46:1 God is our refuge and strength, a very present help in trouble.
+<span id="<?php echo $chapterprefix; ?>46"></span>46:1 God is our refuge and strength, a very present help in trouble.
 46:2 Therefore will not we fear, though the earth be removed, and though the mountains be carried into the midst of the sea;
 46:3 Though the waters thereof roar and be troubled, though the mountains shake with the swelling thereof. Selah.
 46:4 There is a river, the streams whereof shall make glad the city of God, the holy place of the tabernacles of the most High.
@@ -697,7 +696,7 @@ Selah.
 46:9 He maketh wars to cease unto the end of the earth; he breaketh the bow, and cutteth the spear in sunder; he burneth the chariot in the fire.
 46:10 Be still, and know that I am God: I will be exalted among the heathen, I will be exalted in the earth.
 46:11 The LORD of hosts is with us; the God of Jacob is our refuge. Selah.
-<span id="47<?= $book ?>"></span>47:1 O clap your hands, all ye people; shout unto God with the voice of triumph.
+<span id="<?php echo $chapterprefix; ?>47"></span>47:1 O clap your hands, all ye people; shout unto God with the voice of triumph.
 47:2 For the LORD most high is terrible; he is a great King over all the earth.
 47:3 He shall subdue the people under us, and the nations under our feet.
 47:4 He shall choose our inheritance for us, the excellency of Jacob whom he loved. Selah.
@@ -706,7 +705,7 @@ Selah.
 47:7 For God is the King of all the earth: sing ye praises with understanding.
 47:8 God reigneth over the heathen: God sitteth upon the throne of his holiness.
 47:9 The princes of the people are gathered together, even the people of the God of Abraham: for the shields of the earth belong unto God: he is greatly exalted.
-<span id="48<?= $book ?>"></span>48:1 Great is the LORD, and greatly to be praised in the city of our God, in the mountain of his holiness.
+<span id="<?php echo $chapterprefix; ?>48"></span>48:1 Great is the LORD, and greatly to be praised in the city of our God, in the mountain of his holiness.
 48:2 Beautiful for situation, the joy of the whole earth, is mount Zion, on the sides of the north, the city of the great King.
 48:3 God is known in her palaces for a refuge.
 48:4 For, lo, the kings were assembled, they passed by together.
@@ -720,7 +719,7 @@ Selah.
 48:12 Walk about Zion, and go round about her: tell the towers thereof.
 48:13 Mark ye well her bulwarks, consider her palaces; that ye may tell it to the generation following.
 48:14 For this God is our God for ever and ever: he will be our guide even unto death.
-<span id="49<?= $book ?>"></span>49:1 Hear this, all ye people; give ear, all ye inhabitants of the world:
+<span id="<?php echo $chapterprefix; ?>49"></span>49:1 Hear this, all ye people; give ear, all ye inhabitants of the world:
 49:2 Both low and high, rich and poor, together.
 49:3 My mouth shall speak of wisdom; and the meditation of my heart shall be of understanding.
 49:4 I will incline mine ear to a parable: I will open my dark saying upon the harp.
@@ -740,7 +739,7 @@ Selah.
 49:18 Though while he lived he blessed his soul: and men will praise thee, when thou doest well to thyself.
 49:19 He shall go to the generation of his fathers; they shall never see light.
 49:20 Man that is in honour, and understandeth not, is like the beasts that perish.
-<span id="50<?= $book ?>"></span>50:1 The mighty God, even the LORD, hath spoken, and called the earth from the rising of the sun unto the going down thereof.
+<span id="<?php echo $chapterprefix; ?>50"></span>50:1 The mighty God, even the LORD, hath spoken, and called the earth from the rising of the sun unto the going down thereof.
 50:2 Out of Zion, the perfection of beauty, God hath shined.
 50:3 Our God shall come, and shall not keep silence: a fire shall devour before him, and it shall be very tempestuous round about him.
 50:4 He shall call to the heavens from above, and to the earth, that he may judge his people.
@@ -763,7 +762,7 @@ Selah.
 50:21 These things hast thou done, and I kept silence; thou thoughtest that I was altogether such an one as thyself: but I will reprove thee, and set them in order before thine eyes.
 50:22 Now consider this, ye that forget God, lest I tear you in pieces, and there be none to deliver.
 50:23 Whoso offereth praise glorifieth me: and to him that ordereth his conversation aright will I shew the salvation of God.
-<span id="51<?= $book ?>"></span>51:1 Have mercy upon me, O God, according to thy lovingkindness: according unto the multitude of thy tender mercies blot out my transgressions.
+<span id="<?php echo $chapterprefix; ?>51"></span>51:1 Have mercy upon me, O God, according to thy lovingkindness: according unto the multitude of thy tender mercies blot out my transgressions.
 51:2 Wash me throughly from mine iniquity, and cleanse me from my sin.
 51:3 For I acknowledge my transgressions: and my sin is ever before me.
 51:4 Against thee, thee only, have I sinned, and done this evil in thy sight: that thou mightest be justified when thou speakest, and be clear when thou judgest.
@@ -782,7 +781,7 @@ Selah.
 51:17 The sacrifices of God are a broken spirit: a broken and a contrite heart, O God, thou wilt not despise.
 51:18 Do good in thy good pleasure unto Zion: build thou the walls of Jerusalem.
 51:19 Then shalt thou be pleased with the sacrifices of righteousness, with burnt offering and whole burnt offering: then shall they offer bullocks upon thine altar.
-<span id="52<?= $book ?>"></span>52:1 Why boastest thou thyself in mischief, O mighty man? the goodness of God endureth continually.
+<span id="<?php echo $chapterprefix; ?>52"></span>52:1 Why boastest thou thyself in mischief, O mighty man? the goodness of God endureth continually.
 52:2 The tongue deviseth mischiefs; like a sharp razor, working deceitfully.
 52:3 Thou lovest evil more than good; and lying rather than to speak righteousness. Selah.
 52:4 Thou lovest all devouring words, O thou deceitful tongue.
@@ -791,20 +790,20 @@ Selah.
 52:7 Lo, this is the man that made not God his strength; but trusted in the abundance of his riches, and strengthened himself in his wickedness.
 52:8 But I am like a green olive tree in the house of God: I trust in the mercy of God for ever and ever.
 52:9 I will praise thee for ever, because thou hast done it: and I will wait on thy name; for it is good before thy saints.
-<span id="53<?= $book ?>"></span>53:1 The fool hath said in his heart, There is no God. Corrupt are they, and have done abominable iniquity: there is none that doeth good.
+<span id="<?php echo $chapterprefix; ?>53"></span>53:1 The fool hath said in his heart, There is no God. Corrupt are they, and have done abominable iniquity: there is none that doeth good.
 53:2 God looked down from heaven upon the children of men, to see if there were any that did understand, that did seek God.
 53:3 Every one of them is gone back: they are altogether become filthy; there is none that doeth good, no, not one.
 53:4 Have the workers of iniquity no knowledge? who eat up my people as they eat bread: they have not called upon God.
 53:5 There were they in great fear, where no fear was: for God hath scattered the bones of him that encampeth against thee: thou hast put them to shame, because God hath despised them.
 53:6 Oh that the salvation of Israel were come out of Zion! When God bringeth back the captivity of his people, Jacob shall rejoice, and Israel shall be glad.
-<span id="54<?= $book ?>"></span>54:1 Save me, O God, by thy name, and judge me by thy strength.
+<span id="<?php echo $chapterprefix; ?>54"></span>54:1 Save me, O God, by thy name, and judge me by thy strength.
 54:2 Hear my prayer, O God; give ear to the words of my mouth.
 54:3 For strangers are risen up against me, and oppressors seek after my soul: they have not set God before them. Selah.
 54:4 Behold, God is mine helper: the Lord is with them that uphold my soul.
 54:5 He shall reward evil unto mine enemies: cut them off in thy truth.
 54:6 I will freely sacrifice unto thee: I will praise thy name, O LORD; for it is good.
 54:7 For he hath delivered me out of all trouble: and mine eye hath seen his desire upon mine enemies.
-<span id="55<?= $book ?>"></span>55:1 Give ear to my prayer, O God; and hide not thyself from my supplication.
+<span id="<?php echo $chapterprefix; ?>55"></span>55:1 Give ear to my prayer, O God; and hide not thyself from my supplication.
 55:2 Attend unto me, and hear me: I mourn in my complaint, and make a noise;
 55:3 Because of the voice of the enemy, because of the oppression of the wicked: for they cast iniquity upon me, and in wrath they hate me.
 55:4 My heart is sore pained within me: and the terrors of death are fallen upon me.
@@ -828,7 +827,7 @@ Selah. Because they have no changes, therefore they fear not God.
 55:21 The words of his mouth were smoother than butter, but war was in his heart: his words were softer than oil, yet were they drawn swords.
 55:22 Cast thy burden upon the LORD, and he shall sustain thee: he shall never suffer the righteous to be moved.
 55:23 But thou, O God, shalt bring them down into the pit of destruction: bloody and deceitful men shall not live out half their days; but I will trust in thee.
-<span id="56<?= $book ?>"></span>56:1 Be merciful unto me, O God: for man would swallow me up; he fighting daily oppresseth me.
+<span id="<?php echo $chapterprefix; ?>56"></span>56:1 Be merciful unto me, O God: for man would swallow me up; he fighting daily oppresseth me.
 56:2 Mine enemies would daily swallow me up: for they be many that fight against me, O thou most High.
 56:3 What time I am afraid, I will trust in thee.
 56:4 In God I will praise his word, in God I have put my trust; I will not fear what flesh can do unto me.
@@ -841,7 +840,7 @@ Selah. Because they have no changes, therefore they fear not God.
 56:11 In God have I put my trust: I will not be afraid what man can do unto me.
 56:12 Thy vows are upon me, O God: I will render praises unto thee.
 56:13 For thou hast delivered my soul from death: wilt not thou deliver my feet from falling, that I may walk before God in the light of the living?
-<span id="57<?= $book ?>"></span>57:1 Be merciful unto me, O God, be merciful unto me: for my soul trusteth in thee: yea, in the shadow of thy wings will I make my refuge, until these calamities be overpast.
+<span id="<?php echo $chapterprefix; ?>57"></span>57:1 Be merciful unto me, O God, be merciful unto me: for my soul trusteth in thee: yea, in the shadow of thy wings will I make my refuge, until these calamities be overpast.
 57:2 I will cry unto God most high; unto God that performeth all things for me.
 57:3 He shall send from heaven, and save me from the reproach of him that would swallow me up. Selah. God shall send forth his mercy and his truth.
 57:4 My soul is among lions: and I lie even among them that are set on fire, even the sons of men, whose teeth are spears and arrows, and their tongue a sharp sword.
@@ -852,7 +851,7 @@ Selah. Because they have no changes, therefore they fear not God.
 57:9 I will praise thee, O Lord, among the people: I will sing unto thee among the nations.
 57:10 For thy mercy is great unto the heavens, and thy truth unto the clouds.
 57:11 Be thou exalted, O God, above the heavens: let thy glory be above all the earth.
-<span id="58<?= $book ?>"></span>58:1 Do ye indeed speak righteousness, O congregation? do ye judge uprightly, O ye sons of men?
+<span id="<?php echo $chapterprefix; ?>58"></span>58:1 Do ye indeed speak righteousness, O congregation? do ye judge uprightly, O ye sons of men?
 58:2 Yea, in heart ye work wickedness; ye weigh the violence of your hands in the earth.
 58:3 The wicked are estranged from the womb: they go astray as soon as they be born, speaking lies.
 58:4 Their poison is like the poison of a serpent: they are like the deaf adder that stoppeth her ear;
@@ -863,7 +862,7 @@ Selah. Because they have no changes, therefore they fear not God.
 58:9 Before your pots can feel the thorns, he shall take them away as with a whirlwind, both living, and in his wrath.
 58:10 The righteous shall rejoice when he seeth the vengeance: he shall wash his feet in the blood of the wicked.
 58:11 So that a man shall say, Verily there is a reward for the righteous: verily he is a God that judgeth in the earth.
-<span id="59<?= $book ?>"></span>59:1 Deliver me from mine enemies, O my God: defend me from them that rise up against me.
+<span id="<?php echo $chapterprefix; ?>59"></span>59:1 Deliver me from mine enemies, O my God: defend me from them that rise up against me.
 59:2 Deliver me from the workers of iniquity, and save me from bloody men.
 59:3 For, lo, they lie in wait for my soul: the mighty are gathered against me; not for my transgression, nor for my sin, O LORD.
 59:4 They run and prepare themselves without my fault: awake to help me, and behold.
@@ -880,7 +879,7 @@ Selah. Because they have no changes, therefore they fear not God.
 59:15 Let them wander up and down for meat, and grudge if they be not satisfied.
 59:16 But I will sing of thy power; yea, I will sing aloud of thy mercy in the morning: for thou hast been my defence and refuge in the day of my trouble.
 59:17 Unto thee, O my strength, will I sing: for God is my defence, and the God of my mercy.
-<span id="60<?= $book ?>"></span>60:1 O God, thou hast cast us off, thou hast scattered us, thou hast been displeased; O turn thyself to us again.
+<span id="<?php echo $chapterprefix; ?>60"></span>60:1 O God, thou hast cast us off, thou hast scattered us, thou hast been displeased; O turn thyself to us again.
 60:2 Thou hast made the earth to tremble; thou hast broken it: heal the breaches thereof; for it shaketh.
 60:3 Thou hast shewed thy people hard things: thou hast made us to drink the wine of astonishment.
 60:4 Thou hast given a banner to them that fear thee, that it may be displayed because of the truth. Selah.
@@ -892,7 +891,7 @@ Selah. Because they have no changes, therefore they fear not God.
 60:10 Wilt not thou, O God, which hadst cast us off? and thou, O God, which didst not go out with our armies?
 60:11 Give us help from trouble: for vain is the help of man.
 60:12 Through God we shall do valiantly: for he it is that shall tread down our enemies.
-<span id="61<?= $book ?>"></span>61:1 Hear my cry, O God; attend unto my prayer.
+<span id="<?php echo $chapterprefix; ?>61"></span>61:1 Hear my cry, O God; attend unto my prayer.
 61:2 From the end of the earth will I cry unto thee, when my heart is overwhelmed: lead me to the rock that is higher than I.
 61:3 For thou hast been a shelter for me, and a strong tower from the enemy.
 61:4 I will abide in thy tabernacle for ever: I will trust in the covert of thy wings. Selah.
@@ -900,7 +899,7 @@ Selah. Because they have no changes, therefore they fear not God.
 61:6 Thou wilt prolong the king's life: and his years as many generations.
 61:7 He shall abide before God for ever: O prepare mercy and truth, which may preserve him.
 61:8 So will I sing praise unto thy name for ever, that I may daily perform my vows.
-<span id="62<?= $book ?>"></span>62:1 Truly my soul waiteth upon God: from him cometh my salvation.
+<span id="<?php echo $chapterprefix; ?>62"></span>62:1 Truly my soul waiteth upon God: from him cometh my salvation.
 62:2 He only is my rock and my salvation; he is my defence; I shall not be greatly moved.
 62:3 How long will ye imagine mischief against a man? ye shall be slain all of you: as a bowing wall shall ye be, and as a tottering fence.
 62:4 They only consult to cast him down from his excellency: they delight in lies: they bless with their mouth, but they curse inwardly. Selah.
@@ -912,7 +911,7 @@ Selah. Because they have no changes, therefore they fear not God.
 62:10 Trust not in oppression, and become not vain in robbery: if riches increase, set not your heart upon them.
 62:11 God hath spoken once; twice have I heard this; that power belongeth unto God.
 62:12 Also unto thee, O Lord, belongeth mercy: for thou renderest to every man according to his work.
-<span id="63<?= $book ?>"></span>63:1 O God, thou art my God; early will I seek thee: my soul thirsteth for thee, my flesh longeth for thee in a dry and thirsty land, where no water is;
+<span id="<?php echo $chapterprefix; ?>63"></span>63:1 O God, thou art my God; early will I seek thee: my soul thirsteth for thee, my flesh longeth for thee in a dry and thirsty land, where no water is;
 63:2 To see thy power and thy glory, so as I have seen thee in the sanctuary.
 63:3 Because thy lovingkindness is better than life, my lips shall praise thee.
 63:4 Thus will I bless thee while I live: I will lift up my hands in thy name.
@@ -923,7 +922,7 @@ Selah. Because they have no changes, therefore they fear not God.
 63:9 But those that seek my soul, to destroy it, shall go into the lower parts of the earth.
 63:10 They shall fall by the sword: they shall be a portion for foxes.
 63:11 But the king shall rejoice in God; every one that sweareth by him shall glory: but the mouth of them that speak lies shall be stopped.
-<span id="64<?= $book ?>"></span>64:1 Hear my voice, O God, in my prayer: preserve my life from fear of the enemy.
+<span id="<?php echo $chapterprefix; ?>64"></span>64:1 Hear my voice, O God, in my prayer: preserve my life from fear of the enemy.
 64:2 Hide me from the secret counsel of the wicked; from the insurrection of the workers of iniquity:
 64:3 Who whet their tongue like a sword, and bend their bows to shoot their arrows, even bitter words:
 64:4 That they may shoot in secret at the perfect: suddenly do they shoot at him, and fear not.
@@ -933,7 +932,7 @@ Selah. Because they have no changes, therefore they fear not God.
 64:8 So they shall make their own tongue to fall upon themselves: all that see them shall flee away.
 64:9 And all men shall fear, and shall declare the work of God; for they shall wisely consider of his doing.
 64:10 The righteous shall be glad in the LORD, and shall trust in him; and all the upright in heart shall glory.
-<span id="65<?= $book ?>"></span>65:1 Praise waiteth for thee, O God, in Sion: and unto thee shall the vow be performed.
+<span id="<?php echo $chapterprefix; ?>65"></span>65:1 Praise waiteth for thee, O God, in Sion: and unto thee shall the vow be performed.
 65:2 O thou that hearest prayer, unto thee shall all flesh come.
 65:3 Iniquities prevail against me: as for our transgressions, thou shalt purge them away.
 65:4 Blessed is the man whom thou choosest, and causest to approach unto thee, that he may dwell in thy courts: we shall be satisfied with the goodness of thy house, even of thy holy temple.
@@ -946,7 +945,7 @@ Selah. Because they have no changes, therefore they fear not God.
 65:11 Thou crownest the year with thy goodness; and thy paths drop fatness.
 65:12 They drop upon the pastures of the wilderness: and the little hills rejoice on every side.
 65:13 The pastures are clothed with flocks; the valleys also are covered over with corn; they shout for joy, they also sing.
-<span id="66<?= $book ?>"></span>66:1 Make a joyful noise unto God, all ye lands:
+<span id="<?php echo $chapterprefix; ?>66"></span>66:1 Make a joyful noise unto God, all ye lands:
 66:2 Sing forth the honour of his name: make his praise glorious.
 66:3 Say unto God, How terrible art thou in thy works! through the greatness of thy power shall thine enemies submit themselves unto thee.
 66:4 All the earth shall worship thee, and shall sing unto thee; they shall sing to thy name. Selah.
@@ -966,14 +965,14 @@ Selah. Because they have no changes, therefore they fear not God.
 66:18 If I regard iniquity in my heart, the Lord will not hear me:
 66:19 But verily God hath heard me; he hath attended to the voice of my prayer.
 66:20 Blessed be God, which hath not turned away my prayer, nor his mercy from me.
-<span id="67<?= $book ?>"></span>67:1 God be merciful unto us, and bless us; and cause his face to shine upon us; Selah.
+<span id="<?php echo $chapterprefix; ?>67"></span>67:1 God be merciful unto us, and bless us; and cause his face to shine upon us; Selah.
 67:2 That thy way may be known upon earth, thy saving health among all nations.
 67:3 Let the people praise thee, O God; let all the people praise thee.
 67:4 O let the nations be glad and sing for joy: for thou shalt judge the people righteously, and govern the nations upon earth. Selah.
 67:5 Let the people praise thee, O God; let all the people praise thee.
 67:6 Then shall the earth yield her increase; and God, even our own God, shall bless us.
 67:7 God shall bless us; and all the ends of the earth shall fear him.
-<span id="68<?= $book ?>"></span>68:1 Let God arise, let his enemies be scattered: let them also that hate him flee before him.
+<span id="<?php echo $chapterprefix; ?>68"></span>68:1 Let God arise, let his enemies be scattered: let them also that hate him flee before him.
 68:2 As smoke is driven away, so drive them away: as wax melteth before the fire, so let the wicked perish at the presence of God.
 68:3 But let the righteous be glad; let them rejoice before God: yea, let them exceedingly rejoice.
 68:4 Sing unto God, sing praises to his name: extol him that rideth upon the heavens by his name JAH, and rejoice before him.
@@ -1008,7 +1007,7 @@ Selah. Because they have no changes, therefore they fear not God.
 68:33 To him that rideth upon the heavens of heavens, which were of old; lo, he doth send out his voice, and that a mighty voice.
 68:34 Ascribe ye strength unto God: his excellency is over Israel, and his strength is in the clouds.
 68:35 O God, thou art terrible out of thy holy places: the God of Israel is he that giveth strength and power unto his people. Blessed be God.
-<span id="69<?= $book ?>"></span>69:1 Save me, O God; for the waters are come in unto my soul.
+<span id="<?php echo $chapterprefix; ?>69"></span>69:1 Save me, O God; for the waters are come in unto my soul.
 69:2 I sink in deep mire, where there is no standing: I am come into deep waters, where the floods overflow me.
 69:3 I am weary of my crying: my throat is dried: mine eyes fail while I wait for my God.
 69:4 They that hate me without a cause are more than the hairs of mine head: they that would destroy me, being mine enemies wrongfully, are mighty: then I restored that which I took not away.
@@ -1044,12 +1043,12 @@ Selah. Because they have no changes, therefore they fear not God.
 69:34 Let the heaven and earth praise him, the seas, and every thing that moveth therein.
 69:35 For God will save Zion, and will build the cities of Judah: that they may dwell there, and have it in possession.
 69:36 The seed also of his servants shall inherit it: and they that love his name shall dwell therein.
-<span id="70<?= $book ?>"></span>70:1 Make haste, O God, to deliver me; make haste to help me, O Lord.
+<span id="<?php echo $chapterprefix; ?>70"></span>70:1 Make haste, O God, to deliver me; make haste to help me, O Lord.
 70:2 Let them be ashamed and confounded that seek after my soul: let them be turned backward, and put to confusion, that desire my hurt.
 70:3 Let them be turned back for a reward of their shame that say, Aha, aha.
 70:4 Let all those that seek thee rejoice and be glad in thee: and let such as love thy salvation say continually, Let God be magnified.
 70:5 But I am poor and needy: make haste unto me, O God: thou art my help and my deliverer; O LORD, make no tarrying.
-<span id="71<?= $book ?>"></span>71:1 In thee, O LORD, do I put my trust: let me never be put to confusion.
+<span id="<?php echo $chapterprefix; ?>71"></span>71:1 In thee, O LORD, do I put my trust: let me never be put to confusion.
 71:2 Deliver me in thy righteousness, and cause me to escape: incline thine ear unto me, and save me.
 71:3 Be thou my strong habitation, whereunto I may continually resort: thou hast given commandment to save me; for thou art my rock and my fortress.
 71:4 Deliver me, O my God, out of the hand of the wicked, out of the hand of the unrighteous and cruel man.
@@ -1073,7 +1072,7 @@ Selah. Because they have no changes, therefore they fear not God.
 71:22 I will also praise thee with the psaltery, even thy truth, O my God: unto thee will I sing with the harp, O thou Holy One of Israel.
 71:23 My lips shall greatly rejoice when I sing unto thee; and my soul, which thou hast redeemed.
 71:24 My tongue also shall talk of thy righteousness all the day long: for they are confounded, for they are brought unto shame, that seek my hurt.
-<span id="72<?= $book ?>"></span>72:1 Give the king thy judgments, O God, and thy righteousness unto the king's son.
+<span id="<?php echo $chapterprefix; ?>72"></span>72:1 Give the king thy judgments, O God, and thy righteousness unto the king's son.
 72:2 He shall judge thy people with righteousness, and thy poor with judgment.
 72:3 The mountains shall bring peace to the people, and the little hills, by righteousness.
 72:4 He shall judge the poor of the people, he shall save the children of the needy, and shall break in pieces the oppressor.
@@ -1093,7 +1092,7 @@ Selah. Because they have no changes, therefore they fear not God.
 72:18 Blessed be the LORD God, the God of Israel, who only doeth wondrous things.
 72:19 And blessed be his glorious name for ever: and let the whole earth be filled with his glory; Amen, and Amen.
 72:20 The prayers of David the son of Jesse are ended.
-<span id="73<?= $book ?>"></span>73:1 Truly God is good to Israel, even to such as are of a clean heart.
+<span id="<?php echo $chapterprefix; ?>73"></span>73:1 Truly God is good to Israel, even to such as are of a clean heart.
 73:2 But as for me, my feet were almost gone; my steps had well nigh slipped.
 73:3 For I was envious at the foolish, when I saw the prosperity of the wicked.
 73:4 For there are no bands in their death: but their strength is firm.
@@ -1121,7 +1120,7 @@ Selah. Because they have no changes, therefore they fear not God.
 73:26 My flesh and my heart faileth: but God is the strength of my heart, and my portion for ever.
 73:27 For, lo, they that are far from thee shall perish: thou hast destroyed all them that go a whoring from thee.
 73:28 But it is good for me to draw near to God: I have put my trust in the Lord GOD, that I may declare all thy works.
-<span id="74<?= $book ?>"></span>74:1 O God, why hast thou cast us off for ever? why doth thine anger smoke against the sheep of thy pasture?
+<span id="<?php echo $chapterprefix; ?>74"></span>74:1 O God, why hast thou cast us off for ever? why doth thine anger smoke against the sheep of thy pasture?
 74:2 Remember thy congregation, which thou hast purchased of old; the rod of thine inheritance, which thou hast redeemed; this mount Zion, wherein thou hast dwelt.
 74:3 Lift up thy feet unto the perpetual desolations; even all that the enemy hath done wickedly in the sanctuary.
 74:4 Thine enemies roar in the midst of thy congregations; they set up their ensigns for signs.
@@ -1144,7 +1143,7 @@ Selah. Because they have no changes, therefore they fear not God.
 74:21 O let not the oppressed return ashamed: let the poor and needy praise thy name.
 74:22 Arise, O God, plead thine own cause: remember how the foolish man reproacheth thee daily.
 74:23 Forget not the voice of thine enemies: the tumult of those that rise up against thee increaseth continually.
-<span id="75<?= $book ?>"></span>75:1 Unto thee, O God, do we give thanks, unto thee do we give thanks: for that thy name is near thy wondrous works declare.
+<span id="<?php echo $chapterprefix; ?>75"></span>75:1 Unto thee, O God, do we give thanks, unto thee do we give thanks: for that thy name is near thy wondrous works declare.
 75:2 When I shall receive the congregation I will judge uprightly.
 75:3 The earth and all the inhabitants thereof are dissolved: I bear up the pillars of it. Selah.
 75:4 I said unto the fools, Deal not foolishly: and to the wicked, Lift not up the horn:
@@ -1154,7 +1153,7 @@ Selah. Because they have no changes, therefore they fear not God.
 75:8 For in the hand of the LORD there is a cup, and the wine is red; it is full of mixture; and he poureth out of the same: but the dregs thereof, all the wicked of the earth shall wring them out, and drink them.
 75:9 But I will declare for ever; I will sing praises to the God of Jacob.
 75:10 All the horns of the wicked also will I cut off; but the horns of the righteous shall be exalted.
-<span id="76<?= $book ?>"></span>76:1 In Judah is God known: his name is great in Israel.
+<span id="<?php echo $chapterprefix; ?>76"></span>76:1 In Judah is God known: his name is great in Israel.
 76:2 In Salem also is his tabernacle, and his dwelling place in Zion.
 76:3 There brake he the arrows of the bow, the shield, and the sword, and the battle. Selah.
 76:4 Thou art more glorious and excellent than the mountains of prey.
@@ -1166,7 +1165,7 @@ Selah. Because they have no changes, therefore they fear not God.
 76:10 Surely the wrath of man shall praise thee: the remainder of wrath shalt thou restrain.
 76:11 Vow, and pay unto the LORD your God: let all that be round about him bring presents unto him that ought to be feared.
 76:12 He shall cut off the spirit of princes: he is terrible to the kings of the earth.
-<span id="77<?= $book ?>"></span>77:1 I cried unto God with my voice, even unto God with my voice; and he gave ear unto me.
+<span id="<?php echo $chapterprefix; ?>77"></span>77:1 I cried unto God with my voice, even unto God with my voice; and he gave ear unto me.
 77:2 In the day of my trouble I sought the Lord: my sore ran in the night, and ceased not: my soul refused to be comforted.
 77:3 I remembered God, and was troubled: I complained, and my spirit was overwhelmed. Selah.
 77:4 Thou holdest mine eyes waking: I am so troubled that I cannot speak.
@@ -1186,7 +1185,7 @@ Selah. Because they have no changes, therefore they fear not God.
 77:18 The voice of thy thunder was in the heaven: the lightnings lightened the world: the earth trembled and shook.
 77:19 Thy way is in the sea, and thy path in the great waters, and thy footsteps are not known.
 77:20 Thou leddest thy people like a flock by the hand of Moses and Aaron.
-<span id="78<?= $book ?>"></span>78:1 Give ear, O my people, to my law: incline your ears to the words of my mouth.
+<span id="<?php echo $chapterprefix; ?>78"></span>78:1 Give ear, O my people, to my law: incline your ears to the words of my mouth.
 78:2 I will open my mouth in a parable: I will utter dark sayings of old:
 78:3 Which we have heard and known, and our fathers have told us.
 78:4 We will not hide them from their children, shewing to the generation to come the praises of the LORD, and his strength, and his wonderful works that he hath done.
@@ -1258,7 +1257,7 @@ Selah. Because they have no changes, therefore they fear not God.
 78:70 He chose David also his servant, and took him from the sheepfolds:
 78:71 From following the ewes great with young he brought him to feed Jacob his people, and Israel his inheritance.
 78:72 So he fed them according to the integrity of his heart; and guided them by the skilfulness of his hands.
-<span id="79<?= $book ?>"></span>79:1 O God, the heathen are come into thine inheritance; thy holy temple have they defiled; they have laid Jerusalem on heaps.
+<span id="<?php echo $chapterprefix; ?>79"></span>79:1 O God, the heathen are come into thine inheritance; thy holy temple have they defiled; they have laid Jerusalem on heaps.
 79:2 The dead bodies of thy servants have they given to be meat unto the fowls of the heaven, the flesh of thy saints unto the beasts of the earth.
 79:3 Their blood have they shed like water round about Jerusalem; and there was none to bury them.
 79:4 We are become a reproach to our neighbours, a scorn and derision to them that are round about us.
@@ -1271,7 +1270,7 @@ Selah. Because they have no changes, therefore they fear not God.
 79:11 Let the sighing of the prisoner come before thee; according to the greatness of thy power preserve thou those that are appointed to die;
 79:12 And render unto our neighbours sevenfold into their bosom their reproach, wherewith they have reproached thee, O Lord.
 79:13 So we thy people and sheep of thy pasture will give thee thanks for ever: we will shew forth thy praise to all generations.
-<span id="80<?= $book ?>"></span>80:1 Give ear, O Shepherd of Israel, thou that leadest Joseph like a flock; thou that dwellest between the cherubims, shine forth.
+<span id="<?php echo $chapterprefix; ?>80"></span>80:1 Give ear, O Shepherd of Israel, thou that leadest Joseph like a flock; thou that dwellest between the cherubims, shine forth.
 80:2 Before Ephraim and Benjamin and Manasseh stir up thy strength, and come and save us.
 80:3 Turn us again, O God, and cause thy face to shine; and we shall be saved.
 80:4 O LORD God of hosts, how long wilt thou be angry against the prayer of thy people?
@@ -1290,7 +1289,7 @@ Selah. Because they have no changes, therefore they fear not God.
 80:17 Let thy hand be upon the man of thy right hand, upon the son of man whom thou madest strong for thyself.
 80:18 So will not we go back from thee: quicken us, and we will call upon thy name.
 80:19 Turn us again, O LORD God of hosts, cause thy face to shine; and we shall be saved.
-<span id="81<?= $book ?>"></span>81:1 Sing aloud unto God our strength: make a joyful noise unto the God of Jacob.
+<span id="<?php echo $chapterprefix; ?>81"></span>81:1 Sing aloud unto God our strength: make a joyful noise unto the God of Jacob.
 81:2 Take a psalm, and bring hither the timbrel, the pleasant harp with the psaltery.
 81:3 Blow up the trumpet in the new moon, in the time appointed, on our solemn feast day.
 81:4 For this was a statute for Israel, and a law of the God of Jacob.
@@ -1307,7 +1306,7 @@ Selah.
 81:14 I should soon have subdued their enemies, and turned my hand against their adversaries.
 81:15 The haters of the LORD should have submitted themselves unto him: but their time should have endured for ever.
 81:16 He should have fed them also with the finest of the wheat: and with honey out of the rock should I have satisfied thee.
-<span id="82<?= $book ?>"></span>82:1 God standeth in the congregation of the mighty; he judgeth among the gods.
+<span id="<?php echo $chapterprefix; ?>82"></span>82:1 God standeth in the congregation of the mighty; he judgeth among the gods.
 82:2 How long will ye judge unjustly, and accept the persons of the wicked? Selah.
 82:3 Defend the poor and fatherless: do justice to the afflicted and needy.
 82:4 Deliver the poor and needy: rid them out of the hand of the wicked.
@@ -1315,7 +1314,7 @@ Selah.
 82:6 I have said, Ye are gods; and all of you are children of the most High.
 82:7 But ye shall die like men, and fall like one of the princes.
 82:8 Arise, O God, judge the earth: for thou shalt inherit all nations.
-<span id="83<?= $book ?>"></span>83:1 Keep not thou silence, O God: hold not thy peace, and be not still, O God.
+<span id="<?php echo $chapterprefix; ?>83"></span>83:1 Keep not thou silence, O God: hold not thy peace, and be not still, O God.
 83:2 For, lo, thine enemies make a tumult: and they that hate thee have lifted up the head.
 83:3 They have taken crafty counsel against thy people, and consulted against thy hidden ones.
 83:4 They have said, Come, and let us cut them off from being a nation; that the name of Israel may be no more in remembrance.
@@ -1334,7 +1333,7 @@ Selah.
 83:16 Fill their faces with shame; that they may seek thy name, O LORD.
 83:17 Let them be confounded and troubled for ever; yea, let them be put to shame, and perish:
 83:18 That men may know that thou, whose name alone is JEHOVAH, art the most high over all the earth.
-<span id="84<?= $book ?>"></span>84:1 How amiable are thy tabernacles, O LORD of hosts!
+<span id="<?php echo $chapterprefix; ?>84"></span>84:1 How amiable are thy tabernacles, O LORD of hosts!
 84:2 My soul longeth, yea, even fainteth for the courts of the LORD: my heart and my flesh crieth out for the living God.
 84:3 Yea, the sparrow hath found an house, and the swallow a nest for herself, where she may lay her young, even thine altars, O LORD of hosts, my King, and my God.
 84:4 Blessed are they that dwell in thy house: they will be still praising thee. Selah.
@@ -1346,7 +1345,7 @@ Selah.
 84:10 For a day in thy courts is better than a thousand. I had rather be a doorkeeper in the house of my God, than to dwell in the tents of wickedness.
 84:11 For the LORD God is a sun and shield: the LORD will give grace and glory: no good thing will he withhold from them that walk uprightly.
 84:12 O LORD of hosts, blessed is the man that trusteth in thee.
-<span id="85<?= $book ?>"></span>85:1 Lord, thou hast been favourable unto thy land: thou hast brought back the captivity of Jacob.
+<span id="<?php echo $chapterprefix; ?>85"></span>85:1 Lord, thou hast been favourable unto thy land: thou hast brought back the captivity of Jacob.
 85:2 Thou hast forgiven the iniquity of thy people, thou hast covered all their sin. Selah.
 85:3 Thou hast taken away all thy wrath: thou hast turned thyself from the fierceness of thine anger.
 85:4 Turn us, O God of our salvation, and cause thine anger toward us to cease.
@@ -1359,7 +1358,7 @@ Selah.
 85:11 Truth shall spring out of the earth; and righteousness shall look down from heaven.
 85:12 Yea, the LORD shall give that which is good; and our land shall yield her increase.
 85:13 Righteousness shall go before him; and shall set us in the way of his steps.
-<span id="86<?= $book ?>"></span>86:1 Bow down thine ear, O LORD, hear me: for I am poor and needy.
+<span id="<?php echo $chapterprefix; ?>86"></span>86:1 Bow down thine ear, O LORD, hear me: for I am poor and needy.
 86:2 Preserve my soul; for I am holy: O thou my God, save thy servant that trusteth in thee.
 86:3 Be merciful unto me, O Lord: for I cry unto thee daily.
 86:4 Rejoice the soul of thy servant: for unto thee, O Lord, do I lift up my soul.
@@ -1376,14 +1375,14 @@ Selah.
 86:15 But thou, O Lord, art a God full of compassion, and gracious, long suffering, and plenteous in mercy and truth.
 86:16 O turn unto me, and have mercy upon me; give thy strength unto thy servant, and save the son of thine handmaid.
 86:17 Shew me a token for good; that they which hate me may see it, and be ashamed: because thou, LORD, hast holpen me, and comforted me.
-<span id="87<?= $book ?>"></span>87:1 His foundation is in the holy mountains.
+<span id="<?php echo $chapterprefix; ?>87"></span>87:1 His foundation is in the holy mountains.
 87:2 The LORD loveth the gates of Zion more than all the dwellings of Jacob.
 87:3 Glorious things are spoken of thee, O city of God. Selah.
 87:4 I will make mention of Rahab and Babylon to them that know me: behold Philistia, and Tyre, with Ethiopia; this man was born there.
 87:5 And of Zion it shall be said, This and that man was born in her: and the highest himself shall establish her.
 87:6 The LORD shall count, when he writeth up the people, that this man was born there. Selah.
 87:7 As well the singers as the players on instruments shall be there: all my springs are in thee.
-<span id="88<?= $book ?>"></span>88:1 O lord God of my salvation, I have cried day and night before thee:
+<span id="<?php echo $chapterprefix; ?>88"></span>88:1 O lord God of my salvation, I have cried day and night before thee:
 88:2 Let my prayer come before thee: incline thine ear unto my cry;
 88:3 For my soul is full of troubles: and my life draweth nigh unto the grave.
 88:4 I am counted with them that go down into the pit: I am as a man that hath no strength:
@@ -1401,7 +1400,7 @@ Selah.
 88:16 Thy fierce wrath goeth over me; thy terrors have cut me off.
 88:17 They came round about me daily like water; they compassed me about together.
 88:18 Lover and friend hast thou put far from me, and mine acquaintance into darkness.
-<span id="89<?= $book ?>"></span>89:1 I will sing of the mercies of the LORD for ever: with my mouth will I make known thy faithfulness to all generations.
+<span id="<?php echo $chapterprefix; ?>89"></span>89:1 I will sing of the mercies of the LORD for ever: with my mouth will I make known thy faithfulness to all generations.
 89:2 For I have said, Mercy shall be built up for ever: thy faithfulness shalt thou establish in the very heavens.
 89:3 I have made a covenant with my chosen, I have sworn unto David my servant,
 89:4 Thy seed will I establish for ever, and build up thy throne to all generations. Selah.
@@ -1453,7 +1452,7 @@ Selah.
 89:50 Remember, Lord, the reproach of thy servants; how I do bear in my bosom the reproach of all the mighty people;
 89:51 Wherewith thine enemies have reproached, O LORD; wherewith they have reproached the footsteps of thine anointed.
 89:52 Blessed be the LORD for evermore. Amen, and Amen.
-<span id="90<?= $book ?>"></span>90:1 Lord, thou hast been our dwelling place in all generations.
+<span id="<?php echo $chapterprefix; ?>90"></span>90:1 Lord, thou hast been our dwelling place in all generations.
 90:2 Before the mountains were brought forth, or ever thou hadst formed the earth and the world, even from everlasting to everlasting, thou art God.
 90:3 Thou turnest man to destruction; and sayest, Return, ye children of men.
 90:4 For a thousand years in thy sight are but as yesterday when it is past, and as a watch in the night.
@@ -1470,7 +1469,7 @@ Selah.
 90:15 Make us glad according to the days wherein thou hast afflicted us, and the years wherein we have seen evil.
 90:16 Let thy work appear unto thy servants, and thy glory unto their children.
 90:17 And let the beauty of the LORD our God be upon us: and establish thou the work of our hands upon us; yea, the work of our hands establish thou it.
-<span id="91<?= $book ?>"></span>91:1 He that dwelleth in the secret place of the most High shall abide under the shadow of the Almighty.
+<span id="<?php echo $chapterprefix; ?>91"></span>91:1 He that dwelleth in the secret place of the most High shall abide under the shadow of the Almighty.
 91:2 I will say of the LORD, He is my refuge and my fortress: my God; in him will I trust.
 91:3 Surely he shall deliver thee from the snare of the fowler, and from the noisome pestilence.
 91:4 He shall cover thee with his feathers, and under his wings shalt thou trust: his truth shall be thy shield and buckler.
@@ -1486,7 +1485,7 @@ Selah.
 91:14 Because he hath set his love upon me, therefore will I deliver him: I will set him on high, because he hath known my name.
 91:15 He shall call upon me, and I will answer him: I will be with him in trouble; I will deliver him, and honour him.
 91:16 With long life will I satisfy him, and shew him my salvation.
-<span id="92<?= $book ?>"></span>92:1 It is a good thing to give thanks unto the Lord, and to sing praises unto thy name, O most High:
+<span id="<?php echo $chapterprefix; ?>92"></span>92:1 It is a good thing to give thanks unto the Lord, and to sing praises unto thy name, O most High:
 92:2 To shew forth thy lovingkindness in the morning, and thy faithfulness every night,
 92:3 Upon an instrument of ten strings, and upon the psaltery; upon the harp with a solemn sound.
 92:4 For thou, LORD, hast made me glad through thy work: I will triumph in the works of thy hands.
@@ -1501,12 +1500,12 @@ Selah.
 92:13 Those that be planted in the house of the LORD shall flourish in the courts of our God.
 92:14 They shall still bring forth fruit in old age; they shall be fat and flourishing;
 92:15 To shew that the LORD is upright: he is my rock, and there is no unrighteousness in him.
-<span id="93<?= $book ?>"></span>93:1 The LORD reigneth, he is clothed with majesty; the LORD is clothed with strength, wherewith he hath girded himself: the world also is stablished, that it cannot be moved.
+<span id="<?php echo $chapterprefix; ?>93"></span>93:1 The LORD reigneth, he is clothed with majesty; the LORD is clothed with strength, wherewith he hath girded himself: the world also is stablished, that it cannot be moved.
 93:2 Thy throne is established of old: thou art from everlasting.
 93:3 The floods have lifted up, O LORD, the floods have lifted up their voice; the floods lift up their waves.
 93:4 The LORD on high is mightier than the noise of many waters, yea, than the mighty waves of the sea.
 93:5 Thy testimonies are very sure: holiness becometh thine house, O LORD, for ever.
-<span id="94<?= $book ?>"></span>94:1 O Lord God, to whom vengeance belongeth; O God, to whom vengeance belongeth, shew thyself.
+<span id="<?php echo $chapterprefix; ?>94"></span>94:1 O Lord God, to whom vengeance belongeth; O God, to whom vengeance belongeth, shew thyself.
 94:2 Lift up thyself, thou judge of the earth: render a reward to the proud.
 94:3 LORD, how long shall the wicked, how long shall the wicked triumph?
 94:4 How long shall they utter and speak hard things? and all the workers of iniquity boast themselves?
@@ -1529,7 +1528,7 @@ Selah.
 94:21 They gather themselves together against the soul of the righteous, and condemn the innocent blood.
 94:22 But the LORD is my defence; and my God is the rock of my refuge.
 94:23 And he shall bring upon them their own iniquity, and shall cut them off in their own wickedness; yea, the LORD our God shall cut them off.
-<span id="95<?= $book ?>"></span>95:1 O come, let us sing unto the LORD: let us make a joyful noise to the rock of our salvation.
+<span id="<?php echo $chapterprefix; ?>95"></span>95:1 O come, let us sing unto the LORD: let us make a joyful noise to the rock of our salvation.
 95:2 Let us come before his presence with thanksgiving, and make a joyful noise unto him with psalms.
 95:3 For the LORD is a great God, and a great King above all gods.
 95:4 In his hand are the deep places of the earth: the strength of the hills is his also.
@@ -1540,7 +1539,7 @@ Selah.
 95:9 When your fathers tempted me, proved me, and saw my work.
 95:10 Forty years long was I grieved with this generation, and said, It is a people that do err in their heart, and they have not known my ways:
 95:11 Unto whom I sware in my wrath that they should not enter into my rest.
-<span id="96<?= $book ?>"></span>96:1 O sing unto the LORD a new song: sing unto the LORD, all the earth.
+<span id="<?php echo $chapterprefix; ?>96"></span>96:1 O sing unto the LORD a new song: sing unto the LORD, all the earth.
 96:2 Sing unto the LORD, bless his name; shew forth his salvation from day to day.
 96:3 Declare his glory among the heathen, his wonders among all people.
 96:4 For the LORD is great, and greatly to be praised: he is to be feared above all gods.
@@ -1553,7 +1552,7 @@ Selah.
 96:11 Let the heavens rejoice, and let the earth be glad; let the sea roar, and the fulness thereof.
 96:12 Let the field be joyful, and all that is therein: then shall all the trees of the wood rejoice
 96:13 Before the LORD: for he cometh, for he cometh to judge the earth: he shall judge the world with righteousness, and the people with his truth.
-<span id="97<?= $book ?>"></span>97:1 The LORD reigneth; let the earth rejoice; let the multitude of isles be glad thereof.
+<span id="<?php echo $chapterprefix; ?>97"></span>97:1 The LORD reigneth; let the earth rejoice; let the multitude of isles be glad thereof.
 97:2 Clouds and darkness are round about him: righteousness and judgment are the habitation of his throne.
 97:3 A fire goeth before him, and burneth up his enemies round about.
 97:4 His lightnings enlightened the world: the earth saw, and trembled.
@@ -1565,7 +1564,7 @@ Selah.
 97:10 Ye that love the LORD, hate evil: he preserveth the souls of his saints; he delivereth them out of the hand of the wicked.
 97:11 Light is sown for the righteous, and gladness for the upright in heart.
 97:12 Rejoice in the LORD, ye righteous; and give thanks at the remembrance of his holiness.
-<span id="98<?= $book ?>"></span>98:1 O sing unto the LORD a new song; for he hath done marvellous things: his right hand, and his holy arm, hath gotten him the victory.
+<span id="<?php echo $chapterprefix; ?>98"></span>98:1 O sing unto the LORD a new song; for he hath done marvellous things: his right hand, and his holy arm, hath gotten him the victory.
 98:2 The LORD hath made known his salvation: his righteousness hath he openly shewed in the sight of the heathen.
 98:3 He hath remembered his mercy and his truth toward the house of Israel: all the ends of the earth have seen the salvation of our God.
 98:4 Make a joyful noise unto the LORD, all the earth: make a loud noise, and rejoice, and sing praise.
@@ -1574,7 +1573,7 @@ Selah.
 98:7 Let the sea roar, and the fulness thereof; the world, and they that dwell therein.
 98:8 Let the floods clap their hands: let the hills be joyful together
 98:9 Before the LORD; for he cometh to judge the earth: with righteousness shall he judge the world, and the people with equity.
-<span id="99<?= $book ?>"></span>99:1 The LORD reigneth; let the people tremble: he sitteth between the cherubims; let the earth be moved.
+<span id="<?php echo $chapterprefix; ?>99"></span>99:1 The LORD reigneth; let the people tremble: he sitteth between the cherubims; let the earth be moved.
 99:2 The LORD is great in Zion; and he is high above all the people.
 99:3 Let them praise thy great and terrible name; for it is holy.
 99:4 The king's strength also loveth judgment; thou dost establish equity, thou executest judgment and righteousness in Jacob.
@@ -1583,12 +1582,12 @@ Selah.
 99:7 He spake unto them in the cloudy pillar: they kept his testimonies, and the ordinance that he gave them.
 99:8 Thou answeredst them, O LORD our God: thou wast a God that forgavest them, though thou tookest vengeance of their inventions.
 99:9 Exalt the LORD our God, and worship at his holy hill; for the LORD our God is holy.
-<span id="100<?= $book ?>"></span>100:1 Make a joyful noise unto the LORD, all ye lands.
+<span id="<?php echo $chapterprefix; ?>100"></span>100:1 Make a joyful noise unto the LORD, all ye lands.
 100:2 Serve the LORD with gladness: come before his presence with singing.
 100:3 Know ye that the LORD he is God: it is he that hath made us, and not we ourselves; we are his people, and the sheep of his pasture.
 100:4 Enter into his gates with thanksgiving, and into his courts with praise: be thankful unto him, and bless his name.
 100:5 For the LORD is good; his mercy is everlasting; and his truth endureth to all generations.
-<span id="101<?= $book ?>"></span>101:1 I will sing of mercy and judgment: unto thee, O LORD, will I sing.
+<span id="<?php echo $chapterprefix; ?>101"></span>101:1 I will sing of mercy and judgment: unto thee, O LORD, will I sing.
 101:2 I will behave myself wisely in a perfect way. O when wilt thou come unto me? I will walk within my house with a perfect heart.
 101:3 I will set no wicked thing before mine eyes: I hate the work of them that turn aside; it shall not cleave to me.
 101:4 A froward heart shall depart from me: I will not know a wicked person.
@@ -1596,7 +1595,7 @@ Selah.
 101:6 Mine eyes shall be upon the faithful of the land, that they may dwell with me: he that walketh in a perfect way, he shall serve me.
 101:7 He that worketh deceit shall not dwell within my house: he that telleth lies shall not tarry in my sight.
 101:8 I will early destroy all the wicked of the land; that I may cut off all wicked doers from the city of the LORD.
-<span id="102<?= $book ?>"></span>102:1 Hear my prayer, O LORD, and let my cry come unto thee.
+<span id="<?php echo $chapterprefix; ?>102"></span>102:1 Hear my prayer, O LORD, and let my cry come unto thee.
 102:2 Hide not thy face from me in the day when I am in trouble; incline thine ear unto me: in the day when I call answer me speedily.
 102:3 For my days are consumed like smoke, and my bones are burned as an hearth.
 102:4 My heart is smitten, and withered like grass; so that I forget to eat my bread.
@@ -1624,7 +1623,7 @@ Selah.
 102:26 They shall perish, but thou shalt endure: yea, all of them shall wax old like a garment; as a vesture shalt thou change them, and they shall be changed:
 102:27 But thou art the same, and thy years shall have no end.
 102:28 The children of thy servants shall continue, and their seed shall be established before thee.
-<span id="103<?= $book ?>"></span>103:1 Bless the LORD, O my soul: and all that is within me, bless his holy name.
+<span id="<?php echo $chapterprefix; ?>103"></span>103:1 Bless the LORD, O my soul: and all that is within me, bless his holy name.
 103:2 Bless the LORD, O my soul, and forget not all his benefits:
 103:3 Who forgiveth all thine iniquities; who healeth all thy diseases;
 103:4 Who redeemeth thy life from destruction; who crowneth thee with lovingkindness and tender mercies;
@@ -1646,7 +1645,7 @@ Selah.
 103:20 Bless the LORD, ye his angels, that excel in strength, that do his commandments, hearkening unto the voice of his word.
 103:21 Bless ye the LORD, all ye his hosts; ye ministers of his, that do his pleasure.
 103:22 Bless the LORD, all his works in all places of his dominion: bless the LORD, O my soul.
-<span id="104<?= $book ?>"></span>104:1 Bless the LORD, O my soul. O LORD my God, thou art very great; thou art clothed with honour and majesty.
+<span id="<?php echo $chapterprefix; ?>104"></span>104:1 Bless the LORD, O my soul. O LORD my God, thou art very great; thou art clothed with honour and majesty.
 104:2 Who coverest thyself with light as with a garment: who stretchest out the heavens like a curtain:
 104:3 Who layeth the beams of his chambers in the waters: who maketh the clouds his chariot: who walketh upon the wings of the wind:
 104:4 Who maketh his angels spirits; his ministers a flaming fire:
@@ -1681,7 +1680,7 @@ Selah.
 104:33 I will sing unto the LORD as long as I live: I will sing praise to my God while I have my being.
 104:34 My meditation of him shall be sweet: I will be glad in the LORD.
 104:35 Let the sinners be consumed out of the earth, and let the wicked be no more. Bless thou the LORD, O my soul. Praise ye the LORD.
-<span id="105<?= $book ?>"></span>105:1 O give thanks unto the LORD; call upon his name: make known his deeds among the people.
+<span id="<?php echo $chapterprefix; ?>105"></span>105:1 O give thanks unto the LORD; call upon his name: make known his deeds among the people.
 105:2 Sing unto him, sing psalms unto him: talk ye of all his wondrous works.
 105:3 Glory ye in his holy name: let the heart of them rejoice that seek the LORD.
 105:4 Seek the LORD, and his strength: seek his face evermore.
@@ -1726,7 +1725,7 @@ Selah.
 105:43 And he brought forth his people with joy, and his chosen with gladness:
 105:44 And gave them the lands of the heathen: and they inherited the labour of the people;
 105:45 That they might observe his statutes, and keep his laws. Praise ye the LORD.
-<span id="106<?= $book ?>"></span>106:1 Praise ye the LORD. O give thanks unto the LORD; for he is good: for his mercy endureth for ever.
+<span id="<?php echo $chapterprefix; ?>106"></span>106:1 Praise ye the LORD. O give thanks unto the LORD; for he is good: for his mercy endureth for ever.
 106:2 Who can utter the mighty acts of the LORD? who can shew forth all his praise?
 106:3 Blessed are they that keep judgment, and he that doeth righteousness at all times.
 106:4 Remember me, O LORD, with the favour that thou bearest unto thy people: O visit me with thy salvation;
@@ -1774,7 +1773,7 @@ Selah.
 106:46 He made them also to be pitied of all those that carried them captives.
 106:47 Save us, O LORD our God, and gather us from among the heathen, to give thanks unto thy holy name, and to triumph in thy praise.
 106:48 Blessed be the LORD God of Israel from everlasting to everlasting: and let all the people say, Amen. Praise ye the LORD.
-<span id="107<?= $book ?>"></span>107:1 O give thanks unto the LORD, for he is good: for his mercy endureth for ever.
+<span id="<?php echo $chapterprefix; ?>107"></span>107:1 O give thanks unto the LORD, for he is good: for his mercy endureth for ever.
 107:2 Let the redeemed of the LORD say so, whom he hath redeemed from the hand of the enemy;
 107:3 And gathered them out of the lands, from the east, and from the west, from the north, and from the south.
 107:4 They wandered in the wilderness in a solitary way; they found no city to dwell in.
@@ -1817,7 +1816,7 @@ Selah.
 107:41 Yet setteth he the poor on high from affliction, and maketh him families like a flock.
 107:42 The righteous shall see it, and rejoice: and all iniquity shall stop her mouth.
 107:43 Whoso is wise, and will observe these things, even they shall understand the lovingkindness of the LORD.
-<span id="108<?= $book ?>"></span>108:1 O god, my heart is fixed; I will sing and give praise, even with my glory.
+<span id="<?php echo $chapterprefix; ?>108"></span>108:1 O god, my heart is fixed; I will sing and give praise, even with my glory.
 108:2 Awake, psaltery and harp: I myself will awake early.
 108:3 I will praise thee, O LORD, among the people: and I will sing praises unto thee among the nations.
 108:4 For thy mercy is great above the heavens: and thy truth reacheth unto the clouds.
@@ -1830,7 +1829,7 @@ Selah.
 108:11 Wilt not thou, O God, who hast cast us off? and wilt not thou, O God, go forth with our hosts?
 108:12 Give us help from trouble: for vain is the help of man.
 108:13 Through God we shall do valiantly: for he it is that shall tread down our enemies.
-<span id="109<?= $book ?>"></span>109:1 Hold not thy peace, O God of my praise;
+<span id="<?php echo $chapterprefix; ?>109"></span>109:1 Hold not thy peace, O God of my praise;
 109:2 For the mouth of the wicked and the mouth of the deceitful are opened against me: they have spoken against me with a lying tongue.
 109:3 They compassed me about also with words of hatred; and fought against me without a cause.
 109:4 For my love they are my adversaries: but I give myself unto prayer.
@@ -1861,14 +1860,14 @@ Selah.
 109:29 Let mine adversaries be clothed with shame, and let them cover themselves with their own confusion, as with a mantle.
 109:30 I will greatly praise the LORD with my mouth; yea, I will praise him among the multitude.
 109:31 For he shall stand at the right hand of the poor, to save him from those that condemn his soul.
-<span id="110<?= $book ?>"></span>110:1 The LORD said unto my Lord, Sit thou at my right hand, until I make thine enemies thy footstool.
+<span id="<?php echo $chapterprefix; ?>110"></span>110:1 The LORD said unto my Lord, Sit thou at my right hand, until I make thine enemies thy footstool.
 110:2 The LORD shall send the rod of thy strength out of Zion: rule thou in the midst of thine enemies.
 110:3 Thy people shall be willing in the day of thy power, in the beauties of holiness from the womb of the morning: thou hast the dew of thy youth.
 110:4 The LORD hath sworn, and will not repent, Thou art a priest for ever after the order of Melchizedek.
 110:5 The Lord at thy right hand shall strike through kings in the day of his wrath.
 110:6 He shall judge among the heathen, he shall fill the places with the dead bodies; he shall wound the heads over many countries.
 110:7 He shall drink of the brook in the way: therefore shall he lift up the head.
-<span id="111<?= $book ?>"></span>111:1 Praise ye the LORD. I will praise the LORD with my whole heart, in the assembly of the upright, and in the congregation.
+<span id="<?php echo $chapterprefix; ?>111"></span>111:1 Praise ye the LORD. I will praise the LORD with my whole heart, in the assembly of the upright, and in the congregation.
 111:2 The works of the LORD are great, sought out of all them that have pleasure therein.
 111:3 His work is honourable and glorious: and his righteousness endureth for ever.
 111:4 He hath made his wonderful works to be remembered: the LORD is gracious and full of compassion.
@@ -1878,7 +1877,7 @@ Selah.
 111:8 They stand fast for ever and ever, and are done in truth and uprightness.
 111:9 He sent redemption unto his people: he hath commanded his covenant for ever: holy and reverend is his name.
 111:10 The fear of the LORD is the beginning of wisdom: a good understanding have all they that do his commandments: his praise endureth for ever.
-<span id="112<?= $book ?>"></span>112:1 Praise ye the LORD. Blessed is the man that feareth the LORD, that delighteth greatly in his commandments.
+<span id="<?php echo $chapterprefix; ?>112"></span>112:1 Praise ye the LORD. Blessed is the man that feareth the LORD, that delighteth greatly in his commandments.
 112:2 His seed shall be mighty upon earth: the generation of the upright shall be blessed.
 112:3 Wealth and riches shall be in his house: and his righteousness endureth for ever.
 112:4 Unto the upright there ariseth light in the darkness: he is gracious, and full of compassion, and righteous.
@@ -1888,7 +1887,7 @@ Selah.
 112:8 His heart is established, he shall not be afraid, until he see his desire upon his enemies.
 112:9 He hath dispersed, he hath given to the poor; his righteousness endureth for ever; his horn shall be exalted with honour.
 112:10 The wicked shall see it, and be grieved; he shall gnash with his teeth, and melt away: the desire of the wicked shall perish.
-<span id="113<?= $book ?>"></span>113:1 Praise ye the LORD. Praise, O ye servants of the LORD, praise the name of the LORD.
+<span id="<?php echo $chapterprefix; ?>113"></span>113:1 Praise ye the LORD. Praise, O ye servants of the LORD, praise the name of the LORD.
 113:2 Blessed be the name of the LORD from this time forth and for evermore.
 113:3 From the rising of the sun unto the going down of the same the LORD's name is to be praised.
 113:4 The LORD is high above all nations, and his glory above the heavens.
@@ -1897,7 +1896,7 @@ Selah.
 113:7 He raiseth up the poor out of the dust, and lifteth the needy out of the dunghill;
 113:8 That he may set him with princes, even with the princes of his people.
 113:9 He maketh the barren woman to keep house, and to be a joyful mother of children. Praise ye the LORD.
-<span id="114<?= $book ?>"></span>114:1 When Israel went out of Egypt, the house of Jacob from a people of strange language;
+<span id="<?php echo $chapterprefix; ?>114"></span>114:1 When Israel went out of Egypt, the house of Jacob from a people of strange language;
 114:2 Judah was his sanctuary, and Israel his dominion.
 114:3 The sea saw it, and fled: Jordan was driven back.
 114:4 The mountains skipped like rams, and the little hills like lambs.
@@ -1905,7 +1904,7 @@ Selah.
 114:6 Ye mountains, that ye skipped like rams; and ye little hills, like lambs?
 114:7 Tremble, thou earth, at the presence of the Lord, at the presence of the God of Jacob;
 114:8 Which turned the rock into a standing water, the flint into a fountain of waters.
-<span id="115<?= $book ?>"></span>115:1 Not unto us, O LORD, not unto us, but unto thy name give glory, for thy mercy, and for thy truth's sake.
+<span id="<?php echo $chapterprefix; ?>115"></span>115:1 Not unto us, O LORD, not unto us, but unto thy name give glory, for thy mercy, and for thy truth's sake.
 115:2 Wherefore should the heathen say, Where is now their God?
 115:3 But our God is in the heavens: he hath done whatsoever he hath pleased.
 115:4 Their idols are silver and gold, the work of men's hands.
@@ -1924,7 +1923,7 @@ Selah.
 115:17 The dead praise not the LORD, neither any that go down into silence.
 115:18 But we will bless the LORD from this time forth and for evermore.
 Praise the LORD.
-<span id="116<?= $book ?>"></span>116:1 I love the LORD, because he hath heard my voice and my supplications.
+<span id="<?php echo $chapterprefix; ?>116"></span>116:1 I love the LORD, because he hath heard my voice and my supplications.
 116:2 Because he hath inclined his ear unto me, therefore will I call upon him as long as I live.
 116:3 The sorrows of death compassed me, and the pains of hell gat hold upon me: I found trouble and sorrow.
 116:4 Then called I upon the name of the LORD; O LORD, I beseech thee, deliver my soul.
@@ -1943,9 +1942,9 @@ Praise the LORD.
 116:17 I will offer to thee the sacrifice of thanksgiving, and will call upon the name of the LORD.
 116:18 I will pay my vows unto the LORD now in the presence of all his people.
 116:19 In the courts of the LORD's house, in the midst of thee, O Jerusalem. Praise ye the LORD.
-<span id="117<?= $book ?>"></span>117:1 O praise the LORD, all ye nations: praise him, all ye people.
+<span id="<?php echo $chapterprefix; ?>117"></span>117:1 O praise the LORD, all ye nations: praise him, all ye people.
 117:2 For his merciful kindness is great toward us: and the truth of the LORD endureth for ever. Praise ye the LORD.
-<span id="118<?= $book ?>"></span>118:1 O give thanks unto the LORD; for he is good: because his mercy endureth for ever.
+<span id="<?php echo $chapterprefix; ?>118"></span>118:1 O give thanks unto the LORD; for he is good: because his mercy endureth for ever.
 118:2 Let Israel now say, that his mercy endureth for ever.
 118:3 Let the house of Aaron now say, that his mercy endureth for ever.
 118:4 Let them now that fear the LORD say, that his mercy endureth for ever.
@@ -1974,7 +1973,7 @@ Praise the LORD.
 118:27 God is the LORD, which hath shewed us light: bind the sacrifice with cords, even unto the horns of the altar.
 118:28 Thou art my God, and I will praise thee: thou art my God, I will exalt thee.
 118:29 O give thanks unto the LORD; for he is good: for his mercy endureth for ever.
-<span id="119<?= $book ?>"></span>119:1 Blessed are the undefiled in the way, who walk in the law of the LORD.
+<span id="<?php echo $chapterprefix; ?>119"></span>119:1 Blessed are the undefiled in the way, who walk in the law of the LORD.
 119:2 Blessed are they that keep his testimonies, and that seek him with the whole heart.
 119:3 They also do no iniquity: they walk in his ways.
 119:4 Thou hast commanded us to keep thy precepts diligently.
@@ -2150,14 +2149,14 @@ Praise the LORD.
 119:174 I have longed for thy salvation, O LORD; and thy law is my delight.
 119:175 Let my soul live, and it shall praise thee; and let thy judgments help me.
 119:176 I have gone astray like a lost sheep; seek thy servant; for I do not forget thy commandments.
-<span id="120<?= $book ?>"></span>120:1 In my distress I cried unto the LORD, and he heard me.
+<span id="<?php echo $chapterprefix; ?>120"></span>120:1 In my distress I cried unto the LORD, and he heard me.
 120:2 Deliver my soul, O LORD, from lying lips, and from a deceitful tongue.
 120:3 What shall be given unto thee? or what shall be done unto thee, thou false tongue?
 120:4 Sharp arrows of the mighty, with coals of juniper.
 120:5 Woe is me, that I sojourn in Mesech, that I dwell in the tents of Kedar!
 120:6 My soul hath long dwelt with him that hateth peace.
 120:7 I am for peace: but when I speak, they are for war.
-<span id="121<?= $book ?>"></span>121:1 I will lift up mine eyes unto the hills, from whence cometh my help.
+<span id="<?php echo $chapterprefix; ?>121"></span>121:1 I will lift up mine eyes unto the hills, from whence cometh my help.
 121:2 My help cometh from the LORD, which made heaven and earth.
 121:3 He will not suffer thy foot to be moved: he that keepeth thee will not slumber.
 121:4 Behold, he that keepeth Israel shall neither slumber nor sleep.
@@ -2165,7 +2164,7 @@ Praise the LORD.
 121:6 The sun shall not smite thee by day, nor the moon by night.
 121:7 The LORD shall preserve thee from all evil: he shall preserve thy soul.
 121:8 The LORD shall preserve thy going out and thy coming in from this time forth, and even for evermore.
-<span id="122<?= $book ?>"></span>122:1 I was glad when they said unto me, Let us go into the house of the LORD.
+<span id="<?php echo $chapterprefix; ?>122"></span>122:1 I was glad when they said unto me, Let us go into the house of the LORD.
 122:2 Our feet shall stand within thy gates, O Jerusalem.
 122:3 Jerusalem is builded as a city that is compact together:
 122:4 Whither the tribes go up, the tribes of the LORD, unto the testimony of Israel, to give thanks unto the name of the LORD.
@@ -2174,11 +2173,11 @@ Praise the LORD.
 122:7 Peace be within thy walls, and prosperity within thy palaces.
 122:8 For my brethren and companions' sakes, I will now say, Peace be within thee.
 122:9 Because of the house of the LORD our God I will seek thy good.
-<span id="123<?= $book ?>"></span>123:1 Unto thee lift I up mine eyes, O thou that dwellest in the heavens.
+<span id="<?php echo $chapterprefix; ?>123"></span>123:1 Unto thee lift I up mine eyes, O thou that dwellest in the heavens.
 123:2 Behold, as the eyes of servants look unto the hand of their masters, and as the eyes of a maiden unto the hand of her mistress; so our eyes wait upon the LORD our God, until that he have mercy upon us.
 123:3 Have mercy upon us, O LORD, have mercy upon us: for we are exceedingly filled with contempt.
 123:4 Our soul is exceedingly filled with the scorning of those that are at ease, and with the contempt of the proud.
-<span id="124<?= $book ?>"></span>124:1 If it had not been the LORD who was on our side, now may Israel say;
+<span id="<?php echo $chapterprefix; ?>124"></span>124:1 If it had not been the LORD who was on our side, now may Israel say;
 124:2 If it had not been the LORD who was on our side, when men rose up against us:
 124:3 Then they had swallowed us up quick, when their wrath was kindled against us:
 124:4 Then the waters had overwhelmed us, the stream had gone over our soul:
@@ -2186,29 +2185,29 @@ Praise the LORD.
 124:6 Blessed be the LORD, who hath not given us as a prey to their teeth.
 124:7 Our soul is escaped as a bird out of the snare of the fowlers: the snare is broken, and we are escaped.
 124:8 Our help is in the name of the LORD, who made heaven and earth.
-<span id="125<?= $book ?>"></span>125:1 They that trust in the LORD shall be as mount Zion, which cannot be removed, but abideth for ever.
+<span id="<?php echo $chapterprefix; ?>125"></span>125:1 They that trust in the LORD shall be as mount Zion, which cannot be removed, but abideth for ever.
 125:2 As the mountains are round about Jerusalem, so the LORD is round about his people from henceforth even for ever.
 125:3 For the rod of the wicked shall not rest upon the lot of the righteous; lest the righteous put forth their hands unto iniquity.
 125:4 Do good, O LORD, unto those that be good, and to them that are upright in their hearts.
 125:5 As for such as turn aside unto their crooked ways, the LORD shall lead them forth with the workers of iniquity: but peace shall be upon Israel.
-<span id="126<?= $book ?>"></span>126:1 When the LORD turned again the captivity of Zion, we were like them that dream.
+<span id="<?php echo $chapterprefix; ?>126"></span>126:1 When the LORD turned again the captivity of Zion, we were like them that dream.
 126:2 Then was our mouth filled with laughter, and our tongue with singing: then said they among the heathen, The LORD hath done great things for them.
 126:3 The LORD hath done great things for us; whereof we are glad.
 126:4 Turn again our captivity, O LORD, as the streams in the south.
 126:5 They that sow in tears shall reap in joy.
 126:6 He that goeth forth and weepeth, bearing precious seed, shall doubtless come again with rejoicing, bringing his sheaves with him.
-<span id="127<?= $book ?>"></span>127:1 Except the LORD build the house, they labour in vain that build it: except the LORD keep the city, the watchman waketh but in vain.
+<span id="<?php echo $chapterprefix; ?>127"></span>127:1 Except the LORD build the house, they labour in vain that build it: except the LORD keep the city, the watchman waketh but in vain.
 127:2 It is vain for you to rise up early, to sit up late, to eat the bread of sorrows: for so he giveth his beloved sleep.
 127:3 Lo, children are an heritage of the LORD: and the fruit of the womb is his reward.
 127:4 As arrows are in the hand of a mighty man; so are children of the youth.
 127:5 Happy is the man that hath his quiver full of them: they shall not be ashamed, but they shall speak with the enemies in the gate.
-<span id="128<?= $book ?>"></span>128:1 Blessed is every one that feareth the LORD; that walketh in his ways.
+<span id="<?php echo $chapterprefix; ?>128"></span>128:1 Blessed is every one that feareth the LORD; that walketh in his ways.
 128:2 For thou shalt eat the labour of thine hands: happy shalt thou be, and it shall be well with thee.
 128:3 Thy wife shall be as a fruitful vine by the sides of thine house: thy children like olive plants round about thy table.
 128:4 Behold, that thus shall the man be blessed that feareth the LORD.
 128:5 The LORD shall bless thee out of Zion: and thou shalt see the good of Jerusalem all the days of thy life.
 128:6 Yea, thou shalt see thy children's children, and peace upon Israel.
-<span id="129<?= $book ?>"></span>129:1 Many a time have they afflicted me from my youth, may Israel now say:
+<span id="<?php echo $chapterprefix; ?>129"></span>129:1 Many a time have they afflicted me from my youth, may Israel now say:
 129:2 Many a time have they afflicted me from my youth: yet they have not prevailed against me.
 129:3 The plowers plowed upon my back: they made long their furrows.
 129:4 The LORD is righteous: he hath cut asunder the cords of the wicked.
@@ -2216,7 +2215,7 @@ Praise the LORD.
 129:6 Let them be as the grass upon the housetops, which withereth afore it groweth up:
 129:7 Wherewith the mower filleth not his hand; nor he that bindeth sheaves his bosom.
 129:8 Neither do they which go by say, The blessing of the LORD be upon you: we bless you in the name of the LORD.
-<span id="130<?= $book ?>"></span>130:1 Out of the depths have I cried unto thee, O LORD.
+<span id="<?php echo $chapterprefix; ?>130"></span>130:1 Out of the depths have I cried unto thee, O LORD.
 130:2 Lord, hear my voice: let thine ears be attentive to the voice of my supplications.
 130:3 If thou, LORD, shouldest mark iniquities, O Lord, who shall stand?
 130:4 But there is forgiveness with thee, that thou mayest be feared.
@@ -2224,10 +2223,10 @@ Praise the LORD.
 130:6 My soul waiteth for the Lord more than they that watch for the morning: I say, more than they that watch for the morning.
 130:7 Let Israel hope in the LORD: for with the LORD there is mercy, and with him is plenteous redemption.
 130:8 And he shall redeem Israel from all his iniquities.
-<span id="131<?= $book ?>"></span>131:1 Lord, my heart is not haughty, nor mine eyes lofty: neither do I exercise myself in great matters, or in things too high for me.
+<span id="<?php echo $chapterprefix; ?>131"></span>131:1 Lord, my heart is not haughty, nor mine eyes lofty: neither do I exercise myself in great matters, or in things too high for me.
 131:2 Surely I have behaved and quieted myself, as a child that is weaned of his mother: my soul is even as a weaned child.
 131:3 Let Israel hope in the LORD from henceforth and for ever.
-<span id="132<?= $book ?>"></span>132:1 Lord, remember David, and all his afflictions:
+<span id="<?php echo $chapterprefix; ?>132"></span>132:1 Lord, remember David, and all his afflictions:
 132:2 How he sware unto the LORD, and vowed unto the mighty God of Jacob;
 132:3 Surely I will not come into the tabernacle of my house, nor go up into my bed;
 132:4 I will not give sleep to mine eyes, or slumber to mine eyelids,
@@ -2245,13 +2244,13 @@ Praise the LORD.
 132:16 I will also clothe her priests with salvation: and her saints shall shout aloud for joy.
 132:17 There will I make the horn of David to bud: I have ordained a lamp for mine anointed.
 132:18 His enemies will I clothe with shame: but upon himself shall his crown flourish.
-<span id="133<?= $book ?>"></span>133:1 Behold, how good and how pleasant it is for brethren to dwell together in unity!
+<span id="<?php echo $chapterprefix; ?>133"></span>133:1 Behold, how good and how pleasant it is for brethren to dwell together in unity!
 133:2 It is like the precious ointment upon the head, that ran down upon the beard, even Aaron's beard: that went down to the skirts of his garments;
 133:3 As the dew of Hermon, and as the dew that descended upon the mountains of Zion: for there the LORD commanded the blessing, even life for evermore.
-<span id="134<?= $book ?>"></span>134:1 Behold, bless ye the LORD, all ye servants of the LORD, which by night stand in the house of the LORD.
+<span id="<?php echo $chapterprefix; ?>134"></span>134:1 Behold, bless ye the LORD, all ye servants of the LORD, which by night stand in the house of the LORD.
 134:2 Lift up your hands in the sanctuary, and bless the LORD.
 134:3 The LORD that made heaven and earth bless thee out of Zion.
-<span id="135<?= $book ?>"></span>135:1 Praise ye the LORD. Praise ye the name of the LORD; praise him, O ye servants of the LORD.
+<span id="<?php echo $chapterprefix; ?>135"></span>135:1 Praise ye the LORD. Praise ye the name of the LORD; praise him, O ye servants of the LORD.
 135:2 Ye that stand in the house of the LORD, in the courts of the house of our God.
 135:3 Praise the LORD; for the LORD is good: sing praises unto his name; for it is pleasant.
 135:4 For the LORD hath chosen Jacob unto himself, and Israel for his peculiar treasure.
@@ -2273,7 +2272,7 @@ Praise the LORD.
 135:20 Bless the LORD, O house of Levi: ye that fear the LORD, bless the LORD.
 135:21 Blessed be the LORD out of Zion, which dwelleth at Jerusalem.
 Praise ye the LORD.
-<span id="136<?= $book ?>"></span>136:1 O give thanks unto the LORD; for he is good: for his mercy endureth for ever.
+<span id="<?php echo $chapterprefix; ?>136"></span>136:1 O give thanks unto the LORD; for he is good: for his mercy endureth for ever.
 136:2 O give thanks unto the God of gods: for his mercy endureth for ever.
 136:3 O give thanks to the Lord of lords: for his mercy endureth for ever.
 136:4 To him who alone doeth great wonders: for his mercy endureth for ever.
@@ -2299,7 +2298,7 @@ Praise ye the LORD.
 136:24 And hath redeemed us from our enemies: for his mercy endureth for ever.
 136:25 Who giveth food to all flesh: for his mercy endureth for ever.
 136:26 O give thanks unto the God of heaven: for his mercy endureth for ever.
-<span id="137<?= $book ?>"></span>137:1 By the rivers of Babylon, there we sat down, yea, we wept, when we remembered Zion.
+<span id="<?php echo $chapterprefix; ?>137"></span>137:1 By the rivers of Babylon, there we sat down, yea, we wept, when we remembered Zion.
 137:2 We hanged our harps upon the willows in the midst thereof.
 137:3 For there they that carried us away captive required of us a song; and they that wasted us required of us mirth, saying, Sing us one of the songs of Zion.
 137:4 How shall we sing the LORD's song in a strange land?
@@ -2308,7 +2307,7 @@ Praise ye the LORD.
 137:7 Remember, O LORD, the children of Edom in the day of Jerusalem; who said, Rase it, rase it, even to the foundation thereof.
 137:8 O daughter of Babylon, who art to be destroyed; happy shall he be, that rewardeth thee as thou hast served us.
 137:9 Happy shall he be, that taketh and dasheth thy little ones against the stones.
-<span id="138<?= $book ?>"></span>138:1 I will praise thee with my whole heart: before the gods will I sing praise unto thee.
+<span id="<?php echo $chapterprefix; ?>138"></span>138:1 I will praise thee with my whole heart: before the gods will I sing praise unto thee.
 138:2 I will worship toward thy holy temple, and praise thy name for thy lovingkindness and for thy truth: for thou hast magnified thy word above all thy name.
 138:3 In the day when I cried thou answeredst me, and strengthenedst me with strength in my soul.
 138:4 All the kings of the earth shall praise thee, O LORD, when they hear the words of thy mouth.
@@ -2316,7 +2315,7 @@ Praise ye the LORD.
 138:6 Though the LORD be high, yet hath he respect unto the lowly: but the proud he knoweth afar off.
 138:7 Though I walk in the midst of trouble, thou wilt revive me: thou shalt stretch forth thine hand against the wrath of mine enemies, and thy right hand shall save me.
 138:8 The LORD will perfect that which concerneth me: thy mercy, O LORD, endureth for ever: forsake not the works of thine own hands.
-<span id="139<?= $book ?>"></span>139:1 O lord, thou hast searched me, and known me.
+<span id="<?php echo $chapterprefix; ?>139"></span>139:1 O lord, thou hast searched me, and known me.
 139:2 Thou knowest my downsitting and mine uprising, thou understandest my thought afar off.
 139:3 Thou compassest my path and my lying down, and art acquainted with all my ways.
 139:4 For there is not a word in my tongue, but, lo, O LORD, thou knowest it altogether.
@@ -2340,7 +2339,7 @@ Praise ye the LORD.
 139:22 I hate them with perfect hatred: I count them mine enemies.
 139:23 Search me, O God, and know my heart: try me, and know my thoughts:
 139:24 And see if there be any wicked way in me, and lead me in the way everlasting.
-<span id="140<?= $book ?>"></span>140:1 Deliver me, O LORD, from the evil man: preserve me from the violent man;
+<span id="<?php echo $chapterprefix; ?>140"></span>140:1 Deliver me, O LORD, from the evil man: preserve me from the violent man;
 140:2 Which imagine mischiefs in their heart; continually are they gathered together for war.
 140:3 They have sharpened their tongues like a serpent; adders' poison is under their lips. Selah.
 140:4 Keep me, O LORD, from the hands of the wicked; preserve me from the violent man; who have purposed to overthrow my goings.
@@ -2353,7 +2352,7 @@ Praise ye the LORD.
 140:11 Let not an evil speaker be established in the earth: evil shall hunt the violent man to overthrow him.
 140:12 I know that the LORD will maintain the cause of the afflicted, and the right of the poor.
 140:13 Surely the righteous shall give thanks unto thy name: the upright shall dwell in thy presence.
-<span id="141<?= $book ?>"></span>141:1 Lord, I cry unto thee: make haste unto me; give ear unto my voice, when I cry unto thee.
+<span id="<?php echo $chapterprefix; ?>141"></span>141:1 Lord, I cry unto thee: make haste unto me; give ear unto my voice, when I cry unto thee.
 141:2 Let my prayer be set forth before thee as incense; and the lifting up of my hands as the evening sacrifice.
 141:3 Set a watch, O LORD, before my mouth; keep the door of my lips.
 141:4 Incline not my heart to any evil thing, to practise wicked works with men that work iniquity: and let me not eat of their dainties.
@@ -2363,7 +2362,7 @@ Praise ye the LORD.
 141:8 But mine eyes are unto thee, O GOD the Lord: in thee is my trust; leave not my soul destitute.
 141:9 Keep me from the snares which they have laid for me, and the gins of the workers of iniquity.
 141:10 Let the wicked fall into their own nets, whilst that I withal escape.
-<span id="142<?= $book ?>"></span>142:1 I cried unto the LORD with my voice; with my voice unto the LORD did I make my supplication.
+<span id="<?php echo $chapterprefix; ?>142"></span>142:1 I cried unto the LORD with my voice; with my voice unto the LORD did I make my supplication.
 142:2 I poured out my complaint before him; I shewed before him my trouble.
 142:3 When my spirit was overwhelmed within me, then thou knewest my path.
 In the way wherein I walked have they privily laid a snare for me.
@@ -2371,7 +2370,7 @@ In the way wherein I walked have they privily laid a snare for me.
 142:5 I cried unto thee, O LORD: I said, Thou art my refuge and my portion in the land of the living.
 142:6 Attend unto my cry; for I am brought very low: deliver me from my persecutors; for they are stronger than I.
 142:7 Bring my soul out of prison, that I may praise thy name: the righteous shall compass me about; for thou shalt deal bountifully with me.
-<span id="143<?= $book ?>"></span>143:1 Hear my prayer, O LORD, give ear to my supplications: in thy faithfulness answer me, and in thy righteousness.
+<span id="<?php echo $chapterprefix; ?>143"></span>143:1 Hear my prayer, O LORD, give ear to my supplications: in thy faithfulness answer me, and in thy righteousness.
 143:2 And enter not into judgment with thy servant: for in thy sight shall no man living be justified.
 143:3 For the enemy hath persecuted my soul; he hath smitten my life down to the ground; he hath made me to dwell in darkness, as those that have been long dead.
 143:4 Therefore is my spirit overwhelmed within me; my heart within me is desolate.
@@ -2383,7 +2382,7 @@ In the way wherein I walked have they privily laid a snare for me.
 143:10 Teach me to do thy will; for thou art my God: thy spirit is good; lead me into the land of uprightness.
 143:11 Quicken me, O LORD, for thy name's sake: for thy righteousness' sake bring my soul out of trouble.
 143:12 And of thy mercy cut off mine enemies, and destroy all them that afflict my soul: for I am thy servant.
-<span id="144<?= $book ?>"></span>144:1 Blessed be the LORD my strength which teacheth my hands to war, and my fingers to fight:
+<span id="<?php echo $chapterprefix; ?>144"></span>144:1 Blessed be the LORD my strength which teacheth my hands to war, and my fingers to fight:
 144:2 My goodness, and my fortress; my high tower, and my deliverer; my shield, and he in whom I trust; who subdueth my people under me.
 144:3 LORD, what is man, that thou takest knowledge of him! or the son of man, that thou makest account of him!
 144:4 Man is like to vanity: his days are as a shadow that passeth away.
@@ -2398,7 +2397,7 @@ In the way wherein I walked have they privily laid a snare for me.
 144:13 That our garners may be full, affording all manner of store: that our sheep may bring forth thousands and ten thousands in our streets:
 144:14 That our oxen may be strong to labour; that there be no breaking in, nor going out; that there be no complaining in our streets.
 144:15 Happy is that people, that is in such a case: yea, happy is that people, whose God is the LORD.
-<span id="145<?= $book ?>"></span>145:1 I will extol thee, my God, O king; and I will bless thy name for ever and ever.
+<span id="<?php echo $chapterprefix; ?>145"></span>145:1 I will extol thee, my God, O king; and I will bless thy name for ever and ever.
 145:2 Every day will I bless thee; and I will praise thy name for ever and ever.
 145:3 Great is the LORD, and greatly to be praised; and his greatness is unsearchable.
 145:4 One generation shall praise thy works to another, and shall declare thy mighty acts.
@@ -2419,7 +2418,7 @@ In the way wherein I walked have they privily laid a snare for me.
 145:19 He will fulfil the desire of them that fear him: he also will hear their cry, and will save them.
 145:20 The LORD preserveth all them that love him: but all the wicked will he destroy.
 145:21 My mouth shall speak the praise of the LORD: and let all flesh bless his holy name for ever and ever.
-<span id="146<?= $book ?>"></span>146:1 Praise ye the LORD. Praise the LORD, O my soul.
+<span id="<?php echo $chapterprefix; ?>146"></span>146:1 Praise ye the LORD. Praise the LORD, O my soul.
 146:2 While I live will I praise the LORD: I will sing praises unto my God while I have any being.
 146:3 Put not your trust in princes, nor in the son of man, in whom there is no help.
 146:4 His breath goeth forth, he returneth to his earth; in that very day his thoughts perish.
@@ -2429,7 +2428,7 @@ In the way wherein I walked have they privily laid a snare for me.
 146:8 The LORD openeth the eyes of the blind: the LORD raiseth them that are bowed down: the LORD loveth the righteous:
 146:9 The LORD preserveth the strangers; he relieveth the fatherless and widow: but the way of the wicked he turneth upside down.
 146:10 The LORD shall reign for ever, even thy God, O Zion, unto all generations. Praise ye the LORD.
-<span id="147<?= $book ?>"></span>147:1 Praise ye the LORD: for it is good to sing praises unto our God; for it is pleasant; and praise is comely.
+<span id="<?php echo $chapterprefix; ?>147"></span>147:1 Praise ye the LORD: for it is good to sing praises unto our God; for it is pleasant; and praise is comely.
 147:2 The LORD doth build up Jerusalem: he gathereth together the outcasts of Israel.
 147:3 He healeth the broken in heart, and bindeth up their wounds.
 147:4 He telleth the number of the stars; he calleth them all by their names.
@@ -2449,7 +2448,7 @@ In the way wherein I walked have they privily laid a snare for me.
 147:18 He sendeth out his word, and melteth them: he causeth his wind to blow, and the waters flow.
 147:19 He sheweth his word unto Jacob, his statutes and his judgments unto Israel.
 147:20 He hath not dealt so with any nation: and as for his judgments, they have not known them. Praise ye the LORD.
-<span id="148<?= $book ?>"></span>148:1 Praise ye the LORD. Praise ye the LORD from the heavens: praise him in the heights.
+<span id="<?php echo $chapterprefix; ?>148"></span>148:1 Praise ye the LORD. Praise ye the LORD from the heavens: praise him in the heights.
 148:2 Praise ye him, all his angels: praise ye him, all his hosts.
 148:3 Praise ye him, sun and moon: praise him, all ye stars of light.
 148:4 Praise him, ye heavens of heavens, and ye waters that be above the heavens.
@@ -2463,7 +2462,7 @@ In the way wherein I walked have they privily laid a snare for me.
 148:12 Both young men, and maidens; old men, and children:
 148:13 Let them praise the name of the LORD: for his name alone is excellent; his glory is above the earth and heaven.
 148:14 He also exalteth the horn of his people, the praise of all his saints; even of the children of Israel, a people near unto him. Praise ye the LORD.
-<span id="149<?= $book ?>"></span>149:1 Praise ye the LORD. Sing unto the LORD a new song, and his praise in the congregation of saints.
+<span id="<?php echo $chapterprefix; ?>149"></span>149:1 Praise ye the LORD. Sing unto the LORD a new song, and his praise in the congregation of saints.
 149:2 Let Israel rejoice in him that made him: let the children of Zion be joyful in their King.
 149:3 Let them praise his name in the dance: let them sing praises unto him with the timbrel and harp.
 149:4 For the LORD taketh pleasure in his people: he will beautify the meek with salvation.
@@ -2472,14 +2471,10 @@ In the way wherein I walked have they privily laid a snare for me.
 149:7 To execute vengeance upon the heathen, and punishments upon the people;
 149:8 To bind their kings with chains, and their nobles with fetters of iron;
 149:9 To execute upon them the judgment written: this honour have all his saints. Praise ye the LORD.
-<span id="150<?= $book ?>"></span>150:1 Praise ye the LORD. Praise God in his sanctuary: praise him in the firmament of his power.
+<span id="<?php echo $chapterprefix; ?>150"></span>150:1 Praise ye the LORD. Praise God in his sanctuary: praise him in the firmament of his power.
 150:2 Praise him for his mighty acts: praise him according to his excellent greatness.
 150:3 Praise him with the sound of the trumpet: praise him with the psaltery and harp.
 150:4 Praise him with the timbrel and dance: praise him with stringed instruments and organs.
 150:5 Praise him upon the loud cymbals: praise him upon the high sounding cymbals.
 150:6 Let every thing that hath breath praise the LORD. Praise ye the LORD.
-<?php
-if (!isset($include)) {
- include ('aa-end.php');
-}
-?>
+<?php if (!isset($collection)) {include 'bookfoot.php';} ?>

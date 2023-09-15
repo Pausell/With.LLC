@@ -1,11 +1,10 @@
 <?php
 $title = 'Nahum';
 $description = 'Nahum';
-if (!isset($include)) {
- include ('aa-beginning.php');
-}
+if (isset($collection)) {$chapterprefix = 'nahum';}
+if (!isset($collection)) {include 'bookhead.php';}
 ?>
-<span id="1<?= $book ?>"></span><h2 id="nahum">Nahum</h2><!--1t34b-->
+<span id="<?php echo $chapterprefix; ?>1"></span><h3 id="nahum">Nahum</h3><!--1t34b-->
 1:1 The burden of Nineveh. The book of the vision of Nahum the Elkoshite.
 1:2 God is jealous, and the LORD revengeth; the LORD revengeth, and is furious; the LORD will take vengeance on his adversaries, and he reserveth wrath for his enemies.
 1:3 The LORD is slow to anger, and great in power, and will not at all acquit the wicked: the LORD hath his way in the whirlwind and in the storm, and the clouds are the dust of his feet.
@@ -21,7 +20,7 @@ if (!isset($include)) {
 1:13 For now will I break his yoke from off thee, and will burst thy bonds in sunder.
 1:14 And the LORD hath given a commandment concerning thee, that no more of thy name be sown: out of the house of thy gods will I cut off the graven image and the molten image: I will make thy grave; for thou art vile.
 1:15 Behold upon the mountains the feet of him that bringeth good tidings, that publisheth peace! O Judah, keep thy solemn feasts, perform thy vows: for the wicked shall no more pass through thee; he is utterly cut off.
-<span id="2<?= $book ?>"></span>2:1 He that dasheth in pieces is come up before thy face: keep the munition, watch the way, make thy loins strong, fortify thy power mightily.
+<span id="<?php echo $chapterprefix; ?>2"></span>2:1 He that dasheth in pieces is come up before thy face: keep the munition, watch the way, make thy loins strong, fortify thy power mightily.
 2:2 For the LORD hath turned away the excellency of Jacob, as the excellency of Israel: for the emptiers have emptied them out, and marred their vine branches.
 2:3 The shield of his mighty men is made red, the valiant men are in scarlet: the chariots shall be with flaming torches in the day of his preparation, and the fir trees shall be terribly shaken.
 2:4 The chariots shall rage in the streets, they shall justle one against another in the broad ways: they shall seem like torches, they shall run like the lightnings.
@@ -34,7 +33,7 @@ Stand, stand, shall they cry; but none shall look back.
 2:10 She is empty, and void, and waste: and the heart melteth, and the knees smite together, and much pain is in all loins, and the faces of them all gather blackness.
 2:11 Where is the dwelling of the lions, and the feedingplace of the young lions, where the lion, even the old lion, walked, and the lion's whelp, and none made them afraid? 2:12 The lion did tear in pieces enough for his whelps, and strangled for his lionesses, and filled his holes with prey, and his dens with ravin.
 2:13 Behold, I am against thee, saith the LORD of hosts, and I will burn her chariots in the smoke, and the sword shall devour thy young lions: and I will cut off thy prey from the earth, and the voice of thy messengers shall no more be heard.
-<span id="3<?= $book ?>"></span>3:1 Woe to the bloody city! it is all full of lies and robbery; the prey departeth not; 3:2 The noise of a whip, and the noise of the rattling of the wheels, and of the pransing horses, and of the jumping chariots.
+<span id="<?php echo $chapterprefix; ?>3"></span>3:1 Woe to the bloody city! it is all full of lies and robbery; the prey departeth not; 3:2 The noise of a whip, and the noise of the rattling of the wheels, and of the pransing horses, and of the jumping chariots.
 3:3 The horseman lifteth up both the bright sword and the glittering spear: and there is a multitude of slain, and a great number of carcases; and there is none end of their corpses; they stumble upon their corpses: 3:4 Because of the multitude of the whoredoms of the wellfavoured harlot, the mistress of witchcrafts, that selleth nations through her whoredoms, and families through her witchcrafts.
 3:5 Behold, I am against thee, saith the LORD of hosts; and I will discover thy skirts upon thy face, and I will shew the nations thy nakedness, and the kingdoms thy shame.
 3:6 And I will cast abominable filth upon thee, and make thee vile, and will set thee as a gazingstock.
@@ -49,8 +48,4 @@ Stand, stand, shall they cry; but none shall look back.
 3:17 Thy crowned are as the locusts, and thy captains as the great grasshoppers, which camp in the hedges in the cold day, but when the sun ariseth they flee away, and their place is not known where they are.
 3:18 Thy shepherds slumber, O king of Assyria: thy nobles shall dwell in the dust: thy people is scattered upon the mountains, and no man gathereth them.
 3:19 There is no healing of thy bruise; thy wound is grievous: all that hear the bruit of thee shall clap the hands over thee: for upon whom hath not thy wickedness passed continually?
-<?php
-if (!isset($include)) {
- include ('aa-end.php');
-}
-?>
+<?php if (!isset($collection)) {include 'bookfoot.php';} ?>

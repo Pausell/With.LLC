@@ -1,11 +1,10 @@
 <?php
 $title = 'Lamentations';
 $description = 'The Lamentations of Jeremiah';
-if (!isset($include)) {
- include ('aa-beginning.php');
-}
+if (isset($collection)) {$chapterprefix = 'lamentations';}
+if (!isset($collection)) {include 'bookhead.php';}
 ?>
-<span id="1<?= $book ?>"></span><h2 id="lamentations">The Lamentations of Jeremiah</h2><!--1t25b-->
+<span id="<?php echo $chapterprefix; ?>1"></span><h3 id="lamentations">The Lamentations of Jeremiah</h3><!--1t25b-->
 1:1 How doth the city sit solitary, that was full of people! how is she become as a widow! she that was great among the nations, and princess among the provinces, how is she become tributary! 1:2 She weepeth sore in the night, and her tears are on her cheeks: among all her lovers she hath none to comfort her: all her friends have dealt treacherously with her, they are become her enemies.
 1:3 Judah is gone into captivity because of affliction, and because of great servitude: she dwelleth among the heathen, she findeth no rest: all her persecutors overtook her between the straits.
 1:4 The ways of Zion do mourn, because none come to the solemn feasts: all her gates are desolate: her priests sigh, her virgins are afflicted, and she is in bitterness.
@@ -27,7 +26,7 @@ if (!isset($include)) {
 1:20 Behold, O LORD; for I am in distress: my bowels are troubled; mine heart is turned within me; for I have grievously rebelled: abroad the sword bereaveth, at home there is as death.
 1:21 They have heard that I sigh: there is none to comfort me: all mine enemies have heard of my trouble; they are glad that thou hast done it: thou wilt bring the day that thou hast called, and they shall be like unto me.
 1:22 Let all their wickedness come before thee; and do unto them, as thou hast done unto me for all my transgressions: for my sighs are many, and my heart is faint.
-<span id="2<?= $book ?>"></span>2:1 How hath the LORD covered the daughter of Zion with a cloud in his anger, and cast down from heaven unto the earth the beauty of Israel, and remembered not his footstool in the day of his anger! 2:2 The LORD hath swallowed up all the habitations of Jacob, and hath not pitied: he hath thrown down in his wrath the strong holds of the daughter of Judah; he hath brought them down to the ground: he hath polluted the kingdom and the princes thereof.
+<span id="<?php echo $chapterprefix; ?>2"></span>2:1 How hath the LORD covered the daughter of Zion with a cloud in his anger, and cast down from heaven unto the earth the beauty of Israel, and remembered not his footstool in the day of his anger! 2:2 The LORD hath swallowed up all the habitations of Jacob, and hath not pitied: he hath thrown down in his wrath the strong holds of the daughter of Judah; he hath brought them down to the ground: he hath polluted the kingdom and the princes thereof.
 2:3 He hath cut off in his fierce anger all the horn of Israel: he hath drawn back his right hand from before the enemy, and he burned against Jacob like a flaming fire, which devoureth round about.
 2:4 He hath bent his bow like an enemy: he stood with his right hand as an adversary, and slew all that were pleasant to the eye in the tabernacle of the daughter of Zion: he poured out his fury like fire.
 2:5 The LORD was as an enemy: he hath swallowed up Israel, he hath swallowed up all her palaces: he hath destroyed his strong holds, and hath increased in the daughter of Judah mourning and lamentation.
@@ -45,7 +44,7 @@ if (!isset($include)) {
 2:19 Arise, cry out in the night: in the beginning of the watches pour out thine heart like water before the face of the LORD: lift up thy hands toward him for the life of thy young children, that faint for hunger in the top of every street.
 2:20 Behold, O LORD, and consider to whom thou hast done this. Shall the women eat their fruit, and children of a span long? shall the priest and the prophet be slain in the sanctuary of the Lord? 2:21 The young and the old lie on the ground in the streets: my virgins and my young men are fallen by the sword; thou hast slain them in the day of thine anger; thou hast killed, and not pitied.
 2:22 Thou hast called as in a solemn day my terrors round about, so that in the day of the LORD's anger none escaped nor remained: those that I have swaddled and brought up hath mine enemy consumed.
-<span id="3<?= $book ?>"></span>3:1 I AM the man that hath seen affliction by the rod of his wrath.
+<span id="<?php echo $chapterprefix; ?>3"></span>3:1 I AM the man that hath seen affliction by the rod of his wrath.
 3:2 He hath led me, and brought me into darkness, but not into light.
 3:3 Surely against me is he turned; he turneth his hand against me all the day.
 3:4 My flesh and my skin hath he made old; he hath broken my bones.
@@ -104,7 +103,7 @@ if (!isset($include)) {
 3:64 Render unto them a recompence, O LORD, according to the work of their hands.
 3:65 Give them sorrow of heart, thy curse unto them.
 3:66 Persecute and destroy them in anger from under the heavens of the LORD.
-<span id="4<?= $book ?>"></span>4:1 How is the gold become dim! how is the most fine gold changed! the stones of the sanctuary are poured out in the top of every street.
+<span id="<?php echo $chapterprefix; ?>4"></span>4:1 How is the gold become dim! how is the most fine gold changed! the stones of the sanctuary are poured out in the top of every street.
 4:2 The precious sons of Zion, comparable to fine gold, how are they esteemed as earthen pitchers, the work of the hands of the potter! 4:3 Even the sea monsters draw out the breast, they give suck to their young ones: the daughter of my people is become cruel, like the ostriches in the wilderness.
 4:4 The tongue of the sucking child cleaveth to the roof of his mouth for thirst: the young children ask bread, and no man breaketh it unto them.
 4:5 They that did feed delicately are desolate in the streets: they that were brought up in scarlet embrace dunghills.
@@ -123,7 +122,7 @@ if (!isset($include)) {
 4:20 The breath of our nostrils, the anointed of the LORD, was taken in their pits, of whom we said, Under his shadow we shall live among the heathen.
 4:21 Rejoice and be glad, O daughter of Edom, that dwellest in the land of Uz; the cup also shall pass through unto thee: thou shalt be drunken, and shalt make thyself naked.
 4:22 The punishment of thine iniquity is accomplished, O daughter of Zion; he will no more carry thee away into captivity: he will visit thine iniquity, O daughter of Edom; he will discover thy sins.
-<span id="5<?= $book ?>"></span>5:1 Remember, O LORD, what is come upon us: consider, and behold our reproach.
+<span id="<?php echo $chapterprefix; ?>5"></span>5:1 Remember, O LORD, what is come upon us: consider, and behold our reproach.
 5:2 Our inheritance is turned to strangers, our houses to aliens.
 5:3 We are orphans and fatherless, our mothers are as widows.
 5:4 We have drunken our water for money; our wood is sold unto us.
@@ -143,8 +142,4 @@ if (!isset($include)) {
 5:19 Thou, O LORD, remainest for ever; thy throne from generation to generation.
 5:20 Wherefore dost thou forget us for ever, and forsake us so long time? 5:21 Turn thou us unto thee, O LORD, and we shall be turned; renew our days as of old.
 5:22 But thou hast utterly rejected us; thou art very wroth against us.
-<?php
-if (!isset($include)) {
- include ('aa-end.php');
-}
-?>
+<?php if (!isset($collection)) {include 'bookfoot.php';} ?>

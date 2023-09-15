@@ -1,11 +1,10 @@
 <?php
 $title = 'Hosea';
 $description = 'Hosea';
-if (!isset($include)) {
- include ('aa-beginning.php');
-}
+if (isset($collection)) {$chapterprefix = 'hosea';}
+if (!isset($collection)) {include 'bookhead.php';}
 ?>
-<span id="1<?= $book ?>"></span><h2 id="hosea">Hosea</h2><!--1t28b-->
+<span id="<?php echo $chapterprefix; ?>1"></span><h3 id="hosea">Hosea</h3><!--1t28b-->
 1:1 The word of the LORD that came unto Hosea, the son of Beeri, in the days of Uzziah, Jotham, Ahaz, and Hezekiah, kings of Judah, and in the days of Jeroboam the son of Joash, king of Israel.
 1:2 The beginning of the word of the LORD by Hosea. And the LORD said to Hosea, Go, take unto thee a wife of whoredoms and children of whoredoms: for the land hath committed great whoredom, departing from the LORD.
 1:3 So he went and took Gomer the daughter of Diblaim; which conceived, and bare him a son.
@@ -17,7 +16,7 @@ if (!isset($include)) {
 1:9 Then said God, Call his name Loammi: for ye are not my people, and I will not be your God.
 1:10 Yet the number of the children of Israel shall be as the sand of the sea, which cannot be measured nor numbered; and it shall come to pass, that in the place where it was said unto them, Ye are not my people, there it shall be said unto them, Ye are the sons of the living God.
 1:11 Then shall the children of Judah and the children of Israel be gathered together, and appoint themselves one head, and they shall come up out of the land: for great shall be the day of Jezreel.
-<span id="2<?= $book ?>"></span>2:1 Say ye unto your brethren, Ammi; and to your sisters, Ruhamah.
+<span id="<?php echo $chapterprefix; ?>2"></span>2:1 Say ye unto your brethren, Ammi; and to your sisters, Ruhamah.
 2:2 Plead with your mother, plead: for she is not my wife, neither am I her husband: let her therefore put away her whoredoms out of her sight, and her adulteries from between her breasts; 2:3 Lest I strip her naked, and set her as in the day that she was born, and make her as a wilderness, and set her like a dry land, and slay her with thirst.
 2:4 And I will not have mercy upon her children; for they be the children of whoredoms.
 2:5 For their mother hath played the harlot: she that conceived them hath done shamefully: for she said, I will go after my lovers, that give me my bread and my water, my wool and my flax, mine oil and my drink.
@@ -38,10 +37,10 @@ if (!isset($include)) {
 2:20 I will even betroth thee unto me in faithfulness: and thou shalt know the LORD.
 2:21 And it shall come to pass in that day, I will hear, saith the LORD, I will hear the heavens, and they shall hear the earth; 2:22 And the earth shall hear the corn, and the wine, and the oil; and they shall hear Jezreel.
 2:23 And I will sow her unto me in the earth; and I will have mercy upon her that had not obtained mercy; and I will say to them which were not my people, Thou art my people; and they shall say, Thou art my God.
-<span id="3<?= $book ?>"></span>3:1 Then said the LORD unto me, Go yet, love a woman beloved of her friend, yet an adulteress, according to the love of the LORD toward the children of Israel, who look to other gods, and love flagons of wine.
+<span id="<?php echo $chapterprefix; ?>3"></span>3:1 Then said the LORD unto me, Go yet, love a woman beloved of her friend, yet an adulteress, according to the love of the LORD toward the children of Israel, who look to other gods, and love flagons of wine.
 3:2 So I bought her to me for fifteen pieces of silver, and for an homer of barley, and an half homer of barley: 3:3 And I said unto her, Thou shalt abide for me many days; thou shalt not play the harlot, and thou shalt not be for another man: so will I also be for thee.
 3:4 For the children of Israel shall abide many days without a king, and without a prince, and without a sacrifice, and without an image, and without an ephod, and without teraphim: 3:5 Afterward shall the children of Israel return, and seek the LORD their God, and David their king; and shall fear the LORD and his goodness in the latter days.
-<span id="4<?= $book ?>"></span>4:1 Hear the word of the LORD, ye children of Israel: for the LORD hath a controversy with the inhabitants of the land, because there is no truth, nor mercy, nor knowledge of God in the land.
+<span id="<?php echo $chapterprefix; ?>4"></span>4:1 Hear the word of the LORD, ye children of Israel: for the LORD hath a controversy with the inhabitants of the land, because there is no truth, nor mercy, nor knowledge of God in the land.
 4:2 By swearing, and lying, and killing, and stealing, and committing adultery, they break out, and blood toucheth blood.
 4:3 Therefore shall the land mourn, and every one that dwelleth therein shall languish, with the beasts of the field, and with the fowls of heaven; yea, the fishes of the sea also shall be taken away.
 4:4 Yet let no man strive, nor reprove another: for thy people are as they that strive with the priest.
@@ -60,7 +59,7 @@ if (!isset($include)) {
 4:17 Ephraim is joined to idols: let him alone.
 4:18 Their drink is sour: they have committed whoredom continually: her rulers with shame do love, Give ye.
 4:19 The wind hath bound her up in her wings, and they shall be ashamed because of their sacrifices.
-<span id="5<?= $book ?>"></span>5:1 Hear ye this, O priests; and hearken, ye house of Israel; and give ye ear, O house of the king; for judgment is toward you, because ye have been a snare on Mizpah, and a net spread upon Tabor.
+<span id="<?php echo $chapterprefix; ?>5"></span>5:1 Hear ye this, O priests; and hearken, ye house of Israel; and give ye ear, O house of the king; for judgment is toward you, because ye have been a snare on Mizpah, and a net spread upon Tabor.
 5:2 And the revolters are profound to make slaughter, though I have been a rebuker of them all.
 5:3 I know Ephraim, and Israel is not hid from me: for now, O Ephraim, thou committest whoredom, and Israel is defiled.
 5:4 They will not frame their doings to turn unto their God: for the spirit of whoredoms is in the midst of them, and they have not known the LORD.
@@ -75,7 +74,7 @@ if (!isset($include)) {
 5:13 When Ephraim saw his sickness, and Judah saw his wound, then went Ephraim to the Assyrian, and sent to king Jareb: yet could he not heal you, nor cure you of your wound.
 5:14 For I will be unto Ephraim as a lion, and as a young lion to the house of Judah: I, even I, will tear and go away; I will take away, and none shall rescue him.
 5:15 I will go and return to my place, till they acknowledge their offence, and seek my face: in their affliction they will seek me early.
-<span id="6<?= $book ?>"></span>6:1 Come, and let us return unto the LORD: for he hath torn, and he will heal us; he hath smitten, and he will bind us up.
+<span id="<?php echo $chapterprefix; ?>6"></span>6:1 Come, and let us return unto the LORD: for he hath torn, and he will heal us; he hath smitten, and he will bind us up.
 6:2 After two days will he revive us: in the third day he will raise us up, and we shall live in his sight.
 6:3 Then shall we know, if we follow on to know the LORD: his going forth is prepared as the morning; and he shall come unto us as the rain, as the latter and former rain unto the earth.
 6:4 O Ephraim, what shall I do unto thee? O Judah, what shall I do unto thee? for your goodness is as a morning cloud, and as the early dew it goeth away.
@@ -86,7 +85,7 @@ if (!isset($include)) {
 6:9 And as troops of robbers wait for a man, so the company of priests murder in the way by consent: for they commit lewdness.
 6:10 I have seen an horrible thing in the house of Israel: there is the whoredom of Ephraim, Israel is defiled.
 6:11 Also, O Judah, he hath set an harvest for thee, when I returned the captivity of my people.
-<span id="7<?= $book ?>"></span>7:1 When I would have healed Israel, then the iniquity of Ephraim was discovered, and the wickedness of Samaria: for they commit falsehood; and the thief cometh in, and the troop of robbers spoileth without.
+<span id="<?php echo $chapterprefix; ?>7"></span>7:1 When I would have healed Israel, then the iniquity of Ephraim was discovered, and the wickedness of Samaria: for they commit falsehood; and the thief cometh in, and the troop of robbers spoileth without.
 7:2 And they consider not in their hearts that I remember all their wickedness: now their own doings have beset them about; they are before my face.
 7:3 They make the king glad with their wickedness, and the princes with their lies.
 7:4 They are all adulterers, as an oven heated by the baker, who ceaseth from raising after he hath kneaded the dough, until it be leavened.
@@ -102,7 +101,7 @@ if (!isset($include)) {
 7:14 And they have not cried unto me with their heart, when they howled upon their beds: they assemble themselves for corn and wine, and they rebel against me.
 7:15 Though I have bound and strengthened their arms, yet do they imagine mischief against me.
 7:16 They return, but not to the most High: they are like a deceitful bow: their princes shall fall by the sword for the rage of their tongue: this shall be their derision in the land of Egypt.
-<span id="8<?= $book ?>"></span>8:1 Set the trumpet to thy mouth. He shall come as an eagle against the house of the LORD, because they have transgressed my covenant, and trespassed against my law.
+<span id="<?php echo $chapterprefix; ?>8"></span>8:1 Set the trumpet to thy mouth. He shall come as an eagle against the house of the LORD, because they have transgressed my covenant, and trespassed against my law.
 8:2 Israel shall cry unto me, My God, we know thee.
 8:3 Israel hath cast off the thing that is good: the enemy shall pursue him.
 8:4 They have set up kings, but not by me: they have made princes, and I knew it not: of their silver and their gold have they made them idols, that they may be cut off.
@@ -115,7 +114,7 @@ if (!isset($include)) {
 8:12 I have written to him the great things of my law, but they were counted as a strange thing.
 8:13 They sacrifice flesh for the sacrifices of mine offerings, and eat it; but the LORD accepteth them not; now will he remember their iniquity, and visit their sins: they shall return to Egypt.
 8:14 For Israel hath forgotten his Maker, and buildeth temples; and Judah hath multiplied fenced cities: but I will send a fire upon his cities, and it shall devour the palaces thereof.
-<span id="9<?= $book ?>"></span>9:1 Rejoice not, O Israel, for joy, as other people: for thou hast gone a whoring from thy God, thou hast loved a reward upon every cornfloor.
+<span id="<?php echo $chapterprefix; ?>9"></span>9:1 Rejoice not, O Israel, for joy, as other people: for thou hast gone a whoring from thy God, thou hast loved a reward upon every cornfloor.
 9:2 The floor and the winepress shall not feed them, and the new wine shall fail in her.
 9:3 They shall not dwell in the LORD's land; but Ephraim shall return to Egypt, and they shall eat unclean things in Assyria.
 9:4 They shall not offer wine offerings to the LORD, neither shall they be pleasing unto him: their sacrifices shall be unto them as the bread of mourners; all that eat thereof shall be polluted: for their bread for their soul shall not come into the house of the LORD.
@@ -130,7 +129,7 @@ if (!isset($include)) {
 9:15 All their wickedness is in Gilgal: for there I hated them: for the wickedness of their doings I will drive them out of mine house, I will love them no more: all their princes are revolters.
 9:16 Ephraim is smitten, their root is dried up, they shall bear no fruit: yea, though they bring forth, yet will I slay even the beloved fruit of their womb.
 9:17 My God will cast them away, because they did not hearken unto him: and they shall be wanderers among the nations.
-<span id="10<?= $book ?>"></span>10:1 Israel is an empty vine, he bringeth forth fruit unto himself: according to the multitude of his fruit he hath increased the altars; according to the goodness of his land they have made goodly images.
+<span id="<?php echo $chapterprefix; ?>10"></span>10:1 Israel is an empty vine, he bringeth forth fruit unto himself: according to the multitude of his fruit he hath increased the altars; according to the goodness of his land they have made goodly images.
 10:2 Their heart is divided; now shall they be found faulty: he shall break down their altars, he shall spoil their images.
 10:3 For now they shall say, We have no king, because we feared not the LORD; what then should a king do to us? 10:4 They have spoken words, swearing falsely in making a covenant: thus judgment springeth up as hemlock in the furrows of the field.
 10:5 The inhabitants of Samaria shall fear because of the calves of Bethaven: for the people thereof shall mourn over it, and the priests thereof that rejoiced on it, for the glory thereof, because it is departed from it.
@@ -144,7 +143,7 @@ if (!isset($include)) {
 10:13 Ye have plowed wickedness, ye have reaped iniquity; ye have eaten the fruit of lies: because thou didst trust in thy way, in the multitude of thy mighty men.
 10:14 Therefore shall a tumult arise among thy people, and all thy fortresses shall be spoiled, as Shalman spoiled Betharbel in the day of battle: the mother was dashed in pieces upon her children.
 10:15 So shall Bethel do unto you because of your great wickedness: in a morning shall the king of Israel utterly be cut off.
-<span id="11<?= $book ?>"></span>11:1 When Israel was a child, then I loved him, and called my son out of Egypt.
+<span id="<?php echo $chapterprefix; ?>11"></span>11:1 When Israel was a child, then I loved him, and called my son out of Egypt.
 11:2 As they called them, so they went from them: they sacrificed unto Baalim, and burned incense to graven images.
 11:3 I taught Ephraim also to go, taking them by their arms; but they knew not that I healed them.
 11:4 I drew them with cords of a man, with bands of love: and I was to them as they that take off the yoke on their jaws, and I laid meat unto them.
@@ -156,7 +155,7 @@ if (!isset($include)) {
 11:10 They shall walk after the LORD: he shall roar like a lion: when he shall roar, then the children shall tremble from the west.
 11:11 They shall tremble as a bird out of Egypt, and as a dove out of the land of Assyria: and I will place them in their houses, saith the LORD.
 11:12 Ephraim compasseth me about with lies, and the house of Israel with deceit: but Judah yet ruleth with God, and is faithful with the saints.
-<span id="12<?= $book ?>"></span>12:1 Ephraim feedeth on wind, and followeth after the east wind: he daily increaseth lies and desolation; and they do make a covenant with the Assyrians, and oil is carried into Egypt.
+<span id="<?php echo $chapterprefix; ?>12"></span>12:1 Ephraim feedeth on wind, and followeth after the east wind: he daily increaseth lies and desolation; and they do make a covenant with the Assyrians, and oil is carried into Egypt.
 12:2 The LORD hath also a controversy with Judah, and will punish Jacob according to his ways; according to his doings will he recompense him.
 12:3 He took his brother by the heel in the womb, and by his strength he had power with God: 12:4 Yea, he had power over the angel, and prevailed: he wept, and made supplication unto him: he found him in Bethel, and there he spake with us; 12:5 Even the LORD God of hosts; the LORD is his memorial.
 12:6 Therefore turn thou to thy God: keep mercy and judgment and wait on thy God continually.
@@ -168,7 +167,7 @@ if (!isset($include)) {
 12:12 And Jacob fled into the country of Syria, and Israel served for a wife, and for a wife he kept sheep.
 12:13 And by a prophet the LORD brought Israel out of Egypt, and by a prophet was he preserved.
 12:14 Ephraim provoked him to anger most bitterly: therefore shall he leave his blood upon him, and his reproach shall his LORD return unto him.
-<span id="13<?= $book ?>"></span>13:1 When Ephraim spake trembling, he exalted himself in Israel; but when he offended in Baal, he died.
+<span id="<?php echo $chapterprefix; ?>13"></span>13:1 When Ephraim spake trembling, he exalted himself in Israel; but when he offended in Baal, he died.
 13:2 And now they sin more and more, and have made them molten images of their silver, and idols according to their own understanding, all of it the work of the craftsmen: they say of them, Let the men that sacrifice kiss the calves.
 13:3 Therefore they shall be as the morning cloud and as the early dew that passeth away, as the chaff that is driven with the whirlwind out of the floor, and as the smoke out of the chimney.
 13:4 Yet I am the LORD thy God from the land of Egypt, and thou shalt know no god but me: for there is no saviour beside me.
@@ -182,7 +181,7 @@ if (!isset($include)) {
 13:14 I will ransom them from the power of the grave; I will redeem them from death: O death, I will be thy plagues; O grave, I will be thy destruction: repentance shall be hid from mine eyes.
 13:15 Though he be fruitful among his brethren, an east wind shall come, the wind of the LORD shall come up from the wilderness, and his spring shall become dry, and his fountain shall be dried up: he shall spoil the treasure of all pleasant vessels.
 13:16 Samaria shall become desolate; for she hath rebelled against her God: they shall fall by the sword: their infants shall be dashed in pieces, and their women with child shall be ripped up.
-<span id="14<?= $book ?>"></span>14:1 O israel, return unto the LORD thy God; for thou hast fallen by thine iniquity.
+<span id="<?php echo $chapterprefix; ?>14"></span>14:1 O israel, return unto the LORD thy God; for thou hast fallen by thine iniquity.
 14:2 Take with you words, and turn to the LORD: say unto him, Take away all iniquity, and receive us graciously: so will we render the calves of our lips.
 14:3 Asshur shall not save us; we will not ride upon horses: neither will we say any more to the work of our hands, Ye are our gods: for in thee the fatherless findeth mercy.
 14:4 I will heal their backsliding, I will love them freely: for mine anger is turned away from him.
@@ -191,8 +190,4 @@ if (!isset($include)) {
 14:7 They that dwell under his shadow shall return; they shall revive as the corn, and grow as the vine: the scent thereof shall be as the wine of Lebanon.
 14:8 Ephraim shall say, What have I to do any more with idols? I have heard him, and observed him: I am like a green fir tree. From me is thy fruit found.
 14:9 Who is wise, and he shall understand these things? prudent, and he shall know them? for the ways of the LORD are right, and the just shall walk in them: but the transgressors shall fall therein.
-<?php
-if (!isset($include)) {
- include ('aa-end.php');
-}
-?>
+<?php if (!isset($collection)) {include 'bookhead.php';} ?>

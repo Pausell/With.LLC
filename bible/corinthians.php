@@ -1,11 +1,10 @@
 <?php
 $title = '1 Corinthians';
 $description = 'The First Epistle of Paul the Apostle to the Corinthians';
-if (!isset($include)) {
- include ('aa-beginning.php');
-}
+if (isset($collection)) {$chapterprefix = 'firstcorinthians';}
+if (!isset($collection)) {include 'bookhead.php';}
 ?>
-<span id="1<?= $book ?>"></span><h2 id="corinthians">The First Epistle of Paul the Apostle to the Corinthians</h2><!--2t7b-->
+<span id="<?php echo $chapterprefix; ?>1"></span><h3 id="corinthians">The First Epistle of Paul the Apostle to the Corinthians</h3><!--2t7b-->
 1:1 Paul called to be an apostle of Jesus Christ through the will of God, and Sosthenes our brother, 1:2 Unto the church of God which is at Corinth, to them that are sanctified in Christ Jesus, called to be saints, with all that in every place call upon the name of Jesus Christ our Lord, both theirs and ours: 1:3 Grace be unto you, and peace, from God our Father, and from the Lord Jesus Christ.
 1:4 I thank my God always on your behalf, for the grace of God which is given you by Jesus Christ; 1:5 That in every thing ye are enriched by him, in all utterance, and in all knowledge; 1:6 Even as the testimony of Christ was confirmed in you: 1:7 So that ye come behind in no gift; waiting for the coming of our Lord Jesus Christ: 1:8 Who shall also confirm you unto the end, that ye may be blameless in the day of our Lord Jesus Christ.
 1:9 God is faithful, by whom ye were called unto the fellowship of his Son Jesus Christ our Lord.
@@ -22,7 +21,7 @@ if (!isset($include)) {
 1:25 Because the foolishness of God is wiser than men; and the weakness of God is stronger than men.
 1:26 For ye see your calling, brethren, how that not many wise men after the flesh, not many mighty, not many noble, are called: 1:27 But God hath chosen the foolish things of the world to confound the wise; and God hath chosen the weak things of the world to confound the things which are mighty; 1:28 And base things of the world, and things which are despised, hath God chosen, yea, and things which are not, to bring to nought things that are: 1:29 That no flesh should glory in his presence.
 1:30 But of him are ye in Christ Jesus, who of God is made unto us wisdom, and righteousness, and sanctification, and redemption: 1:31 That, according as it is written, He that glorieth, let him glory in the Lord.
-<span id="2<?= $book ?>"></span>2:1 And I, brethren, when I came to you, came not with excellency of speech or of wisdom, declaring unto you the testimony of God.
+<span id="<?php echo $chapterprefix; ?>2"></span>2:1 And I, brethren, when I came to you, came not with excellency of speech or of wisdom, declaring unto you the testimony of God.
 2:2 For I determined not to know any thing among you, save Jesus Christ, and him crucified.
 2:3 And I was with you in weakness, and in fear, and in much trembling.
 2:4 And my speech and my preaching was not with enticing words of man's wisdom, but in demonstration of the Spirit and of power: 2:5 That your faith should not stand in the wisdom of men, but in the power of God.
@@ -35,7 +34,7 @@ if (!isset($include)) {
 2:14 But the natural man receiveth not the things of the Spirit of God: for they are foolishness unto him: neither can he know them, because they are spiritually discerned.
 2:15 But he that is spiritual judgeth all things, yet he himself is judged of no man.
 2:16 For who hath known the mind of the Lord, that he may instruct him? But we have the mind of Christ.
-<span id="3<?= $book ?>"></span>3:1 And I, brethren, could not speak unto you as unto spiritual, but as unto carnal, even as unto babes in Christ.
+<span id="<?php echo $chapterprefix; ?>3"></span>3:1 And I, brethren, could not speak unto you as unto spiritual, but as unto carnal, even as unto babes in Christ.
 3:2 I have fed you with milk, and not with meat: for hitherto ye were not able to bear it, neither yet now are ye able.
 3:3 For ye are yet carnal: for whereas there is among you envying, and strife, and divisions, are ye not carnal, and walk as men? 3:4 For while one saith, I am of Paul; and another, I am of Apollos; are ye not carnal? 3:5 Who then is Paul, and who is Apollos, but ministers by whom ye believed, even as the Lord gave to every man? 3:6 I have planted, Apollos watered; but God gave the increase.
 3:7 So then neither is he that planteth any thing, neither he that watereth; but God that giveth the increase.
@@ -51,7 +50,7 @@ if (!isset($include)) {
 3:19 For the wisdom of this world is foolishness with God. For it is written, He taketh the wise in their own craftiness.
 3:20 And again, The Lord knoweth the thoughts of the wise, that they are vain.
 3:21 Therefore let no man glory in men. For all things are yours; 3:22 Whether Paul, or Apollos, or Cephas, or the world, or life, or death, or things present, or things to come; all are yours; 3:23 And ye are Christ's; and Christ is God's.
-<span id="4<?= $book ?>"></span>4:1 Let a man so account of us, as of the ministers of Christ, and stewards of the mysteries of God.
+<span id="<?php echo $chapterprefix; ?>4"></span>4:1 Let a man so account of us, as of the ministers of Christ, and stewards of the mysteries of God.
 4:2 Moreover it is required in stewards, that a man be found faithful.
 4:3 But with me it is a very small thing that I should be judged of you, or of man's judgment: yea, I judge not mine own self.
 4:4 For I know nothing by myself; yet am I not hereby justified: but he that judgeth me is the Lord.
@@ -68,14 +67,14 @@ if (!isset($include)) {
 4:18 Now some are puffed up, as though I would not come to you.
 4:19 But I will come to you shortly, if the Lord will, and will know, not the speech of them which are puffed up, but the power.
 4:20 For the kingdom of God is not in word, but in power.
-4:21 What will ye? shall I come unto you with a rod, or in love, and in the spirit of meekness? <span id="5<?= $book ?>"></span>5:1 It is reported commonly that there is fornication among you, and such fornication as is not so much as named among the Gentiles, that one should have his father's wife.
+4:21 What will ye? shall I come unto you with a rod, or in love, and in the spirit of meekness? <span id="<?php echo $chapterprefix; ?>5"></span>5:1 It is reported commonly that there is fornication among you, and such fornication as is not so much as named among the Gentiles, that one should have his father's wife.
 5:2 And ye are puffed up, and have not rather mourned, that he that hath done this deed might be taken away from among you.
 5:3 For I verily, as absent in body, but present in spirit, have judged already, as though I were present, concerning him that hath so done this deed, 5:4 In the name of our Lord Jesus Christ, when ye are gathered together, and my spirit, with the power of our Lord Jesus Christ, 5:5 To deliver such an one unto Satan for the destruction of the flesh, that the spirit may be saved in the day of the Lord Jesus.
 5:6 Your glorying is not good. Know ye not that a little leaven leaveneth the whole lump? 5:7 Purge out therefore the old leaven, that ye may be a new lump, as ye are unleavened. For even Christ our passover is sacrificed for us: 5:8 Therefore let us keep the feast, not with old leaven, neither with the leaven of malice and wickedness; but with the unleavened bread of sincerity and truth.
 5:9 I wrote unto you in an epistle not to company with fornicators: 5:10 Yet not altogether with the fornicators of this world, or with the covetous, or extortioners, or with idolaters; for then must ye needs go out of the world.
 5:11 But now I have written unto you not to keep company, if any man that is called a brother be a fornicator, or covetous, or an idolater, or a railer, or a drunkard, or an extortioner; with such an one no not to eat.
 5:12 For what have I to do to judge them also that are without? do not ye judge them that are within? 5:13 But them that are without God judgeth. Therefore put away from among yourselves that wicked person.
-<span id="6<?= $book ?>"></span>6:1 Dare any of you, having a matter against another, go to law before the unjust, and not before the saints? 6:2 Do ye not know that the saints shall judge the world? and if the world shall be judged by you, are ye unworthy to judge the smallest matters? 6:3 Know ye not that we shall judge angels? how much more things that pertain to this life? 6:4 If then ye have judgments of things pertaining to this life, set them to judge who are least esteemed in the church.
+<span id="<?php echo $chapterprefix; ?>6"></span>6:1 Dare any of you, having a matter against another, go to law before the unjust, and not before the saints? 6:2 Do ye not know that the saints shall judge the world? and if the world shall be judged by you, are ye unworthy to judge the smallest matters? 6:3 Know ye not that we shall judge angels? how much more things that pertain to this life? 6:4 If then ye have judgments of things pertaining to this life, set them to judge who are least esteemed in the church.
 6:5 I speak to your shame. Is it so, that there is not a wise man among you? no, not one that shall be able to judge between his brethren? 6:6 But brother goeth to law with brother, and that before the unbelievers.
 6:7 Now therefore there is utterly a fault among you, because ye go to law one with another. Why do ye not rather take wrong? why do ye not rather suffer yourselves to be defrauded? 6:8 Nay, ye do wrong, and defraud, and that your brethren.
 6:9 Know ye not that the unrighteous shall not inherit the kingdom of God? Be not deceived: neither fornicators, nor idolaters, nor adulterers, nor effeminate, nor abusers of themselves with mankind, 6:10 Nor thieves, nor covetous, nor drunkards, nor revilers, nor extortioners, shall inherit the kingdom of God.
@@ -88,7 +87,7 @@ if (!isset($include)) {
 6:17 But he that is joined unto the Lord is one spirit.
 6:18 Flee fornication. Every sin that a man doeth is without the body; but he that committeth fornication sinneth against his own body.
 6:19 What? know ye not that your body is the temple of the Holy Ghost which is in you, which ye have of God, and ye are not your own? 6:20 For ye are bought with a price: therefore glorify God in your body, and in your spirit, which are God's.
-<span id="7<?= $book ?>"></span>7:1 Now concerning the things whereof ye wrote unto me: It is good for a man not to touch a woman.
+<span id="<?php echo $chapterprefix; ?>7"></span>7:1 Now concerning the things whereof ye wrote unto me: It is good for a man not to touch a woman.
 7:2 Nevertheless, to avoid fornication, let every man have his own wife, and let every woman have her own husband.
 7:3 Let the husband render unto the wife due benevolence: and likewise also the wife unto the husband.
 7:4 The wife hath not power of her own body, but the husband: and likewise also the husband hath not power of his own body, but the wife.
@@ -123,7 +122,7 @@ if (!isset($include)) {
 7:38 So then he that giveth her in marriage doeth well; but he that giveth her not in marriage doeth better.
 7:39 The wife is bound by the law as long as her husband liveth; but if her husband be dead, she is at liberty to be married to whom she will; only in the Lord.
 7:40 But she is happier if she so abide, after my judgment: and I think also that I have the Spirit of God.
-<span id="8<?= $book ?>"></span>8:1 Now as touching things offered unto idols, we know that we all have knowledge. Knowledge puffeth up, but charity edifieth.
+<span id="<?php echo $chapterprefix; ?>8"></span>8:1 Now as touching things offered unto idols, we know that we all have knowledge. Knowledge puffeth up, but charity edifieth.
 8:2 And if any man think that he knoweth any thing, he knoweth nothing yet as he ought to know.
 8:3 But if any man love God, the same is known of him.
 8:4 As concerning therefore the eating of those things that are offered in sacrifice unto idols, we know that an idol is nothing in the world, and that there is none other God but one.
@@ -133,7 +132,7 @@ if (!isset($include)) {
 8:9 But take heed lest by any means this liberty of yours become a stumblingblock to them that are weak.
 8:10 For if any man see thee which hast knowledge sit at meat in the idol's temple, shall not the conscience of him which is weak be emboldened to eat those things which are offered to idols; 8:11 And through thy knowledge shall the weak brother perish, for whom Christ died? 8:12 But when ye sin so against the brethren, and wound their weak conscience, ye sin against Christ.
 8:13 Wherefore, if meat make my brother to offend, I will eat no flesh while the world standeth, lest I make my brother to offend.
-<span id="9<?= $book ?>"></span>9:1 Am I not an apostle? am I not free? have I not seen Jesus Christ our Lord? are not ye my work in the Lord? 9:2 If I be not an apostle unto others, yet doubtless I am to you: for the seal of mine apostleship are ye in the Lord.
+<span id="<?php echo $chapterprefix; ?>9"></span>9:1 Am I not an apostle? am I not free? have I not seen Jesus Christ our Lord? are not ye my work in the Lord? 9:2 If I be not an apostle unto others, yet doubtless I am to you: for the seal of mine apostleship are ye in the Lord.
 9:3 Mine answer to them that do examine me is this, 9:4 Have we not power to eat and to drink? 9:5 Have we not power to lead about a sister, a wife, as well as other apostles, and as the brethren of the Lord, and Cephas? 9:6 Or I only and Barnabas, have not we power to forbear working? 9:7 Who goeth a warfare any time at his own charges? who planteth a vineyard, and eateth not of the fruit thereof? or who feedeth a flock, and eateth not of the milk of the flock? 9:8 Say I these things as a man? or saith not the law the same also? 9:9 For it is written in the law of Moses, Thou shalt not muzzle the mouth of the ox that treadeth out the corn. Doth God take care for oxen? 9:10 Or saith he it altogether for our sakes? For our sakes, no doubt, this is written: that he that ploweth should plow in hope; and that he that thresheth in hope should be partaker of his hope.
 9:11 If we have sown unto you spiritual things, is it a great thing if we shall reap your carnal things? 9:12 If others be partakers of this power over you, are not we rather? Nevertheless we have not used this power; but suffer all things, lest we should hinder the gospel of Christ.
 9:13 Do ye not know that they which minister about holy things live of the things of the temple? and they which wait at the altar are partakers with the altar? 9:14 Even so hath the Lord ordained that they which preach the gospel should live of the gospel.
@@ -147,7 +146,7 @@ if (!isset($include)) {
 9:24 Know ye not that they which run in a race run all, but one receiveth the prize? So run, that ye may obtain.
 9:25 And every man that striveth for the mastery is temperate in all things. Now they do it to obtain a corruptible crown; but we an incorruptible.
 9:26 I therefore so run, not as uncertainly; so fight I, not as one that beateth the air: 9:27 But I keep under my body, and bring it into subjection: lest that by any means, when I have preached to others, I myself should be a castaway.
-<span id="10<?= $book ?>"></span>10:1 Moreover, brethren, I would not that ye should be ignorant, how that all our fathers were under the cloud, and all passed through the sea; 10:2 And were all baptized unto Moses in the cloud and in the sea; 10:3 And did all eat the same spiritual meat; 10:4 And did all drink the same spiritual drink: for they drank of that spiritual Rock that followed them: and that Rock was Christ.
+<span id="<?php echo $chapterprefix; ?>10"></span>10:1 Moreover, brethren, I would not that ye should be ignorant, how that all our fathers were under the cloud, and all passed through the sea; 10:2 And were all baptized unto Moses in the cloud and in the sea; 10:3 And did all eat the same spiritual meat; 10:4 And did all drink the same spiritual drink: for they drank of that spiritual Rock that followed them: and that Rock was Christ.
 10:5 But with many of them God was not well pleased: for they were overthrown in the wilderness.
 10:6 Now these things were our examples, to the intent we should not lust after evil things, as they also lusted.
 10:7 Neither be ye idolaters, as were some of them; as it is written, The people sat down to eat and drink, and rose up to play.
@@ -168,7 +167,7 @@ if (!isset($include)) {
 10:27 If any of them that believe not bid you to a feast, and ye be disposed to go; whatsoever is set before you, eat, asking no question for conscience sake.
 10:28 But if any man say unto you, This is offered in sacrifice unto idols, eat not for his sake that shewed it, and for conscience sake: for the earth is the Lord's, and the fulness thereof: 10:29 Conscience, I say, not thine own, but of the other: for why is my liberty judged of another man's conscience? 10:30 For if I by grace be a partaker, why am I evil spoken of for that for which I give thanks? 10:31 Whether therefore ye eat, or drink, or whatsoever ye do, do all to the glory of God.
 10:32 Give none offence, neither to the Jews, nor to the Gentiles, nor to the church of God: 10:33 Even as I please all men in all things, not seeking mine own profit, but the profit of many, that they may be saved.
-<span id="11<?= $book ?>"></span>11:1 Be ye followers of me, even as I also am of Christ.
+<span id="<?php echo $chapterprefix; ?>11"></span>11:1 Be ye followers of me, even as I also am of Christ.
 11:2 Now I praise you, brethren, that ye remember me in all things, and keep the ordinances, as I delivered them to you.
 11:3 But I would have you know, that the head of every man is Christ; and the head of the woman is the man; and the head of Christ is God.
 11:4 Every man praying or prophesying, having his head covered, dishonoureth his head.
@@ -199,7 +198,7 @@ if (!isset($include)) {
 11:32 But when we are judged, we are chastened of the Lord, that we should not be condemned with the world.
 11:33 Wherefore, my brethren, when ye come together to eat, tarry one for another.
 11:34 And if any man hunger, let him eat at home; that ye come not together unto condemnation. And the rest will I set in order when I come.
-<span id="12<?= $book ?>"></span>12:1 Now concerning spiritual gifts, brethren, I would not have you ignorant.
+<span id="<?php echo $chapterprefix; ?>12"></span>12:1 Now concerning spiritual gifts, brethren, I would not have you ignorant.
 12:2 Ye know that ye were Gentiles, carried away unto these dumb idols, even as ye were led.
 12:3 Wherefore I give you to understand, that no man speaking by the Spirit of God calleth Jesus accursed: and that no man can say that Jesus is the Lord, but by the Holy Ghost.
 12:4 Now there are diversities of gifts, but the same Spirit.
@@ -220,7 +219,7 @@ if (!isset($include)) {
 12:27 Now ye are the body of Christ, and members in particular.
 12:28 And God hath set some in the church, first apostles, secondarily prophets, thirdly teachers, after that miracles, then gifts of healings, helps, governments, diversities of tongues.
 12:29 Are all apostles? are all prophets? are all teachers? are all workers of miracles? 12:30 Have all the gifts of healing? do all speak with tongues? do all interpret? 12:31 But covet earnestly the best gifts: and yet shew I unto you a more excellent way.
-<span id="13<?= $book ?>"></span>13:1 Though I speak with the tongues of men and of angels, and have not charity, I am become as sounding brass, or a tinkling cymbal.
+<span id="<?php echo $chapterprefix; ?>13"></span>13:1 Though I speak with the tongues of men and of angels, and have not charity, I am become as sounding brass, or a tinkling cymbal.
 13:2 And though I have the gift of prophecy, and understand all mysteries, and all knowledge; and though I have all faith, so that I could remove mountains, and have not charity, I am nothing.
 13:3 And though I bestow all my goods to feed the poor, and though I give my body to be burned, and have not charity, it profiteth me nothing.
 13:4 Charity suffereth long, and is kind; charity envieth not; charity vaunteth not itself, is not puffed up, 13:5 Doth not behave itself unseemly, seeketh not her own, is not easily provoked, thinketh no evil; 13:6 Rejoiceth not in iniquity, but rejoiceth in the truth; 13:7 Beareth all things, believeth all things, hopeth all things, endureth all things.
@@ -230,7 +229,7 @@ if (!isset($include)) {
 13:11 When I was a child, I spake as a child, I understood as a child, I thought as a child: but when I became a man, I put away childish things.
 13:12 For now we see through a glass, darkly; but then face to face: now I know in part; but then shall I know even as also I am known.
 13:13 And now abideth faith, hope, charity, these three; but the greatest of these is charity.
-<span id="14<?= $book ?>"></span>14:1 Follow after charity, and desire spiritual gifts, but rather that ye may prophesy.
+<span id="<?php echo $chapterprefix; ?>14"></span>14:1 Follow after charity, and desire spiritual gifts, but rather that ye may prophesy.
 14:2 For he that speaketh in an unknown tongue speaketh not unto men, but unto God: for no man understandeth him; howbeit in the spirit he speaketh mysteries.
 14:3 But he that prophesieth speaketh unto men to edification, and exhortation, and comfort.
 14:4 He that speaketh in an unknown tongue edifieth himself; but he that prophesieth edifieth the church.
@@ -262,7 +261,7 @@ if (!isset($include)) {
 14:38 But if any man be ignorant, let him be ignorant.
 14:39 Wherefore, brethren, covet to prophesy, and forbid not to speak with tongues.
 14:40 Let all things be done decently and in order.
-<span id="15<?= $book ?>"></span>15:1 Moreover, brethren, I declare unto you the gospel which I preached unto you, which also ye have received, and wherein ye stand; 15:2 By which also ye are saved, if ye keep in memory what I preached unto you, unless ye have believed in vain.
+<span id="<?php echo $chapterprefix; ?>15"></span>15:1 Moreover, brethren, I declare unto you the gospel which I preached unto you, which also ye have received, and wherein ye stand; 15:2 By which also ye are saved, if ye keep in memory what I preached unto you, unless ye have believed in vain.
 15:3 For I delivered unto you first of all that which I also received, how that Christ died for our sins according to the scriptures; 15:4 And that he was buried, and that he rose again the third day according to the scriptures: 15:5 And that he was seen of Cephas, then of the twelve: 15:6 After that, he was seen of above five hundred brethren at once; of whom the greater part remain unto this present, but some are fallen asleep.
 15:7 After that, he was seen of James; then of all the apostles.
 15:8 And last of all he was seen of me also, as of one born out of due time.
@@ -304,7 +303,7 @@ if (!isset($include)) {
 15:55 O death, where is thy sting? O grave, where is thy victory? 15:56 The sting of death is sin; and the strength of sin is the law.
 15:57 But thanks be to God, which giveth us the victory through our Lord Jesus Christ.
 15:58 Therefore, my beloved brethren, be ye stedfast, unmoveable, always abounding in the work of the Lord, forasmuch as ye know that your labour is not in vain in the Lord.
-<span id="16<?= $book ?>"></span>16:1 Now concerning the collection for the saints, as I have given order to the churches of Galatia, even so do ye.
+<span id="<?php echo $chapterprefix; ?>16"></span>16:1 Now concerning the collection for the saints, as I have given order to the churches of Galatia, even so do ye.
 16:2 Upon the first day of the week let every one of you lay by him in store, as God hath prospered him, that there be no gatherings when I come.
 16:3 And when I come, whomsoever ye shall approve by your letters, them will I send to bring your liberality unto Jerusalem.
 16:4 And if it be meet that I go also, they shall go with me.
@@ -327,8 +326,4 @@ if (!isset($include)) {
 16:22 If any man love not the Lord Jesus Christ, let him be Anathema Maranatha.
 16:23 The grace of our Lord Jesus Christ be with you.
 16:24 My love be with you all in Christ Jesus. Amen.
-<?php
-if (!isset($include)) {
- include ('aa-end.php');
-}
-?>
+<?php if (!isset($collection)) {include 'bookfoot.php';} ?>

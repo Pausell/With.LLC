@@ -1,11 +1,10 @@
 <?php
 $title = '2 Timothy';
 $description = 'The Second Epistle of Paul the Apostle to Timothy';
-if (!isset($include)) {
- include ('aa-beginning.php');
-}
+if (isset($collection)) {$chapterprefix = 'secondtimothy';}
+if (!isset($collection)) {include 'bookhead.php';}
 ?>
-<span id="1<?= $book ?>"></span><h2 id="timothy2">The Second Epistle of Paul the Apostle to Timothy</h2><!--2t16b-->
+<span id="<?php echo $chapterprefix; ?>1"></span><h3 id="timothy2">The Second Epistle of Paul the Apostle to Timothy</h3><!--2t16b-->
 1:1 Paul, an apostle of Jesus Christ by the will of God, according to the promise of life which is in Christ Jesus, 1:2 To Timothy, my dearly beloved son: Grace, mercy, and peace, from God the Father and Christ Jesus our Lord.
 1:3 I thank God, whom I serve from my forefathers with pure conscience, that without ceasing I have remembrance of thee in my prayers night and day; 1:4 Greatly desiring to see thee, being mindful of thy tears, that I may be filled with joy; 1:5 When I call to remembrance the unfeigned faith that is in thee, which dwelt first in thy grandmother Lois, and thy mother Eunice; and I am persuaded that in thee also.
 1:6 Wherefore I put thee in remembrance that thou stir up the gift of God, which is in thee by the putting on of my hands.
@@ -17,7 +16,7 @@ if (!isset($include)) {
 1:15 This thou knowest, that all they which are in Asia be turned away from me; of whom are Phygellus and Hermogenes.
 1:16 The Lord give mercy unto the house of Onesiphorus; for he oft refreshed me, and was not ashamed of my chain: 1:17 But, when he was in Rome, he sought me out very diligently, and found me.
 1:18 The Lord grant unto him that he may find mercy of the Lord in that day: and in how many things he ministered unto me at Ephesus, thou knowest very well.
-<span id="2<?= $book ?>"></span>2:1 Thou therefore, my son, be strong in the grace that is in Christ Jesus.
+<span id="<?php echo $chapterprefix; ?>2"></span>2:1 Thou therefore, my son, be strong in the grace that is in Christ Jesus.
 2:2 And the things that thou hast heard of me among many witnesses, the same commit thou to faithful men, who shall be able to teach others also.
 2:3 Thou therefore endure hardness, as a good soldier of Jesus Christ.
 2:4 No man that warreth entangleth himself with the affairs of this life; that he may please him who hath chosen him to be a soldier.
@@ -37,7 +36,7 @@ if (!isset($include)) {
 2:22 Flee also youthful lusts: but follow righteousness, faith, charity, peace, with them that call on the Lord out of a pure heart.
 2:23 But foolish and unlearned questions avoid, knowing that they do gender strifes.
 2:24 And the servant of the Lord must not strive; but be gentle unto all men, apt to teach, patient, 2:25 In meekness instructing those that oppose themselves; if God peradventure will give them repentance to the acknowledging of the truth; 2:26 And that they may recover themselves out of the snare of the devil, who are taken captive by him at his will.
-<span id="3<?= $book ?>"></span>3:1 This know also, that in the last days perilous times shall come.
+<span id="<?php echo $chapterprefix; ?>3"></span>3:1 This know also, that in the last days perilous times shall come.
 3:2 For men shall be lovers of their own selves, covetous, boasters, proud, blasphemers, disobedient to parents, unthankful, unholy, 3:3 Without natural affection, trucebreakers, false accusers, incontinent, fierce, despisers of those that are good, 3:4 Traitors, heady, highminded, lovers of pleasures more than lovers of God; 3:5 Having a form of godliness, but denying the power thereof: from such turn away.
 3:6 For of this sort are they which creep into houses, and lead captive silly women laden with sins, led away with divers lusts, 3:7 Ever learning, and never able to come to the knowledge of the truth.
 3:8 Now as Jannes and Jambres withstood Moses, so do these also resist the truth: men of corrupt minds, reprobate concerning the faith.
@@ -47,7 +46,7 @@ if (!isset($include)) {
 3:13 But evil men and seducers shall wax worse and worse, deceiving, and being deceived.
 3:14 But continue thou in the things which thou hast learned and hast been assured of, knowing of whom thou hast learned them; 3:15 And that from a child thou hast known the holy scriptures, which are able to make thee wise unto salvation through faith which is in Christ Jesus.
 3:16 All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness: 3:17 That the man of God may be perfect, throughly furnished unto all good works.
-<span id="4<?= $book ?>"></span>4:1 I charge thee therefore before God, and the Lord Jesus Christ, who shall judge the quick and the dead at his appearing and his kingdom; 4:2 Preach the word; be instant in season, out of season; reprove, rebuke, exhort with all longsuffering and doctrine.
+<span id="<?php echo $chapterprefix; ?>4"></span>4:1 I charge thee therefore before God, and the Lord Jesus Christ, who shall judge the quick and the dead at his appearing and his kingdom; 4:2 Preach the word; be instant in season, out of season; reprove, rebuke, exhort with all longsuffering and doctrine.
 4:3 For the time will come when they will not endure sound doctrine; but after their own lusts shall they heap to themselves teachers, having itching ears; 4:4 And they shall turn away their ears from the truth, and shall be turned unto fables.
 4:5 But watch thou in all things, endure afflictions, do the work of an evangelist, make full proof of thy ministry.
 4:6 For I am now ready to be offered, and the time of my departure is at hand.
@@ -64,8 +63,4 @@ if (!isset($include)) {
 4:20 Erastus abode at Corinth: but Trophimus have I left at Miletum sick.
 4:21 Do thy diligence to come before winter. Eubulus greeteth thee, and Pudens, and Linus, and Claudia, and all the brethren.
 4:22 The Lord Jesus Christ be with thy spirit. Grace be with you. Amen.
-<?php
-if (!isset($include)) {
- include ('aa-end.php');
-}
-?>
+<?php if (!isset($collection)) {include 'bookfoot.php';} ?>

@@ -1,11 +1,10 @@
 <?php
 $title = '1 Kings';
 $description = 'The First Book of the Kings; Commonly Called: The Third Book of the Kings';
-if (!isset($include)) {
- include ('aa-beginning.php');
-}
+if (isset($collection)) {$chapterprefix = 'firstkings';}
+if (!isset($collection)) {include 'bookhead.php';}
 ?>
-<span id="1<?= $book ?>"></span><h2 id="kings">The First Book of the Kings</h2><!--1t11b-->
+<span id="<?php echo $chapterprefix; ?>1"></span><h3 id="kings">The First Book of the Kings</h3><!--1t11b-->
 Commonly Called:
 The Third Book of the Kings
 1:1 Now king David was old and stricken in years; and they covered him with clothes, but he gat no heat.
@@ -50,7 +49,7 @@ The Third Book of the Kings
 1:51 And it was told Solomon, saying, Behold, Adonijah feareth king Solomon: for, lo, he hath caught hold on the horns of the altar, saying, Let king Solomon swear unto me today that he will not slay his servant with the sword.
 1:52 And Solomon said, If he will shew himself a worthy man, there shall not an hair of him fall to the earth: but if wickedness shall be found in him, he shall die.
 1:53 So king Solomon sent, and they brought him down from the altar. And he came and bowed himself to king Solomon: and Solomon said unto him, Go to thine house.
-<span id="2<?= $book ?>"></span>2:1 Now the days of David drew nigh that he should die; and he charged Solomon his son, saying, 2:2 I go the way of all the earth: be thou strong therefore, and shew thyself a man; 2:3 And keep the charge of the LORD thy God, to walk in his ways, to keep his statutes, and his commandments, and his judgments, and his testimonies, as it is written in the law of Moses, that thou mayest prosper in all that thou doest, and whithersoever thou turnest thyself: 2:4 That the LORD may continue his word which he spake concerning me, saying, If thy children take heed to their way, to walk before me in truth with all their heart and with all their soul, there shall not fail thee (said he) a man on the throne of Israel.
+<span id="<?php echo $chapterprefix; ?>2"></span>2:1 Now the days of David drew nigh that he should die; and he charged Solomon his son, saying, 2:2 I go the way of all the earth: be thou strong therefore, and shew thyself a man; 2:3 And keep the charge of the LORD thy God, to walk in his ways, to keep his statutes, and his commandments, and his judgments, and his testimonies, as it is written in the law of Moses, that thou mayest prosper in all that thou doest, and whithersoever thou turnest thyself: 2:4 That the LORD may continue his word which he spake concerning me, saying, If thy children take heed to their way, to walk before me in truth with all their heart and with all their soul, there shall not fail thee (said he) a man on the throne of Israel.
 2:5 Moreover thou knowest also what Joab the son of Zeruiah did to me, and what he did to the two captains of the hosts of Israel, unto Abner the son of Ner, and unto Amasa the son of Jether, whom he slew, and shed the blood of war in peace, and put the blood of war upon his girdle that was about his loins, and in his shoes that were on his feet.
 2:6 Do therefore according to thy wisdom, and let not his hoar head go down to the grave in peace.
 2:7 But shew kindness unto the sons of Barzillai the Gileadite, and let them be of those that eat at thy table: for so they came to me when I fled because of Absalom thy brother.
@@ -91,7 +90,7 @@ The Third Book of the Kings
 2:42 And the king sent and called for Shimei, and said unto him, Did I not make thee to swear by the LORD, and protested unto thee, saying, Know for a certain, on the day thou goest out, and walkest abroad any whither, that thou shalt surely die? and thou saidst unto me, The word that I have heard is good.
 2:43 Why then hast thou not kept the oath of the LORD, and the commandment that I have charged thee with? 2:44 The king said moreover to Shimei, Thou knowest all the wickedness which thine heart is privy to, that thou didst to David my father: therefore the LORD shall return thy wickedness upon thine own head; 2:45 And king Solomon shall be blessed, and the throne of David shall be established before the LORD for ever.
 2:46 So the king commanded Benaiah the son of Jehoiada; which went out, and fell upon him, that he died. And the kingdom was established in the hand of Solomon.
-<span id="3<?= $book ?>"></span>3:1 And Solomon made affinity with Pharaoh king of Egypt, and took Pharaoh's daughter, and brought her into the city of David, until he had made an end of building his own house, and the house of the LORD, and the wall of Jerusalem round about.
+<span id="<?php echo $chapterprefix; ?>3"></span>3:1 And Solomon made affinity with Pharaoh king of Egypt, and took Pharaoh's daughter, and brought her into the city of David, until he had made an end of building his own house, and the house of the LORD, and the wall of Jerusalem round about.
 3:2 Only the people sacrificed in high places, because there was no house built unto the name of the LORD, until those days.
 3:3 And Solomon loved the LORD, walking in the statutes of David his father: only he sacrificed and burnt incense in high places.
 3:4 And the king went to Gibeon to sacrifice there; for that was the great high place: a thousand burnt offerings did Solomon offer upon that altar.
@@ -117,7 +116,7 @@ The Third Book of the Kings
 3:26 Then spake the woman whose the living child was unto the king, for her bowels yearned upon her son, and she said, O my lord, give her the living child, and in no wise slay it. But the other said, Let it be neither mine nor thine, but divide it.
 3:27 Then the king answered and said, Give her the living child, and in no wise slay it: she is the mother thereof.
 3:28 And all Israel heard of the judgment which the king had judged; and they feared the king: for they saw that the wisdom of God was in him, to do judgment.
-<span id="4<?= $book ?>"></span>4:1 So king Solomon was king over all Israel.
+<span id="<?php echo $chapterprefix; ?>4"></span>4:1 So king Solomon was king over all Israel.
 4:2 And these were the princes which he had; Azariah the son of Zadok the priest, 4:3 Elihoreph and Ahiah, the sons of Shisha, scribes; Jehoshaphat the son of Ahilud, the recorder.
 4:4 And Benaiah the son of Jehoiada was over the host: and Zadok and Abiathar were the priests: 4:5 And Azariah the son of Nathan was over the officers: and Zabud the son of Nathan was principal officer, and the king's friend: 4:6 And Ahishar was over the household: and Adoniram the son of Abda was over the tribute.
 4:7 And Solomon had twelve officers over all Israel, which provided victuals for the king and his household: each man his month in a year made provision.
@@ -136,7 +135,7 @@ The Third Book of the Kings
 4:32 And he spake three thousand proverbs: and his songs were a thousand and five.
 4:33 And he spake of trees, from the cedar tree that is in Lebanon even unto the hyssop that springeth out of the wall: he spake also of beasts, and of fowl, and of creeping things, and of fishes.
 4:34 And there came of all people to hear the wisdom of Solomon, from all kings of the earth, which had heard of his wisdom.
-<span id="5<?= $book ?>"></span>5:1 And Hiram king of Tyre sent his servants unto Solomon; for he had heard that they had anointed him king in the room of his father: for Hiram was ever a lover of David.
+<span id="<?php echo $chapterprefix; ?>5"></span>5:1 And Hiram king of Tyre sent his servants unto Solomon; for he had heard that they had anointed him king in the room of his father: for Hiram was ever a lover of David.
 5:2 And Solomon sent to Hiram, saying, 5:3 Thou knowest how that David my father could not build an house unto the name of the LORD his God for the wars which were about him on every side, until the LORD put them under the soles of his feet.
 5:4 But now the LORD my God hath given me rest on every side, so that there is neither adversary nor evil occurrent.
 5:5 And, behold, I purpose to build an house unto the name of the LORD my God, as the LORD spake unto David my father, saying, Thy son, whom I will set upon thy throne in thy room, he shall build an house unto my name.
@@ -152,7 +151,7 @@ The Third Book of the Kings
 5:15 And Solomon had threescore and ten thousand that bare burdens, and fourscore thousand hewers in the mountains; 5:16 Beside the chief of Solomon's officers which were over the work, three thousand and three hundred, which ruled over the people that wrought in the work.
 5:17 And the king commanded, and they brought great stones, costly stones, and hewed stones, to lay the foundation of the house.
 5:18 And Solomon's builders and Hiram's builders did hew them, and the stonesquarers: so they prepared timber and stones to build the house.
-<span id="6<?= $book ?>"></span>6:1 And it came to pass in the four hundred and eightieth year after the children of Israel were come out of the land of Egypt, in the fourth year of Solomon's reign over Israel, in the month Zif, which is the second month, that he began to build the house of the LORD.
+<span id="<?php echo $chapterprefix; ?>6"></span>6:1 And it came to pass in the four hundred and eightieth year after the children of Israel were come out of the land of Egypt, in the fourth year of Solomon's reign over Israel, in the month Zif, which is the second month, that he began to build the house of the LORD.
 6:2 And the house which king Solomon built for the LORD, the length thereof was threescore cubits, and the breadth thereof twenty cubits, and the height thereof thirty cubits.
 6:3 And the porch before the temple of the house, twenty cubits was the length thereof, according to the breadth of the house; and ten cubits was the breadth thereof before the house.
 6:4 And for the house he made windows of narrow lights.
@@ -186,7 +185,7 @@ The Third Book of the Kings
 6:35 And he carved thereon cherubims and palm trees and open flowers: and covered them with gold fitted upon the carved work.
 6:36 And he built the inner court with three rows of hewed stone, and a row of cedar beams.
 6:37 In the fourth year was the foundation of the house of the LORD laid, in the month Zif: 6:38 And in the eleventh year, in the month Bul, which is the eighth month, was the house finished throughout all the parts thereof, and according to all the fashion of it. So was he seven years in building it.
-<span id="7<?= $book ?>"></span>7:1 But Solomon was building his own house thirteen years, and he finished all his house.
+<span id="<?php echo $chapterprefix; ?>7"></span>7:1 But Solomon was building his own house thirteen years, and he finished all his house.
 7:2 He built also the house of the forest of Lebanon; the length thereof was an hundred cubits, and the breadth thereof fifty cubits, and the height thereof thirty cubits, upon four rows of cedar pillars, with cedar beams upon the pillars.
 7:3 And it was covered with cedar above upon the beams, that lay on forty five pillars, fifteen in a row.
 7:4 And there were windows in three rows, and light was against light in three ranks.
@@ -228,7 +227,7 @@ The Third Book of the Kings
 7:47 And Solomon left all the vessels unweighed, because they were exceeding many: neither was the weight of the brass found out.
 7:48 And Solomon made all the vessels that pertained unto the house of the LORD: the altar of gold, and the table of gold, whereupon the shewbread was, 7:49 And the candlesticks of pure gold, five on the right side, and five on the left, before the oracle, with the flowers, and the lamps, and the tongs of gold, 7:50 And the bowls, and the snuffers, and the basons, and the spoons, and the censers of pure gold; and the hinges of gold, both for the doors of the inner house, the most holy place, and for the doors of the house, to wit, of the temple.
 7:51 So was ended all the work that king Solomon made for the house of the LORD. And Solomon brought in the things which David his father had dedicated; even the silver, and the gold, and the vessels, did he put among the treasures of the house of the LORD.
-<span id="8<?= $book ?>"></span>8:1 Then Solomon assembled the elders of Israel, and all the heads of the tribes, the chief of the fathers of the children of Israel, unto king Solomon in Jerusalem, that they might bring up the ark of the covenant of the LORD out of the city of David, which is Zion.
+<span id="<?php echo $chapterprefix; ?>8"></span>8:1 Then Solomon assembled the elders of Israel, and all the heads of the tribes, the chief of the fathers of the children of Israel, unto king Solomon in Jerusalem, that they might bring up the ark of the covenant of the LORD out of the city of David, which is Zion.
 8:2 And all the men of Israel assembled themselves unto king Solomon at the feast in the month Ethanim, which is the seventh month.
 8:3 And all the elders of Israel came, and the priests took up the ark.
 8:4 And they brought up the ark of the LORD, and the tabernacle of the congregation, and all the holy vessels that were in the tabernacle, even those did the priests and the Levites bring up.
@@ -269,7 +268,7 @@ The Third Book of the Kings
 8:64 The same day did the king hallow the middle of the court that was before the house of the LORD: for there he offered burnt offerings, and meat offerings, and the fat of the peace offerings: because the brasen altar that was before the LORD was too little to receive the burnt offerings, and meat offerings, and the fat of the peace offerings.
 8:65 And at that time Solomon held a feast, and all Israel with him, a great congregation, from the entering in of Hamath unto the river of Egypt, before the LORD our God, seven days and seven days, even fourteen days.
 8:66 On the eighth day he sent the people away: and they blessed the king, and went unto their tents joyful and glad of heart for all the goodness that the LORD had done for David his servant, and for Israel his people.
-<span id="9<?= $book ?>"></span>9:1 And it came to pass, when Solomon had finished the building of the house of the LORD, and the king's house, and all Solomon's desire which he was pleased to do, 9:2 That the LORD appeared to Solomon the second time, as he had appeared unto him at Gibeon.
+<span id="<?php echo $chapterprefix; ?>9"></span>9:1 And it came to pass, when Solomon had finished the building of the house of the LORD, and the king's house, and all Solomon's desire which he was pleased to do, 9:2 That the LORD appeared to Solomon the second time, as he had appeared unto him at Gibeon.
 9:3 And the LORD said unto him, I have heard thy prayer and thy supplication, that thou hast made before me: I have hallowed this house, which thou hast built, to put my name there for ever; and mine eyes and mine heart shall be there perpetually.
 9:4 And if thou wilt walk before me, as David thy father walked, in integrity of heart, and in uprightness, to do according to all that I have commanded thee, and wilt keep my statutes and my judgments: 9:5 Then I will establish the throne of thy kingdom upon Israel for ever, as I promised to David thy father, saying, There shall not fail thee a man upon the throne of Israel.
 9:6 But if ye shall at all turn from following me, ye or your children, and will not keep my commandments and my statutes which I have set before you, but go and serve other gods, and worship them: 9:7 Then will I cut off Israel out of the land which I have given them; and this house, which I have hallowed for my name, will I cast out of my sight; and Israel shall be a proverb and a byword among all people: 9:8 And at this house, which is high, every one that passeth by it shall be astonished, and shall hiss; and they shall say, Why hath the LORD done thus unto this land, and to this house? 9:9 And they shall answer, Because they forsook the LORD their God, who brought forth their fathers out of the land of Egypt, and have taken hold upon other gods, and have worshipped them, and served them: therefore hath the LORD brought upon them all this evil.
@@ -288,7 +287,7 @@ The Third Book of the Kings
 9:26 And king Solomon made a navy of ships in Eziongeber, which is beside Eloth, on the shore of the Red sea, in the land of Edom.
 9:27 And Hiram sent in the navy his servants, shipmen that had knowledge of the sea, with the servants of Solomon.
 9:28 And they came to Ophir, and fetched from thence gold, four hundred and twenty talents, and brought it to king Solomon.
-<span id="10<?= $book ?>"></span>10:1 And when the queen of Sheba heard of the fame of Solomon concerning the name of the LORD, she came to prove him with hard questions.
+<span id="<?php echo $chapterprefix; ?>10"></span>10:1 And when the queen of Sheba heard of the fame of Solomon concerning the name of the LORD, she came to prove him with hard questions.
 10:2 And she came to Jerusalem with a very great train, with camels that bare spices, and very much gold, and precious stones: and when she was come to Solomon, she communed with him of all that was in her heart.
 10:3 And Solomon told her all her questions: there was not any thing hid from the king, which he told her not.
 10:4 And when the queen of Sheba had seen all Solomon's wisdom, and the house that he had built, 10:5 And the meat of his table, and the sitting of his servants, and the attendance of his ministers, and their apparel, and his cupbearers, and his ascent by which he went up unto the house of the LORD; there was no more spirit in her.
@@ -316,7 +315,7 @@ So she turned and went to her own country, she and her servants.
 10:27 And the king made silver to be in Jerusalem as stones, and cedars made he to be as the sycomore trees that are in the vale, for abundance.
 10:28 And Solomon had horses brought out of Egypt, and linen yarn: the king's merchants received the linen yarn at a price.
 10:29 And a chariot came up and went out of Egypt for six hundred shekels of silver, and an horse for an hundred and fifty: and so for all the kings of the Hittites, and for the kings of Syria, did they bring them out by their means.
-<span id="11<?= $book ?>"></span>11:1 But king Solomon loved many strange women, together with the daughter of Pharaoh, women of the Moabites, Ammonites, Edomites, Zidonians, and Hittites: 11:2 Of the nations concerning which the LORD said unto the children of Israel, Ye shall not go in to them, neither shall they come in unto you: for surely they will turn away your heart after their gods: Solomon clave unto these in love.
+<span id="<?php echo $chapterprefix; ?>11"></span>11:1 But king Solomon loved many strange women, together with the daughter of Pharaoh, women of the Moabites, Ammonites, Edomites, Zidonians, and Hittites: 11:2 Of the nations concerning which the LORD said unto the children of Israel, Ye shall not go in to them, neither shall they come in unto you: for surely they will turn away your heart after their gods: Solomon clave unto these in love.
 11:3 And he had seven hundred wives, princesses, and three hundred concubines: and his wives turned away his heart.
 11:4 For it came to pass, when Solomon was old, that his wives turned away his heart after other gods: and his heart was not perfect with the LORD his God, as was the heart of David his father.
 11:5 For Solomon went after Ashtoreth the goddess of the Zidonians, and after Milcom the abomination of the Ammonites.
@@ -348,7 +347,7 @@ So she turned and went to her own country, she and her servants.
 11:40 Solomon sought therefore to kill Jeroboam. And Jeroboam arose, and fled into Egypt, unto Shishak king of Egypt, and was in Egypt until the death of Solomon.
 11:41 And the rest of the acts of Solomon, and all that he did, and his wisdom, are they not written in the book of the acts of Solomon? 11:42 And the time that Solomon reigned in Jerusalem over all Israel was forty years.
 11:43 And Solomon slept with his fathers, and was buried in the city of David his father: and Rehoboam his son reigned in his stead.
-<span id="12<?= $book ?>"></span>12:1 And Rehoboam went to Shechem: for all Israel were come to Shechem to make him king.
+<span id="<?php echo $chapterprefix; ?>12"></span>12:1 And Rehoboam went to Shechem: for all Israel were come to Shechem to make him king.
 12:2 And it came to pass, when Jeroboam the son of Nebat, who was yet in Egypt, heard of it, (for he was fled from the presence of king Solomon, and Jeroboam dwelt in Egypt;) 12:3 That they sent and called him. And Jeroboam and all the congregation of Israel came, and spake unto Rehoboam, saying, 12:4 Thy father made our yoke grievous: now therefore make thou the grievous service of thy father, and his heavy yoke which he put upon us, lighter, and we will serve thee.
 12:5 And he said unto them, Depart yet for three days, then come again to me. And the people departed.
 12:6 And king Rehoboam consulted with the old men, that stood before Solomon his father while he yet lived, and said, How do ye advise that I may answer this people? 12:7 And they spake unto him, saying, If thou wilt be a servant unto this people this day, and wilt serve them, and answer them, and speak good words to them, then they will be thy servants for ever.
@@ -372,7 +371,7 @@ So she turned and went to her own country, she and her servants.
 12:31 And he made an house of high places, and made priests of the lowest of the people, which were not of the sons of Levi.
 12:32 And Jeroboam ordained a feast in the eighth month, on the fifteenth day of the month, like unto the feast that is in Judah, and he offered upon the altar. So did he in Bethel, sacrificing unto the calves that he had made: and he placed in Bethel the priests of the high places which he had made.
 12:33 So he offered upon the altar which he had made in Bethel the fifteenth day of the eighth month, even in the month which he had devised of his own heart; and ordained a feast unto the children of Israel: and he offered upon the altar, and burnt incense.
-<span id="13<?= $book ?>"></span>13:1 And, behold, there came a man of God out of Judah by the word of the LORD unto Bethel: and Jeroboam stood by the altar to burn incense.
+<span id="<?php echo $chapterprefix; ?>13"></span>13:1 And, behold, there came a man of God out of Judah by the word of the LORD unto Bethel: and Jeroboam stood by the altar to burn incense.
 13:2 And he cried against the altar in the word of the LORD, and said, O altar, altar, thus saith the LORD; Behold, a child shall be born unto the house of David, Josiah by name; and upon thee shall he offer the priests of the high places that burn incense upon thee, and men's bones shall be burnt upon thee.
 13:3 And he gave a sign the same day, saying, This is the sign which the LORD hath spoken; Behold, the altar shall be rent, and the ashes that are upon it shall be poured out.
 13:4 And it came to pass, when king Jeroboam heard the saying of the man of God, which had cried against the altar in Bethel, that he put forth his hand from the altar, saying, Lay hold on him. And his hand, which he put forth against him, dried up, so that he could not pull it in again to him.
@@ -399,7 +398,7 @@ So she turned and went to her own country, she and her servants.
 13:30 And he laid his carcase in his own grave; and they mourned over him, saying, Alas, my brother! 13:31 And it came to pass, after he had buried him, that he spake to his sons, saying, When I am dead, then bury me in the sepulchre wherein the man of God is buried; lay my bones beside his bones: 13:32 For the saying which he cried by the word of the LORD against the altar in Bethel, and against all the houses of the high places which are in the cities of Samaria, shall surely come to pass.
 13:33 After this thing Jeroboam returned not from his evil way, but made again of the lowest of the people priests of the high places: whosoever would, he consecrated him, and he became one of the priests of the high places.
 13:34 And this thing became sin unto the house of Jeroboam, even to cut it off, and to destroy it from off the face of the earth.
-<span id="14<?= $book ?>"></span>14:1 At that time Abijah the son of Jeroboam fell sick.
+<span id="<?php echo $chapterprefix; ?>14"></span>14:1 At that time Abijah the son of Jeroboam fell sick.
 14:2 And Jeroboam said to his wife, Arise, I pray thee, and disguise thyself, that thou be not known to be the wife of Jeroboam; and get thee to Shiloh: behold, there is Ahijah the prophet, which told me that I should be king over this people.
 14:3 And take with thee ten loaves, and cracknels, and a cruse of honey, and go to him: he shall tell thee what shall become of the child.
 14:4 And Jeroboam's wife did so, and arose, and went to Shiloh, and came to the house of Ahijah. But Ahijah could not see; for his eyes were set by reason of his age.
@@ -424,7 +423,7 @@ So she turned and went to her own country, she and her servants.
 14:28 And it was so, when the king went into the house of the LORD, that the guard bare them, and brought them back into the guard chamber.
 14:29 Now the rest of the acts of Rehoboam, and all that he did, are they not written in the book of the chronicles of the kings of Judah? 14:30 And there was war between Rehoboam and Jeroboam all their days.
 14:31 And Rehoboam slept with his fathers, and was buried with his fathers in the city of David. And his mother's name was Naamah an Ammonitess. And Abijam his son reigned in his stead.
-<span id="15<?= $book ?>"></span>15:1 Now in the eighteenth year of king Jeroboam the son of Nebat reigned Abijam over Judah.
+<span id="<?php echo $chapterprefix; ?>15"></span>15:1 Now in the eighteenth year of king Jeroboam the son of Nebat reigned Abijam over Judah.
 15:2 Three years reigned he in Jerusalem. and his mother's name was Maachah, the daughter of Abishalom.
 15:3 And he walked in all the sins of his father, which he had done before him: and his heart was not perfect with the LORD his God, as the heart of David his father.
 15:4 Nevertheless for David's sake did the LORD his God give him a lamp in Jerusalem, to set up his son after him, and to establish Jerusalem: 15:5 Because David did that which was right in the eyes of the LORD, and turned not aside from any thing that he commanded him all the days of his life, save only in the matter of Uriah the Hittite.
@@ -454,7 +453,7 @@ So she turned and went to her own country, she and her servants.
 15:31 Now the rest of the acts of Nadab, and all that he did, are they not written in the book of the chronicles of the kings of Israel? 15:32 And there was war between Asa and Baasha king of Israel all their days.
 15:33 In the third year of Asa king of Judah began Baasha the son of Ahijah to reign over all Israel in Tirzah, twenty and four years.
 15:34 And he did evil in the sight of the LORD, and walked in the way of Jeroboam, and in his sin wherewith he made Israel to sin.
-<span id="16<?= $book ?>"></span>16:1 Then the word of the LORD came to Jehu the son of Hanani against Baasha, saying, 16:2 Forasmuch as I exalted thee out of the dust, and made thee prince over my people Israel; and thou hast walked in the way of Jeroboam, and hast made my people Israel to sin, to provoke me to anger with their sins; 16:3 Behold, I will take away the posterity of Baasha, and the posterity of his house; and will make thy house like the house of Jeroboam the son of Nebat.
+<span id="<?php echo $chapterprefix; ?>16"></span>16:1 Then the word of the LORD came to Jehu the son of Hanani against Baasha, saying, 16:2 Forasmuch as I exalted thee out of the dust, and made thee prince over my people Israel; and thou hast walked in the way of Jeroboam, and hast made my people Israel to sin, to provoke me to anger with their sins; 16:3 Behold, I will take away the posterity of Baasha, and the posterity of his house; and will make thy house like the house of Jeroboam the son of Nebat.
 16:4 Him that dieth of Baasha in the city shall the dogs eat; and him that dieth of his in the fields shall the fowls of the air eat.
 16:5 Now the rest of the acts of Baasha, and what he did, and his might, are they not written in the book of the chronicles of the kings of Israel? 16:6 So Baasha slept with his fathers, and was buried in Tirzah: and Elah his son reigned in his stead.
 16:7 And also by the hand of the prophet Jehu the son of Hanani came the word of the LORD against Baasha, and against his house, even for all the evil that he did in the sight of the LORD, in provoking him to anger with the work of his hands, in being like the house of Jeroboam; and because he killed him.
@@ -482,7 +481,7 @@ So she turned and went to her own country, she and her servants.
 16:32 And he reared up an altar for Baal in the house of Baal, which he had built in Samaria.
 16:33 And Ahab made a grove; and Ahab did more to provoke the LORD God of Israel to anger than all the kings of Israel that were before him.
 16:34 In his days did Hiel the Bethelite build Jericho: he laid the foundation thereof in Abiram his firstborn, and set up the gates thereof in his youngest son Segub, according to the word of the LORD, which he spake by Joshua the son of Nun.
-<span id="17<?= $book ?>"></span>17:1 And Elijah the Tishbite, who was of the inhabitants of Gilead, said unto Ahab, As the LORD God of Israel liveth, before whom I stand, there shall not be dew nor rain these years, but according to my word.
+<span id="<?php echo $chapterprefix; ?>17"></span>17:1 And Elijah the Tishbite, who was of the inhabitants of Gilead, said unto Ahab, As the LORD God of Israel liveth, before whom I stand, there shall not be dew nor rain these years, but according to my word.
 17:2 And the word of the LORD came unto him, saying, 17:3 Get thee hence, and turn thee eastward, and hide thyself by the brook Cherith, that is before Jordan.
 17:4 And it shall be, that thou shalt drink of the brook; and I have commanded the ravens to feed thee there.
 17:5 So he went and did according unto the word of the LORD: for he went and dwelt by the brook Cherith, that is before Jordan.
@@ -502,7 +501,7 @@ So she turned and went to her own country, she and her servants.
 17:22 And the LORD heard the voice of Elijah; and the soul of the child came into him again, and he revived.
 17:23 And Elijah took the child, and brought him down out of the chamber into the house, and delivered him unto his mother: and Elijah said, See, thy son liveth.
 17:24 And the woman said to Elijah, Now by this I know that thou art a man of God, and that the word of the LORD in thy mouth is truth.
-<span id="18<?= $book ?>"></span>18:1 And it came to pass after many days, that the word of the LORD came to Elijah in the third year, saying, Go, shew thyself unto Ahab; and I will send rain upon the earth.
+<span id="<?php echo $chapterprefix; ?>18"></span>18:1 And it came to pass after many days, that the word of the LORD came to Elijah in the third year, saying, Go, shew thyself unto Ahab; and I will send rain upon the earth.
 18:2 And Elijah went to shew himself unto Ahab. And there was a sore famine in Samaria.
 18:3 And Ahab called Obadiah, which was the governor of his house. (Now Obadiah feared the LORD greatly: 18:4 For it was so, when Jezebel cut off the prophets of the LORD, that Obadiah took an hundred prophets, and hid them by fifty in a cave, and fed them with bread and water.) 18:5 And Ahab said unto Obadiah, Go into the land, unto all fountains of water, and unto all brooks: peradventure we may find grass to save the horses and mules alive, that we lose not all the beasts.
 18:6 So they divided the land between them to pass throughout it: Ahab went one way by himself, and Obadiah went another way by himself.
@@ -540,7 +539,7 @@ And he said, Do it the third time. And they did it the third time.
 18:44 And it came to pass at the seventh time, that he said, Behold, there ariseth a little cloud out of the sea, like a man's hand. And he said, Go up, say unto Ahab, Prepare thy chariot, and get thee down that the rain stop thee not.
 18:45 And it came to pass in the mean while, that the heaven was black with clouds and wind, and there was a great rain. And Ahab rode, and went to Jezreel.
 18:46 And the hand of the LORD was on Elijah; and he girded up his loins, and ran before Ahab to the entrance of Jezreel.
-<span id="19<?= $book ?>"></span>19:1 And Ahab told Jezebel all that Elijah had done, and withal how he had slain all the prophets with the sword.
+<span id="<?php echo $chapterprefix; ?>19"></span>19:1 And Ahab told Jezebel all that Elijah had done, and withal how he had slain all the prophets with the sword.
 19:2 Then Jezebel sent a messenger unto Elijah, saying, So let the gods do to me, and more also, if I make not thy life as the life of one of them by to morrow about this time.
 19:3 And when he saw that, he arose, and went for his life, and came to Beersheba, which belongeth to Judah, and left his servant there.
 19:4 But he himself went a day's journey into the wilderness, and came and sat down under a juniper tree: and he requested for himself that he might die; and said, It is enough; now, O LORD, take away my life; for I am not better than my fathers.
@@ -557,7 +556,7 @@ And, behold, the LORD passed by, and a great and strong wind rent the mountains,
 19:18 Yet I have left me seven thousand in Israel, all the knees which have not bowed unto Baal, and every mouth which hath not kissed him.
 19:19 So he departed thence, and found Elisha the son of Shaphat, who was plowing with twelve yoke of oxen before him, and he with the twelfth: and Elijah passed by him, and cast his mantle upon him.
 19:20 And he left the oxen, and ran after Elijah, and said, Let me, I pray thee, kiss my father and my mother, and then I will follow thee. And he said unto him, Go back again: for what have I done to thee? 19:21 And he returned back from him, and took a yoke of oxen, and slew them, and boiled their flesh with the instruments of the oxen, and gave unto the people, and they did eat. Then he arose, and went after Elijah, and ministered unto him.
-<span id="20<?= $book ?>"></span>20:1 And Benhadad the king of Syria gathered all his host together: and there were thirty and two kings with him, and horses, and chariots; and he went up and besieged Samaria, and warred against it.
+<span id="<?php echo $chapterprefix; ?>20"></span>20:1 And Benhadad the king of Syria gathered all his host together: and there were thirty and two kings with him, and horses, and chariots; and he went up and besieged Samaria, and warred against it.
 20:2 And he sent messengers to Ahab king of Israel into the city, and said unto him, Thus saith Benhadad, 20:3 Thy silver and thy gold is mine; thy wives also and thy children, even the goodliest, are mine.
 20:4 And the king of Israel answered and said, My lord, O king, according to thy saying, I am thine, and all that I have.
 20:5 And the messengers came again, and said, Thus speaketh Benhadad, saying, Although I have sent unto thee, saying, Thou shalt deliver me thy silver, and thy gold, and thy wives, and thy children; 20:6 Yet I will send my servants unto thee to morrow about this time, and they shall search thine house, and the houses of thy servants; and it shall be, that whatsoever is pleasant in thine eyes, they shall put it in their hand, and take it away.
@@ -598,7 +597,7 @@ And as soon as he was departed from him, a lion found him, and slew him.
 20:41 And he hasted, and took the ashes away from his face; and the king of Israel discerned him that he was of the prophets.
 20:42 And he said unto him, Thus saith the LORD, Because thou hast let go out of thy hand a man whom I appointed to utter destruction, therefore thy life shall go for his life, and thy people for his people.
 20:43 And the king of Israel went to his house heavy and displeased, and came to Samaria.
-<span id="21<?= $book ?>"></span>21:1 And it came to pass after these things, that Naboth the Jezreelite had a vineyard, which was in Jezreel, hard by the palace of Ahab king of Samaria.
+<span id="<?php echo $chapterprefix; ?>21"></span>21:1 And it came to pass after these things, that Naboth the Jezreelite had a vineyard, which was in Jezreel, hard by the palace of Ahab king of Samaria.
 21:2 And Ahab spake unto Naboth, saying, Give me thy vineyard, that I may have it for a garden of herbs, because it is near unto my house: and I will give thee for it a better vineyard than it; or, if it seem good to thee, I will give thee the worth of it in money.
 21:3 And Naboth said to Ahab, The LORD forbid it me, that I should give the inheritance of my fathers unto thee.
 21:4 And Ahab came into his house heavy and displeased because of the word which Naboth the Jezreelite had spoken to him: for he had said, I will not give thee the inheritance of my fathers. And he laid him down upon his bed, and turned away his face, and would eat no bread.
@@ -622,7 +621,7 @@ And as soon as he was departed from him, a lion found him, and slew him.
 21:26 And he did very abominably in following idols, according to all things as did the Amorites, whom the LORD cast out before the children of Israel.
 21:27 And it came to pass, when Ahab heard those words, that he rent his clothes, and put sackcloth upon his flesh, and fasted, and lay in sackcloth, and went softly.
 21:28 And the word of the LORD came to Elijah the Tishbite, saying, 21:29 Seest thou how Ahab humbleth himself before me? because he humbleth himself before me, I will not bring the evil in his days: but in his son's days will I bring the evil upon his house.
-<span id="22<?= $book ?>"></span>22:1 And they continued three years without war between Syria and Israel.
+<span id="<?php echo $chapterprefix; ?>22"></span>22:1 And they continued three years without war between Syria and Israel.
 22:2 And it came to pass in the third year, that Jehoshaphat the king of Judah came down to the king of Israel.
 22:3 And the king of Israel said unto his servants, Know ye that Ramoth in Gilead is ours, and we be still, and take it not out of the hand of the king of Syria? 22:4 And he said unto Jehoshaphat, Wilt thou go with me to battle to Ramothgilead? And Jehoshaphat said to the king of Israel, I am as thou art, my people as thy people, my horses as thy horses.
 22:5 And Jehoshaphat said unto the king of Israel, Enquire, I pray thee, at the word of the LORD to day.
@@ -666,8 +665,4 @@ And as soon as he was departed from him, a lion found him, and slew him.
 22:50 And Jehoshaphat slept with his fathers, and was buried with his fathers in the city of David his father: and Jehoram his son reigned in his stead.
 22:51 Ahaziah the son of Ahab began to reign over Israel in Samaria the seventeenth year of Jehoshaphat king of Judah, and reigned two years over Israel.
 22:52 And he did evil in the sight of the LORD, and walked in the way of his father, and in the way of his mother, and in the way of Jeroboam the son of Nebat, who made Israel to sin: 22:53 For he served Baal, and worshipped him, and provoked to anger the LORD God of Israel, according to all that his father had done.
-<?php
-if (!isset($include)) {
- include ('aa-end.php');
-}
-?>
+<?php if (!isset($collection)) {include 'bookfoot.php';} ?>

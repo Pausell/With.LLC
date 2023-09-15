@@ -1,11 +1,10 @@
 <?php
 $title = '2 Peter';
 $description = 'The Second Epistle General of Peter';
-if (!isset($include)) {
- include ('aa-beginning.php');
-}
+if (isset($collection)) {$chapterprefix = 'secondpeter';}
+if (!isset($collection)) {include 'bookhead.php';}
 ?>
-<span id="1<?= $book ?>"></span><h2 id="peter2">The Second Epistle General of Peter</h2><!--2t22b-->
+<span id="<?php echo $chapterprefix; ?>1"></span><h3 id="peter2">The Second Epistle General of Peter</h3><!--2t22b-->
 1:1 Simon Peter, a servant and an apostle of Jesus Christ, to them that have obtained like precious faith with us through the righteousness of God and our Saviour Jesus Christ: 1:2 Grace and peace be multiplied unto you through the knowledge of God, and of Jesus our Lord, 1:3 According as his divine power hath given unto us all things that pertain unto life and godliness, through the knowledge of him that hath called us to glory and virtue: 1:4 Whereby are given unto us exceeding great and precious promises: that by these ye might be partakers of the divine nature, having escaped the corruption that is in the world through lust.
 1:5 And beside this, giving all diligence, add to your faith virtue; and to virtue knowledge; 1:6 And to knowledge temperance; and to temperance patience; and to patience godliness; 1:7 And to godliness brotherly kindness; and to brotherly kindness charity.
 1:8 For if these things be in you, and abound, they make you that ye shall neither be barren nor unfruitful in the knowledge of our Lord Jesus Christ.
@@ -19,7 +18,7 @@ if (!isset($include)) {
 1:18 And this voice which came from heaven we heard, when we were with him in the holy mount.
 1:19 We have also a more sure word of prophecy; whereunto ye do well that ye take heed, as unto a light that shineth in a dark place, until the day dawn, and the day star arise in your hearts: 1:20 Knowing this first, that no prophecy of the scripture is of any private interpretation.
 1:21 For the prophecy came not in old time by the will of man: but holy men of God spake as they were moved by the Holy Ghost.
-<span id="2<?= $book ?>"></span>2:1 But there were false prophets also among the people, even as there shall be false teachers among you, who privily shall bring in damnable heresies, even denying the Lord that bought them, and bring upon themselves swift destruction.
+<span id="<?php echo $chapterprefix; ?>2"></span>2:1 But there were false prophets also among the people, even as there shall be false teachers among you, who privily shall bring in damnable heresies, even denying the Lord that bought them, and bring upon themselves swift destruction.
 2:2 And many shall follow their pernicious ways; by reason of whom the way of truth shall be evil spoken of.
 2:3 And through covetousness shall they with feigned words make merchandise of you: whose judgment now of a long time lingereth not, and their damnation slumbereth not.
 2:4 For if God spared not the angels that sinned, but cast them down to hell, and delivered them into chains of darkness, to be reserved unto judgment; 2:5 And spared not the old world, but saved Noah the eighth person, a preacher of righteousness, bringing in the flood upon the world of the ungodly; 2:6 And turning the cities of Sodom and Gomorrha into ashes condemned them with an overthrow, making them an ensample unto those that after should live ungodly; 2:7 And delivered just Lot, vexed with the filthy conversation of the wicked: 2:8 (For that righteous man dwelling among them, in seeing and hearing, vexed his righteous soul from day to day with their unlawful deeds;) 2:9 The Lord knoweth how to deliver the godly out of temptations, and to reserve the unjust unto the day of judgment to be punished: 2:10 But chiefly them that walk after the flesh in the lust of uncleanness, and despise government. Presumptuous are they, selfwilled, they are not afraid to speak evil of dignities.
@@ -31,7 +30,7 @@ if (!isset($include)) {
 2:20 For if after they have escaped the pollutions of the world through the knowledge of the Lord and Saviour Jesus Christ, they are again entangled therein, and overcome, the latter end is worse with them than the beginning.
 2:21 For it had been better for them not to have known the way of righteousness, than, after they have known it, to turn from the holy commandment delivered unto them.
 2:22 But it is happened unto them according to the true proverb, The dog is turned to his own vomit again; and the sow that was washed to her wallowing in the mire.
-<span id="3<?= $book ?>"></span>3:1 This second epistle, beloved, I now write unto you; in both which I stir up your pure minds by way of remembrance: 3:2 That ye may be mindful of the words which were spoken before by the holy prophets, and of the commandment of us the apostles of the Lord and Saviour: 3:3 Knowing this first, that there shall come in the last days scoffers, walking after their own lusts, 3:4 And saying, Where is the promise of his coming? for since the fathers fell asleep, all things continue as they were from the beginning of the creation.
+<span id="<?php echo $chapterprefix; ?>3"></span>3:1 This second epistle, beloved, I now write unto you; in both which I stir up your pure minds by way of remembrance: 3:2 That ye may be mindful of the words which were spoken before by the holy prophets, and of the commandment of us the apostles of the Lord and Saviour: 3:3 Knowing this first, that there shall come in the last days scoffers, walking after their own lusts, 3:4 And saying, Where is the promise of his coming? for since the fathers fell asleep, all things continue as they were from the beginning of the creation.
 3:5 For this they willingly are ignorant of, that by the word of God the heavens were of old, and the earth standing out of the water and in the water: 3:6 Whereby the world that then was, being overflowed with water, perished: 3:7 But the heavens and the earth, which are now, by the same word are kept in store, reserved unto fire against the day of judgment and perdition of ungodly men.
 3:8 But, beloved, be not ignorant of this one thing, that one day is with the Lord as a thousand years, and a thousand years as one day.
 3:9 The Lord is not slack concerning his promise, as some men count slackness; but is longsuffering to us-ward, not willing that any should perish, but that all should come to repentance.
@@ -41,8 +40,4 @@ if (!isset($include)) {
 3:15 And account that the longsuffering of our Lord is salvation; even as our beloved brother Paul also according to the wisdom given unto him hath written unto you; 3:16 As also in all his epistles, speaking in them of these things; in which are some things hard to be understood, which they that are unlearned and unstable wrest, as they do also the other scriptures, unto their own destruction.
 3:17 Ye therefore, beloved, seeing ye know these things before, beware lest ye also, being led away with the error of the wicked, fall from your own stedfastness.
 3:18 But grow in grace, and in the knowledge of our Lord and Saviour Jesus Christ. To him be glory both now and for ever. Amen.
-<?php
-if (!isset($include)) {
- include ('aa-end.php');
-}
-?>
+<?php if (!isset($collection)) {include 'bookfoot.php';} ?>

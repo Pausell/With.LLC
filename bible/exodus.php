@@ -1,11 +1,10 @@
 <?php
 $title = 'Exodus';
-$description = 'The Second Book of Moses: Called Exodus';
-if (!isset($include)) {
- include ('aa-beginning.php');
-}
+$description = 'The Second Book of Moses: called Exodus';
+if (isset($collection)) {$chapterprefix = 'exodus';}
+if (!isset($collection)) {include 'bookhead.php';}
 ?>
-<span id="1<?= $book ?>"></span><h2 id="exodus">The Second Book of Moses: Called Exodus</h2><!--1t2b-->
+<span id="<?php echo $chapterprefix; ?>1"></span><h3 id="exodus">The Second Book of Moses: called Exodus</h3><!--1t2b-->
 1:1 Now these are the names of the children of Israel, which came into Egypt; every man and his household came with Jacob.
 1:2 Reuben, Simeon, Levi, and Judah, 1:3 Issachar, Zebulun, and Benjamin, 1:4 Dan, and Naphtali, Gad, and Asher.
 1:5 And all the souls that came out of the loins of Jacob were seventy souls: for Joseph was in Egypt already.
@@ -23,7 +22,7 @@ And they were grieved because of the children of Israel.
 1:20 Therefore God dealt well with the midwives: and the people multiplied, and waxed very mighty.
 1:21 And it came to pass, because the midwives feared God, that he made them houses.
 1:22 And Pharaoh charged all his people, saying, Every son that is born ye shall cast into the river, and every daughter ye shall save alive.
-<span id="2<?= $book ?>"></span>2:1 And there went a man of the house of Levi, and took to wife a daughter of Levi.
+<span id="<?php echo $chapterprefix; ?>2"></span>2:1 And there went a man of the house of Levi, and took to wife a daughter of Levi.
 2:2 And the woman conceived, and bare a son: and when she saw him that he was a goodly child, she hid him three months.
 2:3 And when she could not longer hide him, she took for him an ark of bulrushes, and daubed it with slime and with pitch, and put the child therein; and she laid it in the flags by the river's brink.
 2:4 And his sister stood afar off, to wit what would be done to him.
@@ -45,7 +44,7 @@ And they were grieved because of the children of Israel.
 2:23 And it came to pass in process of time, that the king of Egypt died: and the children of Israel sighed by reason of the bondage, and they cried, and their cry came up unto God by reason of the bondage.
 2:24 And God heard their groaning, and God remembered his covenant with Abraham, with Isaac, and with Jacob.
 2:25 And God looked upon the children of Israel, and God had respect unto them.
-<span id="3<?= $book ?>"></span>3:1 Now Moses kept the flock of Jethro his father in law, the priest of Midian: and he led the flock to the backside of the desert, and came to the mountain of God, even to Horeb.
+<span id="<?php echo $chapterprefix; ?>3"></span>3:1 Now Moses kept the flock of Jethro his father in law, the priest of Midian: and he led the flock to the backside of the desert, and came to the mountain of God, even to Horeb.
 3:2 And the angel of the LORD appeared unto him in a flame of fire out of the midst of a bush: and he looked, and, behold, the bush burned with fire, and the bush was not consumed.
 3:3 And Moses said, I will now turn aside, and see this great sight, why the bush is not burnt.
 3:4 And when the LORD saw that he turned aside to see, God called unto him out of the midst of the bush, and said, Moses, Moses. And he said, Here am I.
@@ -63,7 +62,7 @@ And they were grieved because of the children of Israel.
 3:20 And I will stretch out my hand, and smite Egypt with all my wonders which I will do in the midst thereof: and after that he will let you go.
 3:21 And I will give this people favour in the sight of the Egyptians: and it shall come to pass, that, when ye go, ye shall not go empty.
 3:22 But every woman shall borrow of her neighbour, and of her that sojourneth in her house, jewels of silver, and jewels of gold, and raiment: and ye shall put them upon your sons, and upon your daughters; and ye shall spoil the Egyptians.
-<span id="4<?= $book ?>"></span>4:1 And Moses answered and said, But, behold, they will not believe me, nor hearken unto my voice: for they will say, The LORD hath not appeared unto thee.
+<span id="<?php echo $chapterprefix; ?>4"></span>4:1 And Moses answered and said, But, behold, they will not believe me, nor hearken unto my voice: for they will say, The LORD hath not appeared unto thee.
 4:2 And the LORD said unto him, What is that in thine hand? And he said, A rod.
 4:3 And he said, Cast it on the ground. And he cast it on the ground, and it became a serpent; and Moses fled from before it.
 4:4 And the LORD said unto Moses, Put forth thine hand, and take it by the tail. And he put forth his hand, and caught it, and it became a rod in his hand: 4:5 That they may believe that the LORD God of their fathers, the God of Abraham, the God of Isaac, and the God of Jacob, hath appeared unto thee.
@@ -90,7 +89,7 @@ And they were grieved because of the children of Israel.
 4:28 And Moses told Aaron all the words of the LORD who had sent him, and all the signs which he had commanded him.
 4:29 And Moses and Aaron went and gathered together all the elders of the children of Israel: 4:30 And Aaron spake all the words which the LORD had spoken unto Moses, and did the signs in the sight of the people.
 4:31 And the people believed: and when they heard that the LORD had visited the children of Israel, and that he had looked upon their affliction, then they bowed their heads and worshipped.
-<span id="5exodus"></span>5:1 And afterward Moses and Aaron went in, and told Pharaoh, Thus saith the LORD God of Israel, Let my people go, that they may hold a feast unto me in the wilderness.
+<span id="<?php echo $chapterprefix; ?>5exodus"></span>5:1 And afterward Moses and Aaron went in, and told Pharaoh, Thus saith the LORD God of Israel, Let my people go, that they may hold a feast unto me in the wilderness.
 5:2 And Pharaoh said, Who is the LORD, that I should obey his voice to let Israel go? I know not the LORD, neither will I let Israel go.
 5:3 And they said, The God of the Hebrews hath met with us: let us go, we pray thee, three days' journey into the desert, and sacrifice unto the LORD our God; lest he fall upon us with pestilence, or with the sword.
 5:4 And the king of Egypt said unto them, Wherefore do ye, Moses and Aaron, let the people from their works? get you unto your burdens.
@@ -108,7 +107,7 @@ And they were grieved because of the children of Israel.
 5:19 And the officers of the children of Israel did see that they were in evil case, after it was said, Ye shall not minish ought from your bricks of your daily task.
 5:20 And they met Moses and Aaron, who stood in the way, as they came forth from Pharaoh: 5:21 And they said unto them, The LORD look upon you, and judge; because ye have made our savour to be abhorred in the eyes of Pharaoh, and in the eyes of his servants, to put a sword in their hand to slay us.
 5:22 And Moses returned unto the LORD, and said, LORD, wherefore hast thou so evil entreated this people? why is it that thou hast sent me? 5:23 For since I came to Pharaoh to speak in thy name, he hath done evil to this people; neither hast thou delivered thy people at all.
-<span id="6<?= $book ?>"></span>6:1 Then the LORD said unto Moses, Now shalt thou see what I will do to Pharaoh: for with a strong hand shall he let them go, and with a strong hand shall he drive them out of his land.
+<span id="<?php echo $chapterprefix; ?>6"></span>6:1 Then the LORD said unto Moses, Now shalt thou see what I will do to Pharaoh: for with a strong hand shall he let them go, and with a strong hand shall he drive them out of his land.
 6:2 And God spake unto Moses, and said unto him, I am the LORD: 6:3 And I appeared unto Abraham, unto Isaac, and unto Jacob, by the name of God Almighty, but by my name JEHOVAH was I not known to them.
 6:4 And I have also established my covenant with them, to give them the land of Canaan, the land of their pilgrimage, wherein they were strangers.
 6:5 And I have also heard the groaning of the children of Israel, whom the Egyptians keep in bondage; and I have remembered my covenant.
@@ -132,7 +131,7 @@ And they were grieved because of the children of Israel.
 6:26 These are that Aaron and Moses, to whom the LORD said, Bring out the children of Israel from the land of Egypt according to their armies.
 6:27 These are they which spake to Pharaoh king of Egypt, to bring out the children of Israel from Egypt: these are that Moses and Aaron.
 6:28 And it came to pass on the day when the LORD spake unto Moses in the land of Egypt, 6:29 That the LORD spake unto Moses, saying, I am the LORD: speak thou unto Pharaoh king of Egypt all that I say unto thee.
-6:30 And Moses said before the LORD, Behold, I am of uncircumcised lips, and how shall Pharaoh hearken unto me? <span id="7<?= $book ?>"></span>7:1 And the LORD said unto Moses, See, I have made thee a god to Pharaoh: and Aaron thy brother shall be thy prophet.
+6:30 And Moses said before the LORD, Behold, I am of uncircumcised lips, and how shall Pharaoh hearken unto me? <span id="<?php echo $chapterprefix; ?>7"></span>7:1 And the LORD said unto Moses, See, I have made thee a god to Pharaoh: and Aaron thy brother shall be thy prophet.
 7:2 Thou shalt speak all that I command thee: and Aaron thy brother shall speak unto Pharaoh, that he send the children of Israel out of his land.
 7:3 And I will harden Pharaoh's heart, and multiply my signs and my wonders in the land of Egypt.
 7:4 But Pharaoh shall not hearken unto you, that I may lay my hand upon Egypt, and bring forth mine armies, and my people the children of Israel, out of the land of Egypt by great judgments.
@@ -156,7 +155,7 @@ And they were grieved because of the children of Israel.
 7:23 And Pharaoh turned and went into his house, neither did he set his heart to this also.
 7:24 And all the Egyptians digged round about the river for water to drink; for they could not drink of the water of the river.
 7:25 And seven days were fulfilled, after that the LORD had smitten the river.
-<span id="8<?= $book ?>"></span>8:1 And the LORD spake unto Moses, Go unto Pharaoh, and say unto him, Thus saith the LORD, Let my people go, that they may serve me.
+<span id="<?php echo $chapterprefix; ?>8"></span>8:1 And the LORD spake unto Moses, Go unto Pharaoh, and say unto him, Thus saith the LORD, Let my people go, that they may serve me.
 8:2 And if thou refuse to let them go, behold, I will smite all thy borders with frogs: 8:3 And the river shall bring forth frogs abundantly, which shall go up and come into thine house, and into thy bedchamber, and upon thy bed, and into the house of thy servants, and upon thy people, and into thine ovens, and into thy kneadingtroughs: 8:4 And the frogs shall come up both on thee, and upon thy people, and upon all thy servants.
 8:5 And the LORD spake unto Moses, Say unto Aaron, Stretch forth thine hand with thy rod over the streams, over the rivers, and over the ponds, and cause frogs to come up upon the land of Egypt.
 8:6 And Aaron stretched out his hand over the waters of Egypt; and the frogs came up, and covered the land of Egypt.
@@ -184,7 +183,7 @@ And they were grieved because of the children of Israel.
 8:30 And Moses went out from Pharaoh, and intreated the LORD.
 8:31 And the LORD did according to the word of Moses; and he removed the swarms of flies from Pharaoh, from his servants, and from his people; there remained not one.
 8:32 And Pharaoh hardened his heart at this time also, neither would he let the people go.
-<span id="9<?= $book ?>"></span>9:1 Then the LORD said unto Moses, Go in unto Pharaoh, and tell him, Thus saith the LORD God of the Hebrews, Let my people go, that they may serve me.
+<span id="<?php echo $chapterprefix; ?>9"></span>9:1 Then the LORD said unto Moses, Go in unto Pharaoh, and tell him, Thus saith the LORD God of the Hebrews, Let my people go, that they may serve me.
 9:2 For if thou refuse to let them go, and wilt hold them still, 9:3 Behold, the hand of the LORD is upon thy cattle which is in the field, upon the horses, upon the asses, upon the camels, upon the oxen, and upon the sheep: there shall be a very grievous murrain.
 9:4 And the LORD shall sever between the cattle of Israel and the cattle of Egypt: and there shall nothing die of all that is the children's of Israel.
 9:5 And the LORD appointed a set time, saying, To morrow the LORD shall do this thing in the land.
@@ -216,7 +215,7 @@ And they were grieved because of the children of Israel.
 9:33 And Moses went out of the city from Pharaoh, and spread abroad his hands unto the LORD: and the thunders and hail ceased, and the rain was not poured upon the earth.
 9:34 And when Pharaoh saw that the rain and the hail and the thunders were ceased, he sinned yet more, and hardened his heart, he and his servants.
 9:35 And the heart of Pharaoh was hardened, neither would he let the children of Israel go; as the LORD had spoken by Moses.
-<span id="10<?= $book ?>"></span>10:1 And the LORD said unto Moses, Go in unto Pharaoh: for I have hardened his heart, and the heart of his servants, that I might shew these my signs before him: 10:2 And that thou mayest tell in the ears of thy son, and of thy son's son, what things I have wrought in Egypt, and my signs which I have done among them; that ye may know how that I am the LORD.
+<span id="<?php echo $chapterprefix; ?>10"></span>10:1 And the LORD said unto Moses, Go in unto Pharaoh: for I have hardened his heart, and the heart of his servants, that I might shew these my signs before him: 10:2 And that thou mayest tell in the ears of thy son, and of thy son's son, what things I have wrought in Egypt, and my signs which I have done among them; that ye may know how that I am the LORD.
 10:3 And Moses and Aaron came in unto Pharaoh, and said unto him, Thus saith the LORD God of the Hebrews, How long wilt thou refuse to humble thyself before me? let my people go, that they may serve me.
 10:4 Else, if thou refuse to let my people go, behold, to morrow will I bring the locusts into thy coast: 10:5 And they shall cover the face of the earth, that one cannot be able to see the earth: and they shall eat the residue of that which is escaped, which remaineth unto you from the hail, and shall eat every tree which groweth for you out of the field: 10:6 And they shall fill thy houses, and the houses of all thy servants, and the houses of all the Egyptians; which neither thy fathers, nor thy fathers' fathers have seen, since the day that they were upon the earth unto this day. And he turned himself, and went out from Pharaoh.
 10:7 And Pharaoh's servants said unto him, How long shall this man be a snare unto us? let the men go, that they may serve the LORD their God: knowest thou not yet that Egypt is destroyed? 10:8 And Moses and Aaron were brought again unto Pharaoh: and he said unto them, Go, serve the LORD your God: but who are they that shall go? 10:9 And Moses said, We will go with our young and with our old, with our sons and with our daughters, with our flocks and with our herds will we go; for we must hold a feast unto the LORD.
@@ -239,7 +238,7 @@ And they were grieved because of the children of Israel.
 10:27 But the LORD hardened Pharaoh's heart, and he would not let them go.
 10:28 And Pharaoh said unto him, Get thee from me, take heed to thyself, see my face no more; for in that day thou seest my face thou shalt die.
 10:29 And Moses said, Thou hast spoken well, I will see thy face again no more.
-<span id="11<?= $book ?>"></span>11:1 And the LORD said unto Moses, Yet will I bring one plague more upon Pharaoh, and upon Egypt; afterwards he will let you go hence: when he shall let you go, he shall surely thrust you out hence altogether.
+<span id="<?php echo $chapterprefix; ?>11"></span>11:1 And the LORD said unto Moses, Yet will I bring one plague more upon Pharaoh, and upon Egypt; afterwards he will let you go hence: when he shall let you go, he shall surely thrust you out hence altogether.
 11:2 Speak now in the ears of the people, and let every man borrow of his neighbour, and every woman of her neighbour, jewels of silver and jewels of gold.
 11:3 And the LORD gave the people favour in the sight of the Egyptians.
 Moreover the man Moses was very great in the land of Egypt, in the sight of Pharaoh's servants, and in the sight of the people.
@@ -249,7 +248,7 @@ Moreover the man Moses was very great in the land of Egypt, in the sight of Phar
 11:8 And all these thy servants shall come down unto me, and bow down themselves unto me, saying, Get thee out, and all the people that follow thee: and after that I will go out. And he went out from Pharaoh in a great anger.
 11:9 And the LORD said unto Moses, Pharaoh shall not hearken unto you; that my wonders may be multiplied in the land of Egypt.
 11:10 And Moses and Aaron did all these wonders before Pharaoh: and the LORD hardened Pharaoh's heart, so that he would not let the children of Israel go out of his land.
-<span id="12<?= $book ?>"></span>12:1 And the LORD spake unto Moses and Aaron in the land of Egypt saying, 12:2 This month shall be unto you the beginning of months: it shall be the first month of the year to you.
+<span id="<?php echo $chapterprefix; ?>12"></span>12:1 And the LORD spake unto Moses and Aaron in the land of Egypt saying, 12:2 This month shall be unto you the beginning of months: it shall be the first month of the year to you.
 12:3 Speak ye unto all the congregation of Israel, saying, In the tenth day of this month they shall take to them every man a lamb, according to the house of their fathers, a lamb for an house: 12:4 And if the household be too little for the lamb, let him and his neighbour next unto his house take it according to the number of the souls; every man according to his eating shall make your count for the lamb.
 12:5 Your lamb shall be without blemish, a male of the first year: ye shall take it out from the sheep, or from the goats: 12:6 And ye shall keep it up until the fourteenth day of the same month: and the whole assembly of the congregation of Israel shall kill it in the evening.
 12:7 And they shall take of the blood, and strike it on the two side posts and on the upper door post of the houses, wherein they shall eat it.
@@ -294,7 +293,7 @@ Moreover the man Moses was very great in the land of Egypt, in the sight of Phar
 12:49 One law shall be to him that is homeborn, and unto the stranger that sojourneth among you.
 12:50 Thus did all the children of Israel; as the LORD commanded Moses and Aaron, so did they.
 12:51 And it came to pass the selfsame day, that the LORD did bring the children of Israel out of the land of Egypt by their armies.
-<span id="13<?= $book ?>"></span>13:1 And the LORD spake unto Moses, saying, 13:2 Sanctify unto me all the firstborn, whatsoever openeth the womb among the children of Israel, both of man and of beast: it is mine.
+<span id="<?php echo $chapterprefix; ?>13"></span>13:1 And the LORD spake unto Moses, saying, 13:2 Sanctify unto me all the firstborn, whatsoever openeth the womb among the children of Israel, both of man and of beast: it is mine.
 13:3 And Moses said unto the people, Remember this day, in which ye came out from Egypt, out of the house of bondage; for by strength of hand the LORD brought you out from this place: there shall no leavened bread be eaten.
 13:4 This day came ye out in the month Abib.
 13:5 And it shall be when the LORD shall bring thee into the land of the Canaanites, and the Hittites, and the Amorites, and the Hivites, and the Jebusites, which he sware unto thy fathers to give thee, a land flowing with milk and honey, that thou shalt keep this service in this month.
@@ -311,7 +310,7 @@ Moreover the man Moses was very great in the land of Egypt, in the sight of Phar
 13:19 And Moses took the bones of Joseph with him: for he had straitly sworn the children of Israel, saying, God will surely visit you; and ye shall carry up my bones away hence with you.
 13:20 And they took their journey from Succoth, and encamped in Etham, in the edge of the wilderness.
 13:21 And the LORD went before them by day in a pillar of a cloud, to lead them the way; and by night in a pillar of fire, to give them light; to go by day and night: 13:22 He took not away the pillar of the cloud by day, nor the pillar of fire by night, from before the people.
-<span id="14<?= $book ?>"></span>14:1 And the LORD spake unto Moses, saying, 14:2 Speak unto the children of Israel, that they turn and encamp before Pihahiroth, between Migdol and the sea, over against Baalzephon: before it shall ye encamp by the sea.
+<span id="<?php echo $chapterprefix; ?>14"></span>14:1 And the LORD spake unto Moses, saying, 14:2 Speak unto the children of Israel, that they turn and encamp before Pihahiroth, between Migdol and the sea, over against Baalzephon: before it shall ye encamp by the sea.
 14:3 For Pharaoh will say of the children of Israel, They are entangled in the land, the wilderness hath shut them in.
 14:4 And I will harden Pharaoh's heart, that he shall follow after them; and I will be honoured upon Pharaoh, and upon all his host; that the Egyptians may know that I am the LORD. And they did so.
 14:5 And it was told the king of Egypt that the people fled: and the heart of Pharaoh and of his servants was turned against the people, and they said, Why have we done this, that we have let Israel go from serving us? 14:6 And he made ready his chariot, and took his people with him: 14:7 And he took six hundred chosen chariots, and all the chariots of Egypt, and captains over every one of them.
@@ -335,7 +334,7 @@ Moreover the man Moses was very great in the land of Egypt, in the sight of Phar
 14:29 But the children of Israel walked upon dry land in the midst of the sea; and the waters were a wall unto them on their right hand, and on their left.
 14:30 Thus the LORD saved Israel that day out of the hand of the Egyptians; and Israel saw the Egyptians dead upon the sea shore.
 14:31 And Israel saw that great work which the LORD did upon the Egyptians: and the people feared the LORD, and believed the LORD, and his servant Moses.
-<span id="15<?= $book ?>"></span>15:1 Then sang Moses and the children of Israel this song unto the LORD, and spake, saying, I will sing unto the LORD, for he hath triumphed gloriously: the horse and his rider hath he thrown into the sea.
+<span id="<?php echo $chapterprefix; ?>15"></span>15:1 Then sang Moses and the children of Israel this song unto the LORD, and spake, saying, I will sing unto the LORD, for he hath triumphed gloriously: the horse and his rider hath he thrown into the sea.
 15:2 The LORD is my strength and song, and he is become my salvation: he is my God, and I will prepare him an habitation; my father's God, and I will exalt him.
 15:3 The LORD is a man of war: the LORD is his name.
 15:4 Pharaoh's chariots and his host hath he cast into the sea: his chosen captains also are drowned in the Red sea.
@@ -359,7 +358,7 @@ Moreover the man Moses was very great in the land of Egypt, in the sight of Phar
 15:23 And when they came to Marah, they could not drink of the waters of Marah, for they were bitter: therefore the name of it was called Marah.
 15:24 And the people murmured against Moses, saying, What shall we drink? 15:25 And he cried unto the LORD; and the LORD shewed him a tree, which when he had cast into the waters, the waters were made sweet: there he made for them a statute and an ordinance, and there he proved them, 15:26 And said, If thou wilt diligently hearken to the voice of the LORD thy God, and wilt do that which is right in his sight, and wilt give ear to his commandments, and keep all his statutes, I will put none of these diseases upon thee, which I have brought upon the Egyptians: for I am the LORD that healeth thee.
 15:27 And they came to Elim, where were twelve wells of water, and threescore and ten palm trees: and they encamped there by the waters.
-<span id="16<?= $book ?>"></span>16:1 And they took their journey from Elim, and all the congregation of the children of Israel came unto the wilderness of Sin, which is between Elim and Sinai, on the fifteenth day of the second month after their departing out of the land of Egypt.
+<span id="<?php echo $chapterprefix; ?>16"></span>16:1 And they took their journey from Elim, and all the congregation of the children of Israel came unto the wilderness of Sin, which is between Elim and Sinai, on the fifteenth day of the second month after their departing out of the land of Egypt.
 16:2 And the whole congregation of the children of Israel murmured against Moses and Aaron in the wilderness: 16:3 And the children of Israel said unto them, Would to God we had died by the hand of the LORD in the land of Egypt, when we sat by the flesh pots, and when we did eat bread to the full; for ye have brought us forth into this wilderness, to kill this whole assembly with hunger.
 16:4 Then said the LORD unto Moses, Behold, I will rain bread from heaven for you; and the people shall go out and gather a certain rate every day, that I may prove them, whether they will walk in my law, or no.
 16:5 And it shall come to pass, that on the sixth day they shall prepare that which they bring in; and it shall be twice as much as they gather daily.
@@ -390,7 +389,7 @@ Moreover the man Moses was very great in the land of Egypt, in the sight of Phar
 16:34 As the LORD commanded Moses, so Aaron laid it up before the Testimony, to be kept.
 16:35 And the children of Israel did eat manna forty years, until they came to a land inhabited; they did eat manna, until they came unto the borders of the land of Canaan.
 16:36 Now an omer is the tenth part of an ephah.
-<span id="17<?= $book ?>"></span>17:1 And all the congregation of the children of Israel journeyed from the wilderness of Sin, after their journeys, according to the commandment of the LORD, and pitched in Rephidim: and there was no water for the people to drink.
+<span id="<?php echo $chapterprefix; ?>17"></span>17:1 And all the congregation of the children of Israel journeyed from the wilderness of Sin, after their journeys, according to the commandment of the LORD, and pitched in Rephidim: and there was no water for the people to drink.
 17:2 Wherefore the people did chide with Moses, and said, Give us water that we may drink. And Moses said unto them, Why chide ye with me? wherefore do ye tempt the LORD? 17:3 And the people thirsted there for water; and the people murmured against Moses, and said, Wherefore is this that thou hast brought us up out of Egypt, to kill us and our children and our cattle with thirst? 17:4 And Moses cried unto the LORD, saying, What shall I do unto this people? they be almost ready to stone me.
 17:5 And the LORD said unto Moses, Go on before the people, and take with thee of the elders of Israel; and thy rod, wherewith thou smotest the river, take in thine hand, and go.
 17:6 Behold, I will stand before thee there upon the rock in Horeb; and thou shalt smite the rock, and there shall come water out of it, that the people may drink. And Moses did so in the sight of the elders of Israel.
@@ -402,7 +401,7 @@ Moreover the man Moses was very great in the land of Egypt, in the sight of Phar
 17:13 And Joshua discomfited Amalek and his people with the edge of the sword.
 17:14 And the LORD said unto Moses, Write this for a memorial in a book, and rehearse it in the ears of Joshua: for I will utterly put out the remembrance of Amalek from under heaven.
 17:15 And Moses built an altar, and called the name of it Jehovahnissi: 17:16 For he said, Because the LORD hath sworn that the LORD will have war with Amalek from generation to generation.
-<span id="18<?= $book ?>"></span>18:1 When Jethro, the priest of Midian, Moses' father in law, heard of all that God had done for Moses, and for Israel his people, and that the LORD had brought Israel out of Egypt; 18:2 Then Jethro, Moses' father in law, took Zipporah, Moses' wife, after he had sent her back, 18:3 And her two sons; of which the name of the one was Gershom; for he said, I have been an alien in a strange land: 18:4 And the name of the other was Eliezer; for the God of my father, said he, was mine help, and delivered me from the sword of Pharaoh: 18:5 And Jethro, Moses' father in law, came with his sons and his wife unto Moses into the wilderness, where he encamped at the mount of God: 18:6 And he said unto Moses, I thy father in law Jethro am come unto thee, and thy wife, and her two sons with her.
+<span id="<?php echo $chapterprefix; ?>18"></span>18:1 When Jethro, the priest of Midian, Moses' father in law, heard of all that God had done for Moses, and for Israel his people, and that the LORD had brought Israel out of Egypt; 18:2 Then Jethro, Moses' father in law, took Zipporah, Moses' wife, after he had sent her back, 18:3 And her two sons; of which the name of the one was Gershom; for he said, I have been an alien in a strange land: 18:4 And the name of the other was Eliezer; for the God of my father, said he, was mine help, and delivered me from the sword of Pharaoh: 18:5 And Jethro, Moses' father in law, came with his sons and his wife unto Moses into the wilderness, where he encamped at the mount of God: 18:6 And he said unto Moses, I thy father in law Jethro am come unto thee, and thy wife, and her two sons with her.
 18:7 And Moses went out to meet his father in law, and did obeisance, and kissed him; and they asked each other of their welfare; and they came into the tent.
 18:8 And Moses told his father in law all that the LORD had done unto Pharaoh and to the Egyptians for Israel's sake, and all the travail that had come upon them by the way, and how the LORD delivered them.
 18:9 And Jethro rejoiced for all the goodness which the LORD had done to Israel, whom he had delivered out of the hand of the Egyptians.
@@ -420,7 +419,7 @@ Moreover the man Moses was very great in the land of Egypt, in the sight of Phar
 18:25 And Moses chose able men out of all Israel, and made them heads over the people, rulers of thousands, rulers of hundreds, rulers of fifties, and rulers of tens.
 18:26 And they judged the people at all seasons: the hard causes they brought unto Moses, but every small matter they judged themselves.
 18:27 And Moses let his father in law depart; and he went his way into his own land.
-<span id="19<?= $book ?>"></span>19:1 In the third month, when the children of Israel were gone forth out of the land of Egypt, the same day came they into the wilderness of Sinai.
+<span id="<?php echo $chapterprefix; ?>19"></span>19:1 In the third month, when the children of Israel were gone forth out of the land of Egypt, the same day came they into the wilderness of Sinai.
 19:2 For they were departed from Rephidim, and were come to the desert of Sinai, and had pitched in the wilderness; and there Israel camped before the mount.
 19:3 And Moses went up unto God, and the LORD called unto him out of the mountain, saying, Thus shalt thou say to the house of Jacob, and tell the children of Israel; 19:4 Ye have seen what I did unto the Egyptians, and how I bare you on eagles' wings, and brought you unto myself.
 19:5 Now therefore, if ye will obey my voice indeed, and keep my covenant, then ye shall be a peculiar treasure unto me above all people: for all the earth is mine: 19:6 And ye shall be unto me a kingdom of priests, and an holy nation.
@@ -443,7 +442,7 @@ And Moses told the words of the people unto the LORD.
 19:23 And Moses said unto the LORD, The people cannot come up to mount Sinai: for thou chargedst us, saying, Set bounds about the mount, and sanctify it.
 19:24 And the LORD said unto him, Away, get thee down, and thou shalt come up, thou, and Aaron with thee: but let not the priests and the people break through to come up unto the LORD, lest he break forth upon them.
 19:25 So Moses went down unto the people, and spake unto them.
-<span id="20<?= $book ?>"></span>20:1 And God spake all these words, saying, 20:2 I am the LORD thy God, which have brought thee out of the land of Egypt, out of the house of bondage.
+<span id="<?php echo $chapterprefix; ?>20"></span>20:1 And God spake all these words, saying, 20:2 I am the LORD thy God, which have brought thee out of the land of Egypt, out of the house of bondage.
 20:3 Thou shalt have no other gods before me.
 20:4 Thou shalt not make unto thee any graven image, or any likeness of any thing that is in heaven above, or that is in the earth beneath, or that is in the water under the earth.
 20:5 Thou shalt not bow down thyself to them, nor serve them: for I the LORD thy God am a jealous God, visiting the iniquity of the fathers upon the children unto the third and fourth generation of them that hate me; 20:6 And shewing mercy unto thousands of them that love me, and keep my commandments.
@@ -465,7 +464,7 @@ And Moses told the words of the people unto the LORD.
 20:24 An altar of earth thou shalt make unto me, and shalt sacrifice thereon thy burnt offerings, and thy peace offerings, thy sheep, and thine oxen: in all places where I record my name I will come unto thee, and I will bless thee.
 20:25 And if thou wilt make me an altar of stone, thou shalt not build it of hewn stone: for if thou lift up thy tool upon it, thou hast polluted it.
 20:26 Neither shalt thou go up by steps unto mine altar, that thy nakedness be not discovered thereon.
-<span id="21<?= $book ?>"></span>21:1 Now these are the judgments which thou shalt set before them.
+<span id="<?php echo $chapterprefix; ?>21"></span>21:1 Now these are the judgments which thou shalt set before them.
 21:2 If thou buy an Hebrew servant, six years he shall serve: and in the seventh he shall go out free for nothing.
 21:3 If he came in by himself, he shall go out by himself: if he were married, then his wife shall go out with him.
 21:4 If his master have given him a wife, and she have born him sons or daughters; the wife and her children shall be her master's, and he shall go out by himself.
@@ -496,7 +495,7 @@ And Moses told the words of the people unto the LORD.
 21:33 And if a man shall open a pit, or if a man shall dig a pit, and not cover it, and an ox or an ass fall therein; 21:34 The owner of the pit shall make it good, and give money unto the owner of them; and the dead beast shall be his.
 21:35 And if one man's ox hurt another's, that he die; then they shall sell the live ox, and divide the money of it; and the dead ox also they shall divide.
 21:36 Or if it be known that the ox hath used to push in time past, and his owner hath not kept him in; he shall surely pay ox for ox; and the dead shall be his own.
-<span id="22<?= $book ?>"></span>22:1 If a man shall steal an ox, or a sheep, and kill it, or sell it; he shall restore five oxen for an ox, and four sheep for a sheep.
+<span id="<?php echo $chapterprefix; ?>22"></span>22:1 If a man shall steal an ox, or a sheep, and kill it, or sell it; he shall restore five oxen for an ox, and four sheep for a sheep.
 22:2 If a thief be found breaking up, and be smitten that he die, there shall no blood be shed for him.
 22:3 If the sun be risen upon him, there shall be blood shed for him; for he should make full restitution; if he have nothing, then he shall be sold for his theft.
 22:4 If the theft be certainly found in his hand alive, whether it be ox, or ass, or sheep; he shall restore double.
@@ -524,7 +523,7 @@ And Moses told the words of the people unto the LORD.
 22:29 Thou shalt not delay to offer the first of thy ripe fruits, and of thy liquors: the firstborn of thy sons shalt thou give unto me.
 22:30 Likewise shalt thou do with thine oxen, and with thy sheep: seven days it shall be with his dam; on the eighth day thou shalt give it me.
 22:31 And ye shall be holy men unto me: neither shall ye eat any flesh that is torn of beasts in the field; ye shall cast it to the dogs.
-<span id="23<?= $book ?>"></span>23:1 Thou shalt not raise a false report: put not thine hand with the wicked to be an unrighteous witness.
+<span id="<?php echo $chapterprefix; ?>23"></span>23:1 Thou shalt not raise a false report: put not thine hand with the wicked to be an unrighteous witness.
 23:2 Thou shalt not follow a multitude to do evil; neither shalt thou speak in a cause to decline after many to wrest judgment: 23:3 Neither shalt thou countenance a poor man in his cause.
 23:4 If thou meet thine enemy's ox or his ass going astray, thou shalt surely bring it back to him again.
 23:5 If thou see the ass of him that hateth thee lying under his burden, and wouldest forbear to help him, thou shalt surely help with him.
@@ -554,7 +553,7 @@ And Moses told the words of the people unto the LORD.
 23:31 And I will set thy bounds from the Red sea even unto the sea of the Philistines, and from the desert unto the river: for I will deliver the inhabitants of the land into your hand; and thou shalt drive them out before thee.
 23:32 Thou shalt make no covenant with them, nor with their gods.
 23:33 They shall not dwell in thy land, lest they make thee sin against me: for if thou serve their gods, it will surely be a snare unto thee.
-<span id="24<?= $book ?>"></span>24:1 And he said unto Moses, Come up unto the LORD, thou, and Aaron, Nadab, and Abihu, and seventy of the elders of Israel; and worship ye afar off.
+<span id="<?php echo $chapterprefix; ?>24"></span>24:1 And he said unto Moses, Come up unto the LORD, thou, and Aaron, Nadab, and Abihu, and seventy of the elders of Israel; and worship ye afar off.
 24:2 And Moses alone shall come near the LORD: but they shall not come nigh; neither shall the people go up with him.
 24:3 And Moses came and told the people all the words of the LORD, and all the judgments: and all the people answered with one voice, and said, All the words which the LORD hath said will we do.
 24:4 And Moses wrote all the words of the LORD, and rose up early in the morning, and builded an altar under the hill, and twelve pillars, according to the twelve tribes of Israel.
@@ -571,7 +570,7 @@ And Moses told the words of the people unto the LORD.
 24:16 And the glory of the LORD abode upon mount Sinai, and the cloud covered it six days: and the seventh day he called unto Moses out of the midst of the cloud.
 24:17 And the sight of the glory of the LORD was like devouring fire on the top of the mount in the eyes of the children of Israel.
 24:18 And Moses went into the midst of the cloud, and gat him up into the mount: and Moses was in the mount forty days and forty nights.
-<span id="25<?= $book ?>"></span>25:1 And the LORD spake unto Moses, saying, 25:2 Speak unto the children of Israel, that they bring me an offering: of every man that giveth it willingly with his heart ye shall take my offering.
+<span id="<?php echo $chapterprefix; ?>25"></span>25:1 And the LORD spake unto Moses, saying, 25:2 Speak unto the children of Israel, that they bring me an offering: of every man that giveth it willingly with his heart ye shall take my offering.
 25:3 And this is the offering which ye shall take of them; gold, and silver, and brass, 25:4 And blue, and purple, and scarlet, and fine linen, and goats' hair, 25:5 And rams' skins dyed red, and badgers' skins, and shittim wood, 25:6 Oil for the light, spices for anointing oil, and for sweet incense, 25:7 Onyx stones, and stones to be set in the ephod, and in the breastplate.
 25:8 And let them make me a sanctuary; that I may dwell among them.
 25:9 According to all that I shew thee, after the pattern of the tabernacle, and the pattern of all the instruments thereof, even so shall ye make it.
@@ -605,7 +604,7 @@ And Moses told the words of the people unto the LORD.
 25:38 And the tongs thereof, and the snuffdishes thereof, shall be of pure gold.
 25:39 Of a talent of pure gold shall he make it, with all these vessels.
 25:40 And look that thou make them after their pattern, which was shewed thee in the mount.
-<span id="26<?= $book ?>"></span>26:1 Moreover thou shalt make the tabernacle with ten curtains of fine twined linen, and blue, and purple, and scarlet: with cherubims of cunning work shalt thou make them.
+<span id="<?php echo $chapterprefix; ?>26"></span>26:1 Moreover thou shalt make the tabernacle with ten curtains of fine twined linen, and blue, and purple, and scarlet: with cherubims of cunning work shalt thou make them.
 26:2 The length of one curtain shall be eight and twenty cubits, and the breadth of one curtain four cubits: and every one of the curtains shall have one measure.
 26:3 The five curtains shall be coupled together one to another; and other five curtains shall be coupled one to another.
 26:4 And thou shalt make loops of blue upon the edge of the one curtain from the selvedge in the coupling; and likewise shalt thou make in the uttermost edge of another curtain, in the coupling of the second.
@@ -639,7 +638,7 @@ And Moses told the words of the people unto the LORD.
 26:35 And thou shalt set the table without the vail, and the candlestick over against the table on the side of the tabernacle toward the south: and thou shalt put the table on the north side.
 26:36 And thou shalt make an hanging for the door of the tent, of blue, and purple, and scarlet, and fine twined linen, wrought with needlework.
 26:37 And thou shalt make for the hanging five pillars of shittim wood, and overlay them with gold, and their hooks shall be of gold: and thou shalt cast five sockets of brass for them.
-<span id="27<?= $book ?>"></span>27:1 And thou shalt make an altar of shittim wood, five cubits long, and five cubits broad; the altar shall be foursquare: and the height thereof shall be three cubits.
+<span id="<?php echo $chapterprefix; ?>27"></span>27:1 And thou shalt make an altar of shittim wood, five cubits long, and five cubits broad; the altar shall be foursquare: and the height thereof shall be three cubits.
 27:2 And thou shalt make the horns of it upon the four corners thereof: his horns shall be of the same: and thou shalt overlay it with brass.
 27:3 And thou shalt make his pans to receive his ashes, and his shovels, and his basons, and his fleshhooks, and his firepans: all the vessels thereof thou shalt make of brass.
 27:4 And thou shalt make for it a grate of network of brass; and upon the net shalt thou make four brasen rings in the four corners thereof.
@@ -659,7 +658,7 @@ And Moses told the words of the people unto the LORD.
 27:19 All the vessels of the tabernacle in all the service thereof, and all the pins thereof, and all the pins of the court, shall be of brass.
 27:20 And thou shalt command the children of Israel, that they bring thee pure oil olive beaten for the light, to cause the lamp to burn always.
 27:21 In the tabernacle of the congregation without the vail, which is before the testimony, Aaron and his sons shall order it from evening to morning before the LORD: it shall be a statute for ever unto their generations on the behalf of the children of Israel.
-<span id="28<?= $book ?>"></span>28:1 And take thou unto thee Aaron thy brother, and his sons with him, from among the children of Israel, that he may minister unto me in the priest's office, even Aaron, Nadab and Abihu, Eleazar and Ithamar, Aaron's sons.
+<span id="<?php echo $chapterprefix; ?>28"></span>28:1 And take thou unto thee Aaron thy brother, and his sons with him, from among the children of Israel, that he may minister unto me in the priest's office, even Aaron, Nadab and Abihu, Eleazar and Ithamar, Aaron's sons.
 28:2 And thou shalt make holy garments for Aaron thy brother for glory and for beauty.
 28:3 And thou shalt speak unto all that are wise hearted, whom I have filled with the spirit of wisdom, that they may make Aaron's garments to consecrate him, that he may minister unto me in the priest's office.
 28:4 And these are the garments which they shall make; a breastplate, and an ephod, and a robe, and a broidered coat, a mitre, and a girdle: and they shall make holy garments for Aaron thy brother, and his sons, that he may minister unto me in the priest's office.
@@ -698,7 +697,7 @@ And Moses told the words of the people unto the LORD.
 28:40 And for Aaron's sons thou shalt make coats, and thou shalt make for them girdles, and bonnets shalt thou make for them, for glory and for beauty.
 28:41 And thou shalt put them upon Aaron thy brother, and his sons with him; and shalt anoint them, and consecrate them, and sanctify them, that they may minister unto me in the priest's office.
 28:42 And thou shalt make them linen breeches to cover their nakedness; from the loins even unto the thighs they shall reach: 28:43 And they shall be upon Aaron, and upon his sons, when they come in unto the tabernacle of the congregation, or when they come near unto the altar to minister in the holy place; that they bear not iniquity, and die: it shall be a statute for ever unto him and his seed after him.
-<span id="29<?= $book ?>"></span>29:1 And this is the thing that thou shalt do unto them to hallow them, to minister unto me in the priest's office: Take one young bullock, and two rams without blemish, 29:2 And unleavened bread, and cakes unleavened tempered with oil, and wafers unleavened anointed with oil: of wheaten flour shalt thou make them.
+<span id="<?php echo $chapterprefix; ?>29"></span>29:1 And this is the thing that thou shalt do unto them to hallow them, to minister unto me in the priest's office: Take one young bullock, and two rams without blemish, 29:2 And unleavened bread, and cakes unleavened tempered with oil, and wafers unleavened anointed with oil: of wheaten flour shalt thou make them.
 29:3 And thou shalt put them into one basket, and bring them in the basket, with the bullock and the two rams.
 29:4 And Aaron and his sons thou shalt bring unto the door of the tabernacle of the congregation, and shalt wash them with water.
 29:5 And thou shalt take the garments, and put upon Aaron the coat, and the robe of the ephod, and the ephod, and the breastplate, and gird him with the curious girdle of the ephod: 29:6 And thou shalt put the mitre upon his head, and put the holy crown upon the mitre.
@@ -738,7 +737,7 @@ And Moses told the words of the people unto the LORD.
 29:44 And I will sanctify the tabernacle of the congregation, and the altar: I will sanctify also both Aaron and his sons, to minister to me in the priest's office.
 29:45 And I will dwell among the children of Israel, and will be their God.
 29:46 And they shall know that I am the LORD their God, that brought them forth out of the land of Egypt, that I may dwell among them: I am the LORD their God.
-<span id="30<?= $book ?>"></span>30:1 And thou shalt make an altar to burn incense upon: of shittim wood shalt thou make it.
+<span id="<?php echo $chapterprefix; ?>30"></span>30:1 And thou shalt make an altar to burn incense upon: of shittim wood shalt thou make it.
 30:2 A cubit shall be the length thereof, and a cubit the breadth thereof; foursquare shall it be: and two cubits shall be the height thereof: the horns thereof shall be of the same.
 30:3 And thou shalt overlay it with pure gold, the top thereof, and the sides thereof round about, and the horns thereof; and thou shalt make unto it a crown of gold round about.
 30:4 And two golden rings shalt thou make to it under the crown of it, by the two corners thereof, upon the two sides of it shalt thou make it; and they shall be for places for the staves to bear it withal.
@@ -765,7 +764,7 @@ And Moses told the words of the people unto the LORD.
 30:34 And the LORD said unto Moses, Take unto thee sweet spices, stacte, and onycha, and galbanum; these sweet spices with pure frankincense: of each shall there be a like weight: 30:35 And thou shalt make it a perfume, a confection after the art of the apothecary, tempered together, pure and holy: 30:36 And thou shalt beat some of it very small, and put of it before the testimony in the tabernacle of the congregation, where I will meet with thee: it shall be unto you most holy.
 30:37 And as for the perfume which thou shalt make, ye shall not make to yourselves according to the composition thereof: it shall be unto thee holy for the LORD.
 30:38 Whosoever shall make like unto that, to smell thereto, shall even be cut off from his people.
-<span id="31<?= $book ?>"></span>31:1 And the LORD spake unto Moses, saying, 31:2 See, I have called by name Bezaleel the son of Uri, the son of Hur, of the tribe of Judah: 31:3 And I have filled him with the spirit of God, in wisdom, and in understanding, and in knowledge, and in all manner of workmanship, 31:4 To devise cunning works, to work in gold, and in silver, and in brass, 31:5 And in cutting of stones, to set them, and in carving of timber, to work in all manner of workmanship.
+<span id="<?php echo $chapterprefix; ?>31"></span>31:1 And the LORD spake unto Moses, saying, 31:2 See, I have called by name Bezaleel the son of Uri, the son of Hur, of the tribe of Judah: 31:3 And I have filled him with the spirit of God, in wisdom, and in understanding, and in knowledge, and in all manner of workmanship, 31:4 To devise cunning works, to work in gold, and in silver, and in brass, 31:5 And in cutting of stones, to set them, and in carving of timber, to work in all manner of workmanship.
 31:6 And I, behold, I have given with him Aholiab, the son of Ahisamach, of the tribe of Dan: and in the hearts of all that are wise hearted I have put wisdom, that they may make all that I have commanded thee; 31:7 The tabernacle of the congregation, and the ark of the testimony, and the mercy seat that is thereupon, and all the furniture of the tabernacle, 31:8 And the table and his furniture, and the pure candlestick with all his furniture, and the altar of incense, 31:9 And the altar of burnt offering with all his furniture, and the laver and his foot, 31:10 And the cloths of service, and the holy garments for Aaron the priest, and the garments of his sons, to minister in the priest's office, 31:11 And the anointing oil, and sweet incense for the holy place: according to all that I have commanded thee shall they do.
 31:12 And the LORD spake unto Moses, saying, 31:13 Speak thou also unto the children of Israel, saying, Verily my sabbaths ye shall keep: for it is a sign between me and you throughout your generations; that ye may know that I am the LORD that doth sanctify you.
 31:14 Ye shall keep the sabbath therefore; for it is holy unto you: every one that defileth it shall surely be put to death: for whosoever doeth any work therein, that soul shall be cut off from among his people.
@@ -773,7 +772,7 @@ And Moses told the words of the people unto the LORD.
 31:16 Wherefore the children of Israel shall keep the sabbath, to observe the sabbath throughout their generations, for a perpetual covenant.
 31:17 It is a sign between me and the children of Israel for ever: for in six days the LORD made heaven and earth, and on the seventh day he rested, and was refreshed.
 31:18 And he gave unto Moses, when he had made an end of communing with him upon mount Sinai, two tables of testimony, tables of stone, written with the finger of God.
-<span id="32<?= $book ?>"></span>32:1 And when the people saw that Moses delayed to come down out of the mount, the people gathered themselves together unto Aaron, and said unto him, Up, make us gods, which shall go before us; for as for this Moses, the man that brought us up out of the land of Egypt, we wot not what is become of him.
+<span id="<?php echo $chapterprefix; ?>32"></span>32:1 And when the people saw that Moses delayed to come down out of the mount, the people gathered themselves together unto Aaron, and said unto him, Up, make us gods, which shall go before us; for as for this Moses, the man that brought us up out of the land of Egypt, we wot not what is become of him.
 32:2 And Aaron said unto them, Break off the golden earrings, which are in the ears of your wives, of your sons, and of your daughters, and bring them unto me.
 32:3 And all the people brake off the golden earrings which were in their ears, and brought them unto Aaron.
 32:4 And he received them at their hand, and fashioned it with a graving tool, after he had made it a molten calf: and they said, These be thy gods, O Israel, which brought thee up out of the land of Egypt.
@@ -803,7 +802,7 @@ And Moses told the words of the people unto the LORD.
 32:33 And the LORD said unto Moses, Whosoever hath sinned against me, him will I blot out of my book.
 32:34 Therefore now go, lead the people unto the place of which I have spoken unto thee: behold, mine Angel shall go before thee: nevertheless in the day when I visit I will visit their sin upon them.
 32:35 And the LORD plagued the people, because they made the calf, which Aaron made.
-<span id="33<?= $book ?>"></span>33:1 And the LORD said unto Moses, Depart, and go up hence, thou and the people which thou hast brought up out of the land of Egypt, unto the land which I sware unto Abraham, to Isaac, and to Jacob, saying, Unto thy seed will I give it: 33:2 And I will send an angel before thee; and I will drive out the Canaanite, the Amorite, and the Hittite, and the Perizzite, the Hivite, and the Jebusite: 33:3 Unto a land flowing with milk and honey: for I will not go up in the midst of thee; for thou art a stiffnecked people: lest I consume thee in the way.
+<span id="<?php echo $chapterprefix; ?>33"></span>33:1 And the LORD said unto Moses, Depart, and go up hence, thou and the people which thou hast brought up out of the land of Egypt, unto the land which I sware unto Abraham, to Isaac, and to Jacob, saying, Unto thy seed will I give it: 33:2 And I will send an angel before thee; and I will drive out the Canaanite, the Amorite, and the Hittite, and the Perizzite, the Hivite, and the Jebusite: 33:3 Unto a land flowing with milk and honey: for I will not go up in the midst of thee; for thou art a stiffnecked people: lest I consume thee in the way.
 33:4 And when the people heard these evil tidings, they mourned: and no man did put on him his ornaments.
 33:5 For the LORD had said unto Moses, Say unto the children of Israel, Ye are a stiffnecked people: I will come up into the midst of thee in a moment, and consume thee: therefore now put off thy ornaments from thee, that I may know what to do unto thee.
 33:6 And the children of Israel stripped themselves of their ornaments by the mount Horeb.
@@ -822,7 +821,7 @@ And Moses told the words of the people unto the LORD.
 33:19 And he said, I will make all my goodness pass before thee, and I will proclaim the name of the LORD before thee; and will be gracious to whom I will be gracious, and will shew mercy on whom I will shew mercy.
 33:20 And he said, Thou canst not see my face: for there shall no man see me, and live.
 33:21 And the LORD said, Behold, there is a place by me, and thou shalt stand upon a rock: 33:22 And it shall come to pass, while my glory passeth by, that I will put thee in a clift of the rock, and will cover thee with my hand while I pass by: 33:23 And I will take away mine hand, and thou shalt see my back parts: but my face shall not be seen.
-<span id="34<?= $book ?>"></span>34:1 And the LORD said unto Moses, Hew thee two tables of stone like unto the first: and I will write upon these tables the words that were in the first tables, which thou brakest.
+<span id="<?php echo $chapterprefix; ?>34"></span>34:1 And the LORD said unto Moses, Hew thee two tables of stone like unto the first: and I will write upon these tables the words that were in the first tables, which thou brakest.
 34:2 And be ready in the morning, and come up in the morning unto mount Sinai, and present thyself there to me in the top of the mount.
 34:3 And no man shall come up with thee, neither let any man be seen throughout all the mount; neither let the flocks nor herds feed before that mount.
 34:4 And he hewed two tables of stone like unto the first; and Moses rose up early in the morning, and went up unto mount Sinai, as the LORD had commanded him, and took in his hand the two tables of stone.
@@ -852,7 +851,7 @@ And Moses told the words of the people unto the LORD.
 34:33 And till Moses had done speaking with them, he put a vail on his face.
 34:34 But when Moses went in before the LORD to speak with him, he took the vail off, until he came out. And he came out, and spake unto the children of Israel that which he was commanded.
 34:35 And the children of Israel saw the face of Moses, that the skin of Moses' face shone: and Moses put the vail upon his face again, until he went in to speak with him.
-<span id="35<?= $book ?>"></span>35:1 And Moses gathered all the congregation of the children of Israel together, and said unto them, These are the words which the LORD hath commanded, that ye should do them.
+<span id="<?php echo $chapterprefix; ?>35"></span>35:1 And Moses gathered all the congregation of the children of Israel together, and said unto them, These are the words which the LORD hath commanded, that ye should do them.
 35:2 Six days shall work be done, but on the seventh day there shall be to you an holy day, a sabbath of rest to the LORD: whosoever doeth work therein shall be put to death.
 35:3 Ye shall kindle no fire throughout your habitations upon the sabbath day.
 35:4 And Moses spake unto all the congregation of the children of Israel, saying, This is the thing which the LORD commanded, saying, 35:5 Take ye from among you an offering unto the LORD: whosoever is of a willing heart, let him bring it, an offering of the LORD; gold, and silver, and brass, 35:6 And blue, and purple, and scarlet, and fine linen, and goats' hair, 35:7 And rams' skins dyed red, and badgers' skins, and shittim wood, 35:8 And oil for the light, and spices for anointing oil, and for the sweet incense, 35:9 And onyx stones, and stones to be set for the ephod, and for the breastplate.
@@ -869,7 +868,7 @@ And Moses told the words of the people unto the LORD.
 35:30 And Moses said unto the children of Israel, See, the LORD hath called by name Bezaleel the son of Uri, the son of Hur, of the tribe of Judah; 35:31 And he hath filled him with the spirit of God, in wisdom, in understanding, and in knowledge, and in all manner of workmanship; 35:32 And to devise curious works, to work in gold, and in silver, and in brass, 35:33 And in the cutting of stones, to set them, and in carving of wood, to make any manner of cunning work.
 35:34 And he hath put in his heart that he may teach, both he, and Aholiab, the son of Ahisamach, of the tribe of Dan.
 35:35 Them hath he filled with wisdom of heart, to work all manner of work, of the engraver, and of the cunning workman, and of the embroiderer, in blue, and in purple, in scarlet, and in fine linen, and of the weaver, even of them that do any work, and of those that devise cunning work.
-<span id="36<?= $book ?>"></span>36:1 Then wrought Bezaleel and Aholiab, and every wise hearted man, in whom the LORD put wisdom and understanding to know how to work all manner of work for the service of the sanctuary, according to all that the LORD had commanded.
+<span id="<?php echo $chapterprefix; ?>36"></span>36:1 Then wrought Bezaleel and Aholiab, and every wise hearted man, in whom the LORD put wisdom and understanding to know how to work all manner of work for the service of the sanctuary, according to all that the LORD had commanded.
 36:2 And Moses called Bezaleel and Aholiab, and every wise hearted man, in whose heart the LORD had put wisdom, even every one whose heart stirred him up to come unto the work to do it: 36:3 And they received of Moses all the offering, which the children of Israel had brought for the work of the service of the sanctuary, to make it withal. And they brought yet unto him free offerings every morning.
 36:4 And all the wise men, that wrought all the work of the sanctuary, came every man from his work which they made; 36:5 And they spake unto Moses, saying, The people bring much more than enough for the service of the work, which the LORD commanded to make.
 36:6 And Moses gave commandment, and they caused it to be proclaimed throughout the camp, saying, Let neither man nor woman make any more work for the offering of the sanctuary. So the people were restrained from bringing.
@@ -901,7 +900,7 @@ And Moses told the words of the people unto the LORD.
 36:35 And he made a vail of blue, and purple, and scarlet, and fine twined linen: with cherubims made he it of cunning work.
 36:36 And he made thereunto four pillars of shittim wood, and overlaid them with gold: their hooks were of gold; and he cast for them four sockets of silver.
 36:37 And he made an hanging for the tabernacle door of blue, and purple, and scarlet, and fine twined linen, of needlework; 36:38 And the five pillars of it with their hooks: and he overlaid their chapiters and their fillets with gold: but their five sockets were of brass.
-<span id="37<?= $book ?>"></span>37:1 And Bezaleel made the ark of shittim wood: two cubits and a half was the length of it, and a cubit and a half the breadth of it, and a cubit and a half the height of it: 37:2 And he overlaid it with pure gold within and without, and made a crown of gold to it round about.
+<span id="<?php echo $chapterprefix; ?>37"></span>37:1 And Bezaleel made the ark of shittim wood: two cubits and a half was the length of it, and a cubit and a half the breadth of it, and a cubit and a half the height of it: 37:2 And he overlaid it with pure gold within and without, and made a crown of gold to it round about.
 37:3 And he cast for it four rings of gold, to be set by the four corners of it; even two rings upon the one side of it, and two rings upon the other side of it.
 37:4 And he made staves of shittim wood, and overlaid them with gold.
 37:5 And he put the staves into the rings by the sides of the ark, to bear the ark.
@@ -924,7 +923,7 @@ And Moses told the words of the people unto the LORD.
 37:27 And he made two rings of gold for it under the crown thereof, by the two corners of it, upon the two sides thereof, to be places for the staves to bear it withal.
 37:28 And he made the staves of shittim wood, and overlaid them with gold.
 37:29 And he made the holy anointing oil, and the pure incense of sweet spices, according to the work of the apothecary.
-<span id="38<?= $book ?>"></span>38:1 And he made the altar of burnt offering of shittim wood: five cubits was the length thereof, and five cubits the breadth thereof; it was foursquare; and three cubits the height thereof.
+<span id="<?php echo $chapterprefix; ?>38"></span>38:1 And he made the altar of burnt offering of shittim wood: five cubits was the length thereof, and five cubits the breadth thereof; it was foursquare; and three cubits the height thereof.
 38:2 And he made the horns thereof on the four corners of it; the horns thereof were of the same: and he overlaid it with brass.
 38:3 And he made all the vessels of the altar, the pots, and the shovels, and the basons, and the fleshhooks, and the firepans: all the vessels thereof made he of brass.
 38:4 And he made for the altar a brasen grate of network under the compass thereof beneath unto the midst of it.
@@ -952,7 +951,7 @@ And Moses told the words of the people unto the LORD.
 38:28 And of the thousand seven hundred seventy and five shekels he made hooks for the pillars, and overlaid their chapiters, and filleted them.
 38:29 And the brass of the offering was seventy talents, and two thousand and four hundred shekels.
 38:30 And therewith he made the sockets to the door of the tabernacle of the congregation, and the brasen altar, and the brasen grate for it, and all the vessels of the altar, 38:31 And the sockets of the court round about, and the sockets of the court gate, and all the pins of the tabernacle, and all the pins of the court round about.
-<span id="39<?= $book ?>"></span>39:1 And of the blue, and purple, and scarlet, they made cloths of service, to do service in the holy place, and made the holy garments for Aaron; as the LORD commanded Moses.
+<span id="<?php echo $chapterprefix; ?>39"></span>39:1 And of the blue, and purple, and scarlet, they made cloths of service, to do service in the holy place, and made the holy garments for Aaron; as the LORD commanded Moses.
 39:2 And he made the ephod of gold, blue, and purple, and scarlet, and fine twined linen.
 39:3 And they did beat the gold into thin plates, and cut it into wires, to work it in the blue, and in the purple, and in the scarlet, and in the fine linen, with cunning work.
 39:4 They made shoulderpieces for it, to couple it together: by the two edges was it coupled together.
@@ -984,7 +983,7 @@ And Moses told the words of the people unto the LORD.
 39:33 And they brought the tabernacle unto Moses, the tent, and all his furniture, his taches, his boards, his bars, and his pillars, and his sockets, 39:34 And the covering of rams' skins dyed red, and the covering of badgers' skins, and the vail of the covering, 39:35 The ark of the testimony, and the staves thereof, and the mercy seat, 39:36 The table, and all the vessels thereof, and the shewbread, 39:37 The pure candlestick, with the lamps thereof, even with the lamps to be set in order, and all the vessels thereof, and the oil for light, 39:38 And the golden altar, and the anointing oil, and the sweet incense, and the hanging for the tabernacle door, 39:39 The brasen altar, and his grate of brass, his staves, and all his vessels, the laver and his foot, 39:40 The hangings of the court, his pillars, and his sockets, and the hanging for the court gate, his cords, and his pins, and all the vessels of the service of the tabernacle, for the tent of the congregation, 39:41 The cloths of service to do service in the holy place, and the holy garments for Aaron the priest, and his sons' garments, to minister in the priest's office.
 39:42 According to all that the LORD commanded Moses, so the children of Israel made all the work.
 39:43 And Moses did look upon all the work, and, behold, they had done it as the LORD had commanded, even so had they done it: and Moses blessed them.
-<span id="40<?= $book ?>"></span>40:1 And the LORD spake unto Moses, saying, 40:2 On the first day of the first month shalt thou set up the tabernacle of the tent of the congregation.
+<span id="<?php echo $chapterprefix; ?>40"></span>40:1 And the LORD spake unto Moses, saying, 40:2 On the first day of the first month shalt thou set up the tabernacle of the tent of the congregation.
 40:3 And thou shalt put therein the ark of the testimony, and cover the ark with the vail.
 40:4 And thou shalt bring in the table, and set in order the things that are to be set in order upon it; and thou shalt bring in the candlestick, and light the lamps thereof.
 40:5 And thou shalt set the altar of gold for the incense before the ark of the testimony, and put the hanging of the door to the tabernacle.
@@ -1016,8 +1015,4 @@ And Moses told the words of the people unto the LORD.
 40:35 And Moses was not able to enter into the tent of the congregation, because the cloud abode thereon, and the glory of the LORD filled the tabernacle.
 40:36 And when the cloud was taken up from over the tabernacle, the children of Israel went onward in all their journeys: 40:37 But if the cloud were not taken up, then they journeyed not till the day that it was taken up.
 40:38 For the cloud of the LORD was upon the tabernacle by day, and fire was on it by night, in the sight of all the house of Israel, throughout all their journeys.
-<?php
-if (!isset($include)) {
- include ('aa-end.php');
-}
-?>
+<?php if (!isset($collection)) {include 'bookfoot.php';} ?>

@@ -13,9 +13,6 @@ $browserconfig = $path.$add.'browserconfig.xml';
 $style = $path.$add.'style.css';
 $crumbs = '<div class="crumbs">
 <a href="https://with.llc/bible">King James Authorized Version 1611</a>
-<a class="sub" href="commandments">Commandments</a>
-<a class="sub" href="help">Help</a>
-<a class="sub" href="stories">Stories</a>
 </div>';
 $addedcrumbs = $crumbs;
 

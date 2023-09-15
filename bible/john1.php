@@ -1,11 +1,10 @@
 <?php
 $title = '1 John';
 $description = 'The First Epistle General of John';
-if (!isset($include)) {
- include ('aa-beginning.php');
-}
+if (isset($collection)) {$chapterprefix = 'firstjohn';}
+if (!isset($collection)) {include 'bookhead.php';}
 ?>
-<span id="1<?= $book ?>"></span><h2 id="john1">The First Epistle General of John</h2><!--2t23b-->
+<span id="<?php echo $chapterprefix; ?>1"></span><h3 id="john1">The First Epistle General of John</h3><!--2t23b-->
 1:1 That which was from the beginning, which we have heard, which we have seen with our eyes, which we have looked upon, and our hands have handled, of the Word of life; 1:2 (For the life was manifested, and we have seen it, and bear witness, and shew unto you that eternal life, which was with the Father, and was manifested unto us;) 1:3 That which we have seen and heard declare we unto you, that ye also may have fellowship with us: and truly our fellowship is with the Father, and with his Son Jesus Christ.
 1:4 And these things write we unto you, that your joy may be full.
 1:5 This then is the message which we have heard of him, and declare unto you, that God is light, and in him is no darkness at all.
@@ -13,7 +12,7 @@ if (!isset($include)) {
 1:8 If we say that we have no sin, we deceive ourselves, and the truth is not in us.
 1:9 If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness.
 1:10 If we say that we have not sinned, we make him a liar, and his word is not in us.
-<span id="2<?= $book ?>"></span>2:1 My little children, these things write I unto you, that ye sin not.
+<span id="<?php echo $chapterprefix; ?>2"></span>2:1 My little children, these things write I unto you, that ye sin not.
 And if any man sin, we have an advocate with the Father, Jesus Christ the righteous: 2:2 And he is the propitiation for our sins: and not for ours only, but also for the sins of the whole world.
 2:3 And hereby we do know that we know him, if we keep his commandments.
 2:4 He that saith, I know him, and keepeth not his commandments, is a liar, and the truth is not in him.
@@ -42,7 +41,7 @@ And if any man sin, we have an advocate with the Father, Jesus Christ the righte
 2:27 But the anointing which ye have received of him abideth in you, and ye need not that any man teach you: but as the same anointing teacheth you of all things, and is truth, and is no lie, and even as it hath taught you, ye shall abide in him.
 2:28 And now, little children, abide in him; that, when he shall appear, we may have confidence, and not be ashamed before him at his coming.
 2:29 If ye know that he is righteous, ye know that every one that doeth righteousness is born of him.
-<span id="3<?= $book ?>"></span>3:1 Behold, what manner of love the Father hath bestowed upon us, that we should be called the sons of God: therefore the world knoweth us not, because it knew him not.
+<span id="<?php echo $chapterprefix; ?>3"></span>3:1 Behold, what manner of love the Father hath bestowed upon us, that we should be called the sons of God: therefore the world knoweth us not, because it knew him not.
 3:2 Beloved, now are we the sons of God, and it doth not yet appear what we shall be: but we know that, when he shall appear, we shall be like him; for we shall see him as he is.
 3:3 And every man that hath this hope in him purifieth himself, even as he is pure.
 3:4 Whosoever committeth sin transgresseth also the law: for sin is the transgression of the law.
@@ -66,7 +65,7 @@ And if any man sin, we have an advocate with the Father, Jesus Christ the righte
 3:23 And this is his commandment, That we should believe on the name of his Son Jesus Christ, and love one another, as he gave us commandment.
 3:24 And he that keepeth his commandments dwelleth in him, and he in him.
 And hereby we know that he abideth in us, by the Spirit which he hath given us.
-<span id="4<?= $book ?>"></span>4:1 Beloved, believe not every spirit, but try the spirits whether they are of God: because many false prophets are gone out into the world.
+<span id="<?php echo $chapterprefix; ?>4"></span>4:1 Beloved, believe not every spirit, but try the spirits whether they are of God: because many false prophets are gone out into the world.
 4:2 Hereby know ye the Spirit of God: Every spirit that confesseth that Jesus Christ is come in the flesh is of God: 4:3 And every spirit that confesseth not that Jesus Christ is come in the flesh is not of God: and this is that spirit of antichrist, whereof ye have heard that it should come; and even now already is it in the world.
 4:4 Ye are of God, little children, and have overcome them: because greater is he that is in you, than he that is in the world.
 4:5 They are of the world: therefore speak they of the world, and the world heareth them.
@@ -85,7 +84,7 @@ And hereby we know that he abideth in us, by the Spirit which he hath given us.
 4:18 There is no fear in love; but perfect love casteth out fear: because fear hath torment. He that feareth is not made perfect in love.
 4:19 We love him, because he first loved us.
 4:20 If a man say, I love God, and hateth his brother, he is a liar: for he that loveth not his brother whom he hath seen, how can he love God whom he hath not seen? 4:21 And this commandment have we from him, That he who loveth God love his brother also.
-<span id="5<?= $book ?>"></span>5:1 Whosoever believeth that Jesus is the Christ is born of God: and every one that loveth him that begat loveth him also that is begotten of him.
+<span id="<?php echo $chapterprefix; ?>5"></span>5:1 Whosoever believeth that Jesus is the Christ is born of God: and every one that loveth him that begat loveth him also that is begotten of him.
 5:2 By this we know that we love the children of God, when we love God, and keep his commandments.
 5:3 For this is the love of God, that we keep his commandments: and his commandments are not grievous.
 5:4 For whatsoever is born of God overcometh the world: and this is the victory that overcometh the world, even our faith.
@@ -104,8 +103,4 @@ And hereby we know that he abideth in us, by the Spirit which he hath given us.
 5:19 And we know that we are of God, and the whole world lieth in wickedness.
 5:20 And we know that the Son of God is come, and hath given us an understanding, that we may know him that is true, and we are in him that is true, even in his Son Jesus Christ. This is the true God, and eternal life.
 5:21 Little children, keep yourselves from idols. Amen.
-<?php
-if (!isset($include)) {
- include ('aa-end.php');
-}
-?>
+<?php if (!isset($collection)) {include 'bookfoot.php';} ?>

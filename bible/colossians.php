@@ -1,18 +1,17 @@
 <?php
 $title = 'Colossians';
 $description = 'The Epistle of Paul the Apostle to the Colossians';
-if (!isset($include)) {
- include ('aa-beginning.php');
-}
+if (isset($collection)) {$chapterprefix = 'colossians';}
+if (!isset($collection)) {include 'bookhead.php';}
 ?>
-<span id="1<?= $book ?>"></span><h2 id="colossians">The Epistle of Paul the Apostle to the Colossians</h2><!--2t12b-->
+<span id="<?php echo $chapterprefix; ?>1"></span><h3 id="colossians">The Epistle of Paul the Apostle to the Colossians</h3><!--2t12b-->
 1:1 Paul, an apostle of Jesus Christ by the will of God, and Timotheus our brother, 1:2 To the saints and faithful brethren in Christ which are at Colosse: Grace be unto you, and peace, from God our Father and the Lord Jesus Christ.
 1:3 We give thanks to God and the Father of our Lord Jesus Christ, praying always for you, 1:4 Since we heard of your faith in Christ Jesus, and of the love which ye have to all the saints, 1:5 For the hope which is laid up for you in heaven, whereof ye heard before in the word of the truth of the gospel; 1:6 Which is come unto you, as it is in all the world; and bringeth forth fruit, as it doth also in you, since the day ye heard of it, and knew the grace of God in truth: 1:7 As ye also learned of Epaphras our dear fellowservant, who is for you a faithful minister of Christ; 1:8 Who also declared unto us your love in the Spirit.
 1:9 For this cause we also, since the day we heard it, do not cease to pray for you, and to desire that ye might be filled with the knowledge of his will in all wisdom and spiritual understanding; 1:10 That ye might walk worthy of the Lord unto all pleasing, being fruitful in every good work, and increasing in the knowledge of God; 1:11 Strengthened with all might, according to his glorious power, unto all patience and longsuffering with joyfulness; 1:12 Giving thanks unto the Father, which hath made us meet to be partakers of the inheritance of the saints in light: 1:13 Who hath delivered us from the power of darkness, and hath translated us into the kingdom of his dear Son: 1:14 In whom we have redemption through his blood, even the forgiveness of sins: 1:15 Who is the image of the invisible God, the firstborn of every creature: 1:16 For by him were all things created, that are in heaven, and that are in earth, visible and invisible, whether they be thrones, or dominions, or principalities, or powers: all things were created by him, and for him: 1:17 And he is before all things, and by him all things consist.
 1:18 And he is the head of the body, the church: who is the beginning, the firstborn from the dead; that in all things he might have the preeminence.
 1:19 For it pleased the Father that in him should all fulness dwell; 1:20 And, having made peace through the blood of his cross, by him to reconcile all things unto himself; by him, I say, whether they be things in earth, or things in heaven.
 1:21 And you, that were sometime alienated and enemies in your mind by wicked works, yet now hath he reconciled 1:22 In the body of his flesh through death, to present you holy and unblameable and unreproveable in his sight: 1:23 If ye continue in the faith grounded and settled, and be not moved away from the hope of the gospel, which ye have heard, and which was preached to every creature which is under heaven; whereof I Paul am made a minister; 1:24 Who now rejoice in my sufferings for you, and fill up that which is behind of the afflictions of Christ in my flesh for his body's sake, which is the church: 1:25 Whereof I am made a minister, according to the dispensation of God which is given to me for you, to fulfil the word of God; 1:26 Even the mystery which hath been hid from ages and from generations, but now is made manifest to his saints: 1:27 To whom God would make known what is the riches of the glory of this mystery among the Gentiles; which is Christ in you, the hope of glory: 1:28 Whom we preach, warning every man, and teaching every man in all wisdom; that we may present every man perfect in Christ Jesus: 1:29 Whereunto I also labour, striving according to his working, which worketh in me mightily.
-<span id="2<?= $book ?>"></span>2:1 For I would that ye knew what great conflict I have for you, and for them at Laodicea, and for as many as have not seen my face in the flesh; 2:2 That their hearts might be comforted, being knit together in love, and unto all riches of the full assurance of understanding, to the acknowledgement of the mystery of God, and of the Father, and of Christ; 2:3 In whom are hid all the treasures of wisdom and knowledge.
+<span id="<?php echo $chapterprefix; ?>2"></span>2:1 For I would that ye knew what great conflict I have for you, and for them at Laodicea, and for as many as have not seen my face in the flesh; 2:2 That their hearts might be comforted, being knit together in love, and unto all riches of the full assurance of understanding, to the acknowledgement of the mystery of God, and of the Father, and of Christ; 2:3 In whom are hid all the treasures of wisdom and knowledge.
 2:4 And this I say, lest any man should beguile you with enticing words.
 2:5 For though I be absent in the flesh, yet am I with you in the spirit, joying and beholding your order, and the stedfastness of your faith in Christ.
 2:6 As ye have therefore received Christ Jesus the Lord, so walk ye in him: 2:7 Rooted and built up in him, and stablished in the faith, as ye have been taught, abounding therein with thanksgiving.
@@ -23,7 +22,7 @@ if (!isset($include)) {
 2:16 Let no man therefore judge you in meat, or in drink, or in respect of an holyday, or of the new moon, or of the sabbath days: 2:17 Which are a shadow of things to come; but the body is of Christ.
 2:18 Let no man beguile you of your reward in a voluntary humility and worshipping of angels, intruding into those things which he hath not seen, vainly puffed up by his fleshly mind, 2:19 And not holding the Head, from which all the body by joints and bands having nourishment ministered, and knit together, increaseth with the increase of God.
 2:20 Wherefore if ye be dead with Christ from the rudiments of the world, why, as though living in the world, are ye subject to ordinances, 2:21 (Touch not; taste not; handle not; 2:22 Which all are to perish with the using;) after the commandments and doctrines of men? 2:23 Which things have indeed a shew of wisdom in will worship, and humility, and neglecting of the body: not in any honour to the satisfying of the flesh.
-<span id="3<?= $book ?>"></span>3:1 If ye then be risen with Christ, seek those things which are above, where Christ sitteth on the right hand of God.
+<span id="<?php echo $chapterprefix; ?>3"></span>3:1 If ye then be risen with Christ, seek those things which are above, where Christ sitteth on the right hand of God.
 3:2 Set your affection on things above, not on things on the earth.
 3:3 For ye are dead, and your life is hid with Christ in God.
 3:4 When Christ, who is our life, shall appear, then shall ye also appear with him in glory.
@@ -41,7 +40,7 @@ if (!isset($include)) {
 3:21 Fathers, provoke not your children to anger, lest they be discouraged.
 3:22 Servants, obey in all things your masters according to the flesh; not with eyeservice, as menpleasers; but in singleness of heart, fearing God; 3:23 And whatsoever ye do, do it heartily, as to the Lord, and not unto men; 3:24 Knowing that of the Lord ye shall receive the reward of the inheritance: for ye serve the Lord Christ.
 3:25 But he that doeth wrong shall receive for the wrong which he hath done: and there is no respect of persons.
-<span id="4<?= $book ?>"></span>4:1 Masters, give unto your servants that which is just and equal; knowing that ye also have a Master in heaven.
+<span id="<?php echo $chapterprefix; ?>4"></span>4:1 Masters, give unto your servants that which is just and equal; knowing that ye also have a Master in heaven.
 4:2 Continue in prayer, and watch in the same with thanksgiving; 4:3 Withal praying also for us, that God would open unto us a door of utterance, to speak the mystery of Christ, for which I am also in bonds: 4:4 That I may make it manifest, as I ought to speak.
 4:5 Walk in wisdom toward them that are without, redeeming the time.
 4:6 Let your speech be alway with grace, seasoned with salt, that ye may know how ye ought to answer every man.
@@ -54,8 +53,4 @@ if (!isset($include)) {
 4:16 And when this epistle is read among you, cause that it be read also in the church of the Laodiceans; and that ye likewise read the epistle from Laodicea.
 4:17 And say to Archippus, Take heed to the ministry which thou hast received in the Lord, that thou fulfil it.
 4:18 The salutation by the hand of me Paul. Remember my bonds. Grace be with you. Amen.
-<?php
-if (!isset($include)) {
- include ('aa-end.php');
-}
-?>
+<?php if (!isset($collection)) {include 'bookfoot.php';} ?>

@@ -1,11 +1,10 @@
 <?php
 $title = 'Proverbs';
 $description = 'The Proverbs';
-if (!isset($include)) {
- include ('aa-beginning.php');
-}
+if (isset($collection)) {$chapterprefix = 'proverbs';}
+if (!isset($collection)) {include 'bookhead.php';}
 ?>
-<span id="1<?= $book ?>"></span><h2 id="proverbs">The Proverbs</h2><!--1t20b-->
+<span id="<?php echo $chapterprefix; ?>1"></span><h3 id="proverbs">The Proverbs</h3><!--1t20b-->
 1:1 The proverbs of Solomon the son of David, king of Israel; 1:2 To know wisdom and instruction; to perceive the words of understanding; 1:3 To receive the instruction of wisdom, justice, and judgment, and equity; 1:4 To give subtilty to the simple, to the young man knowledge and discretion.
 1:5 A wise man will hear, and will increase learning; and a man of understanding shall attain unto wise counsels: 1:6 To understand a proverb, and the interpretation; the words of the wise, and their dark sayings.
 1:7 The fear of the LORD is the beginning of knowledge: but fools despise wisdom and instruction.
@@ -21,7 +20,7 @@ if (!isset($include)) {
 1:31 Therefore shall they eat of the fruit of their own way, and be filled with their own devices.
 1:32 For the turning away of the simple shall slay them, and the prosperity of fools shall destroy them.
 1:33 But whoso hearkeneth unto me shall dwell safely, and shall be quiet from fear of evil.
-<span id="2<?= $book ?>"></span>2:1 My son, if thou wilt receive my words, and hide my commandments with thee; 2:2 So that thou incline thine ear unto wisdom, and apply thine heart to understanding; 2:3 Yea, if thou criest after knowledge, and liftest up thy voice for understanding; 2:4 If thou seekest her as silver, and searchest for her as for hid treasures; 2:5 Then shalt thou understand the fear of the LORD, and find the knowledge of God.
+<span id="<?php echo $chapterprefix; ?>2"></span>2:1 My son, if thou wilt receive my words, and hide my commandments with thee; 2:2 So that thou incline thine ear unto wisdom, and apply thine heart to understanding; 2:3 Yea, if thou criest after knowledge, and liftest up thy voice for understanding; 2:4 If thou seekest her as silver, and searchest for her as for hid treasures; 2:5 Then shalt thou understand the fear of the LORD, and find the knowledge of God.
 2:6 For the LORD giveth wisdom: out of his mouth cometh knowledge and understanding.
 2:7 He layeth up sound wisdom for the righteous: he is a buckler to them that walk uprightly.
 2:8 He keepeth the paths of judgment, and preserveth the way of his saints.
@@ -32,7 +31,7 @@ if (!isset($include)) {
 2:20 That thou mayest walk in the way of good men, and keep the paths of the righteous.
 2:21 For the upright shall dwell in the land, and the perfect shall remain in it.
 2:22 But the wicked shall be cut off from the earth, and the transgressors shall be rooted out of it.
-<span id="3<?= $book ?>"></span>3:1 My son, forget not my law; but let thine heart keep my commandments: 3:2 For length of days, and long life, and peace, shall they add to thee.
+<span id="<?php echo $chapterprefix; ?>3"></span>3:1 My son, forget not my law; but let thine heart keep my commandments: 3:2 For length of days, and long life, and peace, shall they add to thee.
 3:3 Let not mercy and truth forsake thee: bind them about thy neck; write them upon the table of thine heart: 3:4 So shalt thou find favour and good understanding in the sight of God and man.
 3:5 Trust in the LORD with all thine heart; and lean not unto thine own understanding.
 3:6 In all thy ways acknowledge him, and he shall direct thy paths.
@@ -62,7 +61,7 @@ if (!isset($include)) {
 3:33 The curse of the LORD is in the house of the wicked: but he blesseth the habitation of the just.
 3:34 Surely he scorneth the scorners: but he giveth grace unto the lowly.
 3:35 The wise shall inherit glory: but shame shall be the promotion of fools.
-<span id="4<?= $book ?>"></span>4:1 Hear, ye children, the instruction of a father, and attend to know understanding.
+<span id="<?php echo $chapterprefix; ?>4"></span>4:1 Hear, ye children, the instruction of a father, and attend to know understanding.
 4:2 For I give you good doctrine, forsake ye not my law.
 4:3 For I was my father's son, tender and only beloved in the sight of my mother.
 4:4 He taught me also, and said unto me, Let thine heart retain my words: keep my commandments, and live.
@@ -89,7 +88,7 @@ if (!isset($include)) {
 4:25 Let thine eyes look right on, and let thine eyelids look straight before thee.
 4:26 Ponder the path of thy feet, and let all thy ways be established.
 4:27 Turn not to the right hand nor to the left: remove thy foot from evil.
-<span id="5<?= $book ?>"></span>5:1 My son, attend unto my wisdom, and bow thine ear to my understanding: 5:2 That thou mayest regard discretion, and that thy lips may keep knowledge.
+<span id="<?php echo $chapterprefix; ?>5"></span>5:1 My son, attend unto my wisdom, and bow thine ear to my understanding: 5:2 That thou mayest regard discretion, and that thy lips may keep knowledge.
 5:3 For the lips of a strange woman drop as an honeycomb, and her mouth is smoother than oil: 5:4 But her end is bitter as wormwood, sharp as a two-edged sword.
 5:5 Her feet go down to death; her steps take hold on hell.
 5:6 Lest thou shouldest ponder the path of life, her ways are moveable, that thou canst not know them.
@@ -103,7 +102,7 @@ if (!isset($include)) {
 5:20 And why wilt thou, my son, be ravished with a strange woman, and embrace the bosom of a stranger? 5:21 For the ways of man are before the eyes of the LORD, and he pondereth all his goings.
 5:22 His own iniquities shall take the wicked himself, and he shall be holden with the cords of his sins.
 5:23 He shall die without instruction; and in the greatness of his folly he shall go astray.
-<span id="6<?= $book ?>"></span>6:1 My son, if thou be surety for thy friend, if thou hast stricken thy hand with a stranger, 6:2 Thou art snared with the words of thy mouth, thou art taken with the words of thy mouth.
+<span id="<?php echo $chapterprefix; ?>6"></span>6:1 My son, if thou be surety for thy friend, if thou hast stricken thy hand with a stranger, 6:2 Thou art snared with the words of thy mouth, thou art taken with the words of thy mouth.
 6:3 Do this now, my son, and deliver thyself, when thou art come into the hand of thy friend; go, humble thyself, and make sure thy friend.
 6:4 Give not sleep to thine eyes, nor slumber to thine eyelids.
 6:5 Deliver thyself as a roe from the hand of the hunter, and as a bird from the hand of the fowler.
@@ -124,7 +123,7 @@ if (!isset($include)) {
 6:33 A wound and dishonour shall he get; and his reproach shall not be wiped away.
 6:34 For jealousy is the rage of a man: therefore he will not spare in the day of vengeance.
 6:35 He will not regard any ransom; neither will he rest content, though thou givest many gifts.
-<span id="7<?= $book ?>"></span>7:1 My son, keep my words, and lay up my commandments with thee.
+<span id="<?php echo $chapterprefix; ?>7"></span>7:1 My son, keep my words, and lay up my commandments with thee.
 7:2 Keep my commandments, and live; and my law as the apple of thine eye.
 7:3 Bind them upon thy fingers, write them upon the table of thine heart.
 7:4 Say unto wisdom, Thou art my sister; and call understanding thy kinswoman: 7:5 That they may keep thee from the strange woman, from the stranger which flattereth with her words.
@@ -141,7 +140,7 @@ if (!isset($include)) {
 7:25 Let not thine heart decline to her ways, go not astray in her paths.
 7:26 For she hath cast down many wounded: yea, many strong men have been slain by her.
 7:27 Her house is the way to hell, going down to the chambers of death.
-<span id="8<?= $book ?>"></span>8:1 Doth not wisdom cry? and understanding put forth her voice? 8:2 She standeth in the top of high places, by the way in the places of the paths.
+<span id="<?php echo $chapterprefix; ?>8"></span>8:1 Doth not wisdom cry? and understanding put forth her voice? 8:2 She standeth in the top of high places, by the way in the places of the paths.
 8:3 She crieth at the gates, at the entry of the city, at the coming in at the doors.
 8:4 Unto you, O men, I call; and my voice is to the sons of man.
 8:5 O ye simple, understand wisdom: and, ye fools, be ye of an understanding heart.
@@ -170,7 +169,7 @@ if (!isset($include)) {
 8:34 Blessed is the man that heareth me, watching daily at my gates, waiting at the posts of my doors.
 8:35 For whoso findeth me findeth life, and shall obtain favour of the LORD.
 8:36 But he that sinneth against me wrongeth his own soul: all they that hate me love death.
-<span id="9<?= $book ?>"></span>9:1 Wisdom hath builded her house, she hath hewn out her seven pillars: 9:2 She hath killed her beasts; she hath mingled her wine; she hath also furnished her table.
+<span id="<?php echo $chapterprefix; ?>9"></span>9:1 Wisdom hath builded her house, she hath hewn out her seven pillars: 9:2 She hath killed her beasts; she hath mingled her wine; she hath also furnished her table.
 9:3 She hath sent forth her maidens: she crieth upon the highest places of the city, 9:4 Whoso is simple, let him turn in hither: as for him that wanteth understanding, she saith to him, 9:5 Come, eat of my bread, and drink of the wine which I have mingled.
 9:6 Forsake the foolish, and live; and go in the way of understanding.
 9:7 He that reproveth a scorner getteth to himself shame: and he that rebuketh a wicked man getteth himself a blot.
@@ -182,7 +181,7 @@ if (!isset($include)) {
 9:13 A foolish woman is clamorous: she is simple, and knoweth nothing.
 9:14 For she sitteth at the door of her house, on a seat in the high places of the city, 9:15 To call passengers who go right on their ways: 9:16 Whoso is simple, let him turn in hither: and as for him that wanteth understanding, she saith to him, 9:17 Stolen waters are sweet, and bread eaten in secret is pleasant.
 9:18 But he knoweth not that the dead are there; and that her guests are in the depths of hell.
-<span id="10<?= $book ?>"></span>10:1 The proverbs of Solomon. A wise son maketh a glad father: but a foolish son is the heaviness of his mother.
+<span id="<?php echo $chapterprefix; ?>10"></span>10:1 The proverbs of Solomon. A wise son maketh a glad father: but a foolish son is the heaviness of his mother.
 10:2 Treasures of wickedness profit nothing: but righteousness delivereth from death.
 10:3 The LORD will not suffer the soul of the righteous to famish: but he casteth away the substance of the wicked.
 10:4 He becometh poor that dealeth with a slack hand: but the hand of the diligent maketh rich.
@@ -214,7 +213,7 @@ if (!isset($include)) {
 10:30 The righteous shall never be removed: but the wicked shall not inhabit the earth.
 10:31 The mouth of the just bringeth forth wisdom: but the froward tongue shall be cut out.
 10:32 The lips of the righteous know what is acceptable: but the mouth of the wicked speaketh frowardness.
-<span id="11<?= $book ?>"></span>11:1 A false balance is abomination to the LORD: but a just weight is his delight.
+<span id="<?php echo $chapterprefix; ?>11"></span>11:1 A false balance is abomination to the LORD: but a just weight is his delight.
 11:2 When pride cometh, then cometh shame: but with the lowly is wisdom.
 11:3 The integrity of the upright shall guide them: but the perverseness of transgressors shall destroy them.
 11:4 Riches profit not in the day of wrath: but righteousness delivereth from death.
@@ -245,7 +244,7 @@ if (!isset($include)) {
 11:29 He that troubleth his own house shall inherit the wind: and the fool shall be servant to the wise of heart.
 11:30 The fruit of the righteous is a tree of life; and he that winneth souls is wise.
 11:31 Behold, the righteous shall be recompensed in the earth: much more the wicked and the sinner.
-<span id="12<?= $book ?>"></span>12:1 Whoso loveth instruction loveth knowledge: but he that hateth reproof is brutish.
+<span id="<?php echo $chapterprefix; ?>12"></span>12:1 Whoso loveth instruction loveth knowledge: but he that hateth reproof is brutish.
 12:2 A good man obtaineth favour of the LORD: but a man of wicked devices will he condemn.
 12:3 A man shall not be established by wickedness: but the root of the righteous shall not be moved.
 12:4 A virtuous woman is a crown to her husband: but she that maketh ashamed is as rottenness in his bones.
@@ -273,7 +272,7 @@ if (!isset($include)) {
 12:26 The righteous is more excellent than his neighbour: but the way of the wicked seduceth them.
 12:27 The slothful man roasteth not that which he took in hunting: but the substance of a diligent man is precious.
 12:28 In the way of righteousness is life: and in the pathway thereof there is no death.
-<span id="13<?= $book ?>"></span>13:1 A wise son heareth his father's instruction: but a scorner heareth not rebuke.
+<span id="<?php echo $chapterprefix; ?>13"></span>13:1 A wise son heareth his father's instruction: but a scorner heareth not rebuke.
 13:2 A man shall eat good by the fruit of his mouth: but the soul of the transgressors shall eat violence.
 13:3 He that keepeth his mouth keepeth his life: but he that openeth wide his lips shall have destruction.
 13:4 The soul of the sluggard desireth, and hath nothing: but the soul of the diligent shall be made fat.
@@ -298,7 +297,7 @@ if (!isset($include)) {
 13:23 Much food is in the tillage of the poor: but there is that is destroyed for want of judgment.
 13:24 He that spareth his rod hateth his son: but he that loveth him chasteneth him betimes.
 13:25 The righteous eateth to the satisfying of his soul: but the belly of the wicked shall want.
-<span id="14<?= $book ?>"></span>14:1 Every wise woman buildeth her house: but the foolish plucketh it down with her hands.
+<span id="<?php echo $chapterprefix; ?>14"></span>14:1 Every wise woman buildeth her house: but the foolish plucketh it down with her hands.
 14:2 He that walketh in his uprightness feareth the LORD: but he that is perverse in his ways despiseth him.
 14:3 In the mouth of the foolish is a rod of pride: but the lips of the wise shall preserve them.
 14:4 Where no oxen are, the crib is clean: but much increase is by the strength of the ox.
@@ -333,7 +332,7 @@ if (!isset($include)) {
 14:33 Wisdom resteth in the heart of him that hath understanding: but that which is in the midst of fools is made known.
 14:34 Righteousness exalteth a nation: but sin is a reproach to any people.
 14:35 The king's favour is toward a wise servant: but his wrath is against him that causeth shame.
-<span id="15<?= $book ?>"></span>15:1 A soft answer turneth away wrath: but grievous words stir up anger.
+<span id="<?php echo $chapterprefix; ?>15"></span>15:1 A soft answer turneth away wrath: but grievous words stir up anger.
 15:2 The tongue of the wise useth knowledge aright: but the mouth of fools poureth out foolishness.
 15:3 The eyes of the LORD are in every place, beholding the evil and the good.
 15:4 A wholesome tongue is a tree of life: but perverseness therein is a breach in the spirit.
@@ -364,7 +363,7 @@ if (!isset($include)) {
 15:31 The ear that heareth the reproof of life abideth among the wise.
 15:32 He that refuseth instruction despiseth his own soul: but he that heareth reproof getteth understanding.
 15:33 The fear of the LORD is the instruction of wisdom; and before honour is humility.
-<span id="16<?= $book ?>"></span>16:1 The preparations of the heart in man, and the answer of the tongue, is from the LORD.
+<span id="<?php echo $chapterprefix; ?>16"></span>16:1 The preparations of the heart in man, and the answer of the tongue, is from the LORD.
 16:2 All the ways of a man are clean in his own eyes; but the LORD weigheth the spirits.
 16:3 Commit thy works unto the LORD, and thy thoughts shall be established.
 16:4 The LORD hath made all things for himself: yea, even the wicked for the day of evil.
@@ -396,7 +395,7 @@ if (!isset($include)) {
 16:31 The hoary head is a crown of glory, if it be found in the way of righteousness.
 16:32 He that is slow to anger is better than the mighty; and he that ruleth his spirit than he that taketh a city.
 16:33 The lot is cast into the lap; but the whole disposing thereof is of the LORD.
-<span id="17<?= $book ?>"></span>17:1 Better is a dry morsel, and quietness therewith, than an house full of sacrifices with strife.
+<span id="<?php echo $chapterprefix; ?>17"></span>17:1 Better is a dry morsel, and quietness therewith, than an house full of sacrifices with strife.
 17:2 A wise servant shall have rule over a son that causeth shame, and shall have part of the inheritance among the brethren.
 17:3 The fining pot is for silver, and the furnace for gold: but the LORD trieth the hearts.
 17:4 A wicked doer giveth heed to false lips; and a liar giveth ear to a naughty tongue.
@@ -423,7 +422,7 @@ if (!isset($include)) {
 17:26 Also to punish the just is not good, nor to strike princes for equity.
 17:27 He that hath knowledge spareth his words: and a man of understanding is of an excellent spirit.
 17:28 Even a fool, when he holdeth his peace, is counted wise: and he that shutteth his lips is esteemed a man of understanding.
-<span id="18<?= $book ?>"></span>18:1 Through desire a man, having separated himself, seeketh and intermeddleth with all wisdom.
+<span id="<?php echo $chapterprefix; ?>18"></span>18:1 Through desire a man, having separated himself, seeketh and intermeddleth with all wisdom.
 18:2 A fool hath no delight in understanding, but that his heart may discover itself.
 18:3 When the wicked cometh, then cometh also contempt, and with ignominy reproach.
 18:4 The words of a man's mouth are as deep waters, and the wellspring of wisdom as a flowing brook.
@@ -446,7 +445,7 @@ if (!isset($include)) {
 18:22 Whoso findeth a wife findeth a good thing, and obtaineth favour of the LORD.
 18:23 The poor useth intreaties; but the rich answereth roughly.
 18:24 A man that hath friends must shew himself friendly: and there is a friend that sticketh closer than a brother.
-<span id="19<?= $book ?>"></span>19:1 Better is the poor that walketh in his integrity, than he that is perverse in his lips, and is a fool.
+<span id="<?php echo $chapterprefix; ?>19"></span>19:1 Better is the poor that walketh in his integrity, than he that is perverse in his lips, and is a fool.
 19:2 Also, that the soul be without knowledge, it is not good; and he that hasteth with his feet sinneth.
 19:3 The foolishness of man perverteth his way: and his heart fretteth against the LORD.
 19:4 Wealth maketh many friends; but the poor is separated from his neighbour.
@@ -475,7 +474,7 @@ if (!isset($include)) {
 19:27 Cease, my son, to hear the instruction that causeth to err from the words of knowledge.
 19:28 An ungodly witness scorneth judgment: and the mouth of the wicked devoureth iniquity.
 19:29 Judgments are prepared for scorners, and stripes for the back of fools.
-<span id="20<?= $book ?>"></span>20:1 Wine is a mocker, strong drink is raging: and whosoever is deceived thereby is not wise.
+<span id="<?php echo $chapterprefix; ?>20"></span>20:1 Wine is a mocker, strong drink is raging: and whosoever is deceived thereby is not wise.
 20:2 The fear of a king is as the roaring of a lion: whoso provoketh him to anger sinneth against his own soul.
 20:3 It is an honour for a man to cease from strife: but every fool will be meddling.
 20:4 The sluggard will not plow by reason of the cold; therefore shall he beg in harvest, and have nothing.
@@ -502,7 +501,7 @@ if (!isset($include)) {
 20:28 Mercy and truth preserve the king: and his throne is upholden by mercy.
 20:29 The glory of young men is their strength: and the beauty of old men is the grey head.
 20:30 The blueness of a wound cleanseth away evil: so do stripes the inward parts of the belly.
-<span id="21<?= $book ?>"></span>21:1 The king's heart is in the hand of the LORD, as the rivers of water: he turneth it whithersoever he will.
+<span id="<?php echo $chapterprefix; ?>21"></span>21:1 The king's heart is in the hand of the LORD, as the rivers of water: he turneth it whithersoever he will.
 21:2 Every way of a man is right in his own eyes: but the LORD pondereth the hearts.
 21:3 To do justice and judgment is more acceptable to the LORD than sacrifice.
 21:4 An high look, and a proud heart, and the plowing of the wicked, is sin.
@@ -532,7 +531,7 @@ if (!isset($include)) {
 21:29 A wicked man hardeneth his face: but as for the upright, he directeth his way.
 21:30 There is no wisdom nor understanding nor counsel against the LORD.
 21:31 The horse is prepared against the day of battle: but safety is of the LORD.
-<span id="22<?= $book ?>"></span>22:1 A GOOD name is rather to be chosen than great riches, and loving favour rather than silver and gold.
+<span id="<?php echo $chapterprefix; ?>22"></span>22:1 A GOOD name is rather to be chosen than great riches, and loving favour rather than silver and gold.
 22:2 The rich and poor meet together: the LORD is the maker of them all.
 22:3 A prudent man foreseeth the evil, and hideth himself: but the simple pass on, and are punished.
 22:4 By humility and the fear of the LORD are riches, and honour, and life.
@@ -556,7 +555,7 @@ if (!isset($include)) {
 22:26 Be not thou one of them that strike hands, or of them that are sureties for debts.
 22:27 If thou hast nothing to pay, why should he take away thy bed from under thee? 22:28 Remove not the ancient landmark, which thy fathers have set.
 22:29 Seest thou a man diligent in his business? he shall stand before kings; he shall not stand before mean men.
-<span id="23<?= $book ?>"></span>23:1 When thou sittest to eat with a ruler, consider diligently what is before thee: 23:2 And put a knife to thy throat, if thou be a man given to appetite.
+<span id="<?php echo $chapterprefix; ?>23"></span>23:1 When thou sittest to eat with a ruler, consider diligently what is before thee: 23:2 And put a knife to thy throat, if thou be a man given to appetite.
 23:3 Be not desirous of his dainties: for they are deceitful meat.
 23:4 Labour not to be rich: cease from thine own wisdom.
 23:5 Wilt thou set thine eyes upon that which is not? for riches certainly make themselves wings; they fly away as an eagle toward heaven.
@@ -586,7 +585,7 @@ if (!isset($include)) {
 23:33 Thine eyes shall behold strange women, and thine heart shall utter perverse things.
 23:34 Yea, thou shalt be as he that lieth down in the midst of the sea, or as he that lieth upon the top of a mast.
 23:35 They have stricken me, shalt thou say, and I was not sick; they have beaten me, and I felt it not: when shall I awake? I will seek it yet again.
-<span id="24<?= $book ?>"></span>24:1 Be not thou envious against evil men, neither desire to be with them.
+<span id="<?php echo $chapterprefix; ?>24"></span>24:1 Be not thou envious against evil men, neither desire to be with them.
 24:2 For their heart studieth destruction, and their lips talk of mischief.
 24:3 Through wisdom is an house builded; and by understanding it is established: 24:4 And by knowledge shall the chambers be filled with all precious and pleasant riches.
 24:5 A wise man is strong; yea, a man of knowledge increaseth strength.
@@ -608,7 +607,7 @@ if (!isset($include)) {
 24:30 I went by the field of the slothful, and by the vineyard of the man void of understanding; 24:31 And, lo, it was all grown over with thorns, and nettles had covered the face thereof, and the stone wall thereof was broken down.
 24:32 Then I saw, and considered it well: I looked upon it, and received instruction.
 24:33 Yet a little sleep, a little slumber, a little folding of the hands to sleep: 24:34 So shall thy poverty come as one that travelleth; and thy want as an armed man.
-<span id="25<?= $book ?>"></span>25:1 These are also proverbs of Solomon, which the men of Hezekiah king of Judah copied out.
+<span id="<?php echo $chapterprefix; ?>25"></span>25:1 These are also proverbs of Solomon, which the men of Hezekiah king of Judah copied out.
 25:2 It is the glory of God to conceal a thing: but the honour of kings is to search out a matter.
 25:3 The heaven for height, and the earth for depth, and the heart of kings is unsearchable.
 25:4 Take away the dross from the silver, and there shall come forth a vessel for the finer.
@@ -633,7 +632,7 @@ if (!isset($include)) {
 25:26 A righteous man falling down before the wicked is as a troubled fountain, and a corrupt spring.
 25:27 It is not good to eat much honey: so for men to search their own glory is not glory.
 25:28 He that hath no rule over his own spirit is like a city that is broken down, and without walls.
-<span id="26<?= $book ?>"></span>26:1 As snow in summer, and as rain in harvest, so honour is not seemly for a fool.
+<span id="<?php echo $chapterprefix; ?>26"></span>26:1 As snow in summer, and as rain in harvest, so honour is not seemly for a fool.
 26:2 As the bird by wandering, as the swallow by flying, so the curse causeless shall not come.
 26:3 A whip for the horse, a bridle for the ass, and a rod for the fool's back.
 26:4 Answer not a fool according to his folly, lest thou also be like unto him.
@@ -658,7 +657,7 @@ if (!isset($include)) {
 26:26 Whose hatred is covered by deceit, his wickedness shall be shewed before the whole congregation.
 26:27 Whoso diggeth a pit shall fall therein: and he that rolleth a stone, it will return upon him.
 26:28 A lying tongue hateth those that are afflicted by it; and a flattering mouth worketh ruin.
-<span id="27<?= $book ?>"></span>27:1 Boast not thyself of to morrow; for thou knowest not what a day may bring forth.
+<span id="<?php echo $chapterprefix; ?>27"></span>27:1 Boast not thyself of to morrow; for thou knowest not what a day may bring forth.
 27:2 Let another man praise thee, and not thine own mouth; a stranger, and not thine own lips.
 27:3 A stone is heavy, and the sand weighty; but a fool's wrath is heavier than them both.
 27:4 Wrath is cruel, and anger is outrageous; but who is able to stand before envy? 27:5 Open rebuke is better than secret love.
@@ -683,7 +682,7 @@ if (!isset($include)) {
 27:24 For riches are not for ever: and doth the crown endure to every generation? 27:25 The hay appeareth, and the tender grass sheweth itself, and herbs of the mountains are gathered.
 27:26 The lambs are for thy clothing, and the goats are the price of the field.
 27:27 And thou shalt have goats' milk enough for thy food, for the food of thy household, and for the maintenance for thy maidens.
-<span id="28<?= $book ?>"></span>28:1 The wicked flee when no man pursueth: but the righteous are bold as a lion.
+<span id="<?php echo $chapterprefix; ?>28"></span>28:1 The wicked flee when no man pursueth: but the righteous are bold as a lion.
 28:2 For the transgression of a land many are the princes thereof: but by a man of understanding and knowledge the state thereof shall be prolonged.
 28:3 A poor man that oppresseth the poor is like a sweeping rain which leaveth no food.
 28:4 They that forsake the law praise the wicked: but such as keep the law contend with them.
@@ -711,7 +710,7 @@ if (!isset($include)) {
 28:26 He that trusteth in his own heart is a fool: but whoso walketh wisely, he shall be delivered.
 28:27 He that giveth unto the poor shall not lack: but he that hideth his eyes shall have many a curse.
 28:28 When the wicked rise, men hide themselves: but when they perish, the righteous increase.
-<span id="29<?= $book ?>"></span>29:1 He, that being often reproved hardeneth his neck, shall suddenly be destroyed, and that without remedy.
+<span id="<?php echo $chapterprefix; ?>29"></span>29:1 He, that being often reproved hardeneth his neck, shall suddenly be destroyed, and that without remedy.
 29:2 When the righteous are in authority, the people rejoice: but when the wicked beareth rule, the people mourn.
 29:3 Whoso loveth wisdom rejoiceth his father: but he that keepeth company with harlots spendeth his substance.
 29:4 The king by judgment establisheth the land: but he that receiveth gifts overthroweth it.
@@ -738,7 +737,7 @@ if (!isset($include)) {
 29:25 The fear of man bringeth a snare: but whoso putteth his trust in the LORD shall be safe.
 29:26 Many seek the ruler's favour; but every man's judgment cometh from the LORD.
 29:27 An unjust man is an abomination to the just: and he that is upright in the way is abomination to the wicked.
-<span id="30<?= $book ?>"></span>30:1 The words of Agur the son of Jakeh, even the prophecy: the man spake unto Ithiel, even unto Ithiel and Ucal, 30:2 Surely I am more brutish than any man, and have not the understanding of a man.
+<span id="<?php echo $chapterprefix; ?>30"></span>30:1 The words of Agur the son of Jakeh, even the prophecy: the man spake unto Ithiel, even unto Ithiel and Ucal, 30:2 Surely I am more brutish than any man, and have not the understanding of a man.
 30:3 I neither learned wisdom, nor have the knowledge of the holy.
 30:4 Who hath ascended up into heaven, or descended? who hath gathered the wind in his fists? who hath bound the waters in a garment? who hath established all the ends of the earth? what is his name, and what is his son's name, if thou canst tell? 30:5 Every word of God is pure: he is a shield unto them that put their trust in him.
 30:6 Add thou not unto his words, lest he reprove thee, and thou be found a liar.
@@ -757,7 +756,7 @@ if (!isset($include)) {
 30:29 There be three things which go well, yea, four are comely in going: 30:30 A lion which is strongest among beasts, and turneth not away for any; 30:31 A greyhound; an he goat also; and a king, against whom there is no rising up.
 30:32 If thou hast done foolishly in lifting up thyself, or if thou hast thought evil, lay thine hand upon thy mouth.
 30:33 Surely the churning of milk bringeth forth butter, and the wringing of the nose bringeth forth blood: so the forcing of wrath bringeth forth strife.
-<span id="31<?= $book ?>"></span>31:1 The words of king Lemuel, the prophecy that his mother taught him.
+<span id="<?php echo $chapterprefix; ?>31"></span>31:1 The words of king Lemuel, the prophecy that his mother taught him.
 31:2 What, my son? and what, the son of my womb? and what, the son of my vows? 31:3 Give not thy strength unto women, nor thy ways to that which destroyeth kings.
 31:4 It is not for kings, O Lemuel, it is not for kings to drink wine; nor for princes strong drink: 31:5 Lest they drink, and forget the law, and pervert the judgment of any of the afflicted.
 31:6 Give strong drink unto him that is ready to perish, and wine unto those that be of heavy hearts.
@@ -786,8 +785,4 @@ if (!isset($include)) {
 31:29 Many daughters have done virtuously, but thou excellest them all.
 31:30 Favour is deceitful, and beauty is vain: but a woman that feareth the LORD, she shall be praised.
 31:31 Give her of the fruit of her hands; and let her own works praise her in the gates.
-<?php
-if (!isset($include)) {
- include ('aa-end.php');
-}
-?>
+<?php if (!isset($collection)) {include 'bookfoot.php';} ?>

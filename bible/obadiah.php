@@ -1,11 +1,10 @@
 <?php
 $title = 'Obadiah';
 $description = 'Obadiah';
-if (!isset($include)) {
- include ('aa-beginning.php');
-}
+if (isset($collection)) {$chapterprefix = 'obadiah';}
+if (!isset($collection)) {include 'bookhead.php';}
 ?>
-<span id="1<?= $book ?>"></span><h2 id="obadiah">Obadiah</h2><!--1t31b-->
+<span id="<?php echo $chapterprefix; ?>1"></span><h3 id="obadiah">Obadiah</h3><!--1t31b-->
 1:1 The vision of Obadiah. Thus saith the Lord GOD concerning Edom; We have heard a rumour from the LORD, and an ambassador is sent among the heathen, Arise ye, and let us rise up against her in battle.
 1:2 Behold, I have made thee small among the heathen: thou art greatly despised.
 1:3 The pride of thine heart hath deceived thee, thou that dwellest in the clefts of the rock, whose habitation is high; that saith in his heart, Who shall bring me down to the ground? 1:4 Though thou exalt thyself as the eagle, and though thou set thy nest among the stars, thence will I bring thee down, saith the LORD.
@@ -22,8 +21,4 @@ if (!isset($include)) {
 1:19 And they of the south shall possess the mount of Esau; and they of the plain the Philistines: and they shall possess the fields of Ephraim, and the fields of Samaria: and Benjamin shall possess Gilead.
 1:20 And the captivity of this host of the children of Israel shall possess that of the Canaanites, even unto Zarephath; and the captivity of Jerusalem, which is in Sepharad, shall possess the cities of the south.
 1:21 And saviours shall come up on mount Zion to judge the mount of Esau; and the kingdom shall be the LORD's.
-<?php
-if (!isset($include)) {
- include ('aa-end.php');
-}
-?>
+<?php if (!isset($collection)) {include 'bookfoot.php';} ?>

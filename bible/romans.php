@@ -1,11 +1,10 @@
 <?php
 $title = 'Romans';
 $description = 'The Epistle of Paul the Apostle to the Romans';
-if (!isset($include)) {
- include ('aa-beginning.php');
-}
+if (isset($collection)) {$chapterprefix = 'romans';}
+if (!isset($collection)) {include 'bookhead.php';}
 ?>
-<span id="1<?= $book ?>"></span><h2 id="romans">The Epistle of Paul the Apostle to the Romans</h2><!--2t6b-->
+<span id="<?php echo $chapterprefix; ?>1"></span><h3 id="romans">The Epistle of Paul the Apostle to the Romans</h3><!--2t6b-->
 1:1 Paul, a servant of Jesus Christ, called to be an apostle, separated unto the gospel of God, 1:2 (Which he had promised afore by his prophets in the holy scriptures,) 1:3 Concerning his Son Jesus Christ our Lord, which was made of the seed of David according to the flesh; 1:4 And declared to be the Son of God with power, according to the spirit of holiness, by the resurrection from the dead: 1:5 By whom we have received grace and apostleship, for obedience to the faith among all nations, for his name: 1:6 Among whom are ye also the called of Jesus Christ: 1:7 To all that be in Rome, beloved of God, called to be saints: Grace to you and peace from God our Father, and the Lord Jesus Christ.
 1:8 First, I thank my God through Jesus Christ for you all, that your faith is spoken of throughout the whole world.
 1:9 For God is my witness, whom I serve with my spirit in the gospel of his Son, that without ceasing I make mention of you always in my prayers; 1:10 Making request, if by any means now at length I might have a prosperous journey by the will of God to come unto you.
@@ -21,7 +20,7 @@ if (!isset($include)) {
 1:24 Wherefore God also gave them up to uncleanness through the lusts of their own hearts, to dishonour their own bodies between themselves: 1:25 Who changed the truth of God into a lie, and worshipped and served the creature more than the Creator, who is blessed for ever. Amen.
 1:26 For this cause God gave them up unto vile affections: for even their women did change the natural use into that which is against nature: 1:27 And likewise also the men, leaving the natural use of the woman, burned in their lust one toward another; men with men working that which is unseemly, and receiving in themselves that recompence of their error which was meet.
 1:28 And even as they did not like to retain God in their knowledge, God gave them over to a reprobate mind, to do those things which are not convenient; 1:29 Being filled with all unrighteousness, fornication, wickedness, covetousness, maliciousness; full of envy, murder, debate, deceit, malignity; whisperers, 1:30 Backbiters, haters of God, despiteful, proud, boasters, inventors of evil things, disobedient to parents, 1:31 Without understanding, covenantbreakers, without natural affection, implacable, unmerciful: 1:32 Who knowing the judgment of God, that they which commit such things are worthy of death, not only do the same, but have pleasure in them that do them.
-<span id="2<?= $book ?>"></span>2:1 Therefore thou art inexcusable, O man, whosoever thou art that judgest: for wherein thou judgest another, thou condemnest thyself; for thou that judgest doest the same things.
+<span id="<?php echo $chapterprefix; ?>2"></span>2:1 Therefore thou art inexcusable, O man, whosoever thou art that judgest: for wherein thou judgest another, thou condemnest thyself; for thou that judgest doest the same things.
 2:2 But we are sure that the judgment of God is according to truth against them which commit such things.
 2:3 And thinkest thou this, O man, that judgest them which do such things, and doest the same, that thou shalt escape the judgment of God? 2:4 Or despisest thou the riches of his goodness and forbearance and longsuffering; not knowing that the goodness of God leadeth thee to repentance? 2:5 But after thy hardness and impenitent heart treasurest up unto thyself wrath against the day of wrath and revelation of the righteous judgment of God; 2:6 Who will render to every man according to his deeds: 2:7 To them who by patient continuance in well doing seek for glory and honour and immortality, eternal life: 2:8 But unto them that are contentious, and do not obey the truth, but obey unrighteousness, indignation and wrath, 2:9 Tribulation and anguish, upon every soul of man that doeth evil, of the Jew first, and also of the Gentile; 2:10 But glory, honour, and peace, to every man that worketh good, to the Jew first, and also to the Gentile: 2:11 For there is no respect of persons with God.
 2:12 For as many as have sinned without law shall also perish without law: and as many as have sinned in the law shall be judged by the law; 2:13 (For not the hearers of the law are just before God, but the doers of the law shall be justified.
@@ -30,7 +29,7 @@ if (!isset($include)) {
 2:21 Thou therefore which teachest another, teachest thou not thyself? thou that preachest a man should not steal, dost thou steal? 2:22 Thou that sayest a man should not commit adultery, dost thou commit adultery? thou that abhorrest idols, dost thou commit sacrilege? 2:23 Thou that makest thy boast of the law, through breaking the law dishonourest thou God? 2:24 For the name of God is blasphemed among the Gentiles through you, as it is written.
 2:25 For circumcision verily profiteth, if thou keep the law: but if thou be a breaker of the law, thy circumcision is made uncircumcision.
 2:26 Therefore if the uncircumcision keep the righteousness of the law, shall not his uncircumcision be counted for circumcision? 2:27 And shall not uncircumcision which is by nature, if it fulfil the law, judge thee, who by the letter and circumcision dost transgress the law? 2:28 For he is not a Jew, which is one outwardly; neither is that circumcision, which is outward in the flesh: 2:29 But he is a Jew, which is one inwardly; and circumcision is that of the heart, in the spirit, and not in the letter; whose praise is not of men, but of God.
-<span id="3<?= $book ?>"></span>3:1 What advantage then hath the Jew? or what profit is there of circumcision? 3:2 Much every way: chiefly, because that unto them were committed the oracles of God.
+<span id="<?php echo $chapterprefix; ?>3"></span>3:1 What advantage then hath the Jew? or what profit is there of circumcision? 3:2 Much every way: chiefly, because that unto them were committed the oracles of God.
 3:3 For what if some did not believe? shall their unbelief make the faith of God without effect? 3:4 God forbid: yea, let God be true, but every man a liar; as it is written, That thou mightest be justified in thy sayings, and mightest overcome when thou art judged.
 3:5 But if our unrighteousness commend the righteousness of God, what shall we say? Is God unrighteous who taketh vengeance? (I speak as a man) 3:6 God forbid: for then how shall God judge the world? 3:7 For if the truth of God hath more abounded through my lie unto his glory; why yet am I also judged as a sinner? 3:8 And not rather, (as we be slanderously reported, and as some affirm that we say,) Let us do evil, that good may come? whose damnation is just.
 3:9 What then? are we better than they? No, in no wise: for we have before proved both Jews and Gentiles, that they are all under sin; 3:10 As it is written, There is none righteous, no, not one: 3:11 There is none that understandeth, there is none that seeketh after God.
@@ -43,7 +42,7 @@ if (!isset($include)) {
 3:28 Therefore we conclude that a man is justified by faith without the deeds of the law.
 3:29 Is he the God of the Jews only? is he not also of the Gentiles? Yes, of the Gentiles also: 3:30 Seeing it is one God, which shall justify the circumcision by faith, and uncircumcision through faith.
 3:31 Do we then make void the law through faith? God forbid: yea, we establish the law.
-<span id="4<?= $book ?>"></span>4:1 What shall we say then that Abraham our father, as pertaining to the flesh, hath found? 4:2 For if Abraham were justified by works, he hath whereof to glory; but not before God.
+<span id="<?php echo $chapterprefix; ?>4"></span>4:1 What shall we say then that Abraham our father, as pertaining to the flesh, hath found? 4:2 For if Abraham were justified by works, he hath whereof to glory; but not before God.
 4:3 For what saith the scripture? Abraham believed God, and it was counted unto him for righteousness.
 4:4 Now to him that worketh is the reward not reckoned of grace, but of debt.
 4:5 But to him that worketh not, but believeth on him that justifieth the ungodly, his faith is counted for righteousness.
@@ -59,7 +58,7 @@ if (!isset($include)) {
 4:19 And being not weak in faith, he considered not his own body now dead, when he was about an hundred years old, neither yet the deadness of Sarah's womb: 4:20 He staggered not at the promise of God through unbelief; but was strong in faith, giving glory to God; 4:21 And being fully persuaded that, what he had promised, he was able also to perform.
 4:22 And therefore it was imputed to him for righteousness.
 4:23 Now it was not written for his sake alone, that it was imputed to him; 4:24 But for us also, to whom it shall be imputed, if we believe on him that raised up Jesus our Lord from the dead; 4:25 Who was delivered for our offences, and was raised again for our justification.
-<span id="5<?= $book ?>"></span>5:1 Therefore being justified by faith, we have peace with God through our Lord Jesus Christ: 5:2 By whom also we have access by faith into this grace wherein we stand, and rejoice in hope of the glory of God.
+<span id="<?php echo $chapterprefix; ?>5"></span>5:1 Therefore being justified by faith, we have peace with God through our Lord Jesus Christ: 5:2 By whom also we have access by faith into this grace wherein we stand, and rejoice in hope of the glory of God.
 5:3 And not only so, but we glory in tribulations also: knowing that tribulation worketh patience; 5:4 And patience, experience; and experience, hope: 5:5 And hope maketh not ashamed; because the love of God is shed abroad in our hearts by the Holy Ghost which is given unto us.
 5:6 For when we were yet without strength, in due time Christ died for the ungodly.
 5:7 For scarcely for a righteous man will one die: yet peradventure for a good man some would even dare to die.
@@ -74,7 +73,7 @@ if (!isset($include)) {
 5:17 For if by one man's offence death reigned by one; much more they which receive abundance of grace and of the gift of righteousness shall reign in life by one, Jesus Christ.) 5:18 Therefore as by the offence of one judgment came upon all men to condemnation; even so by the righteousness of one the free gift came upon all men unto justification of life.
 5:19 For as by one man's disobedience many were made sinners, so by the obedience of one shall many be made righteous.
 5:20 Moreover the law entered, that the offence might abound. But where sin abounded, grace did much more abound: 5:21 That as sin hath reigned unto death, even so might grace reign through righteousness unto eternal life by Jesus Christ our Lord.
-<span id="6<?= $book ?>"></span>6:1 What shall we say then? Shall we continue in sin, that grace may abound? 6:2 God forbid. How shall we, that are dead to sin, live any longer therein? 6:3 Know ye not, that so many of us as were baptized into Jesus Christ were baptized into his death? 6:4 Therefore we are buried with him by baptism into death: that like as Christ was raised up from the dead by the glory of the Father, even so we also should walk in newness of life.
+<span id="<?php echo $chapterprefix; ?>6"></span>6:1 What shall we say then? Shall we continue in sin, that grace may abound? 6:2 God forbid. How shall we, that are dead to sin, live any longer therein? 6:3 Know ye not, that so many of us as were baptized into Jesus Christ were baptized into his death? 6:4 Therefore we are buried with him by baptism into death: that like as Christ was raised up from the dead by the glory of the Father, even so we also should walk in newness of life.
 6:5 For if we have been planted together in the likeness of his death, we shall be also in the likeness of his resurrection: 6:6 Knowing this, that our old man is crucified with him, that the body of sin might be destroyed, that henceforth we should not serve sin.
 6:7 For he that is dead is freed from sin.
 6:8 Now if we be dead with Christ, we believe that we shall also live with him: 6:9 Knowing that Christ being raised from the dead dieth no more; death hath no more dominion over him.
@@ -91,7 +90,7 @@ if (!isset($include)) {
 6:21 What fruit had ye then in those things whereof ye are now ashamed? for the end of those things is death.
 6:22 But now being made free from sin, and become servants to God, ye have your fruit unto holiness, and the end everlasting life.
 6:23 For the wages of sin is death; but the gift of God is eternal life through Jesus Christ our Lord.
-<span id="7<?= $book ?>"></span>7:1 Know ye not, brethren, (for I speak to them that know the law,) how that the law hath dominion over a man as long as he liveth? 7:2 For the woman which hath an husband is bound by the law to her husband so long as he liveth; but if the husband be dead, she is loosed from the law of her husband.
+<span id="<?php echo $chapterprefix; ?>7"></span>7:1 Know ye not, brethren, (for I speak to them that know the law,) how that the law hath dominion over a man as long as he liveth? 7:2 For the woman which hath an husband is bound by the law to her husband so long as he liveth; but if the husband be dead, she is loosed from the law of her husband.
 7:3 So then if, while her husband liveth, she be married to another man, she shall be called an adulteress: but if her husband be dead, she is free from that law; so that she is no adulteress, though she be married to another man.
 7:4 Wherefore, my brethren, ye also are become dead to the law by the body of Christ; that ye should be married to another, even to him who is raised from the dead, that we should bring forth fruit unto God.
 7:5 For when we were in the flesh, the motions of sins, which were by the law, did work in our members to bring forth fruit unto death.
@@ -113,7 +112,7 @@ if (!isset($include)) {
 7:21 I find then a law, that, when I would do good, evil is present with me.
 7:22 For I delight in the law of God after the inward man: 7:23 But I see another law in my members, warring against the law of my mind, and bringing me into captivity to the law of sin which is in my members.
 7:24 O wretched man that I am! who shall deliver me from the body of this death? 7:25 I thank God through Jesus Christ our Lord. So then with the mind I myself serve the law of God; but with the flesh the law of sin.
-<span id="8<?= $book ?>"></span>8:1 There is therefore now no condemnation to them which are in Christ Jesus, who walk not after the flesh, but after the Spirit.
+<span id="<?php echo $chapterprefix; ?>8"></span>8:1 There is therefore now no condemnation to them which are in Christ Jesus, who walk not after the flesh, but after the Spirit.
 8:2 For the law of the Spirit of life in Christ Jesus hath made me free from the law of sin and death.
 8:3 For what the law could not do, in that it was weak through the flesh, God sending his own Son in the likeness of sinful flesh, and for sin, condemned sin in the flesh: 8:4 That the righteousness of the law might be fulfilled in us, who walk not after the flesh, but after the Spirit.
 8:5 For they that are after the flesh do mind the things of the flesh; but they that are after the Spirit the things of the Spirit.
@@ -144,7 +143,7 @@ if (!isset($include)) {
 8:35 Who shall separate us from the love of Christ? shall tribulation, or distress, or persecution, or famine, or nakedness, or peril, or sword? 8:36 As it is written, For thy sake we are killed all the day long; we are accounted as sheep for the slaughter.
 8:37 Nay, in all these things we are more than conquerors through him that loved us.
 8:38 For I am persuaded, that neither death, nor life, nor angels, nor principalities, nor powers, nor things present, nor things to come, 8:39 Nor height, nor depth, nor any other creature, shall be able to separate us from the love of God, which is in Christ Jesus our Lord.
-<span id="9<?= $book ?>"></span>9:1 I say the truth in Christ, I lie not, my conscience also bearing me witness in the Holy Ghost, 9:2 That I have great heaviness and continual sorrow in my heart.
+<span id="<?php echo $chapterprefix; ?>9"></span>9:1 I say the truth in Christ, I lie not, my conscience also bearing me witness in the Holy Ghost, 9:2 That I have great heaviness and continual sorrow in my heart.
 9:3 For I could wish that myself were accursed from Christ for my brethren, my kinsmen according to the flesh: 9:4 Who are Israelites; to whom pertaineth the adoption, and the glory, and the covenants, and the giving of the law, and the service of God, and the promises; 9:5 Whose are the fathers, and of whom as concerning the flesh Christ came, who is over all, God blessed for ever. Amen.
 9:6 Not as though the word of God hath taken none effect. For they are not all Israel, which are of Israel: 9:7 Neither, because they are the seed of Abraham, are they all children: but, In Isaac shall thy seed be called.
 9:8 That is, They which are the children of the flesh, these are not the children of God: but the children of the promise are counted for the seed.
@@ -163,7 +162,7 @@ if (!isset($include)) {
 9:30 What shall we say then? That the Gentiles, which followed not after righteousness, have attained to righteousness, even the righteousness which is of faith.
 9:31 But Israel, which followed after the law of righteousness, hath not attained to the law of righteousness.
 9:32 Wherefore? Because they sought it not by faith, but as it were by the works of the law. For they stumbled at that stumblingstone; 9:33 As it is written, Behold, I lay in Sion a stumblingstone and rock of offence: and whosoever believeth on him shall not be ashamed.
-<span id="10<?= $book ?>"></span>10:1 Brethren, my heart's desire and prayer to God for Israel is, that they might be saved.
+<span id="<?php echo $chapterprefix; ?>10"></span>10:1 Brethren, my heart's desire and prayer to God for Israel is, that they might be saved.
 10:2 For I bear them record that they have a zeal of God, but not according to knowledge.
 10:3 For they being ignorant of God's righteousness, and going about to establish their own righteousness, have not submitted themselves unto the righteousness of God.
 10:4 For Christ is the end of the law for righteousness to every one that believeth.
@@ -178,7 +177,7 @@ if (!isset($include)) {
 10:19 But I say, Did not Israel know? First Moses saith, I will provoke you to jealousy by them that are no people, and by a foolish nation I will anger you.
 10:20 But Esaias is very bold, and saith, I was found of them that sought me not; I was made manifest unto them that asked not after me.
 10:21 But to Israel he saith, All day long I have stretched forth my hands unto a disobedient and gainsaying people.
-<span id="11<?= $book ?>"></span>11:1 I say then, Hath God cast away his people? God forbid. For I also am an Israelite, of the seed of Abraham, of the tribe of Benjamin.
+<span id="<?php echo $chapterprefix; ?>11"></span>11:1 I say then, Hath God cast away his people? God forbid. For I also am an Israelite, of the seed of Abraham, of the tribe of Benjamin.
 11:2 God hath not cast away his people which he foreknew. Wot ye not what the scripture saith of Elias? how he maketh intercession to God against Israel saying, 11:3 Lord, they have killed thy prophets, and digged down thine altars; and I am left alone, and they seek my life.
 11:4 But what saith the answer of God unto him? I have reserved to myself seven thousand men, who have not bowed the knee to the image of Baal.
 11:5 Even so then at this present time also there is a remnant according to the election of grace.
@@ -201,7 +200,7 @@ if (!isset($include)) {
 11:30 For as ye in times past have not believed God, yet have now obtained mercy through their unbelief: 11:31 Even so have these also now not believed, that through your mercy they also may obtain mercy.
 11:32 For God hath concluded them all in unbelief, that he might have mercy upon all.
 11:33 O the depth of the riches both of the wisdom and knowledge of God! how unsearchable are his judgments, and his ways past finding out! 11:34 For who hath known the mind of the Lord? or who hath been his counsellor? 11:35 Or who hath first given to him, and it shall be recompensed unto him again? 11:36 For of him, and through him, and to him, are all things: to whom be glory for ever. Amen.
-<span id="12<?= $book ?>"></span>12:1 I beseech you therefore, brethren, by the mercies of God, that ye present your bodies a living sacrifice, holy, acceptable unto God, which is your reasonable service.
+<span id="<?php echo $chapterprefix; ?>12"></span>12:1 I beseech you therefore, brethren, by the mercies of God, that ye present your bodies a living sacrifice, holy, acceptable unto God, which is your reasonable service.
 12:2 And be not conformed to this world: but be ye transformed by the renewing of your mind, that ye may prove what is that good, and acceptable, and perfect, will of God.
 12:3 For I say, through the grace given unto me, to every man that is among you, not to think of himself more highly than he ought to think; but to think soberly, according as God hath dealt to every man the measure of faith.
 12:4 For as we have many members in one body, and all members have not the same office: 12:5 So we, being many, are one body in Christ, and every one members one of another.
@@ -216,7 +215,7 @@ if (!isset($include)) {
 12:19 Dearly beloved, avenge not yourselves, but rather give place unto wrath: for it is written, Vengeance is mine; I will repay, saith the Lord.
 12:20 Therefore if thine enemy hunger, feed him; if he thirst, give him drink: for in so doing thou shalt heap coals of fire on his head.
 12:21 Be not overcome of evil, but overcome evil with good.
-<span id="13<?= $book ?>"></span>13:1 Let every soul be subject unto the higher powers. For there is no power but of God: the powers that be are ordained of God.
+<span id="<?php echo $chapterprefix; ?>13"></span>13:1 Let every soul be subject unto the higher powers. For there is no power but of God: the powers that be are ordained of God.
 13:2 Whosoever therefore resisteth the power, resisteth the ordinance of God: and they that resist shall receive to themselves damnation.
 13:3 For rulers are not a terror to good works, but to the evil. Wilt thou then not be afraid of the power? do that which is good, and thou shalt have praise of the same: 13:4 For he is the minister of God to thee for good. But if thou do that which is evil, be afraid; for he beareth not the sword in vain: for he is the minister of God, a revenger to execute wrath upon him that doeth evil.
 13:5 Wherefore ye must needs be subject, not only for wrath, but also for conscience sake.
@@ -229,7 +228,7 @@ if (!isset($include)) {
 13:12 The night is far spent, the day is at hand: let us therefore cast off the works of darkness, and let us put on the armour of light.
 13:13 Let us walk honestly, as in the day; not in rioting and drunkenness, not in chambering and wantonness, not in strife and envying.
 13:14 But put ye on the Lord Jesus Christ, and make not provision for the flesh, to fulfil the lusts thereof.
-<span id="14<?= $book ?>"></span>14:1 Him that is weak in the faith receive ye, but not to doubtful disputations.
+<span id="<?php echo $chapterprefix; ?>14"></span>14:1 Him that is weak in the faith receive ye, but not to doubtful disputations.
 14:2 For one believeth that he may eat all things: another, who is weak, eateth herbs.
 14:3 Let not him that eateth despise him that eateth not; and let not him which eateth not judge him that eateth: for God hath received him.
 14:4 Who art thou that judgest another man's servant? to his own master he standeth or falleth. Yea, he shall be holden up: for God is able to make him stand.
@@ -251,7 +250,7 @@ if (!isset($include)) {
 14:21 It is good neither to eat flesh, nor to drink wine, nor any thing whereby thy brother stumbleth, or is offended, or is made weak.
 14:22 Hast thou faith? have it to thyself before God. Happy is he that condemneth not himself in that thing which he alloweth.
 14:23 And he that doubteth is damned if he eat, because he eateth not of faith: for whatsoever is not of faith is sin.
-<span id="15<?= $book ?>"></span>15:1 We then that are strong ought to bear the infirmities of the weak, and not to please ourselves.
+<span id="<?php echo $chapterprefix; ?>15"></span>15:1 We then that are strong ought to bear the infirmities of the weak, and not to please ourselves.
 15:2 Let every one of us please his neighbour for his good to edification.
 15:3 For even Christ pleased not himself; but, as it is written, The reproaches of them that reproached thee fell on me.
 15:4 For whatsoever things were written aforetime were written for our learning, that we through patience and comfort of the scriptures might have hope.
@@ -276,7 +275,7 @@ if (!isset($include)) {
 15:29 And I am sure that, when I come unto you, I shall come in the fulness of the blessing of the gospel of Christ.
 15:30 Now I beseech you, brethren, for the Lord Jesus Christ's sake, and for the love of the Spirit, that ye strive together with me in your prayers to God for me; 15:31 That I may be delivered from them that do not believe in Judaea; and that my service which I have for Jerusalem may be accepted of the saints; 15:32 That I may come unto you with joy by the will of God, and may with you be refreshed.
 15:33 Now the God of peace be with you all. Amen.
-<span id="16<?= $book ?>"></span>16:1 I commend unto you Phebe our sister, which is a servant of the church which is at Cenchrea: 16:2 That ye receive her in the Lord, as becometh saints, and that ye assist her in whatsoever business she hath need of you: for she hath been a succourer of many, and of myself also.
+<span id="<?php echo $chapterprefix; ?>16"></span>16:1 I commend unto you Phebe our sister, which is a servant of the church which is at Cenchrea: 16:2 That ye receive her in the Lord, as becometh saints, and that ye assist her in whatsoever business she hath need of you: for she hath been a succourer of many, and of myself also.
 16:3 Greet Priscilla and Aquila my helpers in Christ Jesus: 16:4 Who have for my life laid down their own necks: unto whom not only I give thanks, but also all the churches of the Gentiles.
 16:5 Likewise greet the church that is in their house. Salute my well-beloved Epaenetus, who is the firstfruits of Achaia unto Christ.
 16:6 Greet Mary, who bestowed much labour on us.
@@ -299,8 +298,4 @@ if (!isset($include)) {
 16:23 Gaius mine host, and of the whole church, saluteth you. Erastus the chamberlain of the city saluteth you, and Quartus a brother.
 16:24 The grace of our Lord Jesus Christ be with you all. Amen.
 16:25 Now to him that is of power to stablish you according to my gospel, and the preaching of Jesus Christ, according to the revelation of the mystery, which was kept secret since the world began, 16:26 But now is made manifest, and by the scriptures of the prophets, according to the commandment of the everlasting God, made known to all nations for the obedience of faith: 16:27 To God only wise, be glory through Jesus Christ for ever. Amen.
-<?php
-if (!isset($include)) {
- include ('aa-end.php');
-}
-?>
+<?php if (!isset($collection)) {include 'bookfoot.php';} ?>

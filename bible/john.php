@@ -1,11 +1,10 @@
 <?php
 $title = 'John';
 $description = 'The Gospel According to Saint John';
-if (!isset($include)) {
- include ('aa-beginning.php');
-}
+if (isset($collection)) {$chapterprefix = 'john';}
+if (!isset($collection)) {include 'bookhead.php';}
 ?>
-<span id="1<?= $book ?>"></span><h2 id="john">The Gospel According to Saint John</h2><!--2t4b-->
+<span id="<?php echo $chapterprefix; ?>1"></span><h3 id="john">The Gospel According to Saint John</h3><!--2t4b-->
 1:1 In the beginning was the Word, and the Word was with God, and the Word was God.
 1:2 The same was in the beginning with God.
 1:3 All things were made by him; and without him was not any thing made that was made.
@@ -48,7 +47,7 @@ if (!isset($include)) {
 1:49 Nathanael answered and saith unto him, Rabbi, thou art the Son of God; thou art the King of Israel.
 1:50 Jesus answered and said unto him, Because I said unto thee, I saw thee under the fig tree, believest thou? thou shalt see greater things than these.
 1:51 And he saith unto him, Verily, verily, I say unto you, Hereafter ye shall see heaven open, and the angels of God ascending and descending upon the Son of man.
-<span id="2<?= $book ?>"></span>2:1 And the third day there was a marriage in Cana of Galilee; and the mother of Jesus was there: 2:2 And both Jesus was called, and his disciples, to the marriage.
+<span id="<?php echo $chapterprefix; ?>2"></span>2:1 And the third day there was a marriage in Cana of Galilee; and the mother of Jesus was there: 2:2 And both Jesus was called, and his disciples, to the marriage.
 2:3 And when they wanted wine, the mother of Jesus saith unto him, They have no wine.
 2:4 Jesus saith unto her, Woman, what have I to do with thee? mine hour is not yet come.
 2:5 His mother saith unto the servants, Whatsoever he saith unto you, do it.
@@ -66,7 +65,7 @@ if (!isset($include)) {
 2:22 When therefore he was risen from the dead, his disciples remembered that he had said this unto them; and they believed the scripture, and the word which Jesus had said.
 2:23 Now when he was in Jerusalem at the passover, in the feast day, many believed in his name, when they saw the miracles which he did.
 2:24 But Jesus did not commit himself unto them, because he knew all men, 2:25 And needed not that any should testify of man: for he knew what was in man.
-<span id="3<?= $book ?>"></span>3:1 There was a man of the Pharisees, named Nicodemus, a ruler of the Jews: 3:2 The same came to Jesus by night, and said unto him, Rabbi, we know that thou art a teacher come from God: for no man can do these miracles that thou doest, except God be with him.
+<span id="<?php echo $chapterprefix; ?>3"></span>3:1 There was a man of the Pharisees, named Nicodemus, a ruler of the Jews: 3:2 The same came to Jesus by night, and said unto him, Rabbi, we know that thou art a teacher come from God: for no man can do these miracles that thou doest, except God be with him.
 3:3 Jesus answered and said unto him, Verily, verily, I say unto thee, Except a man be born again, he cannot see the kingdom of God.
 3:4 Nicodemus saith unto him, How can a man be born when he is old? can he enter the second time into his mother's womb, and be born? 3:5 Jesus answered, Verily, verily, I say unto thee, Except a man be born of water and of the Spirit, he cannot enter into the kingdom of God.
 3:6 That which is born of the flesh is flesh; and that which is born of the Spirit is spirit.
@@ -96,7 +95,7 @@ if (!isset($include)) {
 3:34 For he whom God hath sent speaketh the words of God: for God giveth not the Spirit by measure unto him.
 3:35 The Father loveth the Son, and hath given all things into his hand.
 3:36 He that believeth on the Son hath everlasting life: and he that believeth not the Son shall not see life; but the wrath of God abideth on him.
-<span id="4<?= $book ?>"></span>4:1 When therefore the LORD knew how the Pharisees had heard that Jesus made and baptized more disciples than John, 4:2 (Though Jesus himself baptized not, but his disciples,) 4:3 He left Judaea, and departed again into Galilee.
+<span id="<?php echo $chapterprefix; ?>4"></span>4:1 When therefore the LORD knew how the Pharisees had heard that Jesus made and baptized more disciples than John, 4:2 (Though Jesus himself baptized not, but his disciples,) 4:3 He left Judaea, and departed again into Galilee.
 4:4 And he must needs go through Samaria.
 4:5 Then cometh he to a city of Samaria, which is called Sychar, near to the parcel of ground that Jacob gave to his son Joseph.
 4:6 Now Jacob's well was there. Jesus therefore, being wearied with his journey, sat thus on the well: and it was about the sixth hour.
@@ -138,7 +137,7 @@ if (!isset($include)) {
 4:52 Then enquired he of them the hour when he began to amend. And they said unto him, Yesterday at the seventh hour the fever left him.
 4:53 So the father knew that it was at the same hour, in the which Jesus said unto him, Thy son liveth: and himself believed, and his whole house.
 4:54 This is again the second miracle that Jesus did, when he was come out of Judaea into Galilee.
-<span id="5<?= $book ?>"></span>5:1 After this there was a feast of the Jews; and Jesus went up to Jerusalem.
+<span id="<?php echo $chapterprefix; ?>5"></span>5:1 After this there was a feast of the Jews; and Jesus went up to Jerusalem.
 5:2 Now there is at Jerusalem by the sheep market a pool, which is called in the Hebrew tongue Bethesda, having five porches.
 5:3 In these lay a great multitude of impotent folk, of blind, halt, withered, waiting for the moving of the water.
 5:4 For an angel went down at a certain season into the pool, and troubled the water: whosoever then first after the troubling of the water stepped in was made whole of whatsoever disease he had.
@@ -180,7 +179,7 @@ Ye have neither heard his voice at any time, nor seen his shape.
 5:43 I am come in my Father's name, and ye receive me not: if another shall come in his own name, him ye will receive.
 5:44 How can ye believe, which receive honour one of another, and seek not the honour that cometh from God only? 5:45 Do not think that I will accuse you to the Father: there is one that accuseth you, even Moses, in whom ye trust.
 5:46 For had ye believed Moses, ye would have believed me; for he wrote of me.
-5:47 But if ye believe not his writings, how shall ye believe my words? <span id="6<?= $book ?>"></span>6:1 After these things Jesus went over the sea of Galilee, which is the sea of Tiberias.
+5:47 But if ye believe not his writings, how shall ye believe my words? <span id="<?php echo $chapterprefix; ?>6"></span>6:1 After these things Jesus went over the sea of Galilee, which is the sea of Tiberias.
 6:2 And a great multitude followed him, because they saw his miracles which he did on them that were diseased.
 6:3 And Jesus went up into a mountain, and there he sat with his disciples.
 6:4 And the passover, a feast of the Jews, was nigh.
@@ -236,7 +235,7 @@ Every man therefore that hath heard, and hath learned of the Father, cometh unto
 6:67 Then said Jesus unto the twelve, Will ye also go away? 6:68 Then Simon Peter answered him, Lord, to whom shall we go? thou hast the words of eternal life.
 6:69 And we believe and are sure that thou art that Christ, the Son of the living God.
 6:70 Jesus answered them, Have not I chosen you twelve, and one of you is a devil? 6:71 He spake of Judas Iscariot the son of Simon: for he it was that should betray him, being one of the twelve.
-<span id="7<?= $book ?>"></span>7:1 After these things Jesus walked in Galilee: for he would not walk in Jewry, because the Jews sought to kill him.
+<span id="<?php echo $chapterprefix; ?>7"></span>7:1 After these things Jesus walked in Galilee: for he would not walk in Jewry, because the Jews sought to kill him.
 7:2 Now the Jew's feast of tabernacles was at hand.
 7:3 His brethren therefore said unto him, Depart hence, and go into Judaea, that thy disciples also may see the works that thou doest.
 7:4 For there is no man that doeth any thing in secret, and he himself seeketh to be known openly. If thou do these things, shew thyself to the world.
@@ -271,7 +270,7 @@ Every man therefore that hath heard, and hath learned of the Father, cometh unto
 7:47 Then answered them the Pharisees, Are ye also deceived? 7:48 Have any of the rulers or of the Pharisees believed on him? 7:49 But this people who knoweth not the law are cursed.
 7:50 Nicodemus saith unto them, (he that came to Jesus by night, being one of them,) 7:51 Doth our law judge any man, before it hear him, and know what he doeth? 7:52 They answered and said unto him, Art thou also of Galilee? Search, and look: for out of Galilee ariseth no prophet.
 7:53 And every man went unto his own house.
-<span id="8<?= $book ?>"></span>8:1 Jesus went unto the mount of Olives.
+<span id="<?php echo $chapterprefix; ?>8"></span>8:1 Jesus went unto the mount of Olives.
 8:2 And early in the morning he came again into the temple, and all the people came unto him; and he sat down, and taught them.
 8:3 And the scribes and Pharisees brought unto him a woman taken in adultery; and when they had set her in the midst, 8:4 They say unto him, Master, this woman was taken in adultery, in the very act.
 8:5 Now Moses in the law commanded us, that such should be stoned: but what sayest thou? 8:6 This they said, tempting him, that they might have to accuse him. But Jesus stooped down, and with his finger wrote on the ground, as though he heard them not.
@@ -321,7 +320,7 @@ Abraham is dead, and the prophets; and thou sayest, If a man keep my saying, he 
 8:56 Your father Abraham rejoiced to see my day: and he saw it, and was glad.
 8:57 Then said the Jews unto him, Thou art not yet fifty years old, and hast thou seen Abraham? 8:58 Jesus said unto them, Verily, verily, I say unto you, Before Abraham was, I am.
 8:59 Then took they up stones to cast at him: but Jesus hid himself, and went out of the temple, going through the midst of them, and so passed by.
-<span id="9<?= $book ?>"></span>9:1 And as Jesus passed by, he saw a man which was blind from his birth.
+<span id="<?php echo $chapterprefix; ?>9"></span>9:1 And as Jesus passed by, he saw a man which was blind from his birth.
 9:2 And his disciples asked him, saying, Master, who did sin, this man, or his parents, that he was born blind? 9:3 Jesus answered, Neither hath this man sinned, nor his parents: but that the works of God should be made manifest in him.
 9:4 I must work the works of him that sent me, while it is day: the night cometh, when no man can work.
 9:5 As long as I am in the world, I am the light of the world.
@@ -351,7 +350,7 @@ Abraham is dead, and the prophets; and thou sayest, If a man keep my saying, he 
 9:38 And he said, Lord, I believe. And he worshipped him.
 9:39 And Jesus said, For judgment I am come into this world, that they which see not might see; and that they which see might be made blind.
 9:40 And some of the Pharisees which were with him heard these words, and said unto him, Are we blind also? 9:41 Jesus said unto them, If ye were blind, ye should have no sin: but now ye say, We see; therefore your sin remaineth.
-<span id="10<?= $book ?>"></span>10:1 Verily, verily, I say unto you, He that entereth not by the door into the sheepfold, but climbeth up some other way, the same is a thief and a robber.
+<span id="<?php echo $chapterprefix; ?>10"></span>10:1 Verily, verily, I say unto you, He that entereth not by the door into the sheepfold, but climbeth up some other way, the same is a thief and a robber.
 10:2 But he that entereth in by the door is the shepherd of the sheep.
 10:3 To him the porter openeth; and the sheep hear his voice: and he calleth his own sheep by name, and leadeth them out.
 10:4 And when he putteth forth his own sheep, he goeth before them, and the sheep follow him: for they know his voice.
@@ -385,7 +384,7 @@ Abraham is dead, and the prophets; and thou sayest, If a man keep my saying, he 
 10:39 Therefore they sought again to take him: but he escaped out of their hand, 10:40 And went away again beyond Jordan into the place where John at first baptized; and there he abode.
 10:41 And many resorted unto him, and said, John did no miracle: but all things that John spake of this man were true.
 10:42 And many believed on him there.
-<span id="11<?= $book ?>"></span>11:1 Now a certain man was sick, named Lazarus, of Bethany, the town of Mary and her sister Martha.
+<span id="<?php echo $chapterprefix; ?>11"></span>11:1 Now a certain man was sick, named Lazarus, of Bethany, the town of Mary and her sister Martha.
 11:2 (It was that Mary which anointed the Lord with ointment, and wiped his feet with her hair, whose brother Lazarus was sick.) 11:3 Therefore his sisters sent unto him, saying, Lord, behold, he whom thou lovest is sick.
 11:4 When Jesus heard that, he said, This sickness is not unto death, but for the glory of God, that the Son of God might be glorified thereby.
 11:5 Now Jesus loved Martha, and her sister, and Lazarus.
@@ -431,7 +430,7 @@ Abraham is dead, and the prophets; and thou sayest, If a man keep my saying, he 
 11:54 Jesus therefore walked no more openly among the Jews; but went thence unto a country near to the wilderness, into a city called Ephraim, and there continued with his disciples.
 11:55 And the Jews' passover was nigh at hand: and many went out of the country up to Jerusalem before the passover, to purify themselves.
 11:56 Then sought they for Jesus, and spake among themselves, as they stood in the temple, What think ye, that he will not come to the feast? 11:57 Now both the chief priests and the Pharisees had given a commandment, that, if any man knew where he were, he should shew it, that they might take him.
-<span id="12<?= $book ?>"></span>12:1 Then Jesus six days before the passover came to Bethany, where Lazarus was, which had been dead, whom he raised from the dead.
+<span id="<?php echo $chapterprefix; ?>12"></span>12:1 Then Jesus six days before the passover came to Bethany, where Lazarus was, which had been dead, whom he raised from the dead.
 12:2 There they made him a supper; and Martha served: but Lazarus was one of them that sat at the table with him.
 12:3 Then took Mary a pound of ointment of spikenard, very costly, and anointed the feet of Jesus, and wiped his feet with her hair: and the house was filled with the odour of the ointment.
 12:4 Then saith one of his disciples, Judas Iscariot, Simon's son, which should betray him, 12:5 Why was not this ointment sold for three hundred pence, and given to the poor? 12:6 This he said, not that he cared for the poor; but because he was a thief, and had the bag, and bare what was put therein.
@@ -471,7 +470,7 @@ Walk while ye have the light, lest darkness come upon you: for he that walketh i
 12:48 He that rejecteth me, and receiveth not my words, hath one that judgeth him: the word that I have spoken, the same shall judge him in the last day.
 12:49 For I have not spoken of myself; but the Father which sent me, he gave me a commandment, what I should say, and what I should speak.
 12:50 And I know that his commandment is life everlasting: whatsoever I speak therefore, even as the Father said unto me, so I speak.
-<span id="13<?= $book ?>"></span>13:1 Now before the feast of the passover, when Jesus knew that his hour was come that he should depart out of this world unto the Father, having loved his own which were in the world, he loved them unto the end.
+<span id="<?php echo $chapterprefix; ?>13"></span>13:1 Now before the feast of the passover, when Jesus knew that his hour was come that he should depart out of this world unto the Father, having loved his own which were in the world, he loved them unto the end.
 13:2 And supper being ended, the devil having now put into the heart of Judas Iscariot, Simon's son, to betray him; 13:3 Jesus knowing that the Father had given all things into his hands, and that he was come from God, and went to God; 13:4 He riseth from supper, and laid aside his garments; and took a towel, and girded himself.
 13:5 After that he poureth water into a bason, and began to wash the disciples' feet, and to wipe them with the towel wherewith he was girded.
 13:6 Then cometh he to Simon Peter: and Peter saith unto him, Lord, dost thou wash my feet? 13:7 Jesus answered and said unto him, What I do thou knowest not now; but thou shalt know hereafter.
@@ -504,7 +503,7 @@ Walk while ye have the light, lest darkness come upon you: for he that walketh i
 13:36 Simon Peter said unto him, Lord, whither goest thou? Jesus answered him, Whither I go, thou canst not follow me now; but thou shalt follow me afterwards.
 13:37 Peter said unto him, Lord, why cannot I follow thee now? I will lay down my life for thy sake.
 13:38 Jesus answered him, Wilt thou lay down thy life for my sake? Verily, verily, I say unto thee, The cock shall not crow, till thou hast denied me thrice.
-<span id="14<?= $book ?>"></span>14:1 Let not your heart be troubled: ye believe in God, believe also in me.
+<span id="<?php echo $chapterprefix; ?>14"></span>14:1 Let not your heart be troubled: ye believe in God, believe also in me.
 14:2 In my Father's house are many mansions: if it were not so, I would have told you. I go to prepare a place for you.
 14:3 And if I go and prepare a place for you, I will come again, and receive you unto myself; that where I am, there ye may be also.
 14:4 And whither I go ye know, and the way ye know.
@@ -531,7 +530,7 @@ Walk while ye have the light, lest darkness come upon you: for he that walketh i
 14:29 And now I have told you before it come to pass, that, when it is come to pass, ye might believe.
 14:30 Hereafter I will not talk much with you: for the prince of this world cometh, and hath nothing in me.
 14:31 But that the world may know that I love the Father; and as the Father gave me commandment, even so I do. Arise, let us go hence.
-<span id="15<?= $book ?>"></span>15:1 I am the true vine, and my Father is the husbandman.
+<span id="<?php echo $chapterprefix; ?>15"></span>15:1 I am the true vine, and my Father is the husbandman.
 15:2 Every branch in me that beareth not fruit he taketh away: and every branch that beareth fruit, he purgeth it, that it may bring forth more fruit.
 15:3 Now ye are clean through the word which I have spoken unto you.
 15:4 Abide in me, and I in you. As the branch cannot bear fruit of itself, except it abide in the vine; no more can ye, except ye abide in me.
@@ -557,7 +556,7 @@ Walk while ye have the light, lest darkness come upon you: for he that walketh i
 15:24 If I had not done among them the works which none other man did, they had not had sin: but now have they both seen and hated both me and my Father.
 15:25 But this cometh to pass, that the word might be fulfilled that is written in their law, They hated me without a cause.
 15:26 But when the Comforter is come, whom I will send unto you from the Father, even the Spirit of truth, which proceedeth from the Father, he shall testify of me: 15:27 And ye also shall bear witness, because ye have been with me from the beginning.
-<span id="16<?= $book ?>"></span>16:1 These things have I spoken unto you, that ye should not be offended.
+<span id="<?php echo $chapterprefix; ?>16"></span>16:1 These things have I spoken unto you, that ye should not be offended.
 16:2 They shall put you out of the synagogues: yea, the time cometh, that whosoever killeth you will think that he doeth God service.
 16:3 And these things will they do unto you, because they have not known the Father, nor me.
 16:4 But these things have I told you, that when the time shall come, ye may remember that I told you of them. And these things I said not unto you at the beginning, because I was with you.
@@ -583,7 +582,7 @@ Walk while ye have the light, lest darkness come upon you: for he that walketh i
 16:31 Jesus answered them, Do ye now believe? 16:32 Behold, the hour cometh, yea, is now come, that ye shall be scattered, every man to his own, and shall leave me alone: and yet I am not alone, because the Father is with me.
 16:33 These things I have spoken unto you, that in me ye might have peace.
 In the world ye shall have tribulation: but be of good cheer; I have overcome the world.
-<span id="17<?= $book ?>"></span>17:1 These words spake Jesus, and lifted up his eyes to heaven, and said, Father, the hour is come; glorify thy Son, that thy Son also may glorify thee: 17:2 As thou hast given him power over all flesh, that he should give eternal life to as many as thou hast given him.
+<span id="<?php echo $chapterprefix; ?>17"></span>17:1 These words spake Jesus, and lifted up his eyes to heaven, and said, Father, the hour is come; glorify thy Son, that thy Son also may glorify thee: 17:2 As thou hast given him power over all flesh, that he should give eternal life to as many as thou hast given him.
 17:3 And this is life eternal, that they might know thee the only true God, and Jesus Christ, whom thou hast sent.
 17:4 I have glorified thee on the earth: I have finished the work which thou gavest me to do.
 17:5 And now, O Father, glorify thou me with thine own self with the glory which I had with thee before the world was.
@@ -606,7 +605,7 @@ In the world ye shall have tribulation: but be of good cheer; I have overcome th
 17:24 Father, I will that they also, whom thou hast given me, be with me where I am; that they may behold my glory, which thou hast given me: for thou lovedst me before the foundation of the world.
 17:25 O righteous Father, the world hath not known thee: but I have known thee, and these have known that thou hast sent me.
 17:26 And I have declared unto them thy name, and will declare it: that the love wherewith thou hast loved me may be in them, and I in them.
-<span id="18<?= $book ?>"></span>18:1 When Jesus had spoken these words, he went forth with his disciples over the brook Cedron, where was a garden, into the which he entered, and his disciples.
+<span id="<?php echo $chapterprefix; ?>18"></span>18:1 When Jesus had spoken these words, he went forth with his disciples over the brook Cedron, where was a garden, into the which he entered, and his disciples.
 18:2 And Judas also, which betrayed him, knew the place: for Jesus ofttimes resorted thither with his disciples.
 18:3 Judas then, having received a band of men and officers from the chief priests and Pharisees, cometh thither with lanterns and torches and weapons.
 18:4 Jesus therefore, knowing all things that should come upon him, went forth, and said unto them, Whom seek ye? 18:5 They answered him, Jesus of Nazareth. Jesus saith unto them, I am he.
@@ -634,7 +633,7 @@ And Judas also, which betrayed him, stood with them.
 18:37 Pilate therefore said unto him, Art thou a king then? Jesus answered, Thou sayest that I am a king. To this end was I born, and for this cause came I into the world, that I should bear witness unto the truth. Every one that is of the truth heareth my voice.
 18:38 Pilate saith unto him, What is truth? And when he had said this, he went out again unto the Jews, and saith unto them, I find in him no fault at all.
 18:39 But ye have a custom, that I should release unto you one at the passover: will ye therefore that I release unto you the King of the Jews? 18:40 Then cried they all again, saying, Not this man, but Barabbas. Now Barabbas was a robber.
-<span id="19<?= $book ?>"></span>19:1 Then Pilate therefore took Jesus, and scourged him.
+<span id="<?php echo $chapterprefix; ?>19"></span>19:1 Then Pilate therefore took Jesus, and scourged him.
 19:2 And the soldiers platted a crown of thorns, and put it on his head, and they put on him a purple robe, 19:3 And said, Hail, King of the Jews! and they smote him with their hands.
 19:4 Pilate therefore went forth again, and saith unto them, Behold, I bring him forth to you, that ye may know that I find no fault in him.
 19:5 Then came Jesus forth, wearing the crown of thorns, and the purple robe. And Pilate saith unto them, Behold the man! 19:6 When the chief priests therefore and officers saw him, they cried out, saying, Crucify him, crucify him. Pilate saith unto them, Take ye him, and crucify him: for I find no fault in him.
@@ -669,7 +668,7 @@ Pilate saith unto them, Shall I crucify your King? The chief priests answered, W
 19:40 Then took they the body of Jesus, and wound it in linen clothes with the spices, as the manner of the Jews is to bury.
 19:41 Now in the place where he was crucified there was a garden; and in the garden a new sepulchre, wherein was never man yet laid.
 19:42 There laid they Jesus therefore because of the Jews' preparation day; for the sepulchre was nigh at hand.
-<span id="20<?= $book ?>"></span>20:1 The first day of the week cometh Mary Magdalene early, when it was yet dark, unto the sepulchre, and seeth the stone taken away from the sepulchre.
+<span id="<?php echo $chapterprefix; ?>20"></span>20:1 The first day of the week cometh Mary Magdalene early, when it was yet dark, unto the sepulchre, and seeth the stone taken away from the sepulchre.
 20:2 Then she runneth, and cometh to Simon Peter, and to the other disciple, whom Jesus loved, and saith unto them, They have taken away the LORD out of the sepulchre, and we know not where they have laid him.
 20:3 Peter therefore went forth, and that other disciple, and came to the sepulchre.
 20:4 So they ran both together: and the other disciple did outrun Peter, and came first to the sepulchre.
@@ -698,7 +697,7 @@ But he said unto them, Except I shall see in his hands the print of the nails, a
 20:28 And Thomas answered and said unto him, My LORD and my God.
 20:29 Jesus saith unto him, Thomas, because thou hast seen me, thou hast believed: blessed are they that have not seen, and yet have believed.
 20:30 And many other signs truly did Jesus in the presence of his disciples, which are not written in this book: 20:31 But these are written, that ye might believe that Jesus is the Christ, the Son of God; and that believing ye might have life through his name.
-<span id="21<?= $book ?>"></span>21:1 After these things Jesus shewed himself again to the disciples at the sea of Tiberias; and on this wise shewed he himself.
+<span id="<?php echo $chapterprefix; ?>21"></span>21:1 After these things Jesus shewed himself again to the disciples at the sea of Tiberias; and on this wise shewed he himself.
 21:2 There were together Simon Peter, and Thomas called Didymus, and Nathanael of Cana in Galilee, and the sons of Zebedee, and two other of his disciples.
 21:3 Simon Peter saith unto them, I go a fishing. They say unto him, We also go with thee. They went forth, and entered into a ship immediately; and that night they caught nothing.
 21:4 But when the morning was now come, Jesus stood on the shore: but the disciples knew not that it was Jesus.
@@ -720,8 +719,4 @@ But he said unto them, Except I shall see in his hands the print of the nails, a
 21:20 Then Peter, turning about, seeth the disciple whom Jesus loved following; which also leaned on his breast at supper, and said, Lord, which is he that betrayeth thee? 21:21 Peter seeing him saith to Jesus, Lord, and what shall this man do? 21:22 Jesus saith unto him, If I will that he tarry till I come, what is that to thee? follow thou me.
 21:23 Then went this saying abroad among the brethren, that that disciple should not die: yet Jesus said not unto him, He shall not die; but, If I will that he tarry till I come, what is that to thee? 21:24 This is the disciple which testifieth of these things, and wrote these things: and we know that his testimony is true.
 21:25 And there are also many other things which Jesus did, the which, if they should be written every one, I suppose that even the world itself could not contain the books that should be written. Amen.
-<?php
-if (!isset($include)) {
- include ('aa-end.php');
-}
-?>
+<?php if (!isset($collection)) {include 'bookfoot.php';} ?>

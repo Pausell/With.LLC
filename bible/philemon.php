@@ -1,11 +1,10 @@
 <?php
 $title = 'Philemon';
 $description = 'The Epistle of Paul the Apostle to Philemon';
-if (!isset($include)) {
- include ('aa-beginning.php');
-}
+if (isset($collection)) {$chapterprefix = 'philemon';}
+if (!isset($collection)) {include 'bookhead.php';}
 ?>
-<span id="1<?= $book ?>"></span><h2 id="philemon">The Epistle of Paul the Apostle to Philemon</h2><!--2t18b-->
+<span id="<?php echo $chapterprefix; ?>1"></span><h3 id="philemon">The Epistle of Paul the Apostle to Philemon</h3><!--2t18b-->
 1:1 Paul, a prisoner of Jesus Christ, and Timothy our brother, unto Philemon our dearly beloved, and fellowlabourer, 1:2 And to our beloved Apphia, and Archippus our fellowsoldier, and to the church in thy house: 1:3 Grace to you, and peace, from God our Father and the Lord Jesus Christ.
 1:4 I thank my God, making mention of thee always in my prayers, 1:5 Hearing of thy love and faith, which thou hast toward the Lord Jesus, and toward all saints; 1:6 That the communication of thy faith may become effectual by the acknowledging of every good thing which is in you in Christ Jesus.
 1:7 For we have great joy and consolation in thy love, because the bowels of the saints are refreshed by thee, brother.
@@ -18,8 +17,4 @@ if (!isset($include)) {
 1:22 But withal prepare me also a lodging: for I trust that through your prayers I shall be given unto you.
 1:23 There salute thee Epaphras, my fellowprisoner in Christ Jesus; 1:24 Marcus, Aristarchus, Demas, Lucas, my fellowlabourers.
 1:25 The grace of our Lord Jesus Christ be with your spirit. Amen.
-<?php
-if (!isset($include)) {
- include ('aa-end.php');
-}
-?>
+<?php if (!isset($collection)) {include 'bookfoot.php';} ?>

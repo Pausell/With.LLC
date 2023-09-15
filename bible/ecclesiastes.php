@@ -1,11 +1,10 @@
 <?php
 $title = 'Ecclesiastes';
 $description = 'Ecclesiastes or The Preacher';
-if (!isset($include)) {
- include ('aa-beginning.php');
-}
+if (isset($collection)) {$chapterprefix = 'ecclesiastes';}
+if (!isset($collection)) {include 'bookhead.php';}
 ?>
-<span id="1<?= $book ?>"></span><h2 id="ecclesiastes">Ecclesiastes</h2><!--1t21b-->
+<span id="<?php echo $chapterprefix; ?>1"></span><h3 id="ecclesiastes">Ecclesiastes</h3><!--1t21b-->
 or
 The Preacher
 1:1 The words of the Preacher, the son of David, king in Jerusalem.
@@ -25,7 +24,7 @@ The Preacher
 1:16 I communed with mine own heart, saying, Lo, I am come to great estate, and have gotten more wisdom than all they that have been before me in Jerusalem: yea, my heart had great experience of wisdom and knowledge.
 1:17 And I gave my heart to know wisdom, and to know madness and folly: I perceived that this also is vexation of spirit.
 1:18 For in much wisdom is much grief: and he that increaseth knowledge increaseth sorrow.
-<span id="2<?= $book ?>"></span>2:1 I said in mine heart, Go to now, I will prove thee with mirth, therefore enjoy pleasure: and, behold, this also is vanity.
+<span id="<?php echo $chapterprefix; ?>2"></span>2:1 I said in mine heart, Go to now, I will prove thee with mirth, therefore enjoy pleasure: and, behold, this also is vanity.
 2:2 I said of laughter, It is mad: and of mirth, What doeth it? 2:3 I sought in mine heart to give myself unto wine, yet acquainting mine heart with wisdom; and to lay hold on folly, till I might see what was that good for the sons of men, which they should do under the heaven all the days of their life.
 2:4 I made me great works; I builded me houses; I planted me vineyards: 2:5 I made me gardens and orchards, and I planted trees in them of all kind of fruits: 2:6 I made me pools of water, to water therewith the wood that bringeth forth trees: 2:7 I got me servants and maidens, and had servants born in my house; also I had great possessions of great and small cattle above all that were in Jerusalem before me: 2:8 I gathered me also silver and gold, and the peculiar treasure of kings and of the provinces: I gat me men singers and women singers, and the delights of the sons of men, as musical instruments, and that of all sorts.
 2:9 So I was great, and increased more than all that were before me in Jerusalem: also my wisdom remained with me.
@@ -45,7 +44,7 @@ And how dieth the wise man? as the fool.
 2:22 For what hath man of all his labour, and of the vexation of his heart, wherein he hath laboured under the sun? 2:23 For all his days are sorrows, and his travail grief; yea, his heart taketh not rest in the night. This is also vanity.
 2:24 There is nothing better for a man, than that he should eat and drink, and that he should make his soul enjoy good in his labour. This also I saw, that it was from the hand of God.
 2:25 For who can eat, or who else can hasten hereunto, more than I? 2:26 For God giveth to a man that is good in his sight wisdom, and knowledge, and joy: but to the sinner he giveth travail, to gather and to heap up, that he may give to him that is good before God. This also is vanity and vexation of spirit.
-<span id="3<?= $book ?>"></span>3:1 To every thing there is a season, and a time to every purpose under the heaven: 3:2 A time to be born, and a time to die; a time to plant, and a time to pluck up that which is planted; 3:3 A time to kill, and a time to heal; a time to break down, and a time to build up; 3:4 A time to weep, and a time to laugh; a time to mourn, and a time to dance; 3:5 A time to cast away stones, and a time to gather stones together; a time to embrace, and a time to refrain from embracing; 3:6 A time to get, and a time to lose; a time to keep, and a time to cast away; 3:7 A time to rend, and a time to sew; a time to keep silence, and a time to speak; 3:8 A time to love, and a time to hate; a time of war, and a time of peace.
+<span id="<?php echo $chapterprefix; ?>3"></span>3:1 To every thing there is a season, and a time to every purpose under the heaven: 3:2 A time to be born, and a time to die; a time to plant, and a time to pluck up that which is planted; 3:3 A time to kill, and a time to heal; a time to break down, and a time to build up; 3:4 A time to weep, and a time to laugh; a time to mourn, and a time to dance; 3:5 A time to cast away stones, and a time to gather stones together; a time to embrace, and a time to refrain from embracing; 3:6 A time to get, and a time to lose; a time to keep, and a time to cast away; 3:7 A time to rend, and a time to sew; a time to keep silence, and a time to speak; 3:8 A time to love, and a time to hate; a time of war, and a time of peace.
 3:9 What profit hath he that worketh in that wherein he laboureth? 3:10 I have seen the travail, which God hath given to the sons of men to be exercised in it.
 3:11 He hath made every thing beautiful in his time: also he hath set the world in their heart, so that no man can find out the work that God maketh from the beginning to the end.
 3:12 I know that there is no good in them, but for a man to rejoice, and to do good in his life.
@@ -57,7 +56,7 @@ And how dieth the wise man? as the fool.
 3:18 I said in mine heart concerning the estate of the sons of men, that God might manifest them, and that they might see that they themselves are beasts.
 3:19 For that which befalleth the sons of men befalleth beasts; even one thing befalleth them: as the one dieth, so dieth the other; yea, they have all one breath; so that a man hath no preeminence above a beast: for all is vanity.
 3:20 All go unto one place; all are of the dust, and all turn to dust again.
-3:21 Who knoweth the spirit of man that goeth upward, and the spirit of the beast that goeth downward to the earth? 3:22 Wherefore I perceive that there is nothing better, than that a man should rejoice in his own works; for that is his portion: for who shall bring him to see what shall be after him? <span id="4<?= $book ?>"></span>4:1 So I returned, and considered all the oppressions that are done under the sun: and behold the tears of such as were oppressed, and they had no comforter; and on the side of their oppressors there was power; but they had no comforter.
+3:21 Who knoweth the spirit of man that goeth upward, and the spirit of the beast that goeth downward to the earth? 3:22 Wherefore I perceive that there is nothing better, than that a man should rejoice in his own works; for that is his portion: for who shall bring him to see what shall be after him? <span id="<?php echo $chapterprefix; ?>4"></span>4:1 So I returned, and considered all the oppressions that are done under the sun: and behold the tears of such as were oppressed, and they had no comforter; and on the side of their oppressors there was power; but they had no comforter.
 4:2 Wherefore I praised the dead which are already dead more than the living which are yet alive.
 4:3 Yea, better is he than both they, which hath not yet been, who hath not seen the evil work that is done under the sun.
 4:4 Again, I considered all travail, and every right work, that for this a man is envied of his neighbour. This is also vanity and vexation of spirit.
@@ -72,7 +71,7 @@ And how dieth the wise man? as the fool.
 4:14 For out of prison he cometh to reign; whereas also he that is born in his kingdom becometh poor.
 4:15 I considered all the living which walk under the sun, with the second child that shall stand up in his stead.
 4:16 There is no end of all the people, even of all that have been before them: they also that come after shall not rejoice in him. Surely this also is vanity and vexation of spirit.
-<span id="5<?= $book ?>"></span>5:1 Keep thy foot when thou goest to the house of God, and be more ready to hear, than to give the sacrifice of fools: for they consider not that they do evil.
+<span id="<?php echo $chapterprefix; ?>5"></span>5:1 Keep thy foot when thou goest to the house of God, and be more ready to hear, than to give the sacrifice of fools: for they consider not that they do evil.
 5:2 Be not rash with thy mouth, and let not thine heart be hasty to utter any thing before God: for God is in heaven, and thou upon earth: therefore let thy words be few.
 5:3 For a dream cometh through the multitude of business; and a fool's voice is known by multitude of words.
 5:4 When thou vowest a vow unto God, defer not to pay it; for he hath no pleasure in fools: pay that which thou hast vowed.
@@ -89,14 +88,14 @@ And how dieth the wise man? as the fool.
 5:18 Behold that which I have seen: it is good and comely for one to eat and to drink, and to enjoy the good of all his labour that he taketh under the sun all the days of his life, which God giveth him: for it is his portion.
 5:19 Every man also to whom God hath given riches and wealth, and hath given him power to eat thereof, and to take his portion, and to rejoice in his labour; this is the gift of God.
 5:20 For he shall not much remember the days of his life; because God answereth him in the joy of his heart.
-<span id="6<?= $book ?>"></span>6:1 There is an evil which I have seen under the sun, and it is common among men: 6:2 A man to whom God hath given riches, wealth, and honour, so that he wanteth nothing for his soul of all that he desireth, yet God giveth him not power to eat thereof, but a stranger eateth it: this is vanity, and it is an evil disease.
+<span id="<?php echo $chapterprefix; ?>6"></span>6:1 There is an evil which I have seen under the sun, and it is common among men: 6:2 A man to whom God hath given riches, wealth, and honour, so that he wanteth nothing for his soul of all that he desireth, yet God giveth him not power to eat thereof, but a stranger eateth it: this is vanity, and it is an evil disease.
 6:3 If a man beget an hundred children, and live many years, so that the days of his years be many, and his soul be not filled with good, and also that he have no burial; I say, that an untimely birth is better than he.
 6:4 For he cometh in with vanity, and departeth in darkness, and his name shall be covered with darkness.
 6:5 Moreover he hath not seen the sun, nor known any thing: this hath more rest than the other.
 6:6 Yea, though he live a thousand years twice told, yet hath he seen no good: do not all go to one place? 6:7 All the labour of man is for his mouth, and yet the appetite is not filled.
 6:8 For what hath the wise more than the fool? what hath the poor, that knoweth to walk before the living? 6:9 Better is the sight of the eyes than the wandering of the desire: this is also vanity and vexation of spirit.
 6:10 That which hath been is named already, and it is known that it is man: neither may he contend with him that is mightier than he.
-6:11 Seeing there be many things that increase vanity, what is man the better? 6:12 For who knoweth what is good for man in this life, all the days of his vain life which he spendeth as a shadow? for who can tell a man what shall be after him under the sun? <span id="7<?= $book ?>"></span>7:1 A good name is better than precious ointment; and the day of death than the day of one's birth.
+6:11 Seeing there be many things that increase vanity, what is man the better? 6:12 For who knoweth what is good for man in this life, all the days of his vain life which he spendeth as a shadow? for who can tell a man what shall be after him under the sun? <span id="<?php echo $chapterprefix; ?>7"></span>7:1 A good name is better than precious ointment; and the day of death than the day of one's birth.
 7:2 It is better to go to the house of mourning, than to go to the house of feasting: for that is the end of all men; and the living will lay it to his heart.
 7:3 Sorrow is better than laughter: for by the sadness of the countenance the heart is made better.
 7:4 The heart of the wise is in the house of mourning; but the heart of fools is in the house of mirth.
@@ -118,7 +117,7 @@ And how dieth the wise man? as the fool.
 7:24 That which is far off, and exceeding deep, who can find it out? 7:25 I applied mine heart to know, and to search, and to seek out wisdom, and the reason of things, and to know the wickedness of folly, even of foolishness and madness: 7:26 And I find more bitter than death the woman, whose heart is snares and nets, and her hands as bands: whoso pleaseth God shall escape from her; but the sinner shall be taken by her.
 7:27 Behold, this have I found, saith the preacher, counting one by one, to find out the account: 7:28 Which yet my soul seeketh, but I find not: one man among a thousand have I found; but a woman among all those have I not found.
 7:29 Lo, this only have I found, that God hath made man upright; but they have sought out many inventions.
-<span id="8<?= $book ?>"></span>8:1 Who is as the wise man? and who knoweth the interpretation of a thing? a man's wisdom maketh his face to shine, and the boldness of his face shall be changed.
+<span id="<?php echo $chapterprefix; ?>8"></span>8:1 Who is as the wise man? and who knoweth the interpretation of a thing? a man's wisdom maketh his face to shine, and the boldness of his face shall be changed.
 8:2 I counsel thee to keep the king's commandment, and that in regard of the oath of God.
 8:3 Be not hasty to go out of his sight: stand not in an evil thing; for he doeth whatsoever pleaseth him.
 8:4 Where the word of a king is, there is power: and who may say unto him, What doest thou? 8:5 Whoso keepeth the commandment shall feel no evil thing: and a wise man's heart discerneth both time and judgment.
@@ -131,7 +130,7 @@ And how dieth the wise man? as the fool.
 8:14 There is a vanity which is done upon the earth; that there be just men, unto whom it happeneth according to the work of the wicked; again, there be wicked men, to whom it happeneth according to the work of the righteous: I said that this also is vanity.
 8:15 Then I commended mirth, because a man hath no better thing under the sun, than to eat, and to drink, and to be merry: for that shall abide with him of his labour the days of his life, which God giveth him under the sun.
 8:16 When I applied mine heart to know wisdom, and to see the business that is done upon the earth: (for also there is that neither day nor night seeth sleep with his eyes:) 8:17 Then I beheld all the work of God, that a man cannot find out the work that is done under the sun: because though a man labour to seek it out, yet he shall not find it; yea farther; though a wise man think to know it, yet shall he not be able to find it.
-<span id="9<?= $book ?>"></span>9:1 For all this I considered in my heart even to declare all this, that the righteous, and the wise, and their works, are in the hand of God: no man knoweth either love or hatred by all that is before them.
+<span id="<?php echo $chapterprefix; ?>9"></span>9:1 For all this I considered in my heart even to declare all this, that the righteous, and the wise, and their works, are in the hand of God: no man knoweth either love or hatred by all that is before them.
 9:2 All things come alike to all: there is one event to the righteous, and to the wicked; to the good and to the clean, and to the unclean; to him that sacrificeth, and to him that sacrificeth not: as is the good, so is the sinner; and he that sweareth, as he that feareth an oath.
 9:3 This is an evil among all things that are done under the sun, that there is one event unto all: yea, also the heart of the sons of men is full of evil, and madness is in their heart while they live, and after that they go to the dead.
 9:4 For to him that is joined to all the living there is hope: for a living dog is better than a dead lion.
@@ -147,7 +146,7 @@ And how dieth the wise man? as the fool.
 9:16 Then said I, Wisdom is better than strength: nevertheless the poor man's wisdom is despised, and his words are not heard.
 9:17 The words of wise men are heard in quiet more than the cry of him that ruleth among fools.
 9:18 Wisdom is better than weapons of war: but one sinner destroyeth much good.
-<span id="10<?= $book ?>"></span>10:1 Dead flies cause the ointment of the apothecary to send forth a stinking savour: so doth a little folly him that is in reputation for wisdom and honour.
+<span id="<?php echo $chapterprefix; ?>10"></span>10:1 Dead flies cause the ointment of the apothecary to send forth a stinking savour: so doth a little folly him that is in reputation for wisdom and honour.
 10:2 A wise man's heart is at his right hand; but a fool's heart at his left.
 10:3 Yea also, when he that is a fool walketh by the way, his wisdom faileth him, and he saith to every one that he is a fool.
 10:4 If the spirit of the ruler rise up against thee, leave not thy place; for yielding pacifieth great offences.
@@ -163,7 +162,7 @@ And how dieth the wise man? as the fool.
 10:16 Woe to thee, O land, when thy king is a child, and thy princes eat in the morning! 10:17 Blessed art thou, O land, when thy king is the son of nobles, and thy princes eat in due season, for strength, and not for drunkenness! 10:18 By much slothfulness the building decayeth; and through idleness of the hands the house droppeth through.
 10:19 A feast is made for laughter, and wine maketh merry: but money answereth all things.
 10:20 Curse not the king, no not in thy thought; and curse not the rich in thy bedchamber: for a bird of the air shall carry the voice, and that which hath wings shall tell the matter.
-<span id="11<?= $book ?>"></span>11:1 Cast thy bread upon the waters: for thou shalt find it after many days.
+<span id="<?php echo $chapterprefix; ?>11"></span>11:1 Cast thy bread upon the waters: for thou shalt find it after many days.
 11:2 Give a portion to seven, and also to eight; for thou knowest not what evil shall be upon the earth.
 11:3 If the clouds be full of rain, they empty themselves upon the earth: and if the tree fall toward the south, or toward the north, in the place where the tree falleth, there it shall be.
 11:4 He that observeth the wind shall not sow; and he that regardeth the clouds shall not reap.
@@ -172,7 +171,7 @@ And how dieth the wise man? as the fool.
 11:7 Truly the light is sweet, and a pleasant thing it is for the eyes to behold the sun: 11:8 But if a man live many years, and rejoice in them all; yet let him remember the days of darkness; for they shall be many. All that cometh is vanity.
 11:9 Rejoice, O young man, in thy youth; and let thy heart cheer thee in the days of thy youth, and walk in the ways of thine heart, and in the sight of thine eyes: but know thou, that for all these things God will bring thee into judgment.
 11:10 Therefore remove sorrow from thy heart, and put away evil from thy flesh: for childhood and youth are vanity.
-<span id="12<?= $book ?>"></span>12:1 Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them; 12:2 While the sun, or the light, or the moon, or the stars, be not darkened, nor the clouds return after the rain: 12:3 In the day when the keepers of the house shall tremble, and the strong men shall bow themselves, and the grinders cease because they are few, and those that look out of the windows be darkened, 12:4 And the doors shall be shut in the streets, when the sound of the grinding is low, and he shall rise up at the voice of the bird, and all the daughters of musick shall be brought low; 12:5 Also when they shall be afraid of that which is high, and fears shall be in the way, and the almond tree shall flourish, and the grasshopper shall be a burden, and desire shall fail: because man goeth to his long home, and the mourners go about the streets: 12:6 Or ever the silver cord be loosed, or the golden bowl be broken, or the pitcher be broken at the fountain, or the wheel broken at the cistern.
+<span id="<?php echo $chapterprefix; ?>12"></span>12:1 Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them; 12:2 While the sun, or the light, or the moon, or the stars, be not darkened, nor the clouds return after the rain: 12:3 In the day when the keepers of the house shall tremble, and the strong men shall bow themselves, and the grinders cease because they are few, and those that look out of the windows be darkened, 12:4 And the doors shall be shut in the streets, when the sound of the grinding is low, and he shall rise up at the voice of the bird, and all the daughters of musick shall be brought low; 12:5 Also when they shall be afraid of that which is high, and fears shall be in the way, and the almond tree shall flourish, and the grasshopper shall be a burden, and desire shall fail: because man goeth to his long home, and the mourners go about the streets: 12:6 Or ever the silver cord be loosed, or the golden bowl be broken, or the pitcher be broken at the fountain, or the wheel broken at the cistern.
 12:7 Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.
 12:8 Vanity of vanities, saith the preacher; all is vanity.
 12:9 And moreover, because the preacher was wise, he still taught the people knowledge; yea, he gave good heed, and sought out, and set in order many proverbs.
@@ -181,8 +180,4 @@ And how dieth the wise man? as the fool.
 12:12 And further, by these, my son, be admonished: of making many books there is no end; and much study is a weariness of the flesh.
 12:13 Let us hear the conclusion of the whole matter: Fear God, and keep his commandments: for this is the whole duty of man.
 12:14 For God shall bring every work into judgment, with every secret thing, whether it be good, or whether it be evil.
-<?php
-if (!isset($include)) {
- include ('aa-end.php');
-}
-?>
+<?php if (!isset($collection)) {include 'bookfoot.php';} ?>

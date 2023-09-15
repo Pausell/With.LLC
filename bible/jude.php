@@ -1,11 +1,10 @@
 <?php
 $title = 'Jude';
 $description = 'The General Epistle of Jude';
-if (!isset($include)) {
- include ('aa-beginning.php');
-}
+if (isset($collection)) {$chapterprefix = 'jude';}
+if (!isset($collection)) {include 'bookhead.php';}
 ?>
-<span id="1<?= $book ?>"></span><h2 id="jude">The General Epistle of Jude</h2><!--2t26b-->
+<span id="<?php echo $chapterprefix; ?>1"></span><h3 id="jude">The General Epistle of Jude</h3><!--2t26b-->
 1:1 Jude, the servant of Jesus Christ, and brother of James, to them that are sanctified by God the Father, and preserved in Jesus Christ, and called: 1:2 Mercy unto you, and peace, and love, be multiplied.
 1:3 Beloved, when I gave all diligence to write unto you of the common salvation, it was needful for me to write unto you, and exhort you that ye should earnestly contend for the faith which was once delivered unto the saints.
 1:4 For there are certain men crept in unawares, who were before of old ordained to this condemnation, ungodly men, turning the grace of our God into lasciviousness, and denying the only Lord God, and our Lord Jesus Christ.
@@ -24,8 +23,4 @@ if (!isset($include)) {
 1:20 But ye, beloved, building up yourselves on your most holy faith, praying in the Holy Ghost, 1:21 Keep yourselves in the love of God, looking for the mercy of our Lord Jesus Christ unto eternal life.
 1:22 And of some have compassion, making a difference: 1:23 And others save with fear, pulling them out of the fire; hating even the garment spotted by the flesh.
 1:24 Now unto him that is able to keep you from falling, and to present you faultless before the presence of his glory with exceeding joy, 1:25 To the only wise God our Saviour, be glory and majesty, dominion and power, both now and ever. Amen.
-<?php
-if (!isset($include)) {
- include ('aa-end.php');
-}
-?>
+<?php if (!isset($collection)) {include 'bookfoot.php';} ?>

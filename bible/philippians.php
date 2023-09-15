@@ -1,11 +1,10 @@
 <?php
 $title = 'Philippians';
 $description = 'The Epistle of Paul the Apostle to the Philippians';
-if (!isset($include)) {
- include ('aa-beginning.php');
-}
+if (isset($collection)) {$chapterprefix = 'philippians';}
+if (!isset($collection)) {include 'bookhead.php';}
 ?>
-<span id="1<?= $book ?>"></span><h2 id="philippians">The Epistle of Paul the Apostle to the Philippians</h2><!--2t11b-->
+<span id="<?php echo $chapterprefix; ?>1"></span><h3 id="philippians">The Epistle of Paul the Apostle to the Philippians</h3><!--2t11b-->
 1:1 Paul and Timotheus, the servants of Jesus Christ, to all the saints in Christ Jesus which are at Philippi, with the bishops and deacons: 1:2 Grace be unto you, and peace, from God our Father, and from the Lord Jesus Christ.
 1:3 I thank my God upon every remembrance of you, 1:4 Always in every prayer of mine for you all making request with joy, 1:5 For your fellowship in the gospel from the first day until now; 1:6 Being confident of this very thing, that he which hath begun a good work in you will perform it until the day of Jesus Christ: 1:7 Even as it is meet for me to think this of you all, because I have you in my heart; inasmuch as both in my bonds, and in the defence and confirmation of the gospel, ye all are partakers of my grace.
 1:8 For God is my record, how greatly I long after you all in the bowels of Jesus Christ.
@@ -21,7 +20,7 @@ if (!isset($include)) {
 1:25 And having this confidence, I know that I shall abide and continue with you all for your furtherance and joy of faith; 1:26 That your rejoicing may be more abundant in Jesus Christ for me by my coming to you again.
 1:27 Only let your conversation be as it becometh the gospel of Christ: that whether I come and see you, or else be absent, I may hear of your affairs, that ye stand fast in one spirit, with one mind striving together for the faith of the gospel; 1:28 And in nothing terrified by your adversaries: which is to them an evident token of perdition, but to you of salvation, and that of God.
 1:29 For unto you it is given in the behalf of Christ, not only to believe on him, but also to suffer for his sake; 1:30 Having the same conflict which ye saw in me, and now hear to be in me.
-<span id="2<?= $book ?>"></span>2:1 If there be therefore any consolation in Christ, if any comfort of love, if any fellowship of the Spirit, if any bowels and mercies, 2:2 Fulfil ye my joy, that ye be likeminded, having the same love, being of one accord, of one mind.
+<span id="<?php echo $chapterprefix; ?>2"></span>2:1 If there be therefore any consolation in Christ, if any comfort of love, if any fellowship of the Spirit, if any bowels and mercies, 2:2 Fulfil ye my joy, that ye be likeminded, having the same love, being of one accord, of one mind.
 2:3 Let nothing be done through strife or vainglory; but in lowliness of mind let each esteem other better than themselves.
 2:4 Look not every man on his own things, but every man also on the things of others.
 2:5 Let this mind be in you, which was also in Christ Jesus: 2:6 Who, being in the form of God, thought it not robbery to be equal with God: 2:7 But made himself of no reputation, and took upon him the form of a servant, and was made in the likeness of men: 2:8 And being found in fashion as a man, he humbled himself, and became obedient unto death, even the death of the cross.
@@ -42,7 +41,7 @@ if (!isset($include)) {
 2:27 For indeed he was sick nigh unto death: but God had mercy on him; and not on him only, but on me also, lest I should have sorrow upon sorrow.
 2:28 I sent him therefore the more carefully, that, when ye see him again, ye may rejoice, and that I may be the less sorrowful.
 2:29 Receive him therefore in the Lord with all gladness; and hold such in reputation: 2:30 Because for the work of Christ he was nigh unto death, not regarding his life, to supply your lack of service toward me.
-<span id="3<?= $book ?>"></span>3:1 Finally, my brethren, rejoice in the Lord. To write the same things to you, to me indeed is not grievous, but for you it is safe.
+<span id="<?php echo $chapterprefix; ?>3"></span>3:1 Finally, my brethren, rejoice in the Lord. To write the same things to you, to me indeed is not grievous, but for you it is safe.
 3:2 Beware of dogs, beware of evil workers, beware of the concision.
 3:3 For we are the circumcision, which worship God in the spirit, and rejoice in Christ Jesus, and have no confidence in the flesh.
 3:4 Though I might also have confidence in the flesh. If any other man thinketh that he hath whereof he might trust in the flesh, I more: 3:5 Circumcised the eighth day, of the stock of Israel, of the tribe of Benjamin, an Hebrew of the Hebrews; as touching the law, a Pharisee; 3:6 Concerning zeal, persecuting the church; touching the righteousness which is in the law, blameless.
@@ -54,7 +53,7 @@ if (!isset($include)) {
 3:16 Nevertheless, whereto we have already attained, let us walk by the same rule, let us mind the same thing.
 3:17 Brethren, be followers together of me, and mark them which walk so as ye have us for an ensample.
 3:18 (For many walk, of whom I have told you often, and now tell you even weeping, that they are the enemies of the cross of Christ: 3:19 Whose end is destruction, whose God is their belly, and whose glory is in their shame, who mind earthly things.) 3:20 For our conversation is in heaven; from whence also we look for the Saviour, the Lord Jesus Christ: 3:21 Who shall change our vile body, that it may be fashioned like unto his glorious body, according to the working whereby he is able even to subdue all things unto himself.
-<span id="4<?= $book ?>"></span>4:1 Therefore, my brethren dearly beloved and longed for, my joy and crown, so stand fast in the Lord, my dearly beloved.
+<span id="<?php echo $chapterprefix; ?>4"></span>4:1 Therefore, my brethren dearly beloved and longed for, my joy and crown, so stand fast in the Lord, my dearly beloved.
 4:2 I beseech Euodias, and beseech Syntyche, that they be of the same mind in the Lord.
 4:3 And I intreat thee also, true yokefellow, help those women which laboured with me in the gospel, with Clement also, and with other my fellowlabourers, whose names are in the book of life.
 4:4 Rejoice in the Lord alway: and again I say, Rejoice.
@@ -77,8 +76,4 @@ if (!isset($include)) {
 4:21 Salute every saint in Christ Jesus. The brethren which are with me greet you.
 4:22 All the saints salute you, chiefly they that are of Caesar's household.
 4:23 The grace of our Lord Jesus Christ be with you all. Amen.
-<?php
-if (!isset($include)) {
- include ('aa-end.php');
-}
-?>
+<?php if (!isset($collection)) {include 'bookfoot.php';} ?>

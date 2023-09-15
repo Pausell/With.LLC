@@ -1,11 +1,10 @@
 <?php
 $title = 'Solomon';
 $description = 'The Song of Solomon';
-if (!isset($include)) {
- include ('aa-beginning.php');
-}
+if (isset($collection)) {$chapterprefix = 'solomon';}
+if (!isset($collection)) {include 'bookhead.php';}
 ?>
-<span id="1<?= $book ?>"></span><h2 id="solomon">The Song of Solomon</h2><!--1t22b-->
+<span id="<?php echo $chapterprefix; ?>1"></span><h3 id="solomon">The Song of Solomon</h3><!--1t22b-->
 1:1 The song of songs, which is Solomon's.
 1:2 Let him kiss me with the kisses of his mouth: for thy love is better than wine.
 1:3 Because of the savour of thy good ointments thy name is as ointment poured forth, therefore do the virgins love thee.
@@ -22,7 +21,7 @@ if (!isset($include)) {
 1:15 Behold, thou art fair, my love; behold, thou art fair; thou hast doves' eyes.
 1:16 Behold, thou art fair, my beloved, yea, pleasant: also our bed is green.
 1:17 The beams of our house are cedar, and our rafters of fir.
-<span id="2<?= $book ?>"></span>2:1 I am the rose of Sharon, and the lily of the valleys.
+<span id="<?php echo $chapterprefix; ?>2"></span>2:1 I am the rose of Sharon, and the lily of the valleys.
 2:2 As the lily among thorns, so is my love among the daughters.
 2:3 As the apple tree among the trees of the wood, so is my beloved among the sons. I sat down under his shadow with great delight, and his fruit was sweet to my taste.
 2:4 He brought me to the banqueting house, and his banner over me was love.
@@ -37,7 +36,7 @@ if (!isset($include)) {
 2:15 Take us the foxes, the little foxes, that spoil the vines: for our vines have tender grapes.
 2:16 My beloved is mine, and I am his: he feedeth among the lilies.
 2:17 Until the day break, and the shadows flee away, turn, my beloved, and be thou like a roe or a young hart upon the mountains of Bether.
-<span id="3<?= $book ?>"></span>3:1 By night on my bed I sought him whom my soul loveth: I sought him, but I found him not.
+<span id="<?php echo $chapterprefix; ?>3"></span>3:1 By night on my bed I sought him whom my soul loveth: I sought him, but I found him not.
 3:2 I will rise now, and go about the city in the streets, and in the broad ways I will seek him whom my soul loveth: I sought him, but I found him not.
 3:3 The watchmen that go about the city found me: to whom I said, Saw ye him whom my soul loveth? 3:4 It was but a little that I passed from them, but I found him whom my soul loveth: I held him, and would not let him go, until I had brought him into my mother's house, and into the chamber of her that conceived me.
 3:5 I charge you, O ye daughters of Jerusalem, by the roes, and by the hinds of the field, that ye stir not up, nor awake my love, till he please.
@@ -46,7 +45,7 @@ if (!isset($include)) {
 3:9 King Solomon made himself a chariot of the wood of Lebanon.
 3:10 He made the pillars thereof of silver, the bottom thereof of gold, the covering of it of purple, the midst thereof being paved with love, for the daughters of Jerusalem.
 3:11 Go forth, O ye daughters of Zion, and behold king Solomon with the crown wherewith his mother crowned him in the day of his espousals, and in the day of the gladness of his heart.
-<span id="4<?= $book ?>"></span>4:1 Behold, thou art fair, my love; behold, thou art fair; thou hast doves' eyes within thy locks: thy hair is as a flock of goats, that appear from mount Gilead.
+<span id="<?php echo $chapterprefix; ?>4"></span>4:1 Behold, thou art fair, my love; behold, thou art fair; thou hast doves' eyes within thy locks: thy hair is as a flock of goats, that appear from mount Gilead.
 4:2 Thy teeth are like a flock of sheep that are even shorn, which came up from the washing; whereof every one bear twins, and none is barren among them.
 4:3 Thy lips are like a thread of scarlet, and thy speech is comely: thy temples are like a piece of a pomegranate within thy locks.
 4:4 Thy neck is like the tower of David builded for an armoury, whereon there hang a thousand bucklers, all shields of mighty men.
@@ -59,7 +58,7 @@ if (!isset($include)) {
 4:12 A garden inclosed is my sister, my spouse; a spring shut up, a fountain sealed.
 4:13 Thy plants are an orchard of pomegranates, with pleasant fruits; camphire, with spikenard, 4:14 Spikenard and saffron; calamus and cinnamon, with all trees of frankincense; myrrh and aloes, with all the chief spices: 4:15 A fountain of gardens, a well of living waters, and streams from Lebanon.
 4:16 Awake, O north wind; and come, thou south; blow upon my garden, that the spices thereof may flow out. Let my beloved come into his garden, and eat his pleasant fruits.
-<span id="5<?= $book ?>"></span>5:1 I am come into my garden, my sister, my spouse: I have gathered my myrrh with my spice; I have eaten my honeycomb with my honey; I have drunk my wine with my milk: eat, O friends; drink, yea, drink abundantly, O beloved.
+<span id="<?php echo $chapterprefix; ?>5"></span>5:1 I am come into my garden, my sister, my spouse: I have gathered my myrrh with my spice; I have eaten my honeycomb with my honey; I have drunk my wine with my milk: eat, O friends; drink, yea, drink abundantly, O beloved.
 5:2 I sleep, but my heart waketh: it is the voice of my beloved that knocketh, saying, Open to me, my sister, my love, my dove, my undefiled: for my head is filled with dew, and my locks with the drops of the night.
 5:3 I have put off my coat; how shall I put it on? I have washed my feet; how shall I defile them? 5:4 My beloved put in his hand by the hole of the door, and my bowels were moved for him.
 5:5 I rose up to open to my beloved; and my hands dropped with myrrh, and my fingers with sweet smelling myrrh, upon the handles of the lock.
@@ -73,7 +72,7 @@ if (!isset($include)) {
 5:14 His hands are as gold rings set with the beryl: his belly is as bright ivory overlaid with sapphires.
 5:15 His legs are as pillars of marble, set upon sockets of fine gold: his countenance is as Lebanon, excellent as the cedars.
 5:16 His mouth is most sweet: yea, he is altogether lovely. This is my beloved, and this is my friend, O daughters of Jerusalem.
-<span id="6<?= $book ?>"></span>6:1 Whither is thy beloved gone, O thou fairest among women? whither is thy beloved turned aside? that we may seek him with thee.
+<span id="<?php echo $chapterprefix; ?>6"></span>6:1 Whither is thy beloved gone, O thou fairest among women? whither is thy beloved turned aside? that we may seek him with thee.
 6:2 My beloved is gone down into his garden, to the beds of spices, to feed in the gardens, and to gather lilies.
 6:3 I am my beloved's, and my beloved is mine: he feedeth among the lilies.
 6:4 Thou art beautiful, O my love, as Tirzah, comely as Jerusalem, terrible as an army with banners.
@@ -85,7 +84,7 @@ if (!isset($include)) {
 6:10 Who is she that looketh forth as the morning, fair as the moon, clear as the sun, and terrible as an army with banners? 6:11 I went down into the garden of nuts to see the fruits of the valley, and to see whether the vine flourished and the pomegranates budded.
 6:12 Or ever I was aware, my soul made me like the chariots of Amminadib.
 6:13 Return, return, O Shulamite; return, return, that we may look upon thee. What will ye see in the Shulamite? As it were the company of two armies.
-<span id="7<?= $book ?>"></span>7:1 How beautiful are thy feet with shoes, O prince's daughter! the joints of thy thighs are like jewels, the work of the hands of a cunning workman.
+<span id="<?php echo $chapterprefix; ?>7"></span>7:1 How beautiful are thy feet with shoes, O prince's daughter! the joints of thy thighs are like jewels, the work of the hands of a cunning workman.
 7:2 Thy navel is like a round goblet, which wanteth not liquor: thy belly is like an heap of wheat set about with lilies.
 7:3 Thy two breasts are like two young roes that are twins.
 7:4 Thy neck is as a tower of ivory; thine eyes like the fishpools in Heshbon, by the gate of Bathrabbim: thy nose is as the tower of Lebanon which looketh toward Damascus.
@@ -96,7 +95,7 @@ if (!isset($include)) {
 7:11 Come, my beloved, let us go forth into the field; let us lodge in the villages.
 7:12 Let us get up early to the vineyards; let us see if the vine flourish, whether the tender grape appear, and the pomegranates bud forth: there will I give thee my loves.
 7:13 The mandrakes give a smell, and at our gates are all manner of pleasant fruits, new and old, which I have laid up for thee, O my beloved.
-<span id="8<?= $book ?>"></span>8:1 O that thou wert as my brother, that sucked the breasts of my mother! when I should find thee without, I would kiss thee; yea, I should not be despised.
+<span id="<?php echo $chapterprefix; ?>8"></span>8:1 O that thou wert as my brother, that sucked the breasts of my mother! when I should find thee without, I would kiss thee; yea, I should not be despised.
 8:2 I would lead thee, and bring thee into my mother's house, who would instruct me: I would cause thee to drink of spiced wine of the juice of my pomegranate.
 8:3 His left hand should be under my head, and his right hand should embrace me.
 8:4 I charge you, O daughters of Jerusalem, that ye stir not up, nor awake my love, until he please.
@@ -109,8 +108,4 @@ if (!isset($include)) {
 8:12 My vineyard, which is mine, is before me: thou, O Solomon, must have a thousand, and those that keep the fruit thereof two hundred.
 8:13 Thou that dwellest in the gardens, the companions hearken to thy voice: cause me to hear it.
 8:14 Make haste, my beloved, and be thou like to a roe or to a young hart upon the mountains of spices.
-<?php
-if (!isset($include)) {
- include ('aa-end.php');
-}
-?>
+<?php if (!isset($collection)) {include 'bookfoot.php';} ?>

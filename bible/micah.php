@@ -1,11 +1,10 @@
 <?php
 $title = 'Micah';
 $description = 'Micah';
-if (!isset($include)) {
- include ('aa-beginning.php');
-}
+if (isset($collection)) {$chapterprefix = 'micah';}
+if (!isset($collection)) {include 'bookhead.php';}
 ?>
-<span id="1<?= $book ?>"></span><h2 id="micah">Micah</h2><!--1t33b-->
+<span id="<?php echo $chapterprefix; ?>1"></span><h3 id="micah">Micah</h3><!--1t33b-->
 1:1 The word of the LORD that came to Micah the Morasthite in the days of Jotham, Ahaz, and Hezekiah, kings of Judah, which he saw concerning Samaria and Jerusalem.
 1:2 Hear, all ye people; hearken, O earth, and all that therein is: and let the Lord GOD be witness against you, the LORD from his holy temple.
 1:3 For, behold, the LORD cometh forth out of his place, and will come down, and tread upon the high places of the earth.
@@ -21,7 +20,7 @@ if (!isset($include)) {
 1:14 Therefore shalt thou give presents to Moreshethgath: the houses of Achzib shall be a lie to the kings of Israel.
 1:15 Yet will I bring an heir unto thee, O inhabitant of Mareshah: he shall come unto Adullam the glory of Israel.
 1:16 Make thee bald, and poll thee for thy delicate children; enlarge thy baldness as the eagle; for they are gone into captivity from thee.
-<span id="2<?= $book ?>"></span>2:1 Woe to them that devise iniquity, and work evil upon their beds! when the morning is light, they practise it, because it is in the power of their hand.
+<span id="<?php echo $chapterprefix; ?>2"></span>2:1 Woe to them that devise iniquity, and work evil upon their beds! when the morning is light, they practise it, because it is in the power of their hand.
 2:2 And they covet fields, and take them by violence; and houses, and take them away: so they oppress a man and his house, even a man and his heritage.
 2:3 Therefore thus saith the LORD; Behold, against this family do I devise an evil, from which ye shall not remove your necks; neither shall ye go haughtily: for this time is evil.
 2:4 In that day shall one take up a parable against you, and lament with a doleful lamentation, and say, We be utterly spoiled: he hath changed the portion of my people: how hath he removed it from me! turning away he hath divided our fields.
@@ -33,7 +32,7 @@ if (!isset($include)) {
 2:11 If a man walking in the spirit and falsehood do lie, saying, I will prophesy unto thee of wine and of strong drink; he shall even be the prophet of this people.
 2:12 I will surely assemble, O Jacob, all of thee; I will surely gather the remnant of Israel; I will put them together as the sheep of Bozrah, as the flock in the midst of their fold: they shall make great noise by reason of the multitude of men.
 2:13 The breaker is come up before them: they have broken up, and have passed through the gate, and are gone out by it: and their king shall pass before them, and the LORD on the head of them.
-<span id="3<?= $book ?>"></span>3:1 And I said, Hear, I pray you, O heads of Jacob, and ye princes of the house of Israel; Is it not for you to know judgment? 3:2 Who hate the good, and love the evil; who pluck off their skin from off them, and their flesh from off their bones; 3:3 Who also eat the flesh of my people, and flay their skin from off them; and they break their bones, and chop them in pieces, as for the pot, and as flesh within the caldron.
+<span id="<?php echo $chapterprefix; ?>3"></span>3:1 And I said, Hear, I pray you, O heads of Jacob, and ye princes of the house of Israel; Is it not for you to know judgment? 3:2 Who hate the good, and love the evil; who pluck off their skin from off them, and their flesh from off their bones; 3:3 Who also eat the flesh of my people, and flay their skin from off them; and they break their bones, and chop them in pieces, as for the pot, and as flesh within the caldron.
 3:4 Then shall they cry unto the LORD, but he will not hear them: he will even hide his face from them at that time, as they have behaved themselves ill in their doings.
 3:5 Thus saith the LORD concerning the prophets that make my people err, that bite with their teeth, and cry, Peace; and he that putteth not into their mouths, they even prepare war against him.
 3:6 Therefore night shall be unto you, that ye shall not have a vision; and it shall be dark unto you, that ye shall not divine; and the sun shall go down over the prophets, and the day shall be dark over them.
@@ -43,7 +42,7 @@ if (!isset($include)) {
 3:10 They build up Zion with blood, and Jerusalem with iniquity.
 3:11 The heads thereof judge for reward, and the priests thereof teach for hire, and the prophets thereof divine for money: yet will they lean upon the LORD, and say, Is not the LORD among us? none evil can come upon us.
 3:12 Therefore shall Zion for your sake be plowed as a field, and Jerusalem shall become heaps, and the mountain of the house as the high places of the forest.
-<span id="4<?= $book ?>"></span>4:1 But in the last days it shall come to pass, that the mountain of the house of the LORD shall be established in the top of the mountains, and it shall be exalted above the hills; and people shall flow unto it.
+<span id="<?php echo $chapterprefix; ?>4"></span>4:1 But in the last days it shall come to pass, that the mountain of the house of the LORD shall be established in the top of the mountains, and it shall be exalted above the hills; and people shall flow unto it.
 4:2 And many nations shall come, and say, Come, and let us go up to the mountain of the LORD, and to the house of the God of Jacob; and he will teach us of his ways, and we will walk in his paths: for the law shall go forth of Zion, and the word of the LORD from Jerusalem.
 4:3 And he shall judge among many people, and rebuke strong nations afar off; and they shall beat their swords into plowshares, and their spears into pruninghooks: nation shall not lift up a sword against nation, neither shall they learn war any more.
 4:4 But they shall sit every man under his vine and under his fig tree; and none shall make them afraid: for the mouth of the LORD of hosts hath spoken it.
@@ -55,7 +54,7 @@ if (!isset($include)) {
 4:11 Now also many nations are gathered against thee, that say, Let her be defiled, and let our eye look upon Zion.
 4:12 But they know not the thoughts of the LORD, neither understand they his counsel: for he shall gather them as the sheaves into the floor.
 4:13 Arise and thresh, O daughter of Zion: for I will make thine horn iron, and I will make thy hoofs brass: and thou shalt beat in pieces many people: and I will consecrate their gain unto the LORD, and their substance unto the Lord of the whole earth.
-<span id="5<?= $book ?>"></span>5:1 Now gather thyself in troops, O daughter of troops: he hath laid siege against us: they shall smite the judge of Israel with a rod upon the cheek.
+<span id="<?php echo $chapterprefix; ?>5"></span>5:1 Now gather thyself in troops, O daughter of troops: he hath laid siege against us: they shall smite the judge of Israel with a rod upon the cheek.
 5:2 But thou, Bethlehem Ephratah, though thou be little among the thousands of Judah, yet out of thee shall he come forth unto me that is to be ruler in Israel; whose goings forth have been from of old, from everlasting.
 5:3 Therefore will he give them up, until the time that she which travaileth hath brought forth: then the remnant of his brethren shall return unto the children of Israel.
 5:4 And he shall stand and feed in the strength of the LORD, in the majesty of the name of the LORD his God; and they shall abide: for now shall he be great unto the ends of the earth.
@@ -67,7 +66,7 @@ if (!isset($include)) {
 5:10 And it shall come to pass in that day, saith the LORD, that I will cut off thy horses out of the midst of thee, and I will destroy thy chariots: 5:11 And I will cut off the cities of thy land, and throw down all thy strong holds: 5:12 And I will cut off witchcrafts out of thine hand; and thou shalt have no more soothsayers: 5:13 Thy graven images also will I cut off, and thy standing images out of the midst of thee; and thou shalt no more worship the work of thine hands.
 5:14 And I will pluck up thy groves out of the midst of thee: so will I destroy thy cities.
 5:15 And I will execute vengeance in anger and fury upon the heathen, such as they have not heard.
-<span id="6<?= $book ?>"></span>6:1 Hear ye now what the LORD saith; Arise, contend thou before the mountains, and let the hills hear thy voice.
+<span id="<?php echo $chapterprefix; ?>6"></span>6:1 Hear ye now what the LORD saith; Arise, contend thou before the mountains, and let the hills hear thy voice.
 6:2 Hear ye, O mountains, the LORD's controversy, and ye strong foundations of the earth: for the LORD hath a controversy with his people, and he will plead with Israel.
 6:3 O my people, what have I done unto thee? and wherein have I wearied thee? testify against me.
 6:4 For I brought thee up out of the land of Egypt, and redeemed thee out of the house of servants; and I sent before thee Moses, Aaron, and Miriam.
@@ -78,7 +77,7 @@ if (!isset($include)) {
 6:14 Thou shalt eat, but not be satisfied; and thy casting down shall be in the midst of thee; and thou shalt take hold, but shalt not deliver; and that which thou deliverest will I give up to the sword.
 6:15 Thou shalt sow, but thou shalt not reap; thou shalt tread the olives, but thou shalt not anoint thee with oil; and sweet wine, but shalt not drink wine.
 6:16 For the statutes of Omri are kept, and all the works of the house of Ahab, and ye walk in their counsels; that I should make thee a desolation, and the inhabitants thereof an hissing: therefore ye shall bear the reproach of my people.
-<span id="7<?= $book ?>"></span>7:1 Woe is me! for I am as when they have gathered the summer fruits, as the grapegleanings of the vintage: there is no cluster to eat: my soul desired the firstripe fruit.
+<span id="<?php echo $chapterprefix; ?>7"></span>7:1 Woe is me! for I am as when they have gathered the summer fruits, as the grapegleanings of the vintage: there is no cluster to eat: my soul desired the firstripe fruit.
 7:2 The good man is perished out of the earth: and there is none upright among men: they all lie in wait for blood; they hunt every man his brother with a net.
 7:3 That they may do evil with both hands earnestly, the prince asketh, and the judge asketh for a reward; and the great man, he uttereth his mischievous desire: so they wrap it up.
 7:4 The best of them is as a brier: the most upright is sharper than a thorn hedge: the day of thy watchmen and thy visitation cometh; now shall be their perplexity.
@@ -98,8 +97,4 @@ if (!isset($include)) {
 7:18 Who is a God like unto thee, that pardoneth iniquity, and passeth by the transgression of the remnant of his heritage? he retaineth not his anger for ever, because he delighteth in mercy.
 7:19 He will turn again, he will have compassion upon us; he will subdue our iniquities; and thou wilt cast all their sins into the depths of the sea.
 7:20 Thou wilt perform the truth to Jacob, and the mercy to Abraham, which thou hast sworn unto our fathers from the days of old.
-<?php
-if (!isset($include)) {
- include ('aa-end.php');
-}
-?>
+<?php if (!isset($collection)) {include 'bookfoot.php';}

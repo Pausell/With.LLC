@@ -1,11 +1,10 @@
 <?php
 $title = '1 Peter';
 $description = 'The First Epistle General of Peter';
-if (!isset($include)) {
- include ('aa-beginning.php');
-}
+if (isset($collection)) {$chapterprefix = 'firstpeter';}
+if (!isset($collection)) {include 'bookhead.php';}
 ?>
-<span id="1<?= $book ?>"></span><h2 id="peter">The First Epistle General of Peter</h2><!--2t21b-->
+<span id="<?php echo $chapterprefix; ?>1"></span><h3 id="peter">The First Epistle General of Peter</h3><!--2t21b-->
 1:1 Peter, an apostle of Jesus Christ, to the strangers scattered throughout Pontus, Galatia, Cappadocia, Asia, and Bithynia, 1:2 Elect according to the foreknowledge of God the Father, through sanctification of the Spirit, unto obedience and sprinkling of the blood of Jesus Christ: Grace unto you, and peace, be multiplied.
 1:3 Blessed be the God and Father of our Lord Jesus Christ, which according to his abundant mercy hath begotten us again unto a lively hope by the resurrection of Jesus Christ from the dead, 1:4 To an inheritance incorruptible, and undefiled, and that fadeth not away, reserved in heaven for you, 1:5 Who are kept by the power of God through faith unto salvation ready to be revealed in the last time.
 1:6 Wherein ye greatly rejoice, though now for a season, if need be, ye are in heaviness through manifold temptations: 1:7 That the trial of your faith, being much more precious than of gold that perisheth, though it be tried with fire, might be found unto praise and honour and glory at the appearing of Jesus Christ: 1:8 Whom having not seen, ye love; in whom, though now ye see him not, yet believing, ye rejoice with joy unspeakable and full of glory: 1:9 Receiving the end of your faith, even the salvation of your souls.
@@ -15,7 +14,7 @@ if (!isset($include)) {
 1:17 And if ye call on the Father, who without respect of persons judgeth according to every man's work, pass the time of your sojourning here in fear: 1:18 Forasmuch as ye know that ye were not redeemed with corruptible things, as silver and gold, from your vain conversation received by tradition from your fathers; 1:19 But with the precious blood of Christ, as of a lamb without blemish and without spot: 1:20 Who verily was foreordained before the foundation of the world, but was manifest in these last times for you, 1:21 Who by him do believe in God, that raised him up from the dead, and gave him glory; that your faith and hope might be in God.
 1:22 Seeing ye have purified your souls in obeying the truth through the Spirit unto unfeigned love of the brethren, see that ye love one another with a pure heart fervently: 1:23 Being born again, not of corruptible seed, but of incorruptible, by the word of God, which liveth and abideth for ever.
 1:24 For all flesh is as grass, and all the glory of man as the flower of grass. The grass withereth, and the flower thereof falleth away: 1:25 But the word of the Lord endureth for ever. And this is the word which by the gospel is preached unto you.
-<span id="2<?= $book ?>"></span>2:1 Wherefore laying aside all malice, and all guile, and hypocrisies, and envies, all evil speakings, 2:2 As newborn babes, desire the sincere milk of the word, that ye may grow thereby: 2:3 If so be ye have tasted that the Lord is gracious.
+<span id="<?php echo $chapterprefix; ?>2"></span>2:1 Wherefore laying aside all malice, and all guile, and hypocrisies, and envies, all evil speakings, 2:2 As newborn babes, desire the sincere milk of the word, that ye may grow thereby: 2:3 If so be ye have tasted that the Lord is gracious.
 2:4 To whom coming, as unto a living stone, disallowed indeed of men, but chosen of God, and precious, 2:5 Ye also, as lively stones, are built up a spiritual house, an holy priesthood, to offer up spiritual sacrifices, acceptable to God by Jesus Christ.
 2:6 Wherefore also it is contained in the scripture, Behold, I lay in Sion a chief corner stone, elect, precious: and he that believeth on him shall not be confounded.
 2:7 Unto you therefore which believe he is precious: but unto them which be disobedient, the stone which the builders disallowed, the same is made the head of the corner, 2:8 And a stone of stumbling, and a rock of offence, even to them which stumble at the word, being disobedient: whereunto also they were appointed.
@@ -29,7 +28,7 @@ if (!isset($include)) {
 2:20 For what glory is it, if, when ye be buffeted for your faults, ye shall take it patiently? but if, when ye do well, and suffer for it, ye take it patiently, this is acceptable with God.
 2:21 For even hereunto were ye called: because Christ also suffered for us, leaving us an example, that ye should follow his steps: 2:22 Who did no sin, neither was guile found in his mouth: 2:23 Who, when he was reviled, reviled not again; when he suffered, he threatened not; but committed himself to him that judgeth righteously: 2:24 Who his own self bare our sins in his own body on the tree, that we, being dead to sins, should live unto righteousness: by whose stripes ye were healed.
 2:25 For ye were as sheep going astray; but are now returned unto the Shepherd and Bishop of your souls.
-<span id="3<?= $book ?>"></span>3:1 Likewise, ye wives, be in subjection to your own husbands; that, if any obey not the word, they also may without the word be won by the conversation of the wives; 3:2 While they behold your chaste conversation coupled with fear.
+<span id="<?php echo $chapterprefix; ?>3"></span>3:1 Likewise, ye wives, be in subjection to your own husbands; that, if any obey not the word, they also may without the word be won by the conversation of the wives; 3:2 While they behold your chaste conversation coupled with fear.
 3:3 Whose adorning let it not be that outward adorning of plaiting the hair, and of wearing of gold, or of putting on of apparel; 3:4 But let it be the hidden man of the heart, in that which is not corruptible, even the ornament of a meek and quiet spirit, which is in the sight of God of great price.
 3:5 For after this manner in the old time the holy women also, who trusted in God, adorned themselves, being in subjection unto their own husbands: 3:6 Even as Sara obeyed Abraham, calling him lord: whose daughters ye are, as long as ye do well, and are not afraid with any amazement.
 3:7 Likewise, ye husbands, dwell with them according to knowledge, giving honour unto the wife, as unto the weaker vessel, and as being heirs together of the grace of life; that your prayers be not hindered.
@@ -40,7 +39,7 @@ if (!isset($include)) {
 3:17 For it is better, if the will of God be so, that ye suffer for well doing, than for evil doing.
 3:18 For Christ also hath once suffered for sins, the just for the unjust, that he might bring us to God, being put to death in the flesh, but quickened by the Spirit: 3:19 By which also he went and preached unto the spirits in prison; 3:20 Which sometime were disobedient, when once the longsuffering of God waited in the days of Noah, while the ark was a preparing, wherein few, that is, eight souls were saved by water.
 3:21 The like figure whereunto even baptism doth also now save us (not the putting away of the filth of the flesh, but the answer of a good conscience toward God,) by the resurrection of Jesus Christ: 3:22 Who is gone into heaven, and is on the right hand of God; angels and authorities and powers being made subject unto him.
-<span id="4<?= $book ?>"></span>4:1 Forasmuch then as Christ hath suffered for us in the flesh, arm yourselves likewise with the same mind: for he that hath suffered in the flesh hath ceased from sin; 4:2 That he no longer should live the rest of his time in the flesh to the lusts of men, but to the will of God.
+<span id="<?php echo $chapterprefix; ?>4"></span>4:1 Forasmuch then as Christ hath suffered for us in the flesh, arm yourselves likewise with the same mind: for he that hath suffered in the flesh hath ceased from sin; 4:2 That he no longer should live the rest of his time in the flesh to the lusts of men, but to the will of God.
 4:3 For the time past of our life may suffice us to have wrought the will of the Gentiles, when we walked in lasciviousness, lusts, excess of wine, revellings, banquetings, and abominable idolatries: 4:4 Wherein they think it strange that ye run not with them to the same excess of riot, speaking evil of you: 4:5 Who shall give account to him that is ready to judge the quick and the dead.
 4:6 For for this cause was the gospel preached also to them that are dead, that they might be judged according to men in the flesh, but live according to God in the spirit.
 4:7 But the end of all things is at hand: be ye therefore sober, and watch unto prayer.
@@ -53,7 +52,7 @@ if (!isset($include)) {
 4:15 But let none of you suffer as a murderer, or as a thief, or as an evildoer, or as a busybody in other men's matters.
 4:16 Yet if any man suffer as a Christian, let him not be ashamed; but let him glorify God on this behalf.
 4:17 For the time is come that judgment must begin at the house of God: and if it first begin at us, what shall the end be of them that obey not the gospel of God? 4:18 And if the righteous scarcely be saved, where shall the ungodly and the sinner appear? 4:19 Wherefore let them that suffer according to the will of God commit the keeping of their souls to him in well doing, as unto a faithful Creator.
-<span id="5<?= $book ?>"></span>5:1 The elders which are among you I exhort, who am also an elder, and a witness of the sufferings of Christ, and also a partaker of the glory that shall be revealed: 5:2 Feed the flock of God which is among you, taking the oversight thereof, not by constraint, but willingly; not for filthy lucre, but of a ready mind; 5:3 Neither as being lords over God's heritage, but being ensamples to the flock.
+<span id="<?php echo $chapterprefix; ?>5"></span>5:1 The elders which are among you I exhort, who am also an elder, and a witness of the sufferings of Christ, and also a partaker of the glory that shall be revealed: 5:2 Feed the flock of God which is among you, taking the oversight thereof, not by constraint, but willingly; not for filthy lucre, but of a ready mind; 5:3 Neither as being lords over God's heritage, but being ensamples to the flock.
 5:4 And when the chief Shepherd shall appear, ye shall receive a crown of glory that fadeth not away.
 5:5 Likewise, ye younger, submit yourselves unto the elder. Yea, all of you be subject one to another, and be clothed with humility: for God resisteth the proud, and giveth grace to the humble.
 5:6 Humble yourselves therefore under the mighty hand of God, that he may exalt you in due time: 5:7 Casting all your care upon him; for he careth for you.
@@ -63,8 +62,4 @@ if (!isset($include)) {
 5:12 By Silvanus, a faithful brother unto you, as I suppose, I have written briefly, exhorting, and testifying that this is the true grace of God wherein ye stand.
 5:13 The church that is at Babylon, elected together with you, saluteth you; and so doth Marcus my son.
 5:14 Greet ye one another with a kiss of charity. Peace be with you all that are in Christ Jesus. Amen.
-<?php
-if (!isset($include)) {
- include ('aa-end.php');
-}
-?>
+<?php if (!isset($collection)) {include 'bookfoot.php';} ?>

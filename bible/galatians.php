@@ -1,11 +1,10 @@
 <?php
 $title = 'Galatians';
 $description = 'The Epistle of Paul the Apostle to the Galatians';
-if (!isset($include)) {
- include ('aa-beginning.php');
-}
+if (isset($collection)) {$chapterprefix = 'galatians';}
+if (!isset($collection)) {include 'bookhead.php';}
 ?>
-<span id="1<?= $book ?>"></span><h2 id="galatians">The Epistle of Paul the Apostle to the Galatians</h2><!--2t9b-->
+<span id="<?php echo $chapterprefix; ?>1"></span><h3 id="galatians">The Epistle of Paul the Apostle to the Galatians</h3><!--2t9b-->
 1:1 Paul, an apostle, (not of men, neither by man, but by Jesus Christ, and God the Father, who raised him from the dead;) 1:2 And all the brethren which are with me, unto the churches of Galatia: 1:3 Grace be to you and peace from God the Father, and from our Lord Jesus Christ, 1:4 Who gave himself for our sins, that he might deliver us from this present evil world, according to the will of God and our Father: 1:5 To whom be glory for ever and ever. Amen.
 1:6 I marvel that ye are so soon removed from him that called you into the grace of Christ unto another gospel: 1:7 Which is not another; but there be some that trouble you, and would pervert the gospel of Christ.
 1:8 But though we, or an angel from heaven, preach any other gospel unto you than that which we have preached unto you, let him be accursed.
@@ -20,7 +19,7 @@ if (!isset($include)) {
 1:20 Now the things which I write unto you, behold, before God, I lie not.
 1:21 Afterwards I came into the regions of Syria and Cilicia; 1:22 And was unknown by face unto the churches of Judaea which were in Christ: 1:23 But they had heard only, That he which persecuted us in times past now preacheth the faith which once he destroyed.
 1:24 And they glorified God in me.
-<span id="2<?= $book ?>"></span>2:1 Then fourteen years after I went up again to Jerusalem with Barnabas, and took Titus with me also.
+<span id="<?php echo $chapterprefix; ?>2"></span>2:1 Then fourteen years after I went up again to Jerusalem with Barnabas, and took Titus with me also.
 2:2 And I went up by revelation, and communicated unto them that gospel which I preach among the Gentiles, but privately to them which were of reputation, lest by any means I should run, or had run, in vain.
 2:3 But neither Titus, who was with me, being a Greek, was compelled to be circumcised: 2:4 And that because of false brethren unawares brought in, who came in privily to spy out our liberty which we have in Christ Jesus, that they might bring us into bondage: 2:5 To whom we gave place by subjection, no, not for an hour; that the truth of the gospel might continue with you.
 2:6 But of these who seemed to be somewhat, (whatsoever they were, it maketh no matter to me: God accepteth no man's person:) for they who seemed to be somewhat in conference added nothing to me: 2:7 But contrariwise, when they saw that the gospel of the uncircumcision was committed unto me, as the gospel of the circumcision was unto Peter; 2:8 (For he that wrought effectually in Peter to the apostleship of the circumcision, the same was mighty in me toward the Gentiles:) 2:9 And when James, Cephas, and John, who seemed to be pillars, perceived the grace that was given unto me, they gave to me and Barnabas the right hands of fellowship; that we should go unto the heathen, and they unto the circumcision.
@@ -34,7 +33,7 @@ if (!isset($include)) {
 2:19 For I through the law am dead to the law, that I might live unto God.
 2:20 I am crucified with Christ: neverthless I live; yet not I, but Christ liveth in me: and the life which I now live in the flesh I live by the faith of the Son of God, who loved me, and gave himself for me.
 2:21 I do not frustrate the grace of God: for if righteousness come by the law, then Christ is dead in vain.
-<span id="3<?= $book ?>"></span>3:1 O foolish Galatians, who hath bewitched you, that ye should not obey the truth, before whose eyes Jesus Christ hath been evidently set forth, crucified among you? 3:2 This only would I learn of you, Received ye the Spirit by the works of the law, or by the hearing of faith? 3:3 Are ye so foolish? having begun in the Spirit, are ye now made perfect by the flesh? 3:4 Have ye suffered so many things in vain? if it be yet in vain.
+<span id="<?php echo $chapterprefix; ?>3"></span>3:1 O foolish Galatians, who hath bewitched you, that ye should not obey the truth, before whose eyes Jesus Christ hath been evidently set forth, crucified among you? 3:2 This only would I learn of you, Received ye the Spirit by the works of the law, or by the hearing of faith? 3:3 Are ye so foolish? having begun in the Spirit, are ye now made perfect by the flesh? 3:4 Have ye suffered so many things in vain? if it be yet in vain.
 3:5 He therefore that ministereth to you the Spirit, and worketh miracles among you, doeth he it by the works of the law, or by the hearing of faith? 3:6 Even as Abraham believed God, and it was accounted to him for righteousness.
 3:7 Know ye therefore that they which are of faith, the same are the children of Abraham.
 3:8 And the scripture, foreseeing that God would justify the heathen through faith, preached before the gospel unto Abraham, saying, In thee shall all nations be blessed.
@@ -58,7 +57,7 @@ if (!isset($include)) {
 3:27 For as many of you as have been baptized into Christ have put on Christ.
 3:28 There is neither Jew nor Greek, there is neither bond nor free, there is neither male nor female: for ye are all one in Christ Jesus.
 3:29 And if ye be Christ's, then are ye Abraham's seed, and heirs according to the promise.
-<span id="4<?= $book ?>"></span>4:1 Now I say, That the heir, as long as he is a child, differeth nothing from a servant, though he be lord of all; 4:2 But is under tutors and governors until the time appointed of the father.
+<span id="<?php echo $chapterprefix; ?>4"></span>4:1 Now I say, That the heir, as long as he is a child, differeth nothing from a servant, though he be lord of all; 4:2 But is under tutors and governors until the time appointed of the father.
 4:3 Even so we, when we were children, were in bondage under the elements of the world: 4:4 But when the fulness of the time was come, God sent forth his Son, made of a woman, made under the law, 4:5 To redeem them that were under the law, that we might receive the adoption of sons.
 4:6 And because ye are sons, God hath sent forth the Spirit of his Son into your hearts, crying, Abba, Father.
 4:7 Wherefore thou art no more a servant, but a son; and if a son, then an heir of God through Christ.
@@ -82,7 +81,7 @@ if (!isset($include)) {
 4:29 But as then he that was born after the flesh persecuted him that was born after the Spirit, even so it is now.
 4:30 Nevertheless what saith the scripture? Cast out the bondwoman and her son: for the son of the bondwoman shall not be heir with the son of the freewoman.
 4:31 So then, brethren, we are not children of the bondwoman, but of the free.
-<span id="5<?= $book ?>"></span>5:1 Stand fast therefore in the liberty wherewith Christ hath made us free, and be not entangled again with the yoke of bondage.
+<span id="<?php echo $chapterprefix; ?>5"></span>5:1 Stand fast therefore in the liberty wherewith Christ hath made us free, and be not entangled again with the yoke of bondage.
 5:2 Behold, I Paul say unto you, that if ye be circumcised, Christ shall profit you nothing.
 5:3 For I testify again to every man that is circumcised, that he is a debtor to do the whole law.
 5:4 Christ is become of no effect unto you, whosoever of you are justified by the law; ye are fallen from grace.
@@ -104,7 +103,7 @@ if (!isset($include)) {
 5:24 And they that are Christ's have crucified the flesh with the affections and lusts.
 5:25 If we live in the Spirit, let us also walk in the Spirit.
 5:26 Let us not be desirous of vain glory, provoking one another, envying one another.
-<span id="6<?= $book ?>"></span>6:1 Brethren, if a man be overtaken in a fault, ye which are spiritual, restore such an one in the spirit of meekness; considering thyself, lest thou also be tempted.
+<span id="<?php echo $chapterprefix; ?>6"></span>6:1 Brethren, if a man be overtaken in a fault, ye which are spiritual, restore such an one in the spirit of meekness; considering thyself, lest thou also be tempted.
 6:2 Bear ye one another's burdens, and so fulfil the law of Christ.
 6:3 For if a man think himself to be something, when he is nothing, he deceiveth himself.
 6:4 But let every man prove his own work, and then shall he have rejoicing in himself alone, and not in another.
@@ -123,8 +122,4 @@ if (!isset($include)) {
 6:17 From henceforth let no man trouble me: for I bear in my body the marks of the Lord Jesus.
 6:18 Brethren, the grace of our Lord Jesus Christ be with your spirit.
 Amen.
-<?php
-if (!isset($include)) {
- include ('aa-end.php');
-}
-?>
+<?php if (!isset($collection)) {include 'bookfoot.php';} ?>

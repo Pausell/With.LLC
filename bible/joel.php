@@ -1,11 +1,10 @@
 <?php
 $title = 'Joel';
 $description = 'Joel';
-if (!isset($include)) {
- include ('aa-beginning.php');
-}
+if (isset($collection)) {$chapterprefix = 'joel';}
+if (!isset($collection)) {include 'bookhead.php';}
 ?>
-<span id="1<?= $book ?>"></span><h2 id="joel">Joel</h2><!--1t29b-->
+<span id="<?php echo $chapterprefix; ?>1"></span><h3 id="joel">Joel</h3><!--1t29b-->
 1:1 The word of the LORD that came to Joel the son of Pethuel.
 1:2 Hear this, ye old men, and give ear, all ye inhabitants of the land.
 Hath this been in your days, or even in the days of your fathers? 1:3 Tell ye your children of it, and let your children tell their children, and their children another generation.
@@ -24,7 +23,7 @@ Hath this been in your days, or even in the days of your fathers? 1:3 Tell ye yo
 1:18 How do the beasts groan! the herds of cattle are perplexed, because they have no pasture; yea, the flocks of sheep are made desolate.
 1:19 O LORD, to thee will I cry: for the fire hath devoured the pastures of the wilderness, and the flame hath burned all the trees of the field.
 1:20 The beasts of the field cry also unto thee: for the rivers of waters are dried up, and the fire hath devoured the pastures of the wilderness.
-<span id="2<?= $book ?>"></span>2:1 Blow ye the trumpet in Zion, and sound an alarm in my holy mountain: let all the inhabitants of the land tremble: for the day of the LORD cometh, for it is nigh at hand; 2:2 A day of darkness and of gloominess, a day of clouds and of thick darkness, as the morning spread upon the mountains: a great people and a strong; there hath not been ever the like, neither shall be any more after it, even to the years of many generations.
+<span id="<?php echo $chapterprefix; ?>2"></span>2:1 Blow ye the trumpet in Zion, and sound an alarm in my holy mountain: let all the inhabitants of the land tremble: for the day of the LORD cometh, for it is nigh at hand; 2:2 A day of darkness and of gloominess, a day of clouds and of thick darkness, as the morning spread upon the mountains: a great people and a strong; there hath not been ever the like, neither shall be any more after it, even to the years of many generations.
 2:3 A fire devoureth before them; and behind them a flame burneth: the land is as the garden of Eden before them, and behind them a desolate wilderness; yea, and nothing shall escape them.
 2:4 The appearance of them is as the appearance of horses; and as horsemen, so shall they run.
 2:5 Like the noise of chariots on the tops of mountains shall they leap, like the noise of a flame of fire that devoureth the stubble, as a strong people set in battle array.
@@ -46,7 +45,7 @@ Hath this been in your days, or even in the days of your fathers? 1:3 Tell ye yo
 2:30 And I will shew wonders in the heavens and in the earth, blood, and fire, and pillars of smoke.
 2:31 The sun shall be turned into darkness, and the moon into blood, before the great and terrible day of the LORD come.
 2:32 And it shall come to pass, that whosoever shall call on the name of the LORD shall be delivered: for in mount Zion and in Jerusalem shall be deliverance, as the LORD hath said, and in the remnant whom the LORD shall call.
-<span id="3<?= $book ?>"></span>3:1 For, behold, in those days, and in that time, when I shall bring again the captivity of Judah and Jerusalem, 3:2 I will also gather all nations, and will bring them down into the valley of Jehoshaphat, and will plead with them there for my people and for my heritage Israel, whom they have scattered among the nations, and parted my land.
+<span id="<?php echo $chapterprefix; ?>3"></span>3:1 For, behold, in those days, and in that time, when I shall bring again the captivity of Judah and Jerusalem, 3:2 I will also gather all nations, and will bring them down into the valley of Jehoshaphat, and will plead with them there for my people and for my heritage Israel, whom they have scattered among the nations, and parted my land.
 3:3 And they have cast lots for my people; and have given a boy for an harlot, and sold a girl for wine, that they might drink.
 3:4 Yea, and what have ye to do with me, O Tyre, and Zidon, and all the coasts of Palestine? will ye render me a recompence? and if ye recompense me, swiftly and speedily will I return your recompence upon your own head; 3:5 Because ye have taken my silver and my gold, and have carried into your temples my goodly pleasant things: 3:6 The children also of Judah and the children of Jerusalem have ye sold unto the Grecians, that ye might remove them far from their border.
 3:7 Behold, I will raise them out of the place whither ye have sold them, and will return your recompence upon your own head: 3:8 And I will sell your sons and your daughters into the hand of the children of Judah, and they shall sell them to the Sabeans, to a people far off: for the LORD hath spoken it.
@@ -62,8 +61,4 @@ Hath this been in your days, or even in the days of your fathers? 1:3 Tell ye yo
 3:19 Egypt shall be a desolation, and Edom shall be a desolate wilderness, for the violence against the children of Judah, because they have shed innocent blood in their land.
 3:20 But Judah shall dwell for ever, and Jerusalem from generation to generation.
 3:21 For I will cleanse their blood that I have not cleansed: for the LORD dwelleth in Zion.
-<?php
-if (!isset($include)) {
- include ('aa-end.php');
-}
-?>
+<?php if (!isset($collection)) {include 'bookfoot.php';} ?>

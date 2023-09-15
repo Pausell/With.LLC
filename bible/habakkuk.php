@@ -1,11 +1,10 @@
 <?php
 $title = 'Habakkuk';
 $description = 'Habakkuk';
-if (!isset($include)) {
- include ('aa-beginning.php');
-}
+if (isset($collection)) {$chapterprefix = 'habakkuk';}
+if (!isset($collection)) {include 'bookhead.php';}
 ?>
-<span id="1<?= $book ?>"></span><h2 id="habakkuk">Habakkuk</h2><!--1t35b-->
+<span id="<?php echo $chapterprefix; ?>1"></span><h3 id="habakkuk">Habakkuk</h3><!--1t35b-->
 1:1 The burden which Habakkuk the prophet did see.
 1:2 O LORD, how long shall I cry, and thou wilt not hear! even cry out unto thee of violence, and thou wilt not save! 1:3 Why dost thou shew me iniquity, and cause me to behold grievance? for spoiling and violence are before me: and there are that raise up strife and contention.
 1:4 Therefore the law is slacked, and judgment doth never go forth: for the wicked doth compass about the righteous; therefore wrong judgment proceedeth.
@@ -19,7 +18,7 @@ if (!isset($include)) {
 1:12 Art thou not from everlasting, O LORD my God, mine Holy One? we shall not die. O LORD, thou hast ordained them for judgment; and, O mighty God, thou hast established them for correction.
 1:13 Thou art of purer eyes than to behold evil, and canst not look on iniquity: wherefore lookest thou upon them that deal treacherously, and holdest thy tongue when the wicked devoureth the man that is more righteous than he? 1:14 And makest men as the fishes of the sea, as the creeping things, that have no ruler over them? 1:15 They take up all of them with the angle, they catch them in their net, and gather them in their drag: therefore they rejoice and are glad.
 1:16 Therefore they sacrifice unto their net, and burn incense unto their drag; because by them their portion is fat, and their meat plenteous.
-1:17 Shall they therefore empty their net, and not spare continually to slay the nations? <span id="2<?= $book ?>"></span>2:1 I will stand upon my watch, and set me upon the tower, and will watch to see what he will say unto me, and what I shall answer when I am reproved.
+1:17 Shall they therefore empty their net, and not spare continually to slay the nations? <span id="<?php echo $chapterprefix; ?>2"></span>2:1 I will stand upon my watch, and set me upon the tower, and will watch to see what he will say unto me, and what I shall answer when I am reproved.
 2:2 And the LORD answered me, and said, Write the vision, and make it plain upon tables, that he may run that readeth it.
 2:3 For the vision is yet for an appointed time, but at the end it shall speak, and not lie: though it tarry, wait for it; because it will surely come, it will not tarry.
 2:4 Behold, his soul which is lifted up is not upright in him: but the just shall live by his faith.
@@ -31,7 +30,7 @@ if (!isset($include)) {
 2:17 For the violence of Lebanon shall cover thee, and the spoil of beasts, which made them afraid, because of men's blood, and for the violence of the land, of the city, and of all that dwell therein.
 2:18 What profiteth the graven image that the maker thereof hath graven it; the molten image, and a teacher of lies, that the maker of his work trusteth therein, to make dumb idols? 2:19 Woe unto him that saith to the wood, Awake; to the dumb stone, Arise, it shall teach! Behold, it is laid over with gold and silver, and there is no breath at all in the midst of it.
 2:20 But the LORD is in his holy temple: let all the earth keep silence before him.
-<span id="3<?= $book ?>"></span>3:1 A prayer of Habakkuk the prophet upon Shigionoth.
+<span id="<?php echo $chapterprefix; ?>3"></span>3:1 A prayer of Habakkuk the prophet upon Shigionoth.
 3:2 O LORD, I have heard thy speech, and was afraid: O LORD, revive thy work in the midst of the years, in the midst of the years make known; in wrath remember mercy.
 3:3 God came from Teman, and the Holy One from mount Paran. Selah. His glory covered the heavens, and the earth was full of his praise.
 3:4 And his brightness was as the light; he had horns coming out of his hand: and there was the hiding of his power.
@@ -48,8 +47,4 @@ if (!isset($include)) {
 3:16 When I heard, my belly trembled; my lips quivered at the voice: rottenness entered into my bones, and I trembled in myself, that I might rest in the day of trouble: when he cometh up unto the people, he will invade them with his troops.
 3:17 Although the fig tree shall not blossom, neither shall fruit be in the vines; the labour of the olive shall fail, and the fields shall yield no meat; the flock shall be cut off from the fold, and there shall be no herd in the stalls: 3:18 Yet I will rejoice in the LORD, I will joy in the God of my salvation.
 3:19 The LORD God is my strength, and he will make my feet like hinds' feet, and he will make me to walk upon mine high places. To the chief singer on my stringed instruments.
-<?php
-if (!isset($include)) {
- include ('aa-end.php');
-}
-?>
+<?php if (!isset($collection)) {include 'bookfoot.php';} ?>

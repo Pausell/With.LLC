@@ -1,11 +1,10 @@
 <?php
 $title = 'Job';
 $description = 'The Book of Job';
-if (!isset($include)) {
- include ('aa-beginning.php');
-}
+if (isset($collection)) {$chapterprefix = 'job';}
+if (!isset($collection)) {include 'bookhead.php';}
 ?>
-<h2 id="job"><span id="1"></span>The Book of Job</h2><!--1t18b-->
+<span id="<?php echo $chapterprefix; ?>1"></span><h3 id="job">The Book of Job</h3><!--1t18b-->
 1:1 There was a man in the land of Uz, whose name was Job; and that man was perfect and upright, and one that feared God, and eschewed evil.
 1:2 And there were born unto him seven sons and three daughters.
 1:3 His substance also was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she asses, and a very great household; so that this man was the greatest of all the men of the east.
@@ -22,7 +21,7 @@ if (!isset($include)) {
 1:18 While he was yet speaking, there came also another, and said, Thy sons and thy daughters were eating and drinking wine in their eldest brother's house: 1:19 And, behold, there came a great wind from the wilderness, and smote the four corners of the house, and it fell upon the young men, and they are dead; and I only am escaped alone to tell thee.
 1:20 Then Job arose, and rent his mantle, and shaved his head, and fell down upon the ground, and worshipped, 1:21 And said, Naked came I out of my mother's womb, and naked shall I return thither: the LORD gave, and the LORD hath taken away; blessed be the name of the LORD.
 1:22 In all this Job sinned not, nor charged God foolishly.
-<span id="2"></span>2:1 Again there was a day when the sons of God came to present themselves before the LORD, and Satan came also among them to present himself before the LORD.
+<span id="<?php echo $chapterprefix; ?>2"></span>2:1 Again there was a day when the sons of God came to present themselves before the LORD, and Satan came also among them to present himself before the LORD.
 2:2 And the LORD said unto Satan, From whence comest thou? And Satan answered the LORD, and said, From going to and fro in the earth, and from walking up and down in it.
 2:3 And the LORD said unto Satan, Hast thou considered my servant Job, that there is none like him in the earth, a perfect and an upright man, one that feareth God, and escheweth evil? and still he holdeth fast his integrity, although thou movedst me against him, to destroy him without cause.
 2:4 And Satan answered the LORD, and said, Skin for skin, yea, all that a man hath will he give for his life.
@@ -35,7 +34,7 @@ if (!isset($include)) {
 2:11 Now when Job's three friends heard of all this evil that was come upon him, they came every one from his own place; Eliphaz the Temanite, and Bildad the Shuhite, and Zophar the Naamathite: for they had made an appointment together to come to mourn with him and to comfort him.
 2:12 And when they lifted up their eyes afar off, and knew him not, they lifted up their voice, and wept; and they rent every one his mantle, and sprinkled dust upon their heads toward heaven.
 2:13 So they sat down with him upon the ground seven days and seven nights, and none spake a word unto him: for they saw that his grief was very great.
-<span id="3"></span>3:1 After this opened Job his mouth, and cursed his day.
+<span id="<?php echo $chapterprefix; ?>3"></span>3:1 After this opened Job his mouth, and cursed his day.
 3:2 And Job spake, and said, 3:3 Let the day perish wherein I was born, and the night in which it was said, There is a man child conceived.
 3:4 Let that day be darkness; let not God regard it from above, neither let the light shine upon it.
 3:5 Let darkness and the shadow of death stain it; let a cloud dwell upon it; let the blackness of the day terrify it.
@@ -50,7 +49,7 @@ if (!isset($include)) {
 3:20 Wherefore is light given to him that is in misery, and life unto the bitter in soul; 3:21 Which long for death, but it cometh not; and dig for it more than for hid treasures; 3:22 Which rejoice exceedingly, and are glad, when they can find the grave? 3:23 Why is light given to a man whose way is hid, and whom God hath hedged in? 3:24 For my sighing cometh before I eat, and my roarings are poured out like the waters.
 3:25 For the thing which I greatly feared is come upon me, and that which I was afraid of is come unto me.
 3:26 I was not in safety, neither had I rest, neither was I quiet; yet trouble came.
-<span id="4"></span>4:1 Then Eliphaz the Temanite answered and said, 4:2 If we assay to commune with thee, wilt thou be grieved? but who can withhold himself from speaking? 4:3 Behold, thou hast instructed many, and thou hast strengthened the weak hands.
+<span id="<?php echo $chapterprefix; ?>4"></span>4:1 Then Eliphaz the Temanite answered and said, 4:2 If we assay to commune with thee, wilt thou be grieved? but who can withhold himself from speaking? 4:3 Behold, thou hast instructed many, and thou hast strengthened the weak hands.
 4:4 Thy words have upholden him that was falling, and thou hast strengthened the feeble knees.
 4:5 But now it is come upon thee, and thou faintest; it toucheth thee, and thou art troubled.
 4:6 Is not this thy fear, thy confidence, thy hope, and the uprightness of thy ways? 4:7 Remember, I pray thee, who ever perished, being innocent? or where were the righteous cut off? 4:8 Even as I have seen, they that plow iniquity, and sow wickedness, reap the same.
@@ -61,7 +60,7 @@ if (!isset($include)) {
 4:13 In thoughts from the visions of the night, when deep sleep falleth on men, 4:14 Fear came upon me, and trembling, which made all my bones to shake.
 4:15 Then a spirit passed before my face; the hair of my flesh stood up: 4:16 It stood still, but I could not discern the form thereof: an image was before mine eyes, there was silence, and I heard a voice, saying, 4:17 Shall mortal man be more just than God? shall a man be more pure than his maker? 4:18 Behold, he put no trust in his servants; and his angels he charged with folly: 4:19 How much less in them that dwell in houses of clay, whose foundation is in the dust, which are crushed before the moth? 4:20 They are destroyed from morning to evening: they perish for ever without any regarding it.
 4:21 Doth not their excellency which is in them go away? they die, even without wisdom.
-<span id="5"></span>5:1 Call now, if there be any that will answer thee; and to which of the saints wilt thou turn? 5:2 For wrath killeth the foolish man, and envy slayeth the silly one.
+<span id="<?php echo $chapterprefix; ?>5"></span>5:1 Call now, if there be any that will answer thee; and to which of the saints wilt thou turn? 5:2 For wrath killeth the foolish man, and envy slayeth the silly one.
 5:3 I have seen the foolish taking root: but suddenly I cursed his habitation.
 5:4 His children are far from safety, and they are crushed in the gate, neither is there any to deliver them.
 5:5 Whose harvest the hungry eateth up, and taketh it even out of the thorns, and the robber swalloweth up their substance.
@@ -82,7 +81,7 @@ if (!isset($include)) {
 5:25 Thou shalt know also that thy seed shall be great, and thine offspring as the grass of the earth.
 5:26 Thou shalt come to thy grave in a full age, like as a shock of corn cometh in in his season.
 5:27 Lo this, we have searched it, so it is; hear it, and know thou it for thy good.
-<span id="6"></span>6:1 But Job answered and said, 6:2 Oh that my grief were throughly weighed, and my calamity laid in the balances together! 6:3 For now it would be heavier than the sand of the sea: therefore my words are swallowed up.
+<span id="<?php echo $chapterprefix; ?>6"></span>6:1 But Job answered and said, 6:2 Oh that my grief were throughly weighed, and my calamity laid in the balances together! 6:3 For now it would be heavier than the sand of the sea: therefore my words are swallowed up.
 6:4 For the arrows of the Almighty are within me, the poison whereof drinketh up my spirit: the terrors of God do set themselves in array against me.
 6:5 Doth the wild ass bray when he hath grass? or loweth the ox over his fodder? 6:6 Can that which is unsavoury be eaten without salt? or is there any taste in the white of an egg? 6:7 The things that my soul refused to touch are as my sorrowful meat.
 6:8 Oh that I might have my request; and that God would grant me the thing that I long for! 6:9 Even that it would please God to destroy me; that he would let loose his hand, and cut me off! 6:10 Then should I yet have comfort; yea, I would harden myself in sorrow: let him not spare; for I have not concealed the words of the Holy One.
@@ -96,7 +95,7 @@ if (!isset($include)) {
 6:25 How forcible are right words! but what doth your arguing reprove? 6:26 Do ye imagine to reprove words, and the speeches of one that is desperate, which are as wind? 6:27 Yea, ye overwhelm the fatherless, and ye dig a pit for your friend.
 6:28 Now therefore be content, look upon me; for it is evident unto you if I lie.
 6:29 Return, I pray you, let it not be iniquity; yea, return again, my righteousness is in it.
-6:30 Is there iniquity in my tongue? cannot my taste discern perverse things? <span id="7"></span>7:1 Is there not an appointed time to man upon earth? are not his days also like the days of an hireling? 7:2 As a servant earnestly desireth the shadow, and as an hireling looketh for the reward of his work: 7:3 So am I made to possess months of vanity, and wearisome nights are appointed to me.
+6:30 Is there iniquity in my tongue? cannot my taste discern perverse things? <span id="<?php echo $chapterprefix; ?>7"></span>7:1 Is there not an appointed time to man upon earth? are not his days also like the days of an hireling? 7:2 As a servant earnestly desireth the shadow, and as an hireling looketh for the reward of his work: 7:3 So am I made to possess months of vanity, and wearisome nights are appointed to me.
 7:4 When I lie down, I say, When shall I arise, and the night be gone? and I am full of tossings to and fro unto the dawning of the day.
 7:5 My flesh is clothed with worms and clods of dust; my skin is broken, and become loathsome.
 7:6 My days are swifter than a weaver's shuttle, and are spent without hope.
@@ -108,7 +107,7 @@ if (!isset($include)) {
 7:12 Am I a sea, or a whale, that thou settest a watch over me? 7:13 When I say, My bed shall comfort me, my couch shall ease my complaints; 7:14 Then thou scarest me with dreams, and terrifiest me through visions: 7:15 So that my soul chooseth strangling, and death rather than my life.
 7:16 I loathe it; I would not live alway: let me alone; for my days are vanity.
 7:17 What is man, that thou shouldest magnify him? and that thou shouldest set thine heart upon him? 7:18 And that thou shouldest visit him every morning, and try him every moment? 7:19 How long wilt thou not depart from me, nor let me alone till I swallow down my spittle? 7:20 I have sinned; what shall I do unto thee, O thou preserver of men? why hast thou set me as a mark against thee, so that I am a burden to myself? 7:21 And why dost thou not pardon my transgression, and take away my iniquity? for now shall I sleep in the dust; and thou shalt seek me in the morning, but I shall not be.
-<span id="8"></span>8:1 Then answered Bildad the Shuhite, and said, 8:2 How long wilt thou speak these things? and how long shall the words of thy mouth be like a strong wind? 8:3 Doth God pervert judgment? or doth the Almighty pervert justice? 8:4 If thy children have sinned against him, and he have cast them away for their transgression; 8:5 If thou wouldest seek unto God betimes, and make thy supplication to the Almighty; 8:6 If thou wert pure and upright; surely now he would awake for thee, and make the habitation of thy righteousness prosperous.
+<span id="<?php echo $chapterprefix; ?>8"></span>8:1 Then answered Bildad the Shuhite, and said, 8:2 How long wilt thou speak these things? and how long shall the words of thy mouth be like a strong wind? 8:3 Doth God pervert judgment? or doth the Almighty pervert justice? 8:4 If thy children have sinned against him, and he have cast them away for their transgression; 8:5 If thou wouldest seek unto God betimes, and make thy supplication to the Almighty; 8:6 If thou wert pure and upright; surely now he would awake for thee, and make the habitation of thy righteousness prosperous.
 8:7 Though thy beginning was small, yet thy latter end should greatly increase.
 8:8 For enquire, I pray thee, of the former age, and prepare thyself to the search of their fathers: 8:9 (For we are but of yesterday, and know nothing, because our days upon earth are a shadow:) 8:10 Shall not they teach thee, and tell thee, and utter words out of their heart? 8:11 Can the rush grow up without mire? can the flag grow without water? 8:12 Whilst it is yet in his greenness, and not cut down, it withereth before any other herb.
 8:13 So are the paths of all that forget God; and the hypocrite's hope shall perish: 8:14 Whose hope shall be cut off, and whose trust shall be a spider's web.
@@ -119,7 +118,7 @@ if (!isset($include)) {
 8:19 Behold, this is the joy of his way, and out of the earth shall others grow.
 8:20 Behold, God will not cast away a perfect man, neither will he help the evil doers: 8:21 Till he fill thy mouth with laughing, and thy lips with rejoicing.
 8:22 They that hate thee shall be clothed with shame; and the dwelling place of the wicked shall come to nought.
-<span id="9"></span>9:1 Then Job answered and said, 9:2 I know it is so of a truth: but how should man be just with God? 9:3 If he will contend with him, he cannot answer him one of a thousand.
+<span id="<?php echo $chapterprefix; ?>9"></span>9:1 Then Job answered and said, 9:2 I know it is so of a truth: but how should man be just with God? 9:3 If he will contend with him, he cannot answer him one of a thousand.
 9:4 He is wise in heart, and mighty in strength: who hath hardened himself against him, and hath prospered? 9:5 Which removeth the mountains, and they know not: which overturneth them in his anger.
 9:6 Which shaketh the earth out of her place, and the pillars thereof tremble.
 9:7 Which commandeth the sun, and it riseth not; and sealeth up the stars.
@@ -143,7 +142,7 @@ if (!isset($include)) {
 9:32 For he is not a man, as I am, that I should answer him, and we should come together in judgment.
 9:33 Neither is there any daysman betwixt us, that might lay his hand upon us both.
 9:34 Let him take his rod away from me, and let not his fear terrify me: 9:35 Then would I speak, and not fear him; but it is not so with me.
-<span id="10"></span>10:1 My soul is weary of my life; I will leave my complaint upon myself; I will speak in the bitterness of my soul.
+<span id="<?php echo $chapterprefix; ?>10"></span>10:1 My soul is weary of my life; I will leave my complaint upon myself; I will speak in the bitterness of my soul.
 10:2 I will say unto God, Do not condemn me; shew me wherefore thou contendest with me.
 10:3 Is it good unto thee that thou shouldest oppress, that thou shouldest despise the work of thine hands, and shine upon the counsel of the wicked? 10:4 Hast thou eyes of flesh? or seest thou as man seeth? 10:5 Are thy days as the days of man? are thy years as man's days, 10:6 That thou enquirest after mine iniquity, and searchest after my sin? 10:7 Thou knowest that I am not wicked; and there is none that can deliver out of thine hand.
 10:8 Thine hands have made me and fashioned me together round about; yet thou dost destroy me.
@@ -155,7 +154,7 @@ if (!isset($include)) {
 10:17 Thou renewest thy witnesses against me, and increasest thine indignation upon me; changes and war are against me.
 10:18 Wherefore then hast thou brought me forth out of the womb? Oh that I had given up the ghost, and no eye had seen me! 10:19 I should have been as though I had not been; I should have been carried from the womb to the grave.
 10:20 Are not my days few? cease then, and let me alone, that I may take comfort a little, 10:21 Before I go whence I shall not return, even to the land of darkness and the shadow of death; 10:22 A land of darkness, as darkness itself; and of the shadow of death, without any order, and where the light is as darkness.
-<span id="11"></span>11:1 Then answered Zophar the Naamathite, and said, 11:2 Should not the multitude of words be answered? and should a man full of talk be justified? 11:3 Should thy lies make men hold their peace? and when thou mockest, shall no man make thee ashamed? 11:4 For thou hast said, My doctrine is pure, and I am clean in thine eyes.
+<span id="<?php echo $chapterprefix; ?>11"></span>11:1 Then answered Zophar the Naamathite, and said, 11:2 Should not the multitude of words be answered? and should a man full of talk be justified? 11:3 Should thy lies make men hold their peace? and when thou mockest, shall no man make thee ashamed? 11:4 For thou hast said, My doctrine is pure, and I am clean in thine eyes.
 11:5 But oh that God would speak, and open his lips against thee; 11:6 And that he would shew thee the secrets of wisdom, that they are double to that which is! Know therefore that God exacteth of thee less than thine iniquity deserveth.
 11:7 Canst thou by searching find out God? canst thou find out the Almighty unto perfection? 11:8 It is as high as heaven; what canst thou do? deeper than hell; what canst thou know? 11:9 The measure thereof is longer than the earth, and broader than the sea.
 11:10 If he cut off, and shut up, or gather together, then who can hinder him? 11:11 For he knoweth vain men: he seeth wickedness also; will he not then consider it? 11:12 For vain men would be wise, though man be born like a wild ass's colt.
@@ -164,7 +163,7 @@ if (!isset($include)) {
 11:18 And thou shalt be secure, because there is hope; yea, thou shalt dig about thee, and thou shalt take thy rest in safety.
 11:19 Also thou shalt lie down, and none shall make thee afraid; yea, many shall make suit unto thee.
 11:20 But the eyes of the wicked shall fail, and they shall not escape, and their hope shall be as the giving up of the ghost.
-<span id="12"></span>12:1 And Job answered and said, 12:2 No doubt but ye are the people, and wisdom shall die with you.
+<span id="<?php echo $chapterprefix; ?>12"></span>12:1 And Job answered and said, 12:2 No doubt but ye are the people, and wisdom shall die with you.
 12:3 But I have understanding as well as you; I am not inferior to you: yea, who knoweth not such things as these? 12:4 I am as one mocked of his neighbour, who calleth upon God, and he answereth him: the just upright man is laughed to scorn.
 12:5 He that is ready to slip with his feet is as a lamp despised in the thought of him that is at ease.
 12:6 The tabernacles of robbers prosper, and they that provoke God are secure; into whose hand God bringeth abundantly.
@@ -184,7 +183,7 @@ if (!isset($include)) {
 12:23 He increaseth the nations, and destroyeth them: he enlargeth the nations, and straiteneth them again.
 12:24 He taketh away the heart of the chief of the people of the earth, and causeth them to wander in a wilderness where there is no way.
 12:25 They grope in the dark without light, and he maketh them to stagger like a drunken man.
-<span id="13"></span>13:1 Lo, mine eye hath seen all this, mine ear hath heard and understood it.
+<span id="<?php echo $chapterprefix; ?>13"></span>13:1 Lo, mine eye hath seen all this, mine ear hath heard and understood it.
 13:2 What ye know, the same do I know also: I am not inferior unto you.
 13:3 Surely I would speak to the Almighty, and I desire to reason with God.
 13:4 But ye are forgers of lies, ye are all physicians of no value.
@@ -205,7 +204,7 @@ if (!isset($include)) {
 13:24 Wherefore hidest thou thy face, and holdest me for thine enemy? 13:25 Wilt thou break a leaf driven to and fro? and wilt thou pursue the dry stubble? 13:26 For thou writest bitter things against me, and makest me to possess the iniquities of my youth.
 13:27 Thou puttest my feet also in the stocks, and lookest narrowly unto all my paths; thou settest a print upon the heels of my feet.
 13:28 And he, as a rotten thing, consumeth, as a garment that is moth eaten.
-<span id="14"></span>14:1 Man that is born of a woman is of few days and full of trouble.
+<span id="<?php echo $chapterprefix; ?>14"></span>14:1 Man that is born of a woman is of few days and full of trouble.
 14:2 He cometh forth like a flower, and is cut down: he fleeth also as a shadow, and continueth not.
 14:3 And doth thou open thine eyes upon such an one, and bringest me into judgment with thee? 14:4 Who can bring a clean thing out of an unclean? not one.
 14:5 Seeing his days are determined, the number of his months are with thee, thou hast appointed his bounds that he cannot pass; 14:6 Turn from him, that he may rest, till he shall accomplish, as an hireling, his day.
@@ -220,7 +219,7 @@ if (!isset($include)) {
 14:20 Thou prevailest for ever against him, and he passeth: thou changest his countenance, and sendest him away.
 14:21 His sons come to honour, and he knoweth it not; and they are brought low, but he perceiveth it not of them.
 14:22 But his flesh upon him shall have pain, and his soul within him shall mourn.
-<span id="15"></span>15:1 Then answered Eliphaz the Temanite, and said, 15:2 Should a wise man utter vain knowledge, and fill his belly with the east wind? 15:3 Should he reason with unprofitable talk? or with speeches wherewith he can do no good? 15:4 Yea, thou castest off fear, and restrainest prayer before God.
+<span id="<?php echo $chapterprefix; ?>15"></span>15:1 Then answered Eliphaz the Temanite, and said, 15:2 Should a wise man utter vain knowledge, and fill his belly with the east wind? 15:3 Should he reason with unprofitable talk? or with speeches wherewith he can do no good? 15:4 Yea, thou castest off fear, and restrainest prayer before God.
 15:5 For thy mouth uttereth thine iniquity, and thou choosest the tongue of the crafty.
 15:6 Thine own mouth condemneth thee, and not I: yea, thine own lips testify against thee.
 15:7 Art thou the first man that was born? or wast thou made before the hills? 15:8 Hast thou heard the secret of God? and dost thou restrain wisdom to thyself? 15:9 What knowest thou, that we know not? what understandest thou, which is not in us? 15:10 With us are both the grayheaded and very aged men, much elder than thy father.
@@ -241,7 +240,7 @@ if (!isset($include)) {
 15:33 He shall shake off his unripe grape as the vine, and shall cast off his flower as the olive.
 15:34 For the congregation of hypocrites shall be desolate, and fire shall consume the tabernacles of bribery.
 15:35 They conceive mischief, and bring forth vanity, and their belly prepareth deceit.
-<span id="16"></span>16:1 Then Job answered and said, 16:2 I have heard many such things: miserable comforters are ye all.
+<span id="<?php echo $chapterprefix; ?>16"></span>16:1 Then Job answered and said, 16:2 I have heard many such things: miserable comforters are ye all.
 16:3 Shall vain words have an end? or what emboldeneth thee that thou answerest? 16:4 I also could speak as ye do: if your soul were in my soul's stead, I could heap up words against you, and shake mine head at you.
 16:5 But I would strengthen you with my mouth, and the moving of my lips should asswage your grief.
 16:6 Though I speak, my grief is not asswaged: and though I forbear, what am I eased? 16:7 But now he hath made me weary: thou hast made desolate all my company.
@@ -258,7 +257,7 @@ if (!isset($include)) {
 16:19 Also now, behold, my witness is in heaven, and my record is on high.
 16:20 My friends scorn me: but mine eye poureth out tears unto God.
 16:21 O that one might plead for a man with God, as a man pleadeth for his neighbour! 16:22 When a few years are come, then I shall go the way whence I shall not return.
-<span id="17"></span>17:1 My breath is corrupt, my days are extinct, the graves are ready for me.
+<span id="<?php echo $chapterprefix; ?>17"></span>17:1 My breath is corrupt, my days are extinct, the graves are ready for me.
 17:2 Are there not mockers with me? and doth not mine eye continue in their provocation? 17:3 Lay down now, put me in a surety with thee; who is he that will strike hands with me? 17:4 For thou hast hid their heart from understanding: therefore shalt thou not exalt them.
 17:5 He that speaketh flattery to his friends, even the eyes of his children shall fail.
 17:6 He hath made me also a byword of the people; and aforetime I was as a tabret.
@@ -271,7 +270,7 @@ if (!isset($include)) {
 17:13 If I wait, the grave is mine house: I have made my bed in the darkness.
 17:14 I have said to corruption, Thou art my father: to the worm, Thou art my mother, and my sister.
 17:15 And where is now my hope? as for my hope, who shall see it? 17:16 They shall go down to the bars of the pit, when our rest together is in the dust.
-<span id="18"></span>18:1 Then answered Bildad the Shuhite, and said, 18:2 How long will it be ere ye make an end of words? mark, and afterwards we will speak.
+<span id="<?php echo $chapterprefix; ?>18"></span>18:1 Then answered Bildad the Shuhite, and said, 18:2 How long will it be ere ye make an end of words? mark, and afterwards we will speak.
 18:3 Wherefore are we counted as beasts, and reputed vile in your sight? 18:4 He teareth himself in his anger: shall the earth be forsaken for thee? and shall the rock be removed out of his place? 18:5 Yea, the light of the wicked shall be put out, and the spark of his fire shall not shine.
 18:6 The light shall be dark in his tabernacle, and his candle shall be put out with him.
 18:7 The steps of his strength shall be straitened, and his own counsel shall cast him down.
@@ -289,7 +288,7 @@ if (!isset($include)) {
 18:19 He shall neither have son nor nephew among his people, nor any remaining in his dwellings.
 18:20 They that come after him shall be astonied at his day, as they that went before were affrighted.
 18:21 Surely such are the dwellings of the wicked, and this is the place of him that knoweth not God.
-<span id="19"></span>19:1 Then Job answered and said, 19:2 How long will ye vex my soul, and break me in pieces with words? 19:3 These ten times have ye reproached me: ye are not ashamed that ye make yourselves strange to me.
+<span id="<?php echo $chapterprefix; ?>19"></span>19:1 Then Job answered and said, 19:2 How long will ye vex my soul, and break me in pieces with words? 19:3 These ten times have ye reproached me: ye are not ashamed that ye make yourselves strange to me.
 19:4 And be it indeed that I have erred, mine error remaineth with myself.
 19:5 If indeed ye will magnify yourselves against me, and plead against me my reproach: 19:6 Know now that God hath overthrown me, and hath compassed me with his net.
 19:7 Behold, I cry out of wrong, but I am not heard: I cry aloud, but there is no judgment.
@@ -309,7 +308,7 @@ if (!isset($include)) {
 19:21 Have pity upon me, have pity upon me, O ye my friends; for the hand of God hath touched me.
 19:22 Why do ye persecute me as God, and are not satisfied with my flesh? 19:23 Oh that my words were now written! oh that they were printed in a book! 19:24 That they were graven with an iron pen and lead in the rock for ever! 19:25 For I know that my redeemer liveth, and that he shall stand at the latter day upon the earth: 19:26 And though after my skin worms destroy this body, yet in my flesh shall I see God: 19:27 Whom I shall see for myself, and mine eyes shall behold, and not another; though my reins be consumed within me.
 19:28 But ye should say, Why persecute we him, seeing the root of the matter is found in me? 19:29 Be ye afraid of the sword: for wrath bringeth the punishments of the sword, that ye may know there is a judgment.
-<span id="20"></span>20:1 Then answered Zophar the Naamathite, and said, 20:2 Therefore do my thoughts cause me to answer, and for this I make haste.
+<span id="<?php echo $chapterprefix; ?>20"></span>20:1 Then answered Zophar the Naamathite, and said, 20:2 Therefore do my thoughts cause me to answer, and for this I make haste.
 20:3 I have heard the check of my reproach, and the spirit of my understanding causeth me to answer.
 20:4 Knowest thou not this of old, since man was placed upon earth, 20:5 That the triumphing of the wicked is short, and the joy of the hypocrite but for a moment? 20:6 Though his excellency mount up to the heavens, and his head reach unto the clouds; 20:7 Yet he shall perish for ever like his own dung: they which have seen him shall say, Where is he? 20:8 He shall fly away as a dream, and shall not be found: yea, he shall be chased away as a vision of the night.
 20:9 The eye also which saw him shall see him no more; neither shall his place any more behold him.
@@ -330,7 +329,7 @@ if (!isset($include)) {
 20:27 The heaven shall reveal his iniquity; and the earth shall rise up against him.
 20:28 The increase of his house shall depart, and his goods shall flow away in the day of his wrath.
 20:29 This is the portion of a wicked man from God, and the heritage appointed unto him by God.
-<span id="21"></span>21:1 But Job answered and said, 21:2 Hear diligently my speech, and let this be your consolations.
+<span id="<?php echo $chapterprefix; ?>21"></span>21:1 But Job answered and said, 21:2 Hear diligently my speech, and let this be your consolations.
 21:3 Suffer me that I may speak; and after that I have spoken, mock on.
 21:4 As for me, is my complaint to man? and if it were so, why should not my spirit be troubled? 21:5 Mark me, and be astonished, and lay your hand upon your mouth.
 21:6 Even when I remember I am afraid, and trembling taketh hold on my flesh.
@@ -355,7 +354,7 @@ if (!isset($include)) {
 21:28 For ye say, Where is the house of the prince? and where are the dwelling places of the wicked? 21:29 Have ye not asked them that go by the way? and do ye not know their tokens, 21:30 That the wicked is reserved to the day of destruction? they shall be brought forth to the day of wrath.
 21:31 Who shall declare his way to his face? and who shall repay him what he hath done? 21:32 Yet shall he be brought to the grave, and shall remain in the tomb.
 21:33 The clods of the valley shall be sweet unto him, and every man shall draw after him, as there are innumerable before him.
-21:34 How then comfort ye me in vain, seeing in your answers there remaineth falsehood? <span id="22"></span>22:1 Then Eliphaz the Temanite answered and said, 22:2 Can a man be profitable unto God, as he that is wise may be profitable unto himself? 22:3 Is it any pleasure to the Almighty, that thou art righteous? or is it gain to him, that thou makest thy ways perfect? 22:4 Will he reprove thee for fear of thee? will he enter with thee into judgment? 22:5 Is not thy wickedness great? and thine iniquities infinite? 22:6 For thou hast taken a pledge from thy brother for nought, and stripped the naked of their clothing.
+21:34 How then comfort ye me in vain, seeing in your answers there remaineth falsehood? <span id="<?php echo $chapterprefix; ?>22"></span>22:1 Then Eliphaz the Temanite answered and said, 22:2 Can a man be profitable unto God, as he that is wise may be profitable unto himself? 22:3 Is it any pleasure to the Almighty, that thou art righteous? or is it gain to him, that thou makest thy ways perfect? 22:4 Will he reprove thee for fear of thee? will he enter with thee into judgment? 22:5 Is not thy wickedness great? and thine iniquities infinite? 22:6 For thou hast taken a pledge from thy brother for nought, and stripped the naked of their clothing.
 22:7 Thou hast not given water to the weary to drink, and thou hast withholden bread from the hungry.
 22:8 But as for the mighty man, he had the earth; and the honourable man dwelt in it.
 22:9 Thou hast sent widows away empty, and the arms of the fatherless have been broken.
@@ -374,7 +373,7 @@ if (!isset($include)) {
 22:28 Thou shalt also decree a thing, and it shall be established unto thee: and the light shall shine upon thy ways.
 22:29 When men are cast down, then thou shalt say, There is lifting up; and he shall save the humble person.
 22:30 He shall deliver the island of the innocent: and it is delivered by the pureness of thine hands.
-<span id="23"></span>23:1 Then Job answered and said, 23:2 Even to day is my complaint bitter: my stroke is heavier than my groaning.
+<span id="<?php echo $chapterprefix; ?>23"></span>23:1 Then Job answered and said, 23:2 Even to day is my complaint bitter: my stroke is heavier than my groaning.
 23:3 Oh that I knew where I might find him! that I might come even to his seat! 23:4 I would order my cause before him, and fill my mouth with arguments.
 23:5 I would know the words which he would answer me, and understand what he would say unto me.
 23:6 Will he plead against me with his great power? No; but he would put strength in me.
@@ -386,7 +385,7 @@ if (!isset($include)) {
 23:14 For he performeth the thing that is appointed for me: and many such things are with him.
 23:15 Therefore am I troubled at his presence: when I consider, I am afraid of him.
 23:16 For God maketh my heart soft, and the Almighty troubleth me: 23:17 Because I was not cut off before the darkness, neither hath he covered the darkness from my face.
-<span id="24"></span>24:1 Why, seeing times are not hidden from the Almighty, do they that know him not see his days? 24:2 Some remove the landmarks; they violently take away flocks, and feed thereof.
+<span id="<?php echo $chapterprefix; ?>24"></span>24:1 Why, seeing times are not hidden from the Almighty, do they that know him not see his days? 24:2 Some remove the landmarks; they violently take away flocks, and feed thereof.
 24:3 They drive away the ass of the fatherless, they take the widow's ox for a pledge.
 24:4 They turn the needy out of the way: the poor of the earth hide themselves together.
 24:5 Behold, as wild asses in the desert, go they forth to their work; rising betimes for a prey: the wilderness yieldeth food for them and for their children.
@@ -408,9 +407,9 @@ if (!isset($include)) {
 24:22 He draweth also the mighty with his power: he riseth up, and no man is sure of life.
 24:23 Though it be given him to be in safety, whereon he resteth; yet his eyes are upon their ways.
 24:24 They are exalted for a little while, but are gone and brought low; they are taken out of the way as all other, and cut off as the tops of the ears of corn.
-24:25 And if it be not so now, who will make me a liar, and make my speech nothing worth? <span id="25"></span>25:1 Then answered Bildad the Shuhite, and said, 25:2 Dominion and fear are with him, he maketh peace in his high places.
+24:25 And if it be not so now, who will make me a liar, and make my speech nothing worth? <span id="<?php echo $chapterprefix; ?>25"></span>25:1 Then answered Bildad the Shuhite, and said, 25:2 Dominion and fear are with him, he maketh peace in his high places.
 25:3 Is there any number of his armies? and upon whom doth not his light arise? 25:4 How then can man be justified with God? or how can he be clean that is born of a woman? 25:5 Behold even to the moon, and it shineth not; yea, the stars are not pure in his sight.
-25:6 How much less man, that is a worm? and the son of man, which is a worm? <span id="26"></span>26:1 But Job answered and said, 26:2 How hast thou helped him that is without power? how savest thou the arm that hath no strength? 26:3 How hast thou counselled him that hath no wisdom? and how hast thou plentifully declared the thing as it is? 26:4 To whom hast thou uttered words? and whose spirit came from thee? 26:5 Dead things are formed from under the waters, and the inhabitants thereof.
+25:6 How much less man, that is a worm? and the son of man, which is a worm? <span id="<?php echo $chapterprefix; ?>26"></span>26:1 But Job answered and said, 26:2 How hast thou helped him that is without power? how savest thou the arm that hath no strength? 26:3 How hast thou counselled him that hath no wisdom? and how hast thou plentifully declared the thing as it is? 26:4 To whom hast thou uttered words? and whose spirit came from thee? 26:5 Dead things are formed from under the waters, and the inhabitants thereof.
 26:6 Hell is naked before him, and destruction hath no covering.
 26:7 He stretcheth out the north over the empty place, and hangeth the earth upon nothing.
 26:8 He bindeth up the waters in his thick clouds; and the cloud is not rent under them.
@@ -419,7 +418,7 @@ if (!isset($include)) {
 26:11 The pillars of heaven tremble and are astonished at his reproof.
 26:12 He divideth the sea with his power, and by his understanding he smiteth through the proud.
 26:13 By his spirit he hath garnished the heavens; his hand hath formed the crooked serpent.
-26:14 Lo, these are parts of his ways: but how little a portion is heard of him? but the thunder of his power who can understand? <span id="27"></span>27:1 Moreover Job continued his parable, and said, 27:2 As God liveth, who hath taken away my judgment; and the Almighty, who hath vexed my soul; 27:3 All the while my breath is in me, and the spirit of God is in my nostrils; 27:4 My lips shall not speak wickedness, nor my tongue utter deceit.
+26:14 Lo, these are parts of his ways: but how little a portion is heard of him? but the thunder of his power who can understand? <span id="<?php echo $chapterprefix; ?>27"></span>27:1 Moreover Job continued his parable, and said, 27:2 As God liveth, who hath taken away my judgment; and the Almighty, who hath vexed my soul; 27:3 All the while my breath is in me, and the spirit of God is in my nostrils; 27:4 My lips shall not speak wickedness, nor my tongue utter deceit.
 27:5 God forbid that I should justify you: till I die I will not remove mine integrity from me.
 27:6 My righteousness I hold fast, and will not let it go: my heart shall not reproach me so long as I live.
 27:7 Let mine enemy be as the wicked, and he that riseth up against me as the unrighteous.
@@ -434,7 +433,7 @@ if (!isset($include)) {
 27:21 The east wind carrieth him away, and he departeth: and as a storm hurleth him out of his place.
 27:22 For God shall cast upon him, and not spare: he would fain flee out of his hand.
 27:23 Men shall clap their hands at him, and shall hiss him out of his place.
-<span id="28"></span>28:1 Surely there is a vein for the silver, and a place for gold where they fine it.
+<span id="<?php echo $chapterprefix; ?>28"></span>28:1 Surely there is a vein for the silver, and a place for gold where they fine it.
 28:2 Iron is taken out of the earth, and brass is molten out of the stone.
 28:3 He setteth an end to darkness, and searcheth out all perfection: the stones of darkness, and the shadow of death.
 28:4 The flood breaketh out from the inhabitant; even the waters forgotten of the foot: they are dried up, they are gone away from men.
@@ -457,7 +456,7 @@ if (!isset($include)) {
 28:24 For he looketh to the ends of the earth, and seeth under the whole heaven; 28:25 To make the weight for the winds; and he weigheth the waters by measure.
 28:26 When he made a decree for the rain, and a way for the lightning of the thunder: 28:27 Then did he see it, and declare it; he prepared it, yea, and searched it out.
 28:28 And unto man he said, Behold, the fear of the LORD, that is wisdom; and to depart from evil is understanding.
-<span id="29"></span>29:1 Moreover Job continued his parable, and said, 29:2 Oh that I were as in months past, as in the days when God preserved me; 29:3 When his candle shined upon my head, and when by his light I walked through darkness; 29:4 As I was in the days of my youth, when the secret of God was upon my tabernacle; 29:5 When the Almighty was yet with me, when my children were about me; 29:6 When I washed my steps with butter, and the rock poured me out rivers of oil; 29:7 When I went out to the gate through the city, when I prepared my seat in the street! 29:8 The young men saw me, and hid themselves: and the aged arose, and stood up.
+<span id="<?php echo $chapterprefix; ?>29"></span>29:1 Moreover Job continued his parable, and said, 29:2 Oh that I were as in months past, as in the days when God preserved me; 29:3 When his candle shined upon my head, and when by his light I walked through darkness; 29:4 As I was in the days of my youth, when the secret of God was upon my tabernacle; 29:5 When the Almighty was yet with me, when my children were about me; 29:6 When I washed my steps with butter, and the rock poured me out rivers of oil; 29:7 When I went out to the gate through the city, when I prepared my seat in the street! 29:8 The young men saw me, and hid themselves: and the aged arose, and stood up.
 29:9 The princes refrained talking, and laid their hand on their mouth.
 29:10 The nobles held their peace, and their tongue cleaved to the roof of their mouth.
 29:11 When the ear heard me, then it blessed me; and when the eye saw me, it gave witness to me: 29:12 Because I delivered the poor that cried, and the fatherless, and him that had none to help him.
@@ -474,7 +473,7 @@ if (!isset($include)) {
 29:23 And they waited for me as for the rain; and they opened their mouth wide as for the latter rain.
 29:24 If I laughed on them, they believed it not; and the light of my countenance they cast not down.
 29:25 I chose out their way, and sat chief, and dwelt as a king in the army, as one that comforteth the mourners.
-<span id="30"></span>30:1 But now they that are younger than I have me in derision, whose fathers I would have disdained to have set with the dogs of my flock.
+<span id="<?php echo $chapterprefix; ?>30"></span>30:1 But now they that are younger than I have me in derision, whose fathers I would have disdained to have set with the dogs of my flock.
 30:2 Yea, whereto might the strength of their hands profit me, in whom old age was perished? 30:3 For want and famine they were solitary; fleeing into the wilderness in former time desolate and waste.
 30:4 Who cut up mallows by the bushes, and juniper roots for their meat.
 30:5 They were driven forth from among men, (they cried after them as after a thief;) 30:6 To dwell in the cliffs of the valleys, in caves of the earth, and in the rocks.
@@ -502,7 +501,7 @@ if (!isset($include)) {
 30:29 I am a brother to dragons, and a companion to owls.
 30:30 My skin is black upon me, and my bones are burned with heat.
 30:31 My harp also is turned to mourning, and my organ into the voice of them that weep.
-<span id="31"></span>31:1 I made a covenant with mine eyes; why then should I think upon a maid? 31:2 For what portion of God is there from above? and what inheritance of the Almighty from on high? 31:3 Is not destruction to the wicked? and a strange punishment to the workers of iniquity? 31:4 Doth not he see my ways, and count all my steps? 31:5 If I have walked with vanity, or if my foot hath hasted to deceit; 31:6 Let me be weighed in an even balance that God may know mine integrity.
+<span id="<?php echo $chapterprefix; ?>31"></span>31:1 I made a covenant with mine eyes; why then should I think upon a maid? 31:2 For what portion of God is there from above? and what inheritance of the Almighty from on high? 31:3 Is not destruction to the wicked? and a strange punishment to the workers of iniquity? 31:4 Doth not he see my ways, and count all my steps? 31:5 If I have walked with vanity, or if my foot hath hasted to deceit; 31:6 Let me be weighed in an even balance that God may know mine integrity.
 31:7 If my step hath turned out of the way, and mine heart walked after mine eyes, and if any blot hath cleaved to mine hands; 31:8 Then let me sow, and let another eat; yea, let my offspring be rooted out.
 31:9 If mine heart have been deceived by a woman, or if I have laid wait at my neighbours door; 31:10 Then let my wife grind unto another, and let others bow down upon her.
 31:11 For this is an heinous crime; yea, it is an iniquity to be punished by the judges.
@@ -518,7 +517,7 @@ if (!isset($include)) {
 31:37 I would declare unto him the number of my steps; as a prince would I go near unto him.
 31:38 If my land cry against me, or that the furrows likewise thereof complain; 31:39 If I have eaten the fruits thereof without money, or have caused the owners thereof to lose their life: 31:40 Let thistles grow instead of wheat, and cockle instead of barley.
 The words of Job are ended.
-<span id="32"></span>32:1 So these three men ceased to answer Job, because he was righteous in his own eyes.
+<span id="<?php echo $chapterprefix; ?>32"></span>32:1 So these three men ceased to answer Job, because he was righteous in his own eyes.
 32:2 Then was kindled the wrath of Elihu the son of Barachel the Buzite, of the kindred of Ram: against Job was his wrath kindled, because he justified himself rather than God.
 32:3 Also against his three friends was his wrath kindled, because they had found no answer, and yet had condemned Job.
 32:4 Now Elihu had waited till Job had spoken, because they were elder than he.
@@ -538,7 +537,7 @@ The words of Job are ended.
 32:20 I will speak, that I may be refreshed: I will open my lips and answer.
 32:21 Let me not, I pray you, accept any man's person, neither let me give flattering titles unto man.
 32:22 For I know not to give flattering titles; in so doing my maker would soon take me away.
-<span id="33"></span>33:1 Wherefore, Job, I pray thee, hear my speeches, and hearken to all my words.
+<span id="<?php echo $chapterprefix; ?>33"></span>33:1 Wherefore, Job, I pray thee, hear my speeches, and hearken to all my words.
 33:2 Behold, now I have opened my mouth, my tongue hath spoken in my mouth.
 33:3 My words shall be of the uprightness of my heart: and my lips shall utter knowledge clearly.
 33:4 The spirit of God hath made me, and the breath of the Almighty hath given me life.
@@ -562,7 +561,7 @@ The words of Job are ended.
 33:31 Mark well, O Job, hearken unto me: hold thy peace, and I will speak.
 33:32 If thou hast anything to say, answer me: speak, for I desire to justify thee.
 33:33 If not, hearken unto me: hold thy peace, and I shall teach thee wisdom.
-<span id="34"></span>34:1 Furthermore Elihu answered and said, 34:2 Hear my words, O ye wise men; and give ear unto me, ye that have knowledge.
+<span id="<?php echo $chapterprefix; ?>34"></span>34:1 Furthermore Elihu answered and said, 34:2 Hear my words, O ye wise men; and give ear unto me, ye that have knowledge.
 34:3 For the ear trieth words, as the mouth tasteth meat.
 34:4 Let us choose to us judgment: let us know among ourselves what is good.
 34:5 For Job hath said, I am righteous: and God hath taken away my judgment.
@@ -589,7 +588,7 @@ The words of Job are ended.
 34:35 Job hath spoken without knowledge, and his words were without wisdom.
 34:36 My desire is that Job may be tried unto the end because of his answers for wicked men.
 34:37 For he addeth rebellion unto his sin, he clappeth his hands among us, and multiplieth his words against God.
-<span id="35"></span>35:1 Elihu spake moreover, and said, 35:2 Thinkest thou this to be right, that thou saidst, My righteousness is more than God's? 35:3 For thou saidst, What advantage will it be unto thee? and, What profit shall I have, if I be cleansed from my sin? 35:4 I will answer thee, and thy companions with thee.
+<span id="<?php echo $chapterprefix; ?>35"></span>35:1 Elihu spake moreover, and said, 35:2 Thinkest thou this to be right, that thou saidst, My righteousness is more than God's? 35:3 For thou saidst, What advantage will it be unto thee? and, What profit shall I have, if I be cleansed from my sin? 35:4 I will answer thee, and thy companions with thee.
 35:5 Look unto the heavens, and see; and behold the clouds which are higher than thou.
 35:6 If thou sinnest, what doest thou against him? or if thy transgressions be multiplied, what doest thou unto him? 35:7 If thou be righteous, what givest thou him? or what receiveth he of thine hand? 35:8 Thy wickedness may hurt a man as thou art; and thy righteousness may profit the son of man.
 35:9 By reason of the multitude of oppressions they make the oppressed to cry: they cry out by reason of the arm of the mighty.
@@ -597,7 +596,7 @@ The words of Job are ended.
 35:13 Surely God will not hear vanity, neither will the Almighty regard it.
 35:14 Although thou sayest thou shalt not see him, yet judgment is before him; therefore trust thou in him.
 35:15 But now, because it is not so, he hath visited in his anger; yet he knoweth it not in great extremity: 35:16 Therefore doth Job open his mouth in vain; he multiplieth words without knowledge.
-<span id="36"></span>36:1 Elihu also proceeded, and said, 36:2 Suffer me a little, and I will shew thee that I have yet to speak on God's behalf.
+<span id="<?php echo $chapterprefix; ?>36"></span>36:1 Elihu also proceeded, and said, 36:2 Suffer me a little, and I will shew thee that I have yet to speak on God's behalf.
 36:3 I will fetch my knowledge from afar, and will ascribe righteousness to my Maker.
 36:4 For truly my words shall not be false: he that is perfect in knowledge is with thee.
 36:5 Behold, God is mighty, and despiseth not any: he is mighty in strength and wisdom.
@@ -624,7 +623,7 @@ The words of Job are ended.
 36:31 For by them judgeth he the people; he giveth meat in abundance.
 36:32 With clouds he covereth the light; and commandeth it not to shine by the cloud that cometh betwixt.
 36:33 The noise thereof sheweth concerning it, the cattle also concerning the vapour.
-<span id="37"></span>37:1 At this also my heart trembleth, and is moved out of his place.
+<span id="<?php echo $chapterprefix; ?>37"></span>37:1 At this also my heart trembleth, and is moved out of his place.
 37:2 Hear attentively the noise of his voice, and the sound that goeth out of his mouth.
 37:3 He directeth it under the whole heaven, and his lightning unto the ends of the earth.
 37:4 After it a voice roareth: he thundereth with the voice of his excellency; and he will not stay them when his voice is heard.
@@ -643,14 +642,14 @@ The words of Job are ended.
 37:22 Fair weather cometh out of the north: with God is terrible majesty.
 37:23 Touching the Almighty, we cannot find him out: he is excellent in power, and in judgment, and in plenty of justice: he will not afflict.
 37:24 Men do therefore fear him: he respecteth not any that are wise of heart.
-<span id="38"></span>38:1 Then the LORD answered Job out of the whirlwind, and said, 38:2 Who is this that darkeneth counsel by words without knowledge? 38:3 Gird up now thy loins like a man; for I will demand of thee, and answer thou me.
+<span id="<?php echo $chapterprefix; ?>38"></span>38:1 Then the LORD answered Job out of the whirlwind, and said, 38:2 Who is this that darkeneth counsel by words without knowledge? 38:3 Gird up now thy loins like a man; for I will demand of thee, and answer thou me.
 38:4 Where wast thou when I laid the foundations of the earth? declare, if thou hast understanding.
 38:5 Who hath laid the measures thereof, if thou knowest? or who hath stretched the line upon it? 38:6 Whereupon are the foundations thereof fastened? or who laid the corner stone thereof; 38:7 When the morning stars sang together, and all the sons of God shouted for joy? 38:8 Or who shut up the sea with doors, when it brake forth, as if it had issued out of the womb? 38:9 When I made the cloud the garment thereof, and thick darkness a swaddlingband for it, 38:10 And brake up for it my decreed place, and set bars and doors, 38:11 And said, Hitherto shalt thou come, but no further: and here shall thy proud waves be stayed? 38:12 Hast thou commanded the morning since thy days; and caused the dayspring to know his place; 38:13 That it might take hold of the ends of the earth, that the wicked might be shaken out of it? 38:14 It is turned as clay to the seal; and they stand as a garment.
 38:15 And from the wicked their light is withholden, and the high arm shall be broken.
 38:16 Hast thou entered into the springs of the sea? or hast thou walked in the search of the depth? 38:17 Have the gates of death been opened unto thee? or hast thou seen the doors of the shadow of death? 38:18 Hast thou perceived the breadth of the earth? declare if thou knowest it all.
 38:19 Where is the way where light dwelleth? and as for darkness, where is the place thereof, 38:20 That thou shouldest take it to the bound thereof, and that thou shouldest know the paths to the house thereof? 38:21 Knowest thou it, because thou wast then born? or because the number of thy days is great? 38:22 Hast thou entered into the treasures of the snow? or hast thou seen the treasures of the hail, 38:23 Which I have reserved against the time of trouble, against the day of battle and war? 38:24 By what way is the light parted, which scattereth the east wind upon the earth? 38:25 Who hath divided a watercourse for the overflowing of waters, or a way for the lightning of thunder; 38:26 To cause it to rain on the earth, where no man is; on the wilderness, wherein there is no man; 38:27 To satisfy the desolate and waste ground; and to cause the bud of the tender herb to spring forth? 38:28 Hath the rain a father? or who hath begotten the drops of dew? 38:29 Out of whose womb came the ice? and the hoary frost of heaven, who hath gendered it? 38:30 The waters are hid as with a stone, and the face of the deep is frozen.
 38:31 Canst thou bind the sweet influences of Pleiades, or loose the bands of Orion? 38:32 Canst thou bring forth Mazzaroth in his season? or canst thou guide Arcturus with his sons? 38:33 Knowest thou the ordinances of heaven? canst thou set the dominion thereof in the earth? 38:34 Canst thou lift up thy voice to the clouds, that abundance of waters may cover thee? 38:35 Canst thou send lightnings, that they may go and say unto thee, Here we are? 38:36 Who hath put wisdom in the inward parts? or who hath given understanding to the heart? 38:37 Who can number the clouds in wisdom? or who can stay the bottles of heaven, 38:38 When the dust groweth into hardness, and the clods cleave fast together? 38:39 Wilt thou hunt the prey for the lion? or fill the appetite of the young lions, 38:40 When they couch in their dens, and abide in the covert to lie in wait? 38:41 Who provideth for the raven his food? when his young ones cry unto God, they wander for lack of meat.
-<span id="39"></span>39:1 Knowest thou the time when the wild goats of the rock bring forth? or canst thou mark when the hinds do calve? 39:2 Canst thou number the months that they fulfil? or knowest thou the time when they bring forth? 39:3 They bow themselves, they bring forth their young ones, they cast out their sorrows.
+<span id="<?php echo $chapterprefix; ?>39"></span>39:1 Knowest thou the time when the wild goats of the rock bring forth? or canst thou mark when the hinds do calve? 39:2 Canst thou number the months that they fulfil? or knowest thou the time when they bring forth? 39:3 They bow themselves, they bring forth their young ones, they cast out their sorrows.
 39:4 Their young ones are in good liking, they grow up with corn; they go forth, and return not unto them.
 39:5 Who hath sent out the wild ass free? or who hath loosed the bands of the wild ass? 39:6 Whose house I have made the wilderness, and the barren land his dwellings.
 39:7 He scorneth the multitude of the city, neither regardeth he the crying of the driver.
@@ -667,7 +666,7 @@ The words of Job are ended.
 39:26 Doth the hawk fly by thy wisdom, and stretch her wings toward the south? 39:27 Doth the eagle mount up at thy command, and make her nest on high? 39:28 She dwelleth and abideth on the rock, upon the crag of the rock, and the strong place.
 39:29 From thence she seeketh the prey, and her eyes behold afar off.
 39:30 Her young ones also suck up blood: and where the slain are, there is she.
-<span id="40"></span>40:1 Moreover the LORD answered Job, and said, 40:2 Shall he that contendeth with the Almighty instruct him? he that reproveth God, let him answer it.
+<span id="<?php echo $chapterprefix; ?>40"></span>40:1 Moreover the LORD answered Job, and said, 40:2 Shall he that contendeth with the Almighty instruct him? he that reproveth God, let him answer it.
 40:3 Then Job answered the LORD, and said, 40:4 Behold, I am vile; what shall I answer thee? I will lay mine hand upon my mouth.
 40:5 Once have I spoken; but I will not answer: yea, twice; but I will proceed no further.
 40:6 Then answered the LORD unto Job out of the whirlwind, and said, 40:7 Gird up thy loins now like a man: I will demand of thee, and declare thou unto me.
@@ -686,7 +685,7 @@ The words of Job are ended.
 40:22 The shady trees cover him with their shadow; the willows of the brook compass him about.
 40:23 Behold, he drinketh up a river, and hasteth not: he trusteth that he can draw up Jordan into his mouth.
 40:24 He taketh it with his eyes: his nose pierceth through snares.
-<span id="41"></span>41:1 Canst thou draw out leviathan with an hook? or his tongue with a cord which thou lettest down? 41:2 Canst thou put an hook into his nose? or bore his jaw through with a thorn? 41:3 Will he make many supplications unto thee? will he speak soft words unto thee? 41:4 Will he make a covenant with thee? wilt thou take him for a servant for ever? 41:5 Wilt thou play with him as with a bird? or wilt thou bind him for thy maidens? 41:6 Shall the companions make a banquet of him? shall they part him among the merchants? 41:7 Canst thou fill his skin with barbed irons? or his head with fish spears? 41:8 Lay thine hand upon him, remember the battle, do no more.
+<span id="<?php echo $chapterprefix; ?>41"></span>41:1 Canst thou draw out leviathan with an hook? or his tongue with a cord which thou lettest down? 41:2 Canst thou put an hook into his nose? or bore his jaw through with a thorn? 41:3 Will he make many supplications unto thee? will he speak soft words unto thee? 41:4 Will he make a covenant with thee? wilt thou take him for a servant for ever? 41:5 Wilt thou play with him as with a bird? or wilt thou bind him for thy maidens? 41:6 Shall the companions make a banquet of him? shall they part him among the merchants? 41:7 Canst thou fill his skin with barbed irons? or his head with fish spears? 41:8 Lay thine hand upon him, remember the battle, do no more.
 41:9 Behold, the hope of him is in vain: shall not one be cast down even at the sight of him? 41:10 None is so fierce that dare stir him up: who then is able to stand before me? 41:11 Who hath prevented me, that I should repay him? whatsoever is under the whole heaven is mine.
 41:12 I will not conceal his parts, nor his power, nor his comely proportion.
 41:13 Who can discover the face of his garment? or who can come to him with his double bridle? 41:14 Who can open the doors of his face? his teeth are terrible round about.
@@ -710,7 +709,7 @@ The words of Job are ended.
 41:32 He maketh a path to shine after him; one would think the deep to be hoary.
 41:33 Upon earth there is not his like, who is made without fear.
 41:34 He beholdeth all high things: he is a king over all the children of pride.
-<span id="42"></span>42:1 Then Job answered the LORD, and said, 42:2 I know that thou canst do every thing, and that no thought can be withholden from thee.
+<span id="<?php echo $chapterprefix; ?>42"></span>42:1 Then Job answered the LORD, and said, 42:2 I know that thou canst do every thing, and that no thought can be withholden from thee.
 42:3 Who is he that hideth counsel without knowledge? therefore have I uttered that I understood not; things too wonderful for me, which I knew not.
 42:4 Hear, I beseech thee, and I will speak: I will demand of thee, and declare thou unto me.
 42:5 I have heard of thee by the hearing of the ear: but now mine eye seeth thee.
@@ -726,8 +725,4 @@ The words of Job are ended.
 42:15 And in all the land were no women found so fair as the daughters of Job: and their father gave them inheritance among their brethren.
 42:16 After this lived Job an hundred and forty years, and saw his sons, and his sons' sons, even four generations.
 42:17 So Job died, being old and full of days.
-<?php
-if (!isset($include)) {
- include ('aa-end.php');
-}
-?>
+<?php if (!isset($collection)) {include 'bookfoot.php';} ?>

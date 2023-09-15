@@ -1,11 +1,10 @@
 <?php
 $title = 'Ruth';
 $description = 'The Book of Ruth';
-if (!isset($include)) {
- include ('aa-beginning.php');
-}
+if (isset($collection)) {$chapterprefix = 'ruth';}
+if (!isset($collection)) {include 'bookhead.php';}
 ?>
-<span id="1<?= $book ?>"></span><h2 id="ruth">The Book of Ruth</h2><!--1t8b-->
+<span id="<?php echo $chapterprefix; ?>1"></span><h3 id="ruth">The Book of Ruth</h3><!--1t8b-->
 1:1 Now it came to pass in the days when the judges ruled, that there was a famine in the land. And a certain man of Bethlehemjudah went to sojourn in the country of Moab, he, and his wife, and his two sons.
 1:2 And the name of the man was Elimelech, and the name of his wife Naomi, and the name of his two sons Mahlon and Chilion, Ephrathites of Bethlehemjudah. And they came into the country of Moab, and continued there.
 1:3 And Elimelech Naomi's husband died; and she was left, and her two sons.
@@ -23,7 +22,7 @@ if (!isset($include)) {
 1:18 When she saw that she was stedfastly minded to go with her, then she left speaking unto her.
 1:19 So they two went until they came to Bethlehem. And it came to pass, when they were come to Bethlehem, that all the city was moved about them, and they said, Is this Naomi? 1:20 And she said unto them, Call me not Naomi, call me Mara: for the Almighty hath dealt very bitterly with me.
 1:21 I went out full and the LORD hath brought me home again empty: why then call ye me Naomi, seeing the LORD hath testified against me, and the Almighty hath afflicted me? 1:22 So Naomi returned, and Ruth the Moabitess, her daughter in law, with her, which returned out of the country of Moab: and they came to Bethlehem in the beginning of barley harvest.
-<span id="2<?= $book ?>"></span>2:1 And Naomi had a kinsman of her husband's, a mighty man of wealth, of the family of Elimelech; and his name was Boaz.
+<span id="<?php echo $chapterprefix; ?>2"></span>2:1 And Naomi had a kinsman of her husband's, a mighty man of wealth, of the family of Elimelech; and his name was Boaz.
 2:2 And Ruth the Moabitess said unto Naomi, Let me now go to the field, and glean ears of corn after him in whose sight I shall find grace.
 And she said unto her, Go, my daughter.
 2:3 And she went, and came, and gleaned in the field after the reapers: and her hap was to light on a part of the field belonging unto Boaz, who was of the kindred of Elimelech.
@@ -42,7 +41,7 @@ And she said unto her, Go, my daughter.
 2:21 And Ruth the Moabitess said, He said unto me also, Thou shalt keep fast by my young men, until they have ended all my harvest.
 2:22 And Naomi said unto Ruth her daughter in law, It is good, my daughter, that thou go out with his maidens, that they meet thee not in any other field.
 2:23 So she kept fast by the maidens of Boaz to glean unto the end of barley harvest and of wheat harvest; and dwelt with her mother in law.
-<span id="3<?= $book ?>"></span>3:1 Then Naomi her mother in law said unto her, My daughter, shall I not seek rest for thee, that it may be well with thee? 3:2 And now is not Boaz of our kindred, with whose maidens thou wast? Behold, he winnoweth barley to night in the threshingfloor.
+<span id="<?php echo $chapterprefix; ?>3"></span>3:1 Then Naomi her mother in law said unto her, My daughter, shall I not seek rest for thee, that it may be well with thee? 3:2 And now is not Boaz of our kindred, with whose maidens thou wast? Behold, he winnoweth barley to night in the threshingfloor.
 3:3 Wash thyself therefore, and anoint thee, and put thy raiment upon thee, and get thee down to the floor: but make not thyself known unto the man, until he shall have done eating and drinking.
 3:4 And it shall be, when he lieth down, that thou shalt mark the place where he shall lie, and thou shalt go in, and uncover his feet, and lay thee down; and he will tell thee what thou shalt do.
 3:5 And she said unto her, All that thou sayest unto me I will do.
@@ -60,7 +59,7 @@ And when she held it, he measured six measures of barley, and laid it on her: an
 3:16 And when she came to her mother in law, she said, Who art thou, my daughter? And she told her all that the man had done to her.
 3:17 And she said, These six measures of barley gave he me; for he said to me, Go not empty unto thy mother in law.
 3:18 Then said she, Sit still, my daughter, until thou know how the matter will fall: for the man will not be in rest, until he have finished the thing this day.
-<span id="4<?= $book ?>"></span>4:1 Then went Boaz up to the gate, and sat him down there: and, behold, the kinsman of whom Boaz spake came by; unto whom he said, Ho, such a one! turn aside, sit down here. And he turned aside, and sat down.
+<span id="<?php echo $chapterprefix; ?>4"></span>4:1 Then went Boaz up to the gate, and sat him down there: and, behold, the kinsman of whom Boaz spake came by; unto whom he said, Ho, such a one! turn aside, sit down here. And he turned aside, and sat down.
 4:2 And he took ten men of the elders of the city, and said, Sit ye down here. And they sat down.
 4:3 And he said unto the kinsman, Naomi, that is come again out of the country of Moab, selleth a parcel of land, which was our brother Elimelech's: 4:4 And I thought to advertise thee, saying, Buy it before the inhabitants, and before the elders of my people. If thou wilt redeem it, redeem it: but if thou wilt not redeem it, then tell me, that I may know: for there is none to redeem it beside thee; and I am after thee. And he said, I will redeem it.
 4:5 Then said Boaz, What day thou buyest the field of the hand of Naomi, thou must buy it also of Ruth the Moabitess, the wife of the dead, to raise up the name of the dead upon his inheritance.
@@ -76,8 +75,4 @@ And when she held it, he measured six measures of barley, and laid it on her: an
 4:16 And Naomi took the child, and laid it in her bosom, and became nurse unto it.
 4:17 And the women her neighbours gave it a name, saying, There is a son born to Naomi; and they called his name Obed: he is the father of Jesse, the father of David.
 4:18 Now these are the generations of Pharez: Pharez begat Hezron, 4:19 And Hezron begat Ram, and Ram begat Amminadab, 4:20 And Amminadab begat Nahshon, and Nahshon begat Salmon, 4:21 And Salmon begat Boaz, and Boaz begat Obed, 4:22 And Obed begat Jesse, and Jesse begat David.
-<?php
-if (!isset($include)) {
- include ('aa-end.php');
-}
-?>
+<?php if (!isset($collection)) {include 'bookfoot.php';} ?>
