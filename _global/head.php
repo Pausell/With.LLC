@@ -19,20 +19,24 @@ $protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : '
 $hostname = $_SERVER['HTTP_HOST'];
 $canonical = $protocol . "://" . $hostname . $current_path;
 $canonical = str_replace(".php", "", $canonical);
+
+$style = 'style.css';
 ?>
 <head>
  <title><?php echo $title; ?></title>
  <meta name="description" content="<?php echo $description; ?>">
  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
- <link rel="shortcut icon" type="image/png" href="<?php echo $favicon; ?>">
- <link rel="shortcut icon" type="image/png" href="<?php echo $favicon16; ?>">
-  <link rel="apple-touch-icon" href="<?php echo $iphone; ?>touch-icon-iphone.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="<?php echo $ipad; ?>touch-icon-ipad.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="<?php echo $iphoner; ?>touch-icon-iphone-retina.png">
-  <link rel="apple-touch-icon" sizes="167x167" href="<?php echo $ipadr; ?>touch-icon-ipad-retina.png">
- <meta name="msapplication-config" content="<?php echo $browserconfig; ?>browserconfig.xml"/>
+ <link rel="shortcut icon" href="favicon.ico?n=2023">
+  <link rel="shortcut icon" type="image/png" href="favicon.png?n=2023">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon32.png?n=2023">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon16.png?n=2023">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest?n=2023">
+  <link rel="mask-icon" href="safari-pinned-tab.svg?n=2023" color="#ff0000">
+  <meta name="msapplication-TileColor" content="#00a300">
+  <meta name="theme-color" content="#ffffff">
  <link rel="canonical" href="<?php echo $canonical; ?>"/>
- <link rel="stylesheet" href="<?php echo $style; ?>">
+ <link rel="stylesheet" href="<?php echo $index . $path . $style; ?>">
 <?php echo $internal_style ?>
 <?php echo $internal_head ?>
 </head>

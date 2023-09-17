@@ -1,3 +1,7 @@
+<?php
+$index = '';
+$path = '_global';
+?>
 <html>
  <head>
   <title>With.LLC</title>
@@ -13,7 +17,7 @@
    <meta name="msapplication-TileColor" content="#00a300">
    <meta name="theme-color" content="#ffffff">
   <link rel="canonical" href="https://with.llc"/>
-  <link rel="stylesheet" href="_global/style.css">
+  <link rel="stylesheet" href="<?php echo $index . $path . ('style.css'); ?>">
   <!--_module-->
   <link rel-"stylesheet" href="_module/search.css">
  </head>
