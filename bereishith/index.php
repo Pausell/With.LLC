@@ -23,7 +23,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="genesis">
      <a class="handle">
-      <label for="genesis">Genesis<span>50 (1533)</span>
+      <label for="genesis">Genesis<span> 50 (1533)</span>
      </a>
       <br>
       <div class="content">
@@ -88,7 +88,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="exodus">
      <a class="handle">
-      <label for="exodus">Exodus<span>40 (1213)</span>
+      <label for="exodus">Exodus<span> 40 (1213)</span>
      </a>
       <br>
       <div class="content">
@@ -143,7 +143,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="leviticus">
      <a class="handle">
-      <label for="leviticus">Leviticus<span>27 (859)</span>
+      <label for="leviticus">Leviticus<span> 27 (859)</span>
      </a>
       <br>
       <div class="content">
@@ -185,7 +185,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="numbers">
      <a class="handle">
-      <label for="numbers">Numbers<span>36 (1288)</span>
+      <label for="numbers">Numbers<span> 36 (1288)</span>
      </a>
       <br>
       <div class="content">
@@ -236,7 +236,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="deuteronomy">
      <a class="handle">
-      <label for="deuteronomy">Deuteronomy<span>34 (959)</span>
+      <label for="deuteronomy">Deuteronomy<span> 34 (959)</span>
      </a>
       <br>
       <div class="content">
@@ -285,7 +285,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="joshua">
      <a class="handle">
-      <label for="joshua">Joshua<span>24 (658)</span>
+      <label for="joshua">Joshua<span> 24 (658)</span>
      </a>
       <br>
       <div class="content">
@@ -324,7 +324,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="judges">
      <a class="handle">
-      <label for="judges">Judges<span>21 (618)</span>
+      <label for="judges">Judges<span> 21 (618)</span>
      </a>
       <br>
       <div class="content">
@@ -360,7 +360,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="ruth">
      <a class="handle">
-      <label for="ruth">Ruth<span>4 (85)</span>
+      <label for="ruth">Ruth<span> 4 (85)</span>
      </a>
       <br>
       <div class="content">
@@ -379,7 +379,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="samuel1">
      <a class="handle">
-      <label for="samuel1">1 Samuel<span>31 (810)</span>
+      <label for="samuel1">1 Samuel<span> 31 (810)</span>
      </a>
       <br>
       <div class="content">
@@ -425,7 +425,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="samuel2">
      <a class="handle">
-      <label for="samuel2">2 Samuel<span>24 (695)</span>
+      <label for="samuel2">2 Samuel<span> 24 (695)</span>
      </a>
       <br>
       <div class="content">
@@ -464,7 +464,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="kings1">
      <a class="handle">
-      <label for="kings1">1 Kings<span>22 (816)</span>
+      <label for="kings1">1 Kings<span> 22 (816)</span>
      </a> 
       <br>
       <div class="content">
@@ -501,7 +501,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="kings2">
      <a class="handle">
-      <label for="kings2">2 Kings<span>25 (719)</span>
+      <label for="kings2">2 Kings<span> 25 (719)</span>
      </a>
       <br>
       <div class="content">
@@ -541,7 +541,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="chronicles1">
      <a class="handle">
-      <label for="chronicles1">1 Chronicles<span>29 (942)</span>
+      <label for="chronicles1">1 Chronicles<span> 29 (942)</span>
      </a>
       <br>
       <div class="content">
@@ -585,7 +585,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="chronicles2">
      <a class="handle">
-      <label for="chronicles2">2 Chronicles<span>36 (822)</span>
+      <label for="chronicles2">2 Chronicles<span> 36 (822)</span>
      </a>
       <br>
       <div class="content">
@@ -636,7 +636,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="ezra">
      <a class="handle">
-      <label for="ezra">Ezra<span>10 (280)</span>
+      <label for="ezra">Ezra<span> 10 (280)</span>
      </a>
       <br>
       <div class="content">
@@ -661,7 +661,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="nehemiah">
      <a class="handle">
-      <label for="nehemiah">Nehemiah<span>13 (406)</span>
+      <label for="nehemiah">Nehemiah<span> 13 (406)</span>
      </a>
       <br>
       <div class="content">
@@ -689,7 +689,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="esther">
      <a class="handle">
-      <label for="esther">Esther<span>10 (167)</span>
+      <label for="esther">Esther<span> 10 (167)</span>
      </a>
       <br>
       <div class="content">
@@ -714,7 +714,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="job">
      <a class="handle">
-      <label for="job">Job<span>42 (1070)</span>
+      <label for="job">Job<span> 42 (1070)</span>
      </a>
       <br>
       <div class="content">
@@ -771,7 +771,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="psalms">
      <a class="handle">
-      <label for="psalms">Psalms<span>150 (2461)</span>
+      <label for="psalms">Psalms<span> 150 (2461)</span>
      </a>
       <br>
       <div class="content">
@@ -936,7 +936,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="proverbs">
      <a class="handle">
-      <label for="proverbs">Proverbs<span>31 (915)</span>
+      <label for="proverbs">Proverbs<span> 31 (915)</span>
      </a>
       <br>
       <div class="content">
@@ -982,7 +982,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="ecclesiastes">
      <a class="handle">
-      <label for="ecclesiastes">Ecclesiastes<span>12 (222)</span>
+      <label for="ecclesiastes">Ecclesiastes<span> 12 (222)</span>
      </a>
       <br>
       <div class="content">
@@ -1009,7 +1009,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="song-of-solomon">
      <a class="handle">
-      <label for="song-of-solomon">Song of Solomon<span>8 (117)</span>
+      <label for="song-of-solomon">Song of Solomon<span> 8 (117)</span>
      </a>
       <br>
       <div class="content">
@@ -1032,7 +1032,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="isaiah">
      <a class="handle">
-      <label for="isaiah">Isaiah<span>66 (1292)</span>
+      <label for="isaiah">Isaiah<span> 66 (1292)</span>
      </a>
       <br>
       <div class="content">
@@ -1113,7 +1113,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="jeremiah">
      <a class="handle">
-      <label for="jeremiah">Jeremiah<span>52 (1364)</span>
+      <label for="jeremiah">Jeremiah<span> 52 (1364)</span>
      </a>
       <br>
       <div class="content">
@@ -1180,7 +1180,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="lamentations">
      <a class="handle">
-      <label for="lamentations">Lamentations<span>5 (154)</span>
+      <label for="lamentations">Lamentations<span> 5 (154)</span>
      </a>
       <br>
       <div class="content">
@@ -1200,7 +1200,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="ezekiel">
      <a class="handle">
-      <label for="ezekiel">Ezekiel<span>48 (1273)</span>
+      <label for="ezekiel">Ezekiel<span> 48 (1273)</span>
      </a>
       <br>
       <div class="content">
@@ -1263,7 +1263,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="daniel">
      <a class="handle">
-      <label for="daniel">Daniel<span>12 (357)</span>
+      <label for="daniel">Daniel<span> 12 (357)</span>
      </a>
       <br>
       <div class="content">
@@ -1290,7 +1290,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="hosea">
      <a class="handle">
-      <label for="hosea">Hosea<span>14 (197)</span>
+      <label for="hosea">Hosea<span> 14 (197)</span>
      </a>
       <br>
       <div class="content">
@@ -1319,7 +1319,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="joel">
      <a class="handle">
-      <label for="joel">Joel<span>3 (73)</span>
+      <label for="joel">Joel<span> 3 (73)</span>
      </a>
       <br>
       <div class="content">
@@ -1337,7 +1337,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="amos">
      <a class="handle">
-      <label for="amos">Amos<span>9 (146)</span>
+      <label for="amos">Amos<span> 9 (146)</span>
      </a>
       <br>
       <div class="content">
@@ -1361,7 +1361,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="obadiah">
      <a class="handle">
-      <label for="obadiah">Obadiah<span>1 (21)</span>
+      <label for="obadiah">Obadiah<span> 1 (21)</span>
      </a>
       <br>
       <div class="content">
@@ -1377,7 +1377,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="jonah">
      <a class="handle">
-      <label for="jonah">Jonah<span>4 (48)</span>
+      <label for="jonah">Jonah<span> 4 (48)</span>
      </a>
       <br>
       <div class="content">
@@ -1396,7 +1396,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="micah">
      <a class="handle">
-      <label for="micah">Micah<span>7 (105)</span>
+      <label for="micah">Micah<span> 7 (105)</span>
      </a>
       <br>
       <div class="content">
@@ -1418,7 +1418,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="nahum">
      <a class="handle">
-      <label for="nahum">Nahum<span>3 (47)</span>
+      <label for="nahum">Nahum<span> 3 (47)</span>
      </a>
       <br>
       <div class="content">
@@ -1436,7 +1436,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="habakkuk">
      <a class="handle">
-      <label for="habakkuk">Habakkuk<span>3 (56)</span>
+      <label for="habakkuk">Habakkuk<span> 3 (56)</span>
      </a>
       <br>
       <div class="content">
@@ -1454,7 +1454,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="zephaniah">
      <a class="handle">
-      <label for="zephaniah">Zephaniah<span>3 (53)</span>
+      <label for="zephaniah">Zephaniah<span> 3 (53)</span>
      </a>
       <br>
       <div class="content">
@@ -1472,7 +1472,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="haggai">
      <a class="handle">
-      <label for="haggai">Haggai<span>2 (38)</span>
+      <label for="haggai">Haggai<span> 2 (38)</span>
      </a>
       <br>
       <div class="content">
@@ -1489,7 +1489,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="zechariah">
      <a class="handle">
-      <label for="zechariah">Zechariah<span>14 (211)</span>
+      <label for="zechariah">Zechariah<span> 14 (211)</span>
      </a>
       <br>
       <div class="content">
@@ -1518,7 +1518,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="malachi">
      <a class="handle">
-      <label for="malachi">Malachi<span>4 (55)</span>
+      <label for="malachi">Malachi<span> 4 (55)</span>
      </a>
       <br>
       <div class="content">
@@ -1543,7 +1543,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="matthew">
      <a class="handle">
-      <label for="matthew">Matthew<span>28 (1071)</span>
+      <label for="matthew">Matthew<span> 28 (1071)</span>
      </a>
       <br>
       <div class="content">
@@ -1586,7 +1586,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="mark">
      <a class="handle">
-      <label for="mark">Mark<span>16 (678)</span>
+      <label for="mark">Mark<span> 16 (678)</span>
      </a>
       <br>
       <div class="content">
@@ -1617,7 +1617,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="luke">
      <a class="handle">
-      <label for="luke">Luke<span>24 (1151)</span>
+      <label for="luke">Luke<span> 24 (1151)</span>
      </a>
       <br>
       <div class="content">
@@ -1656,7 +1656,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="john">
      <a class="handle">
-      <label for="john">John<span>21 (879)</span>
+      <label for="john">John<span> 21 (879)</span>
      </a>
       <br>
       <div class="content">
@@ -1692,7 +1692,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="acts">
      <a class="handle">
-      <label for="acts">Acts<span>28 (1007)</span>
+      <label for="acts">Acts<span> 28 (1007)</span>
      </a>
       <br>
       <div class="content">
@@ -1735,7 +1735,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="romans">
      <a class="handle">
-      <label for="romans">Romans<span>16 (433)</span>
+      <label for="romans">Romans<span> 16 (433)</span>
      </a>
       <br>
       <div class="content">
@@ -1766,7 +1766,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="corinthians1">
      <a class="handle">
-      <label for="corinthians1">1 Corinthians<span>16 (437)</span>
+      <label for="corinthians1">1 Corinthians<span> 16 (437)</span>
      </a>
       <br>
       <div class="content">
@@ -1797,7 +1797,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="corinthians2">
      <a class="handle">
-      <label for="corinthians2">2 Corinthians<span>13 (257)</span>
+      <label for="corinthians2">2 Corinthians<span> 13 (257)</span>
      </a>
       <br>
       <div class="content">
@@ -1825,7 +1825,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="galatians">
      <a class="handle">
-      <label for="galatians">Galatians<span>6 (149)</span>
+      <label for="galatians">Galatians<span> 6 (149)</span>
      </a>
       <br>
       <div class="content">
@@ -1846,7 +1846,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="ephesians">
      <a class="handle">
-      <label for="ephesians">Ephesians<span>6 (155)</span>
+      <label for="ephesians">Ephesians<span> 6 (155)</span>
      </a>
       <br>
       <div class="content">
@@ -1867,7 +1867,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="philippians">
      <a class="handle">
-      <label for="philippians">Philippians<span>4 (104)</span>
+      <label for="philippians">Philippians<span> 4 (104)</span>
      </a>
       <br>
       <div class="content">
@@ -1886,7 +1886,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="colossians">
      <a class="handle">
-      <label for="colossians">Colossians<span>4 (95)</span>
+      <label for="colossians">Colossians<span> 4 (95)</span>
      </a>
       <br>
       <div class="content">
@@ -1905,7 +1905,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="thessalonians1">
      <a class="handle">
-      <label for="thessalonians1">1 Thessalonians<span>5 (89)</span>
+      <label for="thessalonians1">1 Thessalonians<span> 5 (89)</span>
      </a>
       <br>
       <div class="content">
@@ -1925,7 +1925,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="thessalonians2">
      <a class="handle">
-      <label for="thessalonians2">2 Thessalonians<span>3 (47)</span>
+      <label for="thessalonians2">2 Thessalonians<span> 3 (47)</span>
      </a>
       <br>
       <div class="content">
@@ -1943,7 +1943,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="timothy1">
      <a class="handle">
-      <label for="timothy1">1 Timothy<span>6 (113)</span>
+      <label for="timothy1">1 Timothy<span> 6 (113)</span>
      </a>
       <br>
       <div class="content">
@@ -1964,7 +1964,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="timothy2">
      <a class="handle">
-      <label for="timothy2">2 Timothy<span>4 (83)</span>
+      <label for="timothy2">2 Timothy<span> 4 (83)</span>
      </a>
       <br>
       <div class="content">
@@ -1983,7 +1983,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="titus">
      <a class="handle">
-      <label for="titus">Titus<span>3 (46)</span>
+      <label for="titus">Titus<span> 3 (46)</span>
      </a>
       <br>
       <div class="content">
@@ -2001,7 +2001,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="philemon">
      <a class="handle">
-      <label for="philemon">Philemon<span>1 (25)</span>
+      <label for="philemon">Philemon<span> 1 (25)</span>
      </a>
       <br>
       <div class="content">
@@ -2017,7 +2017,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="hebrews">
      <a class="handle">
-      <label for="hebrews">Hebrews<span>13 (303)</span>
+      <label for="hebrews">Hebrews<span> 13 (303)</span>
      </a>
       <br>
       <div class="content">
@@ -2045,7 +2045,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="james">
      <a class="handle">
-      <label for="james">James<span>5 (108)</span>
+      <label for="james">James<span> 5 (108)</span>
      </a>
       <br>
       <div class="content">
@@ -2065,7 +2065,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="peter1">
      <a class="handle">
-      <label for="peter1">1 Peter<span>5 (105)</span>
+      <label for="peter1">1 Peter<span> 5 (105)</span>
      </a>
       <br>
       <div class="content">
@@ -2085,7 +2085,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="peter2">
      <a class="handle">
-      <label for="peter2">2 Peter<span>3 (61)</span>
+      <label for="peter2">2 Peter<span> 3 (61)</span>
      </a>
       <br>
       <div class="content">
@@ -2103,7 +2103,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="john1">
      <a class="handle">
-      <label for="john1">1 John<span>5 (105)</span>
+      <label for="john1">1 John<span> 5 (105)</span>
      </a>
       <br>
       <div class="content">
@@ -2123,7 +2123,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="john2">
      <a class="handle">
-      <label for="john2">2 John<span>1 (13)</span>
+      <label for="john2">2 John<span> 1 (13)</span>
      </a> 
       <br>
       <div class="content">
@@ -2139,7 +2139,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="john3">
      <a class="handle">
-      <label for="john3">3 John<span>1 (14)</span>
+      <label for="john3">3 John<span> 1 (14)</span>
      </a>
       <br>
       <div class="content">
@@ -2155,7 +2155,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="jude">
      <a class="handle">
-      <label for="jude">Jude<span>1 (25)</span>
+      <label for="jude">Jude<span> 1 (25)</span>
      </a>
       <br>
       <div class="content">
@@ -2171,7 +2171,7 @@ $path = '_global/';
     <section class="accordion">
      <input type="checkbox" name="collapse" id="revelation">
      <a class="handle">
-      <label for="revelation">Revelation<span>22 (404)</span>
+      <label for="revelation">Revelation<span> 22 (404)</span>
      </a>
       <br>
       <div class="content">
