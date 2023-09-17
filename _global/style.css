@@ -4,8 +4,8 @@
 input{font-family:times-new-roman;font-weight:700}
 input::placeholder{color:black}
 #search-bar{display:flex}
-#search-input{flex:1;font-size:inherit;border:none;outline:none;color:inherit;background-color:inherit}
-#search-button{font-size:inherit;border:none;position:absolute;width:100%;left:0px;top:0px;height:120%;z-index:-1;opacity:0}
+#search-input{flex:1;font-size:inherit;border:none;outline:none;color:inherit;background-color:inherit;z-index:2}
+#search-button{font-size:inherit;border:none;position:absolute;width:100%;left:0px;top:0px;height:200%;z-index:1;opacity:0;cursor:pointer}
 #search-suggestions{
 display:inline-block;
 position:absolute;
