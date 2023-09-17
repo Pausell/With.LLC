@@ -64,7 +64,6 @@ $internal_style = '<style>
     <a href="travel">Travel</a>
    </div></div>
    </div>
-   <h1>Bereishith</h1>
    <div class="padding10px">
    </div>
    <div class="padding10px"><?php $text = "1 28&radic;e 980";
