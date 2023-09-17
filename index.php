@@ -39,7 +39,7 @@ $path = '_global';
    <?php endif; ?>
    <div class="padding10px">
     <p style="margin:0">Save One More ENCORE!</p>
-    <p>Read basic instructions before leaving earth, write extra xerographic production of single instance theoretical interpretations or narratives, sing vocal expanse network tools using real elements, and pray about Lamb's triumphing authority reoccuringly.</p>
+    <p><a href="bible">Read</a> basic instructions before leaving earth, <a href="exposition">write</a> extra xerographic production of single instance theoretical interpretations or narratives, <a href="music">sing</a> vocal expanse network tools using real elements, and <a href="altar">pray</a> about Lamb's triumphing authority reoccuringly.</p>
     <p>The Son of God is destroyed by His own hand willingly on the cross. <a href="https://youtu.be/RmnUkNT55gU?si=hE0Tfvy9lcCpbpdZ" target="_blank">Learn more</a>.</p>
    </div>
    <?php include '_global/navigation.php'; ?>
