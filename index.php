@@ -29,10 +29,10 @@ $path = '_global';
     <button type="submit" id="search-button">Search</button></h1>
   </form>
   <div id="search-suggestions">
-   <div class="suggestion">Suggestion 1</div>
+   <!--<div class="suggestion">Suggestion 1</div>
    <div class="suggestion">Suggestion 2</div>
    <div class="suggestion">Suggestion 3</div>
-   <div class="suggestion">Suggestion 4</div>
+   <div class="suggestion">Suggestion 4</div>-->
   </div>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script>
@@ -73,37 +73,29 @@ $path = '_global';
   </script>
   <script>
   $(document).ready(function() {
-  // Function to update search button text and behavior
-  function updateSearchButton() {
-  var query = $('#search-input').val().trim();
-  var button = $('#search-button');
+    // Function to update search button text and behavior
+    function updateSearchButton() {
+        var query = $('#search-input').val().trim();
+        var button = $('#search-button');
 
-  if (query === '') {
-      // When input is empty or just whitespace
-      button.text('In');
-      button.attr('href', 'in.php');
-  } else {
-      // When input has content
-      button.text('Search');
-      button.removeAttr('href');
-  }
-  }
+        if (query === '') {
+            // When input is empty or just whitespace
+            button.text('In');
+            button.attr('href', 'in.php');
+        } else {
+            // When input has content
+            button.text('Search');
+            button.removeAttr('href');
+        }
+    }
 
-  // Event handler for form submission
-  $('#search-form').submit(function(e) {
-  e.preventDefault();
-  var query = $('#search-input').val();
-  // Perform search or redirection here based on your requirements
-  // For example: window.location.href = 'search.php?query=' + query;
-  });
+    // Event handler for input change
+    $('#search-input').on('input', function() {
+        updateSearchButton();
+    });
 
-  // Event handler for input change
-  $('#search-input').on('input', function() {
-  updateSearchButton();
-  });
-
-  // Initial setup
-  updateSearchButton();
+    // Initial setup
+    updateSearchButton();
   });
   </script>
   <?php if (!empty($error_message)): ?>
