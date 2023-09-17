@@ -38,7 +38,9 @@ $path = '_global';
     <p class="error-message"><?= $error_message ?></p>
    <?php endif; ?>
    <div class="padding10px">
-    <p style="margin:0">The Son of God is destroyed by His own hand willingly on the cross.</p>
+    <p style="margin:0">Save One More ENCORE!</p>
+    <p>Read basic instructions before leaving earth, write extra xerographic production of single instance theoretical interpretations or narratives, sing vocal expanse network tools using real elements, and pray about Lamb's triumphing authority reoccuringly.</p>
+    <p>The Son of God is destroyed by His own hand willingly on the cross. <a href="https://youtu.be/RmnUkNT55gU?si=hE0Tfvy9lcCpbpdZ" target="_blank">Learn more</a>.</p>
    </div>
    <?php include '_global/navigation.php'; ?>
   </div>
