@@ -23,22 +23,24 @@ $path = '_global';
  </head>
  <body>
   <div id="container">
-   <?php include '_global/navigation.php'; ?>
    <span style="position:absolute;opacity:.1;z-index:-1"><h1 style="margin:0">Written Is The Holy <em style="opacity:.8">Diadem Of Time&#39;s </em> Legible Language Cartographer</h1></span>
-  
-  <form id="search-form">
-   <h1><input type="search" id="search-input" placeholder="W/" />
-    <button type="submit" id="search-button">Search</button></h1>
-  </form>
-  <!--<div id="search-suggestions">
-   <div class="suggestion">Suggestion 1</div>
-   <div class="suggestion">Suggestion 2</div>
-   <div class="suggestion">Suggestion 3</div>
-   <div class="suggestion">Suggestion 4</div>
-  </div>-->
-  <?php if (!empty($error_message)): ?>
-   <p class="error-message"><?= $error_message ?></p>
-  <?php endif; ?>
+   <form id="search-form" style="margin:0">
+    <h1><input type="search" id="search-input" placeholder="W/" />
+     <button type="submit" id="search-button">Search</button></h1>
+   </form>
+   <!--<div id="search-suggestions">
+    <div class="suggestion">Suggestion 1</div>
+    <div class="suggestion">Suggestion 2</div>
+    <div class="suggestion">Suggestion 3</div>
+    <div class="suggestion">Suggestion 4</div>
+   </div>-->
+   <?php if (!empty($error_message)): ?>
+    <p class="error-message"><?= $error_message ?></p>
+   <?php endif; ?>
+   <div class="padding10px">
+    <p>The Son of God is destroyed by His own hand willingly on the cross.</p>
+   </div>
+   <?php include '_global/navigation.php'; ?>
   </div>
  </body>
 </html>
