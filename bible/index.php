@@ -2,8 +2,8 @@
 <?php
 $title = 'Holy Bible';
 $description = 'Basic Instructionset Before Leaving Earth';
-$index = '_global';
-$path = '../';
+$index = '../';
+$path = '_global';
 
 include $index . $path . ('/head.php');
 ?>
