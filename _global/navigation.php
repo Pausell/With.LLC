@@ -258,16 +258,16 @@ if (strpos(dirname($_SERVER['SCRIPT_NAME']), '/bible') !== false) {
 } else {
 ?>
 <nav class="igation">
- <a href="<?php echo ($_SERVER['SCRIPT_NAME'] === "/bereishith/index.php") ? "../team" : "/bereishith"; ?>" <?php if($_SERVER['SCRIPT_NAME'] === "/bereishith/index.php") { echo 'class="active"'; } ?>>
+ <a href="<?php echo ($_SERVER['SCRIPT_NAME'] === "/bereishith/index.php") ? "../" : "/bereishith"; ?>" <?php if($_SERVER['SCRIPT_NAME'] === "/bereishith/index.php") { echo 'class="active"'; } ?>>
   <?php echo $biblew . $bibleb; ?>
  </a>
- <a href="<?php echo ($_SERVER['SCRIPT_NAME'] === "/exposition/index.php") ? "../team" : "/exposition"; ?>" <?php if($_SERVER['SCRIPT_NAME'] === "/exposition/index.php" || $_SERVER['SCRIPT_NAME'] === "/exposition/food/index.php" || $_SERVER['SCRIPT_NAME'] === "/exposition/apparel/index.php" || $_SERVER['SCRIPT_NAME'] === "/exposition/shelter/index.php" || $_SERVER['SCRIPT_NAME'] === "/exposition/travel/index.php" || $_SERVER['SCRIPT_NAME'] === "/exposition/learn/index.php") { echo 'class="active"'; } ?>>
+ <a href="<?php echo ($_SERVER['SCRIPT_NAME'] === "/exposition/index.php") ? "../" : "/exposition"; ?>" <?php if($_SERVER['SCRIPT_NAME'] === "/exposition/index.php" || $_SERVER['SCRIPT_NAME'] === "/exposition/food/index.php" || $_SERVER['SCRIPT_NAME'] === "/exposition/apparel/index.php" || $_SERVER['SCRIPT_NAME'] === "/exposition/shelter/index.php" || $_SERVER['SCRIPT_NAME'] === "/exposition/travel/index.php" || $_SERVER['SCRIPT_NAME'] === "/exposition/learn/index.php") { echo 'class="active"'; } ?>>
   <?php echo $expositionw . $expositionb; ?>
  </a>
- <a href="<?php echo ($_SERVER['SCRIPT_NAME'] === "/music/index.php") ? "../team" : "/music"; ?>" <?php if($_SERVER['SCRIPT_NAME'] === "/music/index.php" || $_SERVER['SCRIPT_NAME'] === "/music/playlist.php" || $_SERVER['SCRIPT_NAME'] === "/music/playlists.php" || $_SERVER['SCRIPT_NAME'] === "/music/genre.php" || $_SERVER['PHP_SELF'] === "/music/genres.php" || $_SERVER['PHP_SELF'] === "/music/artist.php" || $_SERVER['SCRIPT_NAME'] === "/music/artists.php" || $_SERVER['PHP_SELF'] === "/music/album.php" || $_SERVER['PHP_SELF'] === "/music/albums.php" || $_SERVER['SCRIPT_NAME'] === "/music/song.php" || $_SERVER['SCRIPT_NAME'] === "/music/songs.php" || $_SERVER['SCRIPT_NAME'] === "/music/lyric.php" || $_SERVER['SCRIPT_NAME'] === "/music/lyrics.php") { echo 'class="active"'; } ?>>
+ <a href="<?php echo ($_SERVER['SCRIPT_NAME'] === "/music/index.php") ? "../" : "/music"; ?>" <?php if($_SERVER['SCRIPT_NAME'] === "/music/index.php" || $_SERVER['SCRIPT_NAME'] === "/music/playlist.php" || $_SERVER['SCRIPT_NAME'] === "/music/playlists.php" || $_SERVER['SCRIPT_NAME'] === "/music/genre.php" || $_SERVER['PHP_SELF'] === "/music/genres.php" || $_SERVER['PHP_SELF'] === "/music/artist.php" || $_SERVER['SCRIPT_NAME'] === "/music/artists.php" || $_SERVER['PHP_SELF'] === "/music/album.php" || $_SERVER['PHP_SELF'] === "/music/albums.php" || $_SERVER['SCRIPT_NAME'] === "/music/song.php" || $_SERVER['SCRIPT_NAME'] === "/music/songs.php" || $_SERVER['SCRIPT_NAME'] === "/music/lyric.php" || $_SERVER['SCRIPT_NAME'] === "/music/lyrics.php") { echo 'class="active"'; } ?>>
   <?php echo $musicw . $musicb; ?>
  </a>
- <a href="<?php echo ($_SERVER['SCRIPT_NAME'] === "/altar/index.php") ? "../team" : "/altar"; ?>" <?php if($_SERVER['SCRIPT_NAME'] === "/altar/index.php") { echo 'class="active"'; } ?>>
+ <a href="<?php echo ($_SERVER['SCRIPT_NAME'] === "/altar/index.php") ? "../" : "/altar"; ?>" <?php if($_SERVER['SCRIPT_NAME'] === "/altar/index.php") { echo 'class="active"'; } ?>>
   <?php echo $altarw . $altarb; ?>
  </a>
 </nav>
