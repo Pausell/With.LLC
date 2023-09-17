@@ -18,19 +18,20 @@ a{text-decoration:none}
 .accordion > input[type="checkbox"]{position:absolute;left:-100vw}
 .accordion .content{overflow-y:hidden;height:0}
 .accordion > input[type="checkbox"]:checked ~ .content{height:auto;overflow:visible;margin-bottom:2rem;margin-right:2rem}
-.accordion label{display:block}
+.accordion label{display:block;padding:4px}
 .accordion{}
 .accordion > input[type="checkbox"]:checked ~ .content{border:.5px solid rgba(0,0,0,.3);border-top:0}
 .accordion .handle{margin:0;position:relative}
 .handle label{margin-right:2rem}
 .handle label span{opacity:.75}
 .accordion label{cursor:pointer;font-weight:normal}
-.accordion label:hover,.accordion label:focus{background:rgba(0,0,0,.2)}
+.accordion label:hover,.accordion label:focus{background:rgba(0,0,0,.2);border-radius:2px}
 .accordion .handle label:before {content:"";display:inline-block;position:absolute;left:5px;font-size:.58em;line-height:1.556em}
 .accordion > input[type="checkbox"]:checked ~ .handle label:before {content:"";position:absolute}
 .collection ol{padding-left:30px}
 .collection .subhead2{padding-right:1rem}
 .subhead2{padding-bottom:1rem}
+.ab{padding:1rem;display:inline-block}
 .collection{flex:1 1 440px;max-width:880px}
 .chapters{display:grid;grid-template-columns:auto auto auto auto auto;overflow:auto;opacity:.8}
 .collection ol li .chapters a{display:inline-block;padding:1rem;flex:1;text-align:center}
