@@ -38,7 +38,7 @@ $path = '_global';
     <p class="error-message"><?= $error_message ?></p>
    <?php endif; ?>
    <div class="padding10px">
-    <p>The Son of God is destroyed by His own hand willingly on the cross.</p>
+    <p style="margin:0">The Son of God is destroyed by His own hand willingly on the cross.</p>
    </div>
    <?php include '_global/navigation.php'; ?>
   </div>
