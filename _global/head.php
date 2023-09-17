@@ -1,22 +1,4 @@
 <?php
-// Set the path to the current page
-$current_path = $_SERVER['PHP_SELF'];
-
-// Remove any trailing slash from the path
-$current_path = rtrim($current_path, '/');
-
-// Get the number of subdirectories from the root directory to the current page
-$subdir_count = substr_count($current_path, '/') - 1;
-
-// Construct the relative path from the root directory to the current page
-$path = str_repeat('../', $subdir_count);
-
-// Build the canonical URL using the protocol, hostname, and current path
-$protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http';
-$hostname = $_SERVER['HTTP_HOST'];
-$canonical = $protocol . "://" . $hostname . $current_path;
-$canonical = str_replace(".php", "", $canonical);
-
 $style = '/style.css';
 ?>
  <head>
