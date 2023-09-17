@@ -24,6 +24,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="genesis">
      <a class="handle">
       <label for="genesis">Genesis<span>50 (1533)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -81,7 +82,6 @@ $path = '_global/';
        </span>
        <a class="ab">Jesus Christ is the seed of the woman</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--Exodus-->
@@ -89,6 +89,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="exodus">
      <a class="handle">
       <label for="exodus">Exodus<span>40 (1213)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -136,7 +137,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is the Passover Lamb</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--Leviticus-->
@@ -144,6 +144,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="leviticus">
      <a class="handle">
       <label for="leviticus">Leviticus<span>27 (859)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -178,7 +179,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is our High Priest</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--Numbers-->
@@ -186,6 +186,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="numbers">
      <a class="handle">
       <label for="numbers">Numbers<span>36 (1288)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -229,7 +230,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is the pillar of cloud by day and the pillar of fire by night</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--Deuteronomy-->
@@ -237,6 +237,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="deuteronomy">
      <a class="handle">
       <label for="deuteronomy">Deuteronomy<span>34 (959)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -278,7 +279,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is the prophet like unto Moses</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--Joshua-->
@@ -286,6 +286,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="joshua">
      <a class="handle">
       <label for="joshua">Joshua<span>24 (658)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -317,7 +318,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is the captain of our salvation</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--Judges-->
@@ -325,6 +325,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="judges">
      <a class="handle">
       <label for="judges">Judges<span>21 (618)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -353,7 +354,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is our judge and lawgiver</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--Ruth-->
@@ -361,6 +361,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="ruth">
      <a class="handle">
       <label for="ruth">Ruth<span>4 (85)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -372,7 +373,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is our kinsman-redeemer</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--1 Samuel-->
@@ -380,6 +380,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="samuel1">
      <a class="handle">
       <label for="samuel1">1 Samuel<span>31 (810)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -418,7 +419,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is our trusted prophet</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--2 Samuel-->
@@ -426,6 +426,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="samuel2">
      <a class="handle">
       <label for="samuel2">2 Samuel<span>24 (695)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -457,7 +458,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is our good shepherd</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--1 Kings-->
@@ -465,6 +465,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="kings1">
      <a class="handle">
       <label for="kings1">1 Kings<span>22 (816)</span>
+     </a> 
       <br>
       <div class="content">
        <span class="chapters">
@@ -494,7 +495,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is our reigning king</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--2 Kings-->
@@ -502,6 +502,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="kings2">
      <a class="handle">
       <label for="kings2">2 Kings<span>25 (719)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -534,7 +535,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is our joyous return</a>
       </div>
-     </a>
     </section>
    </li>
       <li><!--1 Chronicles-->
@@ -542,6 +542,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="chronicles1">
      <a class="handle">
       <label for="chronicles1">1 Chronicles<span>29 (942)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -578,7 +579,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is our future journey</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--2 Chronicles-->
@@ -586,6 +586,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="chronicles2">
      <a class="handle">
       <label for="chronicles2">2 Chronicles<span>36 (822)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -629,7 +630,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is our abundant supply</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--Ezra-->
@@ -637,6 +637,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="ezra">
      <a class="handle">
       <label for="ezra">Ezra<span>10 (280)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -654,7 +655,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is the rebuilder of the broken out walls of human life</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--Nehemiah-->
@@ -662,6 +662,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="nehemiah">
      <a class="handle">
       <label for="nehemiah">Nehemiah<span>13 (406)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -682,7 +683,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is our perspective comforter</a>
       </div>
-     </a>
     </section>
    </li>
       <li><!--Esther-->
@@ -690,6 +690,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="esther">
      <a class="handle">
       <label for="esther">Esther<span>10 (167)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -707,7 +708,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is our Mordecai</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--Job-->
@@ -715,6 +715,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="job">
      <a class="handle">
       <label for="job">Job<span>42 (1070)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -764,7 +765,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is our ever-living Redeemer</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--Psalms-->
@@ -772,6 +772,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="psalms">
      <a class="handle">
       <label for="psalms">Psalms<span>150 (2461)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -929,7 +930,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is our song</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--Proverbs-->
@@ -937,6 +937,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="proverbs">
      <a class="handle">
       <label for="proverbs">Proverbs<span>31 (915)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -975,7 +976,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is our wisdom</a>
       </div>
-     </a>
     </section>
    </li>
       <li><!--Ecclesiastes-->
@@ -983,6 +983,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="ecclesiastes">
      <a class="handle">
       <label for="ecclesiastes">Ecclesiastes<span>12 (222)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -1002,7 +1003,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is our guidance of all natural and spiritual senses</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--Song of Solomon-->
@@ -1010,6 +1010,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="song-of-solomon">
      <a class="handle">
       <label for="song-of-solomon">Song of Solomon<span>8 (117)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -1025,7 +1026,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is our loving bridegroom</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--Isaiah-->
@@ -1033,6 +1033,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="isaiah">
      <a class="handle">
       <label for="isaiah">Isaiah<span>66 (1292)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -1106,7 +1107,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is the prince of peace</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--Jeremiah-->
@@ -1114,6 +1114,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="jeremiah">
      <a class="handle">
       <label for="jeremiah">Jeremiah<span>52 (1364)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -1173,7 +1174,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is our righteous branch</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--Lamentations-->
@@ -1181,6 +1181,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="lamentations">
      <a class="handle">
       <label for="lamentations">Lamentations<span>5 (154)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -1193,7 +1194,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is our weeping prophet</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--Ezekiel-->
@@ -1201,6 +1201,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="ezekiel">
      <a class="handle">
       <label for="ezekiel">Ezekiel<span>48 (1273)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -1256,7 +1257,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is the wonderful four-faced man</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--Daniel-->
@@ -1264,6 +1264,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="daniel">
      <a class="handle">
       <label for="daniel">Daniel<span>12 (357)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -1283,7 +1284,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is the fourth man in life's fiery furnace</a>
       </div>
-     </a>
     </section>
    </li>
       <li><!--Hosea-->
@@ -1291,6 +1291,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="hosea">
      <a class="handle">
       <label for="hosea">Hosea<span>14 (197)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -1312,7 +1313,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is the faithful husband forever married to the backslider</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--Joel-->
@@ -1320,6 +1320,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="joel">
      <a class="handle">
       <label for="joel">Joel<span>3 (73)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -1330,7 +1331,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is a baptiser with Holy Ghost and fire</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--Amos-->
@@ -1338,6 +1338,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="amos">
      <a class="handle">
       <label for="amos">Amos<span>9 (146)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -1354,7 +1355,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is our burden bearer</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--Obadiah-->
@@ -1362,6 +1362,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="obadiah">
      <a class="handle">
       <label for="obadiah">Obadiah<span>1 (21)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -1370,7 +1371,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is mighty to save</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--Jonah-->
@@ -1378,6 +1378,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="jonah">
      <a class="handle">
       <label for="jonah">Jonah<span>4 (48)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -1389,7 +1390,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is our great foreign missionary</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--Micah-->
@@ -1397,6 +1397,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="micah">
      <a class="handle">
       <label for="micah">Micah<span>7 (105)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -1411,7 +1412,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is our perfect love</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--Nahum-->
@@ -1419,6 +1419,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="nahum">
      <a class="handle">
       <label for="nahum">Nahum<span>3 (47)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -1429,7 +1430,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is the avenger of God's elect</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--Habakkuk-->
@@ -1437,6 +1437,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="habakkuk">
      <a class="handle">
       <label for="habakkuk">Habakkuk<span>3 (56)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -1447,7 +1448,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is God's evangelist crying: 'revive thy works in the midst of the years'</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--Zephaniah-->
@@ -1455,6 +1455,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="zephaniah">
      <a class="handle">
       <label for="zephaniah">Zephaniah<span>3 (53)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -1465,7 +1466,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is our savior</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--Haggai-->
@@ -1473,6 +1473,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="haggai">
      <a class="handle">
       <label for="haggai">Haggai<span>2 (38)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -1482,7 +1483,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is the restorer of God's lost heritage</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--Zechariah-->
@@ -1490,6 +1490,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="zechariah">
      <a class="handle">
       <label for="zechariah">Zechariah<span>14 (211)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -1511,7 +1512,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is found and opened up in the house of David for sin and uncleanliness</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--Malachi-->
@@ -1519,6 +1519,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="malachi">
      <a class="handle">
       <label for="malachi">Malachi<span>4 (55)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -1530,7 +1531,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is the son of righteousness rising with healing in his wings</a>
       </div>
-     </a>
     </section>
    </li>
   </ol>
@@ -1544,6 +1544,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="matthew">
      <a class="handle">
       <label for="matthew">Matthew<span>28 (1071)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -1579,7 +1580,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is the King of the Jews</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--Mark-->
@@ -1587,6 +1587,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="mark">
      <a class="handle">
       <label for="mark">Mark<span>16 (678)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -1610,7 +1611,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is the servant</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--Luke-->
@@ -1618,6 +1618,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="luke">
      <a class="handle">
       <label for="luke">Luke<span>24 (1151)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -1649,7 +1650,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is the son of man, feeling what you feel</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--John-->
@@ -1657,6 +1657,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="john">
      <a class="handle">
       <label for="john">John<span>21 (879)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -1685,7 +1686,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is the Son of God</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--Acts-->
@@ -1693,6 +1693,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="acts">
      <a class="handle">
       <label for="acts">Acts<span>28 (1007)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -1728,7 +1729,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is the savior of the world</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--Romans-->
@@ -1736,6 +1736,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="romans">
      <a class="handle">
       <label for="romans">Romans<span>16 (433)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -1759,7 +1760,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is the righteousness of God</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--1 Corinthians-->
@@ -1767,6 +1767,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="corinthians1">
      <a class="handle">
       <label for="corinthians1">1 Corinthians<span>16 (437)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -1790,7 +1791,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is temptation evasion</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--2 Corinthians-->
@@ -1798,6 +1798,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="corinthians2">
      <a class="handle">
       <label for="corinthians2">2 Corinthians<span>13 (257)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -1818,7 +1819,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is the triumphant one giving victory</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--Galatians-->
@@ -1826,6 +1826,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="galatians">
      <a class="handle">
       <label for="galatians">Galatians<span>6 (149)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -1839,7 +1840,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is liberty, setting us free</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--Ephesians-->
@@ -1847,6 +1847,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="ephesians">
      <a class="handle">
       <label for="ephesians">Ephesians<span>6 (155)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -1860,7 +1861,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is the Head of the Church</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--Philippians-->
@@ -1868,6 +1868,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="philippians">
      <a class="handle">
       <label for="philippians">Philippians<span>4 (104)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -1879,7 +1880,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is Joy</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--Colossians-->
@@ -1887,6 +1887,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="colossians">
      <a class="handle">
       <label for="colossians">Colossians<span>4 (95)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -1898,7 +1899,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is completeness</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--1 Thessalonians-->
@@ -1906,6 +1906,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="thessalonians1">
      <a class="handle">
       <label for="thessalonians1">1 Thessalonians<span>5 (89)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -1918,7 +1919,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is hope</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--2 Thessalonians-->
@@ -1926,6 +1926,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="thessalonians2">
      <a class="handle">
       <label for="thessalonians2">2 Thessalonians<span>3 (47)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -1936,7 +1937,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is assurance</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--1 Timothy-->
@@ -1944,6 +1944,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="timothy1">
      <a class="handle">
       <label for="timothy1">1 Timothy<span>6 (113)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -1957,7 +1958,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is faith</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--2 Timothy-->
@@ -1965,6 +1965,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="timothy2">
      <a class="handle">
       <label for="timothy2">2 Timothy<span>4 (83)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -1976,7 +1977,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is stability</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--Titus-->
@@ -1984,6 +1984,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="titus">
      <a class="handle">
       <label for="titus">Titus<span>3 (46)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -1994,7 +1995,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is truth</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--Philemon-->
@@ -2002,6 +2002,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="philemon">
      <a class="handle">
       <label for="philemon">Philemon<span>1 (25)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -2010,7 +2011,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is our benefactor</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--Hebrews-->
@@ -2018,6 +2018,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="hebrews">
      <a class="handle">
       <label for="hebrews">Hebrews<span>13 (303)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -2038,7 +2039,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is perfection</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--James-->
@@ -2046,6 +2046,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="james">
      <a class="handle">
       <label for="james">James<span>5 (108)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -2058,7 +2059,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is power behind faith</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--1 Peter-->
@@ -2066,6 +2066,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="peter1">
      <a class="handle">
       <label for="peter1">1 Peter<span>5 (105)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -2078,7 +2079,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is the EXAMPLE</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--2 Peter-->
@@ -2086,6 +2086,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="peter2">
      <a class="handle">
       <label for="peter2">2 Peter<span>3 (61)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -2096,7 +2097,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is purity</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--1 John-->
@@ -2104,6 +2104,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="john1">
      <a class="handle">
       <label for="john1">1 John<span>5 (105)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -2116,7 +2117,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is life</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--2 John-->
@@ -2124,6 +2124,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="john2">
      <a class="handle">
       <label for="john2">2 John<span>1 (13)</span>
+     </a> 
       <br>
       <div class="content">
        <span class="chapters">
@@ -2132,7 +2133,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is pattern</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--3 John-->
@@ -2140,6 +2140,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="john3">
      <a class="handle">
       <label for="john3">3 John<span>1 (14)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -2148,7 +2149,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is motivation</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--Jude-->
@@ -2156,6 +2156,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="jude">
      <a class="handle">
       <label for="jude">Jude<span>1 (25)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -2164,7 +2165,6 @@ $path = '_global/';
        </span>
        <a class="ab">He is foundation of faith</a>
       </div>
-     </a>
     </section>
    </li>
    <li><!--Revelation-->
@@ -2172,6 +2172,7 @@ $path = '_global/';
      <input type="checkbox" name="collapse" id="revelation">
      <a class="handle">
       <label for="revelation">Revelation<span>22 (404)</span>
+     </a>
       <br>
       <div class="content">
        <span class="chapters">
@@ -2201,7 +2202,6 @@ $path = '_global/';
        </span>
        <a class="ab">He Is The Coming King, The First And The Last, The Beginning And The End, The Alpha And The Omega. He Is The Keeper Of Creation And The Creator Of All. He Is The Architect Of The Universe And The Owner And The Manager Of All Time. He Always Was, He Always Is, He Always Will Be: Unmoved, Unchanged, Undefeated, And Never Undone. HE was bruised and brought healing, pierced and eased pain, persecuted and brought freedom, dead and brought life. HE IS RISEN and brings power. He reigns and brings peace, and nothing is equal to nor above Him. He declared the end when He declared the beginning, just as He declared the beginning when He declared the end.</a>
       </div>
-     </a>
     </section>
    </li>
   </ol>
