@@ -1,6 +1,6 @@
 <?php
 $index = "../";
-$path = "_global";
+$path = "_global/";
 
 ?> <html> <?php
  include $index . $path . ('head.php');
