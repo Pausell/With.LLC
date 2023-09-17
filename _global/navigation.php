@@ -241,8 +241,8 @@ if (strpos(dirname($_SERVER['SCRIPT_NAME']), '/bible') !== false) {
 } elseif(strpos(dirname($_SERVER['SCRIPT_NAME']), '/team') !== false) {
 ?>
 <nav class="igation">
- <a style="position:relative" href="<?php echo ($_SERVER['SCRIPT_NAME'] === "/index.php") ? "team" : "https://with.llc"; ?>" <?php if($_SERVER['SCRIPT_NAME'] === "/index.php") { echo 'class="active"'; } ?>>
-  <?php echo $biblew . $bibleb; ?><span class="navcaption bible">Bible</span>
+ <a style="position:relative" href="../bereishith" <?php if($_SERVER['SCRIPT_NAME'] === "/bereishith/index.php") { echo 'class="active"'; } ?>>
+  <?php echo $biblew . $bibleb; ?><span class="navcaption bereishith">Bereishith</span>
  </a>
  <a style="position:relative" href="../exposition" <?php if($_SERVER['SCRIPT_NAME'] === "/exposition/index.php") { echo 'class="active"'; } ?>>
   <?php echo $expositionw . $expositionb; ?><span class="navcaption exposition">Exposition</span>

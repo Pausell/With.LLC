@@ -11,7 +11,7 @@ $internal_style = '<!--_module-->
  <body>
   <div id="container">
    <?php include $index . $path . ('/navigation.php'); ?>
-   <h1>Bereithith</h1>
+   <h1>Bereishith</h1>
   </div>
  </body>
 </html>
