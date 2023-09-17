@@ -13,7 +13,7 @@ $path = '_global/';
    <span style="position:absolute;opacity:.1;z-index:-1"><h1 style="margin:0">Basic Instructions Before <em style="opacity:.8">Leaving</em> Earth</h1></span>
    </div>
    <div>
-<h1>Bible</h1>
+<h1><a href="../bible">Bible</a></h1>
 <div class="flex-wrap padding10px">
  <div class="collection">
   <a href="../bible/ot.php"><h2>Old Testament</h2></a>
