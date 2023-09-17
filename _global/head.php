@@ -1,5 +1,5 @@
 <?php
-$style = '/style.css';
+$style = 'style.css';
 ?>
  <head>
   <title><?php echo $title; ?></title>
