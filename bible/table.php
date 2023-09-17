@@ -1522,7 +1522,7 @@
  </div>
  <div class="collection">
   <a href="nt.php"><h2>New Testament</h2></a>
-  <p class="subhead2">God tells us how He destroy death.</p>
+  <p class="subhead2">God tells us how He destroyed death.</p>
   <ol class="opaquenumber">
       <li><!--Matthew-->
     <section class="accordion">
