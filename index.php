@@ -5,7 +5,7 @@ $internal_style = '<!--_module-->
   <link rel-"stylesheet" href="_module/search.css">';
 ?>
 <html>
- <?php include $index . $path . ('head.php'); ?>
+ <?php include $index . $path . ('/head.php'); ?>
  <body>
   <div id="container">
    <span style="position:absolute;opacity:.1;z-index:-1"><h1 style="margin:0">Written Is The Holy <em style="opacity:.8">Diadem Of Time&#39;s </em> Legible Language Cartographer</h1></span>
