@@ -22,8 +22,9 @@ $path = '_global';
   <link rel-"stylesheet" href="_module/search.css">
  </head>
  <body>
-  <?php include '_global/navigation.php'; ?>
-  <span style="position:absolute;opacity:.1;z-index:-1"><h1 style="margin:0">Written Is The Holy <em style="opacity:.8">Diadem Of Time&#39;s </em> Legible Language Cartographer</h1></span>
+  <div id="container">
+   <?php include '_global/navigation.php'; ?>
+   <span style="position:absolute;opacity:.1;z-index:-1"><h1 style="margin:0">Written Is The Holy <em style="opacity:.8">Diadem Of Time&#39;s </em> Legible Language Cartographer</h1></span>
   
   <form id="search-form">
    <h1><input type="search" id="search-input" placeholder="W/" />
@@ -38,5 +39,6 @@ $path = '_global';
   <?php if (!empty($error_message)): ?>
    <p class="error-message"><?= $error_message ?></p>
   <?php endif; ?>
+  </div>
  </body>
 </html>
