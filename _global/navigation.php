@@ -238,10 +238,27 @@ if (strpos(dirname($_SERVER['SCRIPT_NAME']), '/bible') !== false) {
  </a>
 </nav>
 <?php
+} elseif(strpos(dirname($_SERVER['SCRIPT_NAME']), '/team') !== false) {
+?>
+<nav class="igation">
+ <a style="position:relative" href="<?php echo ($_SERVER['SCRIPT_NAME'] === "/index.php") ? "team" : "https://with.llc"; ?>" <?php if($_SERVER['SCRIPT_NAME'] === "/index.php") { echo 'class="active"'; } ?>>
+  <?php echo $biblew . $bibleb; ?><span class="navcaption bible">Bible</span>
+ </a>
+ <a style="position:relative" href="../exposition" <?php if($_SERVER['SCRIPT_NAME'] === "/exposition/index.php") { echo 'class="active"'; } ?>>
+  <?php echo $expositionw . $expositionb; ?><span class="navcaption exposition">Exposition</span>
+ </a>
+ <a style="position:relative" href="../music" <?php if($_SERVER['SCRIPT_NAME'] === "/music/index.php") { echo 'class="active"'; } ?>>
+  <?php echo $musicw . $musicb; ?><span class="navcaption music">Music</span>
+ </a>
+ <a style="position:relative" href="../altar" <?php if($_SERVER['SCRIPT_NAME'] === "/altar/index.php") { echo 'class="active"'; } ?>>
+  <?php echo $altarw . $altarb; ?><span class="navcaption altar">Altar</span>
+ </a>
+</nav>
+<?php
 } else {
 ?>
 <nav class="igation">
- <a href="<?php echo ($_SERVER['SCRIPT_NAME'] === "/bereishith/index.php") ? "../team" : "/bereishith"; ?>" <?php if($_SERVER['SCRIPT_NAME'] === "bereishith/index.php") { echo 'class="active"'; } ?>>
+ <a href="<?php echo ($_SERVER['SCRIPT_NAME'] === "/bereishith/index.php") ? "../team" : "/bereishith"; ?>" <?php if($_SERVER['SCRIPT_NAME'] === "/bereishith/index.php") { echo 'class="active"'; } ?>>
   <?php echo $biblew . $bibleb; ?>
  </a>
  <a href="<?php echo ($_SERVER['SCRIPT_NAME'] === "/exposition/index.php") ? "../team" : "/exposition"; ?>" <?php if($_SERVER['SCRIPT_NAME'] === "/exposition/index.php" || $_SERVER['SCRIPT_NAME'] === "/exposition/food/index.php" || $_SERVER['SCRIPT_NAME'] === "/exposition/apparel/index.php" || $_SERVER['SCRIPT_NAME'] === "/exposition/shelter/index.php" || $_SERVER['SCRIPT_NAME'] === "/exposition/travel/index.php" || $_SERVER['SCRIPT_NAME'] === "/exposition/learn/index.php") { echo 'class="active"'; } ?>>
