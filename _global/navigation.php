@@ -233,7 +233,7 @@ $root = '
 if (strpos(dirname($_SERVER['SCRIPT_NAME']), '/bible') !== false) {
 ?>
 <nav class="igation">
- <a href="https://with.llc" <?php if($_SERVER['SCRIPT_NAME'] === "bereishith/index.php") { echo 'class="active"'; } ?>>
+ <a href="https://with.llc/bereishith" <?php if($_SERVER['SCRIPT_NAME'] === "/index.php") { echo 'class="active"'; } ?>>
   <?php echo $biblew . $bibleb; ?>
  </a>
 </nav>
