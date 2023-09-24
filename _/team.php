@@ -19,25 +19,25 @@ body #container:first-child{padding-bottom:0px}
 #time{min-height:1400px}
 }
 </style>";
-$path = "";
-$add = "add/";
-$favicon = $path.$add.'favicon.png';
-$favicon16 = $path.$add.'favicon16.png';
-$iphone = $path.'touch-icon-iphone.png';
-$ipad = $path.'touch-icon-ipad.png';
-$iphoner = $path.'touch-icon-iphone-retina.png';
-$ipadr = $path.'touch-icon-ipad-retina.png';
-$browserconfig = $path.$add.'browserconfig.xml';
-$style = $path.$add.'style.css';
-include $path.$add.'a-html.php';
-include $path.$add.'head.php';
-include $path.$add.'a-body.php';
+$index = "../";
+$path = "_global";
+$favicon = $index.$path.'favicon.png';
+$favicon16 = $index.$path.'favicon16.png';
+$iphone = $index.'touch-icon-iphone.png';
+$ipad = $index.'touch-icon-ipad.png';
+$iphoner = $index.'touch-icon-iphone-retina.png';
+$ipadr = $index.'touch-icon-ipad-retina.png';
+$browserconfig = $index.$path.'browserconfig.xml';
+$style = $index.$path.'style.css';
+include $index.$path.'a-html.php';
+include $index.$path.'head.php';
+include $index.$path.'a-body.php';
 ?>
 <div style="background-image:url(tunnel.jpeg);background-size:cover;background-position:center top;background-repeat:no-repeat">
 <?php
-include $path.$add.'a-container.php';
+include $index.$path.'a-container.php';
 ?><span style="z-index:2;position:relative;display:inline-block;width:100%"><?php
-include $path.$add.'navigation.php';
+include $index.$path.'navigation.php';
 ?></span>
 <div style="padding-top:10px">
 <div style="position:relative;z-index:1" class="divspace" id="time">
@@ -51,8 +51,8 @@ include $path.$add.'navigation.php';
 <h1>Written Is The Holy Determination Of Time Legible Language Cartographer</h1>
 <p>God has told us how He promised to conquer death and confirmed how He destroyed death.</p>
 <?php
-include $path.$add.'c-div.php';
-include $path.$add.'c-div.php';
-include $path.$add.'script.php';
-include $path.$add.'c-body_html.php';
+include $index.$path.'c-div.php';
+include $index.$path.'c-div.php';
+include $index.$path.'script.php';
+include $index.$path.'c-body_html.php';
 ?>
