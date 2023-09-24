@@ -1944,6 +1944,133 @@ Are you washed in the blood of the Lamb?<br/>
 TEXT
     ),
     array(
+        'title' => 'The Dilemma',
+        'description' => 'No Song Description',
+        'playlist' => 'Empty Playlist',
+        'genre' => 'No Genre',
+        'artist' => 'Willie Will',
+        'album' => 'No Album',
+        'lyrics' => <<<TEXT
+[Hook]<br/>
+Humanity can't begin to understand<br/>
+It's the holiness of God against the wickedness of man<br/>
+How can a just God justify sin<br/>
+With forgiveness in his hand I'm a sinna'<br/>
+It's the dilemma<br/>
+Standing before God we're filthy<br/>
+How can a just judge justify the guilty (it's the dilemma)<br/>
+He can not excuse evil or he's just as<br/>
+Evil as us something to consida'<br/>
+It's the dilemma<br/>
+<br/>
+[Verse 1]<br/>
+Sin has covered our hearts with blackness<br/>
+Lawless practice with the wrong attractions<br/>
+Wrongful passions that we all are trapped in<br/>
+We're severed from the Head like John the Baptist<br/>
+And now we're about to see God in action<br/>
+Cause God wants justice, God knows we're dirty<br/>
+We need mercy, God wants to show us mercy<br/>
+Oh man, this is problematic<br/>
+Never in human history could you essentially<br/>
+Excuse a sin and remain to be just<br/>
+Justice gets painfully crushed<br/>
+May we see a judge who is viciously<br/>
+Holy to the tenth degree<br/>
+God is a name we can trust<br/>
+And if our judge is to be perfect<br/>
+He must perfectly uphold the law<br/>
+With no deceit beneath the surface<br/>
+Important to recall: If the Lord is at all<br/>
+Righteous well then we gotta be judged, according to the law<br/>
+If the judge is just then he gotta go punish the lawbreaker<br/>
+Romans 3:10--no one is a God chaser<br/>
+We're savage members of a decadent race, debt in our face<br/>
+The bad within us is an evident case<br/>
+The sacrilegious, we're avid sinners, let me explain<br/>
+The judge can't forgive us until the debt has been paid<br/>
+Now you see what our dilemma is about<br/>
+Remember this is a dilemma for God to figure out<br/>
+<br/>
+[Hook]<br/>
+Humanity can't begin to understand<br/>
+It's the holiness of God against the wickedness of man<br/>
+How can a just God justify sin<br/>
+With forgiveness in his hand I'm a sinna'<br/>
+It's the dilemma<br/>
+Standing before God we're filthy<br/>
+How can a just judge justify the guilty (it's the dilemma)<br/>
+He can not excuse evil or he's just as<br/>
+Evil as us something to consida'<br/>
+It's the dilemma<br/>
+<br/>
+[Verse 2]<br/>
+Okay, check here's one to remember<br/>
+Roll with me cause I got something to give ya<br/>
+Lets just say your son is the victim<br/>
+He was murdered and raped and dumped in the river<br/>
+You're piping mad, you jump in the whip to<br/>
+Pick up the squad to become his avenger<br/>
+You wanna see this dude crushed and dismembered<br/>
+All you really wanna see is justice delivered<br/>
+Dude is in jail and court comes in December<br/>
+You can only hope that this judge is a winner<br/>
+He says, "I'm a merciful judge<br/>
+I never hold a personal grudge<br/>
+You can go free because I forgive ya!"<br/>
+And the judge then expunges a list of<br/>
+Wicked sins committed from the offender<br/>
+What would you think of the judge?<br/>
+Is he a justice defender? Or is he just a pretender?<br/>
+Now decipher if much love is how you delight in a just judge<br/>
+God is just and He rightfully must judge<br/>
+Every wrong motive and law broken<br/>
+Every idle thought and idol; god, that we hold<br/>
+In our hearts, hoping<br/>
+And if all of this is true<br/>
+How can the judge of sinners<br/>
+Choose anyone to give forgiveness to?<br/>
+And since he must exact justice<br/>
+Isn't it impossible for Him to forgive us?<br/>
+It's the dilemma<br/>
+[Hook]<br/>
+Humanity can't begin to understand<br/>
+It's the holiness of God against the wickedness of man<br/>
+How can a just God justify sin<br/>
+With forgiveness in his hand I'm a sinna'<br/>
+It's the dilemma<br/>
+Standing before God we're filthy<br/>
+How can a just judge justify the guilty (it's the dilemma)<br/>
+He can not excuse evil or he's just as<br/>
+Evil as us something to consida'<br/>
+It's the dilemma<br/>
+<br/>
+[Outro]<br/>
+Proverbs 17:15,<br/>
+The problem:<br/>
+Anyone who justifies the wicked is an abomination to God.<br/>
+Now think about Proverbs for a moment.<br/>
+Look what it's teaching us:<br/>
+Anyone who justifies a wicked man is what?<br/>
+AN ABOMINATION TO GOD!<br/>
+But what have we been rejoicing in the last few minutes?<br/>
+GOD JUSTIFIED US EVEN THOUGH WE WERE WICKED!<br/>
+<br/>
+Does anybody see a problem?<br/>
+If God says that anyone who justifies the wicked<br/>
+is an abomination before Him, then<br/>
+how can God justify you being wicked<br/>
+without becoming an abomination?<br/>
+<br/>
+And that is the greatest problem in all the scripture,<br/>
+and that is what the gospel of Jesus Christ<br/>
+is all about.<br/>
+<br/>
+The greatest dilemma in all the Bible is this:<br/>
+if God is just, he canNOT forgive you!<br/>
+TEXT
+    ),
+    array(
         'title' => 'Song Title',
         'description' => 'No Song Description',
         'playlist' => 'Empty Playlist',
