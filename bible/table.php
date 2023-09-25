@@ -6,7 +6,7 @@
   <ol class="opaquenumber">
    <li><!--Genesis-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="genesis" <?php echo (strpos($_SERVER['REQUEST_URI'], 'genesis') !== false || strpos($_SERVER['REQUEST_URI'], 'ot') !== false) ?) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="genesis" <?php echo (strpos($_SERVER['REQUEST_URI'], 'genesis') !== false || strpos($_SERVER['REQUEST_URI'], 'ot') !== false || strpos($_SERVER['REQUEST_URI'], 'ot') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="genesis">Genesis<span> 50 (1533)</span>
      </a>
@@ -71,7 +71,7 @@
    </li>
    <li><!--Exodus-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="exodus" <?php echo (strpos($_SERVER['REQUEST_URI'], 'exodus') !== false || strpos($_SERVER['REQUEST_URI'], 'ot') !== false) ?) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="exodus" <?php echo (strpos($_SERVER['REQUEST_URI'], 'exodus') !== false || strpos($_SERVER['REQUEST_URI'], 'ot') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="exodus">Exodus<span> 40 (1213)</span>
      </a>
@@ -126,7 +126,7 @@
    </li>
    <li><!--Leviticus-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="leviticus" <?php echo (strpos($_SERVER['REQUEST_URI'], 'leviticus') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="leviticus" <?php echo (strpos($_SERVER['REQUEST_URI'], 'leviticus') !== false || strpos($_SERVER['REQUEST_URI'], 'ot') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="leviticus">Leviticus<span> 27 (859)</span>
      </a>
@@ -168,7 +168,7 @@
    </li>
    <li><!--Numbers-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="numbers" <?php echo (strpos($_SERVER['REQUEST_URI'], 'numbers') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="numbers" <?php echo (strpos($_SERVER['REQUEST_URI'], 'numbers') !== false || strpos($_SERVER['REQUEST_URI'], 'ot') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="numbers">Numbers<span> 36 (1288)</span>
      </a>
@@ -219,7 +219,7 @@
    </li>
    <li><!--Deuteronomy-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="deuteronomy" <?php echo (strpos($_SERVER['REQUEST_URI'], 'deuteronomy') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="deuteronomy" <?php echo (strpos($_SERVER['REQUEST_URI'], 'deuteronomy') !== false || strpos($_SERVER['REQUEST_URI'], 'ot') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="deuteronomy">Deuteronomy<span> 34 (959)</span>
      </a>
@@ -268,7 +268,7 @@
    </li>
    <li><!--Joshua-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="joshua" <?php echo (strpos($_SERVER['REQUEST_URI'], 'joshua') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="joshua" <?php echo (strpos($_SERVER['REQUEST_URI'], 'joshua') !== false || strpos($_SERVER['REQUEST_URI'], 'ot') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="joshua">Joshua<span> 24 (658)</span>
      </a>
@@ -307,7 +307,7 @@
    </li>
    <li><!--Judges-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="judges" <?php echo (strpos($_SERVER['REQUEST_URI'], 'judges') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="judges" <?php echo (strpos($_SERVER['REQUEST_URI'], 'judges') !== false || strpos($_SERVER['REQUEST_URI'], 'ot') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="judges">Judges<span> 21 (618)</span>
      </a>
@@ -343,7 +343,7 @@
    </li>
    <li><!--Ruth-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="ruth" <?php echo (strpos($_SERVER['REQUEST_URI'], 'ruth') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="ruth" <?php echo (strpos($_SERVER['REQUEST_URI'], 'ruth') !== false || strpos($_SERVER['REQUEST_URI'], 'ot') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="ruth">Ruth<span> 4 (85)</span>
      </a>
@@ -362,7 +362,7 @@
    </li>
    <li><!--1 Samuel-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="samuel1" <?php echo (strpos($_SERVER['REQUEST_URI'], 'samuel1') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="samuel1" <?php echo (strpos($_SERVER['REQUEST_URI'], 'samuel1') !== false || strpos($_SERVER['REQUEST_URI'], 'ot') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="samuel1">1 Samuel<span> 31 (810)</span>
      </a>
@@ -408,7 +408,7 @@
    </li>
    <li><!--2 Samuel-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="samuel2" <?php echo (strpos($_SERVER['REQUEST_URI'], 'samuel2') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="samuel2" <?php echo (strpos($_SERVER['REQUEST_URI'], 'samuel2') !== false || strpos($_SERVER['REQUEST_URI'], 'ot') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="samuel2">2 Samuel<span> 24 (695)</span>
      </a>
@@ -447,7 +447,7 @@
    </li>
    <li><!--1 Kings-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="kings1" <?php echo (strpos($_SERVER['REQUEST_URI'], 'kings1') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="kings1" <?php echo (strpos($_SERVER['REQUEST_URI'], 'kings1') !== false || strpos($_SERVER['REQUEST_URI'], 'ot') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="kings1">1 Kings<span> 22 (816)</span>
      </a> 
@@ -484,7 +484,7 @@
    </li>
    <li><!--2 Kings-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="kings2" <?php echo (strpos($_SERVER['REQUEST_URI'], 'kings2') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="kings2" <?php echo (strpos($_SERVER['REQUEST_URI'], 'kings2') !== false || strpos($_SERVER['REQUEST_URI'], 'ot') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="kings2">2 Kings<span> 25 (719)</span>
      </a>
@@ -524,7 +524,7 @@
    </li>
       <li><!--1 Chronicles-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="chronicles1" <?php echo (strpos($_SERVER['REQUEST_URI'], 'chronicles1') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="chronicles1" <?php echo (strpos($_SERVER['REQUEST_URI'], 'chronicles1') !== false || strpos($_SERVER['REQUEST_URI'], 'ot') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="chronicles1">1 Chronicles<span> 29 (942)</span>
      </a>
@@ -568,7 +568,7 @@
    </li>
    <li><!--2 Chronicles-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="chronicles2" <?php echo (strpos($_SERVER['REQUEST_URI'], 'chronicles2') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="chronicles2" <?php echo (strpos($_SERVER['REQUEST_URI'], 'chronicles2') !== false || strpos($_SERVER['REQUEST_URI'], 'ot') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="chronicles2">2 Chronicles<span> 36 (822)</span>
      </a>
@@ -619,7 +619,7 @@
    </li>
    <li><!--Ezra-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="ezra" <?php echo (strpos($_SERVER['REQUEST_URI'], 'ezra') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="ezra" <?php echo (strpos($_SERVER['REQUEST_URI'], 'ezra') !== false || strpos($_SERVER['REQUEST_URI'], 'ot') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="ezra">Ezra<span> 10 (280)</span>
      </a>
@@ -644,7 +644,7 @@
    </li>
    <li><!--Nehemiah-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="nehemiah" <?php echo (strpos($_SERVER['REQUEST_URI'], 'nehemiah') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="nehemiah" <?php echo (strpos($_SERVER['REQUEST_URI'], 'nehemiah') !== false || strpos($_SERVER['REQUEST_URI'], 'ot') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="nehemiah">Nehemiah<span> 13 (406)</span>
      </a>
@@ -672,7 +672,7 @@
    </li>
       <li><!--Esther-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="esther" <?php echo (strpos($_SERVER['REQUEST_URI'], 'esther') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="esther" <?php echo (strpos($_SERVER['REQUEST_URI'], 'esther') !== false || strpos($_SERVER['REQUEST_URI'], 'ot') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="esther">Esther<span> 10 (167)</span>
      </a>
@@ -697,7 +697,7 @@
    </li>
    <li><!--Job-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="job" <?php echo (strpos($_SERVER['REQUEST_URI'], 'job') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="job" <?php echo (strpos($_SERVER['REQUEST_URI'], 'job') !== false || strpos($_SERVER['REQUEST_URI'], 'ot') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="job">Job<span> 42 (1070)</span>
      </a>
@@ -754,7 +754,7 @@
    </li>
    <li><!--Psalms-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="psalms" <?php echo (strpos($_SERVER['REQUEST_URI'], 'psalms') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="psalms" <?php echo (strpos($_SERVER['REQUEST_URI'], 'psalms') !== false || strpos($_SERVER['REQUEST_URI'], 'ot') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="psalms">Psalms<span> 150 (2461)</span>
      </a>
@@ -919,7 +919,7 @@
    </li>
    <li><!--Proverbs-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="proverbs" <?php echo (strpos($_SERVER['REQUEST_URI'], 'proverbs') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="proverbs" <?php echo (strpos($_SERVER['REQUEST_URI'], 'proverbs') !== false || strpos($_SERVER['REQUEST_URI'], 'ot') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="proverbs">Proverbs<span> 31 (915)</span>
      </a>
@@ -965,7 +965,7 @@
    </li>
       <li><!--Ecclesiastes-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="ecclesiastes" <?php echo (strpos($_SERVER['REQUEST_URI'], 'ecclesiastes') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="ecclesiastes" <?php echo (strpos($_SERVER['REQUEST_URI'], 'ecclesiastes') !== false || strpos($_SERVER['REQUEST_URI'], 'ot') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="ecclesiastes">Ecclesiastes<span> 12 (222)</span>
      </a>
@@ -992,7 +992,7 @@
    </li>
    <li><!--Song of Solomon-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="solomon" <?php echo (strpos($_SERVER['REQUEST_URI'], 'solomon') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="solomon" <?php echo (strpos($_SERVER['REQUEST_URI'], 'solomon') !== false || strpos($_SERVER['REQUEST_URI'], 'ot') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="song-of-solomon">Song of Solomon<span> 8 (117)</span>
      </a>
@@ -1015,7 +1015,7 @@
    </li>
    <li><!--Isaiah-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="isaiah" <?php echo (strpos($_SERVER['REQUEST_URI'], 'isaiah') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="isaiah" <?php echo (strpos($_SERVER['REQUEST_URI'], 'isaiah') !== false || strpos($_SERVER['REQUEST_URI'], 'ot') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="isaiah">Isaiah<span> 66 (1292)</span>
      </a>
@@ -1096,7 +1096,7 @@
    </li>
    <li><!--Jeremiah-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="jeremiah" <?php echo (strpos($_SERVER['REQUEST_URI'], 'jeremiah') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="jeremiah" <?php echo (strpos($_SERVER['REQUEST_URI'], 'jeremiah') !== false || strpos($_SERVER['REQUEST_URI'], 'ot') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="jeremiah">Jeremiah<span> 52 (1364)</span>
      </a>
@@ -1163,7 +1163,7 @@
    </li>
    <li><!--Lamentations-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="lamentations" <?php echo (strpos($_SERVER['REQUEST_URI'], 'lamentations') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="lamentations" <?php echo (strpos($_SERVER['REQUEST_URI'], 'lamentations') !== false || strpos($_SERVER['REQUEST_URI'], 'ot') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="lamentations">Lamentations<span> 5 (154)</span>
      </a>
@@ -1183,7 +1183,7 @@
    </li>
    <li><!--Ezekiel-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="ezekiel" <?php echo (strpos($_SERVER['REQUEST_URI'], 'ezekiel') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="ezekiel" <?php echo (strpos($_SERVER['REQUEST_URI'], 'ezekiel') !== false || strpos($_SERVER['REQUEST_URI'], 'ot') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="ezekiel">Ezekiel<span> 48 (1273)</span>
      </a>
@@ -1246,7 +1246,7 @@
    </li>
    <li><!--Daniel-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="daniel" <?php echo (strpos($_SERVER['REQUEST_URI'], 'daniel') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="daniel" <?php echo (strpos($_SERVER['REQUEST_URI'], 'daniel') !== false || strpos($_SERVER['REQUEST_URI'], 'ot') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="daniel">Daniel<span> 12 (357)</span>
      </a>
@@ -1273,7 +1273,7 @@
    </li>
       <li><!--Hosea-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="hosea" <?php echo (strpos($_SERVER['REQUEST_URI'], 'hosea') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="hosea" <?php echo (strpos($_SERVER['REQUEST_URI'], 'hosea') !== false || strpos($_SERVER['REQUEST_URI'], 'ot') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="hosea">Hosea<span> 14 (197)</span>
      </a>
@@ -1302,7 +1302,7 @@
    </li>
    <li><!--Joel-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="joel" <?php echo (strpos($_SERVER['REQUEST_URI'], 'joel') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="joel" <?php echo (strpos($_SERVER['REQUEST_URI'], 'joel') !== false || strpos($_SERVER['REQUEST_URI'], 'ot') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="joel">Joel<span> 3 (73)</span>
      </a>
@@ -1320,7 +1320,7 @@
    </li>
    <li><!--Amos-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="amos" <?php echo (strpos($_SERVER['REQUEST_URI'], 'amos') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="amos" <?php echo (strpos($_SERVER['REQUEST_URI'], 'amos') !== false || strpos($_SERVER['REQUEST_URI'], 'ot') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="amos">Amos<span> 9 (146)</span>
      </a>
@@ -1344,7 +1344,7 @@
    </li>
    <li><!--Obadiah-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="obadiah" <?php echo (strpos($_SERVER['REQUEST_URI'], 'obadiah') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="obadiah" <?php echo (strpos($_SERVER['REQUEST_URI'], 'obadiah') !== false || strpos($_SERVER['REQUEST_URI'], 'ot') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="obadiah">Obadiah<span> 1 (21)</span>
      </a>
@@ -1360,7 +1360,7 @@
    </li>
    <li><!--Jonah-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="jonah" <?php echo (strpos($_SERVER['REQUEST_URI'], 'jonah') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="jonah" <?php echo (strpos($_SERVER['REQUEST_URI'], 'jonah') !== false || strpos($_SERVER['REQUEST_URI'], 'ot') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="jonah">Jonah<span> 4 (48)</span>
      </a>
@@ -1379,7 +1379,7 @@
    </li>
    <li><!--Micah-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="micah" <?php echo (strpos($_SERVER['REQUEST_URI'], 'micah') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="micah" <?php echo (strpos($_SERVER['REQUEST_URI'], 'micah') !== false || strpos($_SERVER['REQUEST_URI'], 'ot') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="micah">Micah<span> 7 (105)</span>
      </a>
@@ -1401,7 +1401,7 @@
    </li>
    <li><!--Nahum-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="nahum" <?php echo (strpos($_SERVER['REQUEST_URI'], 'nahum') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="nahum" <?php echo (strpos($_SERVER['REQUEST_URI'], 'nahum') !== false || strpos($_SERVER['REQUEST_URI'], 'ot') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="nahum">Nahum<span> 3 (47)</span>
      </a>
@@ -1419,7 +1419,7 @@
    </li>
    <li><!--Habakkuk-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="habakkuk" <?php echo (strpos($_SERVER['REQUEST_URI'], 'habakkuk') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="habakkuk" <?php echo (strpos($_SERVER['REQUEST_URI'], 'habakkuk') !== false || strpos($_SERVER['REQUEST_URI'], 'ot') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="habakkuk">Habakkuk<span> 3 (56)</span>
      </a>
@@ -1437,7 +1437,7 @@
    </li>
    <li><!--Zephaniah-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="zephaniah" <?php echo (strpos($_SERVER['REQUEST_URI'], 'zephaniah') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="zephaniah" <?php echo (strpos($_SERVER['REQUEST_URI'], 'zephaniah') !== false || strpos($_SERVER['REQUEST_URI'], 'ot') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="zephaniah">Zephaniah<span> 3 (53)</span>
      </a>
@@ -1455,7 +1455,7 @@
    </li>
    <li><!--Haggai-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="haggai" <?php echo (strpos($_SERVER['REQUEST_URI'], 'haggai') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="haggai" <?php echo (strpos($_SERVER['REQUEST_URI'], 'haggai') !== false || strpos($_SERVER['REQUEST_URI'], 'ot') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="haggai">Haggai<span> 2 (38)</span>
      </a>
@@ -1472,7 +1472,7 @@
    </li>
    <li><!--Zechariah-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="zechariah" <?php echo (strpos($_SERVER['REQUEST_URI'], 'zechariah') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="zechariah" <?php echo (strpos($_SERVER['REQUEST_URI'], 'zechariah') !== false || strpos($_SERVER['REQUEST_URI'], 'ot') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="zechariah">Zechariah<span> 14 (211)</span>
      </a>
@@ -1501,7 +1501,7 @@
    </li>
    <li><!--Malachi-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="malachi" <?php echo (strpos($_SERVER['REQUEST_URI'], 'malachi') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="malachi" <?php echo (strpos($_SERVER['REQUEST_URI'], 'malachi') !== false || strpos($_SERVER['REQUEST_URI'], 'ot') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="malachi">Malachi<span> 4 (55)</span>
      </a>
@@ -1569,7 +1569,7 @@
    </li>
    <li><!--Mark-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="mark" <?php echo (strpos($_SERVER['REQUEST_URI'], 'mark') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="mark" <?php echo (strpos($_SERVER['REQUEST_URI'], 'mark') !== false || strpos($_SERVER['REQUEST_URI'], 'nt') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="mark">Mark<span> 16 (678)</span>
      </a>
@@ -1600,7 +1600,7 @@
    </li>
    <li><!--Luke-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="luke" <?php echo (strpos($_SERVER['REQUEST_URI'], 'luke') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="luke" <?php echo (strpos($_SERVER['REQUEST_URI'], 'luke') !== false || strpos($_SERVER['REQUEST_URI'], 'nt') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="luke">Luke<span> 24 (1151)</span>
      </a>
@@ -1639,7 +1639,7 @@
    </li>
    <li><!--John-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="john" <?php echo (strpos($_SERVER['REQUEST_URI'], 'john') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="john" <?php echo (strpos($_SERVER['REQUEST_URI'], 'john') !== false || strpos($_SERVER['REQUEST_URI'], 'nt') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="john">John<span> 21 (879)</span>
      </a>
@@ -1675,7 +1675,7 @@
    </li>
    <li><!--Acts-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="acts" <?php echo (strpos($_SERVER['REQUEST_URI'], 'acts') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="acts" <?php echo (strpos($_SERVER['REQUEST_URI'], 'acts') !== false || strpos($_SERVER['REQUEST_URI'], 'nt') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="acts">Acts<span> 28 (1007)</span>
      </a>
@@ -1718,7 +1718,7 @@
    </li>
    <li><!--Romans-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="romans" <?php echo (strpos($_SERVER['REQUEST_URI'], 'romans') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="romans" <?php echo (strpos($_SERVER['REQUEST_URI'], 'romans') !== false || strpos($_SERVER['REQUEST_URI'], 'nt') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="romans">Romans<span> 16 (433)</span>
      </a>
@@ -1749,7 +1749,7 @@
    </li>
    <li><!--1 Corinthians-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="corinthians1" <?php echo (strpos($_SERVER['REQUEST_URI'], 'corinthians1') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="corinthians1" <?php echo (strpos($_SERVER['REQUEST_URI'], 'corinthians1') !== false || strpos($_SERVER['REQUEST_URI'], 'nt') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="corinthians1">1 Corinthians<span> 16 (437)</span>
      </a>
@@ -1780,7 +1780,7 @@
    </li>
    <li><!--2 Corinthians-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="corinthians2" <?php echo (strpos($_SERVER['REQUEST_URI'], 'corinthians2') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="corinthians2" <?php echo (strpos($_SERVER['REQUEST_URI'], 'corinthians2') !== false || strpos($_SERVER['REQUEST_URI'], 'nt') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="corinthians2">2 Corinthians<span> 13 (257)</span>
      </a>
@@ -1808,7 +1808,7 @@
    </li>
    <li><!--Galatians-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="galatians" <?php echo (strpos($_SERVER['REQUEST_URI'], 'galatians') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="galatians" <?php echo (strpos($_SERVER['REQUEST_URI'], 'galatians') !== false || strpos($_SERVER['REQUEST_URI'], 'nt') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="galatians">Galatians<span> 6 (149)</span>
      </a>
@@ -1829,7 +1829,7 @@
    </li>
    <li><!--Ephesians-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="ephesians" <?php echo (strpos($_SERVER['REQUEST_URI'], 'ephesians') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="ephesians" <?php echo (strpos($_SERVER['REQUEST_URI'], 'ephesians') !== false || strpos($_SERVER['REQUEST_URI'], 'nt') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="ephesians">Ephesians<span> 6 (155)</span>
      </a>
@@ -1850,7 +1850,7 @@
    </li>
    <li><!--Philippians-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="philippians" <?php echo (strpos($_SERVER['REQUEST_URI'], 'philippians') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="philippians" <?php echo (strpos($_SERVER['REQUEST_URI'], 'philippians') !== false || strpos($_SERVER['REQUEST_URI'], 'nt') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="philippians">Philippians<span> 4 (104)</span>
      </a>
@@ -1869,7 +1869,7 @@
    </li>
    <li><!--Colossians-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="colossians" <?php echo (strpos($_SERVER['REQUEST_URI'], 'colossians') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="colossians" <?php echo (strpos($_SERVER['REQUEST_URI'], 'colossians') !== false || strpos($_SERVER['REQUEST_URI'], 'nt') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="colossians">Colossians<span> 4 (95)</span>
      </a>
@@ -1888,7 +1888,7 @@
    </li>
    <li><!--1 Thessalonians-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="thessalonians1" <?php echo (strpos($_SERVER['REQUEST_URI'], 'thessalonians1') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="thessalonians1" <?php echo (strpos($_SERVER['REQUEST_URI'], 'thessalonians1') !== false || strpos($_SERVER['REQUEST_URI'], 'nt') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="thessalonians1">1 Thessalonians<span> 5 (89)</span>
      </a>
@@ -1908,7 +1908,7 @@
    </li>
    <li><!--2 Thessalonians-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="thessalonians2" <?php echo (strpos($_SERVER['REQUEST_URI'], 'thessalonians2') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="thessalonians2" <?php echo (strpos($_SERVER['REQUEST_URI'], 'thessalonians2') !== false || strpos($_SERVER['REQUEST_URI'], 'nt') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="thessalonians2">2 Thessalonians<span> 3 (47)</span>
      </a>
@@ -1926,7 +1926,7 @@
    </li>
    <li><!--1 Timothy-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="timothy1" <?php echo (strpos($_SERVER['REQUEST_URI'], 'timothy1') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="timothy1" <?php echo (strpos($_SERVER['REQUEST_URI'], 'timothy1') !== false || strpos($_SERVER['REQUEST_URI'], 'nt') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="timothy1">1 Timothy<span> 6 (113)</span>
      </a>
@@ -1947,7 +1947,7 @@
    </li>
    <li><!--2 Timothy-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="timothy2" <?php echo (strpos($_SERVER['REQUEST_URI'], 'timothy2') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="timothy2" <?php echo (strpos($_SERVER['REQUEST_URI'], 'timothy2') !== false || strpos($_SERVER['REQUEST_URI'], 'nt') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="timothy2">2 Timothy<span> 4 (83)</span>
      </a>
@@ -1966,7 +1966,7 @@
    </li>
    <li><!--Titus-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="titus" <?php echo (strpos($_SERVER['REQUEST_URI'], 'titus') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="titus" <?php echo (strpos($_SERVER['REQUEST_URI'], 'titus') !== false || strpos($_SERVER['REQUEST_URI'], 'nt') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="titus">Titus<span> 3 (46)</span>
      </a>
@@ -1984,7 +1984,7 @@
    </li>
    <li><!--Philemon-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="philemon" <?php echo (strpos($_SERVER['REQUEST_URI'], 'philemon') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="philemon" <?php echo (strpos($_SERVER['REQUEST_URI'], 'philemon') !== false || strpos($_SERVER['REQUEST_URI'], 'nt') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="philemon">Philemon<span> 1 (25)</span>
      </a>
@@ -2000,7 +2000,7 @@
    </li>
    <li><!--Hebrews-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="hebrews" <?php echo (strpos($_SERVER['REQUEST_URI'], 'hebrews') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="hebrews" <?php echo (strpos($_SERVER['REQUEST_URI'], 'hebrews') !== false || strpos($_SERVER['REQUEST_URI'], 'nt') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="hebrews">Hebrews<span> 13 (303)</span>
      </a>
@@ -2028,7 +2028,7 @@
    </li>
    <li><!--James-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="james" <?php echo (strpos($_SERVER['REQUEST_URI'], 'james') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="james" <?php echo (strpos($_SERVER['REQUEST_URI'], 'james') !== false || strpos($_SERVER['REQUEST_URI'], 'nt') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="james">James<span> 5 (108)</span>
      </a>
@@ -2048,7 +2048,7 @@
    </li>
    <li><!--1 Peter-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="peter1" <?php echo (strpos($_SERVER['REQUEST_URI'], 'peter1') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="peter1" <?php echo (strpos($_SERVER['REQUEST_URI'], 'peter1') !== false || strpos($_SERVER['REQUEST_URI'], 'nt') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="peter1">1 Peter<span> 5 (105)</span>
      </a>
@@ -2068,7 +2068,7 @@
    </li>
    <li><!--2 Peter-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="peter2" <?php echo (strpos($_SERVER['REQUEST_URI'], 'peter2') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="peter2" <?php echo (strpos($_SERVER['REQUEST_URI'], 'peter2') !== false || strpos($_SERVER['REQUEST_URI'], 'nt') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="peter2">2 Peter<span> 3 (61)</span>
      </a>
@@ -2086,7 +2086,7 @@
    </li>
    <li><!--1 John-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="john1" <?php echo (strpos($_SERVER['REQUEST_URI'], 'john1') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="john1" <?php echo (strpos($_SERVER['REQUEST_URI'], 'john1') !== false || strpos($_SERVER['REQUEST_URI'], 'nt') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="john1">1 John<span> 5 (105)</span>
      </a>
@@ -2106,7 +2106,7 @@
    </li>
    <li><!--2 John-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="john2" <?php echo (strpos($_SERVER['REQUEST_URI'], 'john2') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="john2" <?php echo (strpos($_SERVER['REQUEST_URI'], 'john2') !== false || strpos($_SERVER['REQUEST_URI'], 'nt') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="john2">2 John<span> 1 (13)</span>
      </a> 
@@ -2122,7 +2122,7 @@
    </li>
    <li><!--3 John-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="john3" <?php echo (strpos($_SERVER['REQUEST_URI'], 'john3') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="john3" <?php echo (strpos($_SERVER['REQUEST_URI'], 'john3') !== false || strpos($_SERVER['REQUEST_URI'], 'nt') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="john3">3 John<span> 1 (14)</span>
      </a>
@@ -2138,7 +2138,7 @@
    </li>
    <li><!--Jude-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="jude" <?php echo (strpos($_SERVER['REQUEST_URI'], 'jude') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="jude" <?php echo (strpos($_SERVER['REQUEST_URI'], 'jude') !== false || strpos($_SERVER['REQUEST_URI'], 'nt') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="jude">Jude<span> 1 (25)</span>
      </a>
@@ -2154,7 +2154,7 @@
    </li>
    <li><!--Revelation-->
     <section class="accordion">
-     <input type="checkbox" name="collapse" id="revelation" <?php echo (strpos($_SERVER['REQUEST_URI'], 'revelation') !== false) ? 'checked="checked"' : ''; ?>>
+     <input type="checkbox" name="collapse" id="revelation" <?php echo (strpos($_SERVER['REQUEST_URI'], 'revelation') !== false || strpos($_SERVER['REQUEST_URI'], 'nt') !== false) ? 'checked="checked"' : ''; ?>
      <a class="handle">
       <label for="revelation">Revelation<span> 22 (404)</span>
      </a>
