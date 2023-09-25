@@ -1,6 +1,9 @@
 <script>
 //Toggle According to URL
 document.addEventListener("DOMContentLoaded", function () {
+    // Your existing code here
+
+    // Check checkboxes based on the URL
     var inputs = document.querySelectorAll('input[type="checkbox"]');
     var currentURL = window.location.href.toLowerCase();
 
