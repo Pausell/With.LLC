@@ -1,3 +1,7 @@
+<?php
+ include ('../add/c-div.php');
+ include ('../script.php');
+ ?>
 <script>
 // Step 1: Hide unchecked li with input type="checkbox" on page load
 const liSections = document.querySelectorAll('li section');
@@ -95,3 +99,6 @@ collections.forEach(collection => {
   });
 });
 </script>
+ <?php
+ include ('../add/c-body_html.php');
+?> 
