@@ -34,5 +34,5 @@ $files_to_include = [
 foreach ($files_to_include as $file) {
  include $file;
 }
-
+if (!isset($bible)) {include 'testamentfoot.php';}
 ?>
