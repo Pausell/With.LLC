@@ -1,4 +1,5 @@
 <?php
+$title = 'New Testament';
 $collection = true;
 if (!isset($bible)) {include 'testamenthead.php';}
 $files_to_include = [
