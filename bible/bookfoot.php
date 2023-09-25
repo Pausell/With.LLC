@@ -1,4 +1,18 @@
 <script>
+//Toggle According to URL
+document.addEventListener("DOMContentLoaded", function () {
+    var inputs = document.querySelectorAll('input[type="checkbox"]');
+    var currentURL = window.location.href.toLowerCase();
+
+    inputs.forEach(function (input) {
+        var id = input.id.toLowerCase();
+        if (currentURL.includes(id)) {
+            input.checked = true;
+        }
+    });
+});
+//Hide/Display According to Selection
+
 // Step 1: Hide unchecked li with input type="checkbox" on page load
 const liSections = document.querySelectorAll('li section');
 liSections.forEach((liSection) => {
