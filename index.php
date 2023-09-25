@@ -29,5 +29,11 @@ $internal_style = '<!--_module-->
    </div>
    <?php include $index . $path . ('navigation.php'); ?>
   </div>
+  <div id="container">
+   <h1>The End Is Nigh</h1>
+   <p>The Lord Jesus Christ is coming soon: perversion <strong>is normalized</strong>.</p>
+   <h2>Light in the darkness</h2> 
+   <p><a href="https://youtube.com/shorts/4hnYUuSCdP8?si=E1bpZvo8-Ghz0MwL" target="_blank">Child sex trafficking</a> is normalized. As the blind cannot see, for they love their sin, children suffer. No longer can children and young adults admit to their parents <strong>reality</strong> and we are certainly in a world choosing to reject God.</p>
+  </div>
  </body>
 </html>
