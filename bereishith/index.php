@@ -12,7 +12,7 @@ $path = '_global/';
    <div style="position:relative">
    <span style="position:absolute;opacity:.1;z-index:-1"><h1 style="margin:0">Basic Instructions Before <em style="opacity:.8">Leaving</em> Earth</h1></span>
    </div>
-   <div>
+   <div class="padding10px">
 <h1><a href="../bible">Bible</a></h1>
 <div class="flex-wrap padding10px">
  <div class="collection">
