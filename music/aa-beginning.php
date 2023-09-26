@@ -1,6 +1,7 @@
 <?php
 $index = "../";
 $path = "_global/";
+$style = 'style.css';
 $internal_style = "<style>#song{white-space:pre-line}</style>";
 ?>
 <html>
