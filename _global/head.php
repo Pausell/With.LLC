@@ -13,7 +13,6 @@ $style = 'style.css';
    <link rel="manifest" href="/site.webmanifest?n=2023">
    <link rel="mask-icon" href="safari-pinned-tab.svg?n=2023" color="#ff0000">
    <meta name="msapplication-TileColor" content="#00a300">
-   <meta name="theme-color" content="#ffffff">
   <link rel="canonical" href="<?php echo $canonical; ?>"/>
   <link rel="stylesheet" href="<?php echo $index . $path . $style; ?>">
  <?php echo $internal_style ?>
