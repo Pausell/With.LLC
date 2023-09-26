@@ -97,3 +97,5 @@ collections.forEach(collection => {
   });
 });
 </script>
+</body>
+</html>
