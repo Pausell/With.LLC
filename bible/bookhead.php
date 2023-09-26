@@ -10,6 +10,3 @@ $path = "_global/";
  ?> <div style="padding:10px"> <?php
  include ('table.php');
 ?> </div>
-<div class="collection padding10px">
-<a href="<?php echo $title ?>" download="<?php echo basename(__FILE__); ?>" title="Download <?php echo $title ?>">Save <?php echo $title ?></a>
-</div>
