@@ -236,7 +236,7 @@ if (strpos(dirname($_SERVER['SCRIPT_NAME']), '/bible') !== false) {
  <a href="https://with.llc/bereishith" <?php if($_SERVER['SCRIPT_NAME'] === "/index.php") { echo 'class="active"'; } ?>>
   <?php echo $biblew . $bibleb; ?>
  </a>
- <a href="<?php echo $title; ?>" download="<?php echo basename(__FILE__); ?>" title="Download <?php echo $title; ?>">Save <?php echo $title; ?></a>
+ <a href="<?php echo $title; ?>" download="<?php echo basename($title); ?>" title="Download <?php echo $title; ?>">Save <?php echo $title; ?></a>
 </nav>
 <?php
 } elseif(strpos(dirname($_SERVER['SCRIPT_NAME']), '/team') !== false) {
