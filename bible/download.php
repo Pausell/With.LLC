@@ -1,4 +1,7 @@
 <?php
+$index = '../';
+$path = '_global';
+
 // Path to the CSS file
 $cssFilePath = $index . $path . 'style.css';
 
