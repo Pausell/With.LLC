@@ -236,7 +236,8 @@ if (strpos(dirname($_SERVER['SCRIPT_NAME']), '/bible') !== false) {
  <a href="https://with.llc/bereishith" <?php if($_SERVER['SCRIPT_NAME'] === "/index.php") { echo 'class="active"'; } ?>>
   <?php echo $biblew . $bibleb; ?>
  </a>
- <a href="<?php echo $_SERVER['PHP_SELF']; ?>" download="<?php echo basename($_SERVER['PHP_SELF']); ?>" title="Download <?php echo $title; ?>">Save <?php echo $title; ?></a>
+ <!-- <a href="<?php echo $_SERVER['PHP_SELF']; ?>" download="<?php echo basename($_SERVER['PHP_SELF']); ?>" title="Download <?php echo $title; ?>">Save <?php echo $title; ?></a> -->
+ <a href="download.php" download="<?php echo basename($_SERVER['PHP_SELF']); ?>" title="Download <?php echo $title; ?>">Save <?php echo $title; ?></a>
 </nav>
 <?php
 } elseif(strpos(dirname($_SERVER['SCRIPT_NAME']), '/team') !== false) {
