@@ -1,5 +1,4 @@
 <?php
-<?php
 $title = 'W / Music';
 $description = 'Vocal Expanse Network Tool Using Real Elements';
 $index = "../";
