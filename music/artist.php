@@ -15,10 +15,10 @@ ol{text-transform:capitalize}
 </style>';
 ?>
 <html>
- <?php include $path.$add.'head.php'; ?>
+ <?php include $index.$path.'head.php'; ?>
  <body>
   <div id="container">
-   <?php include $path.$add.'navigation.php'; ?>
+   <?php include $index.$path.'navigation.php'; ?>
    <div style="position:relative">
     <span style="position:absolute;opacity:.1;z-index:-1"><h1 style="margin:0">Vocal Expanse Network Tool <em style="opacity:.8">Using</em> Real Elements</h1></span>
     <div class="crumbs">
