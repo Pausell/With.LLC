@@ -15,6 +15,7 @@ $style = 'style.css';
    <meta name="msapplication-TileColor" content="#00a300">
   <link rel="canonical" href="<?php echo $canonical; ?>"/>
   <link rel="stylesheet" href="<?php echo $index . $path . $style; ?>">
- <?php echo $internal_style ?>
- <?php echo $internal_head ?>
+ <?php echo $internal_style; ?>
+ <?php echo $internal_head; ?>
+ <?php echo $script; ?>
  </head>

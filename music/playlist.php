@@ -84,8 +84,8 @@ if ($result->num_rows > 0) {
 // Close the database connection
 $db->close();
 ?>
-    </div>
    </div>
+  </div>
   <script>window.onload=function(){var e=document.querySelectorAll(".bulklist input[type=checkbox]"),t=document.querySelector(".bulklist input[type=submit]");t.style.display="none";for(var n=0;n<e.length;n++)e[n].addEventListener("change",function(){for(var n=!1,a=0;a<e.length;a++)if(e[a].checked){n=!0;break}t.style.display=n?"block":"none"})};</script>
  </body>
 </html>
