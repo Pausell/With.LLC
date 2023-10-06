@@ -1,6 +1,6 @@
 /* Search */
-#search-form h1{display:flex;align-items:center;position:relative}
-#search-form h1{margin:0}
+#search-form p{display:flex;align-items:center;position:relative}
+#search-form p{margin:0}
 input{font-family:times-new-roman;font-weight:700}
 input::placeholder{color:black}
 #search-bar{display:flex}
